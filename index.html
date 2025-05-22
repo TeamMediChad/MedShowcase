@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Med Shiny Showcase</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 p-6">
+
+  <h1 class="text-3xl font-bold mb-6">Medichad</h1>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-6">
+    <!-- Tarjeta de Persona -->
+    <div class="card" onclick="showInfo('Panchimio')">
+      <img src="Members_sprites/Panchimio.png" class="card-img">
+      <h2 class="card-title">Panchimio</h2>
+      <p class="card-role">Maxichad</p>
+    </div>
+
+    <div class="card" onclick="showInfo('test1')">
+      <img src="Members_sprites/Panchimio.png" class="card-img">
+      <h2 class="card-title">test1</h2>
+      <p class="card-role">rol</p>
+    </div>
+
+    <div class="card" onclick="showInfo('test2')">
+      <img src="Members_sprites/Panchimio.png" class="card-img">
+      <h2 class="card-title">test2</h2>
+      <p class="card-role">rol</p>
+    </div>
+  </div>
+
+  <!-- Modal de MeDallas -->
+  <div id="modal" class="modal-overlay hidden">
+    <div class="modal-content">
+      <img src="Members_sprites/Panchimio.png" class="modal-img">
+      <h3 class="modal-title" id="modal-title">MeDallas</h3>
+      <div id="medalla-container" class="medalla-container"></div>
+      <h3 class="modal-title" id="modal-title2">Shinys</h3>
+      <div id="shiny-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6"></div>
+      <div style="height: 3rem;"></div>
+      <div id="shiny-container2" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6"></div>
+      <button onclick="closeModal()" class="close-btn">Cerrar</button>
+    </div>
+  </div>
+
+  <script src="info.js"></script>
+  <script src="showinfo.js"></script>
+
+</body>
+</html>
