@@ -11,43 +11,33 @@
 
   <h1 class="text-3xl font-bold mb-6">Medichad</h1>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-6">
-    <!-- Tarjeta de Persona -->
-    <div class="card" onclick="showInfo('Panchimio')">
-      <img src="Members_sprites/Panchimio.png" class="card-img">
-      <h2 class="card-title">Panchimio</h2>
-      <p class="card-role">Maxichad</p>
-    </div>
-
-    <div class="card" onclick="showInfo('test1')">
-      <img src="Members_sprites/Panchimio.png" class="card-img">
-      <h2 class="card-title">test1</h2>
-      <p class="card-role">rol</p>
-    </div>
-
-    <div class="card" onclick="showInfo('test2')">
-      <img src="Members_sprites/Panchimio.png" class="card-img">
-      <h2 class="card-title">test2</h2>
-      <p class="card-role">rol</p>
-    </div>
+  <div class="member-container" id="member-container">
   </div>
 
-  <!-- Modal de MeDallas -->
   <div id="modal" class="modal-overlay hidden">
     <div class="modal-content">
-      <img src="Members_sprites/Panchimio.png" class="modal-img">
+      <img src="Members_sprites/Panchimio.png" class="modal-img" id="member-img-modal">
+      <h3 class="modal-name" id="modal-name">Nombre</h3>
       <h3 class="modal-title" id="modal-title">MeDallas</h3>
+      <div style="height: 1rem;"></div>
       <div id="medalla-container" class="medalla-container"></div>
       <h3 class="modal-title" id="modal-title2">Shinys</h3>
-      <div id="shiny-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6"></div>
+      <div style="height: 1rem;"></div>
+      <div id="shiny-container" class="shiny-img-container"></div>
       <div style="height: 3rem;"></div>
-      <div id="shiny-container2" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6"></div>
+      <div id="shiny-container2" class="shiny-img-container"></div>
+      <div style="height: 3rem;"></div>
+      <div id="shiny-container3" class="shiny-img-container"></div>
+      <div style="height: 1rem;"></div>
       <button onclick="closeModal()" class="close-btn">Cerrar</button>
     </div>
   </div>
+  <!-- Modal de MeDallas -->
+  
 
   <script src="info.js"></script>
   <script src="showinfo.js"></script>
+  <script src="load.js"></script>
 
 </body>
 </html>

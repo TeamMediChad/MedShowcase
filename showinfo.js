@@ -3,9 +3,11 @@
       const medalla_container = document.getElementById('medalla-container');
       const shiny_container = document.getElementById('shiny-container');
       const shiny_container2 = document.getElementById('shiny-container2');
+      const shiny_container3 = document.getElementById('shiny-container3');
       medalla_container.innerHTML = '';
       shiny_container.innerHTML = '';
       shiny_container2.innerHTML = '';
+      shiny_container3.innerHTML = '';
 
       // sort
       const miembro = memberData[personKey] || [];
@@ -14,6 +16,7 @@
       const medallas = miembro.medallas || [];
       const shinys = miembro.shinys || [];
       const destacados = miembro.destacados || [];
+      const vendidos = miembro.vendidos || [];
 
       // medallas
       medallas.forEach(id => {
@@ -42,6 +45,7 @@
       shinys.forEach(id => {
         const shinyEL = document.createElement('img');
         shinyEL.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id}.gif`;
+        shinyEL.className = "shiny-img"
         shiny_container.appendChild(shinyEL);
         
       });
@@ -53,6 +57,24 @@
         shiny_container2.appendChild(destacadosEl);
         
       });
+
+      vendidos.forEach(id => {
+        const vendidosEl = document.createElement('img');
+        vendidosEl.src = `${id}`;
+        shiny_container3.appendChild(vendidosEl);
+        
+      });
+
+      member_img_modal = document.getElementById('member-img-modal');
+      member_img_modal.src = `Members_sprites/${miembro.name}.png`;
+      member_img_modal.onerror = function () {
+        this.src = `Members_sprites/Placeholder.png`;
+      }
+
+      modal_name = document.getElementById('modal-name');
+      modal_name.textContent = miembro.name;
+
+      document.getElementById('modal-title2').textContent = `Shinys (${shinys.length + destacados.length})`;
 
       document.getElementById('modal').classList.remove('hidden');
     }

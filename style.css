@@ -1,3 +1,26 @@
+
+/* Grid de tarjetas*/
+.member-container {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+/* A partir de 640px (sm) */
+@media (min-width: 640px) {
+  .member-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* A partir de 768px (md) */
+@media (min-width: 768px) {
+  .member-container {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+
 /* Tarjeta */
 
 .card {
@@ -25,11 +48,16 @@
 .card-title {
   font-size: 1.25rem;
   font-weight: 600;
+  bottom: 0;
+  text-align: center;
 }
 
 .card-role {
   color: #4B5563;
+  bottom: 10;
+  text-align: center;
 }
+
 
 /* Info */
 
@@ -46,21 +74,70 @@
 .modal-content {
   background-color: white;
   border-radius: 0.5rem;
-  padding: 1.5rem;
-  max-width: 500px;
+  padding: 3rem;
+  max-width: 800px;
+  max-height: 80vh; 
   width: 90%;
+  overflow-y: auto;
 }
 
+/* textos */
 .modal-title {
   font-size: 1.25rem;
   font-weight: 600;  
 }
 
+/* Nombre */
+.modal-name {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;  
+}
+
+/* Personaje */
 .modal-img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0.5rem;
-  object-fit: cover;
+  object-fit: none;
+}
+
+.modal-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;  
+  border: 1px;
+  overflow: hidden; 
+}
+
+/* gif shiny*/
+.shiny-img {
+  max-width: none;
+  height: auto; 
+  width: auto;
+  display: block;
+}
+
+/* contenedor shinys */
+.shiny-img-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0.5rem;
+  place-items: center;
+}
+
+@media (min-width: 640px) {
+  .shiny-img-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .shiny-img-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
 
 /* Botón de cerrar */
@@ -96,7 +173,7 @@
 .tooltip {
   position: relative;
   display: inline-block;
-  cursor: help;
+  cursor:   help;
 }
 
 .tooltiptext {

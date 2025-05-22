@@ -33,19 +33,182 @@ const listaMedalla = {
 };
 
 const memberData = {
-      Panchimio: {medallas: ['b1','b4','b5','b13','b14','b18','b24','b26','b28','b29','b30'],
-                  shinys: ['ninetales','ponyta','golem','vulpix','swellow','bouffalant','purrloin','lickilicky','budew','pidgey','pidgeot','tangrowth','growlithe','jumpluff','solrock','vileplume','slugma','grimer','electrike'],
-                  destacados: ['https://img.pokemondb.net/sprites/black-white/anim/shiny/riolu.gif',
-                        'https://img.pokemondb.net/sprites/black-white/anim/shiny/furret.gif',
-                        'https://img.pokemondb.net/sprites/black-white/anim/shiny/simisear.gif'
-                  ]
-      },
-      test1: {medallas:['b31'],
-              shinys:['raticate'],
-              destacados:['https://media.giphy.com/media/GKVQ6Xdjm9DDDIb63C/giphy.gif']
-      },
-      test2: {medallas:['b21'],
-              shinys:['rapidash'],
-              destacados:['https://media.giphy.com/media/5XY7dRvTVNprm5Givp/giphy.gif']
-      }
+        AdrixJK: {      name:'AdrixJK',
+                        rol: 'Chad',
+                        medallas:['b9','b10','b15','b24','b26'],
+                        shinys:['torkoal'],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/farfetchd.gif'],
+                        vendidos: []
+        },
+        aeamanh: {      name:'aeamanh',
+                        rol: 'MaxiChad',
+                        medallas:['b10','b14','b15','b26','b29'],
+                        shinys:['donphan','sandslash','scolipede','raticate','tangrowth','spinda','raticate','magneton','mienfoo','frillish-f','smeargle','nidoking','ditto','grimer',
+                                'chandelure','leavanny','primeape','ditto','deino','snover','bibarel','quagsire','bellossom','weezing','durant','cryogonal','rapidash','pelipper','altaria',
+                                'politoed','duskull','duosion','mightyena','gliscor','gyarados','amoonguss'],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/gulpin.gif',
+                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/pansage.gif',
+                                'https://media.giphy.com/media/ELEoC52RYPBnz8Vf4s/giphy.gif'
+                        ],
+                        vendidos: ['https://media.giphy.com/media/vxRM9XurU5lvpae8Ko/giphy.gif']
+        },
+        AkaliWard: {    name:'AkaliWard',
+                        rol: 'Chad',
+                        medallas:['b1','b4','b5','b12','b14','b15','b24','b26'],
+                        shinys:['tyranitar','horsea','duskull','mienshao','sharpedo','ninetales','poochyena','beedrill','cottonee','slugma','wooper','azumarill','gyarados','shinx','snorunt',
+                                'weavile','axew','pachirisu','lanturn','cottonee','torkoal','gible','jumpluff','weezing','bibarel'],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/gulpin.gif'],
+                        vendidos: ['https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW54bXF1OWhocTF3cHMzd3lyMmd2MW5xdTFpNWxucmRkbjlhcjI2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/apS40Kh2I8ZZiTD07i/giphy.gif',
+                                'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHBxbzBvM2k5OGFpZXJsMHQ4dzk5NGxteW42NXk3N3IyNjEwaXNnYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ubXLD0w80oZjtsrIUH/giphy.gif',
+                                'https://media.giphy.com/media/PMMrLwzj3iqyMtpxQs/giphy.gif',
+                                'https://media.giphy.com/media/A2NlfU2OIPj0GAVoJy/giphy.gif',
+                                'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXY3dXh2MnNsZHQyYjNzdHE3MmpqMnI5dnoxeDU1cW40cTAyMmc3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ptSTYVxdNLH5oH4Siw/giphy.gif'
+                        ]
+        },
+        AlexisBlu: {    name:'AlexisBlu',
+                        rol: 'MegaChad',
+                        medallas:['b19','b21','b26','b29'],
+                        shinys:['haxorus','weavile','camerupt','gyarados','swoobat','zigzagoon','cubone'],
+                        destacados:['https://media.giphy.com/media/kI6DHEnVibteJcUDtY/giphy.gif',
+                                'https://media.giphy.com/media/sP3E4z0rFHUtZ7gd9x/giphy.gif'],
+                        vendidos: []
+        },
+        AshbellUwU: {   name:'AshbellUwU',
+                        rol: 'GigaChad',
+                        medallas:['b10','b12','b30'],
+                        shinys:['drifblim','dratini','raticate','gardevoir','duskull','marill','smeargle','scolipede','zangoose','staravia','bellossom','gloom','lanturn','golett'],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/carvanha.gif',
+                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/breloom.gif',
+                                'https://media.giphy.com/media/4fOM1fIVBlAM7xh90c/giphy.gif'
+                        ],
+                        vendidos: []
+        },
+        Azathotxv: {    name:'Azathotxv',
+                        rol: 'Chad',
+                        medallas:['b8','b14','b26','b29'],
+                        shinys:['lotad','cacnea','dustox','cinccino','bidoof','mismagius','gastrodon','mienfoo','spinda','venomoth','vanillish','golduck','camerupt','boldore','dugtrio',
+                                'smeargle','dusclops','weezing','parasect','scolipede','beedrill'],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/kecleon.gif',
+                                'https://media.giphy.com/media/ggxHTXdRvXKT0VgZ1V/giphy.gif'
+                        ],
+                        vendidos: []
+        },
+        CeceMerdosa: {  name:'CeceMerdosa',
+                        rol: 'MaxiChad',
+                        medallas:['b4','b6','b30'],
+                        shinys:['sneasel','meditite','luxio','girafarig','wingull','magmar','deerling','golett'],
+                        destacados:[],
+                        vendidos: []
+        },
+        Cenoa: {        name:'Cenoa',
+                        rol: 'Chad',
+                        medallas:['b17','b26','b30'],
+                        shinys:['drifblim','donphan'],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/totodile.gif',
+                                'https://media.giphy.com/media/da60GIUj74BHRR9Px5/giphy.gif'
+                        ],
+                        vendidos: []
+        },
+        DavidCitos: {   name:'DavidCitos',
+                        rol: 'Chad',
+                        medallas:['b10','b11','b15','b16','b18','b23','b26','b28','b29','b30'],
+                        shinys:['lopunny','marill','trapinch','roserade','vulpix','hydreigon','magmar','poliwag','swablu','meowth','gyarados','grimer','weezing','weavile','pikachu','psyduck','mareep','miltank',
+                                'litwick','duskull','jigglypuff','electabuzz','rapidash','natu','wobbuffet','accelgor','banette','sealeo','vanilluxe','ferroseed','woobat','poliwhirl','parasect','magnezone','hoppip',
+                                'mienfoo','rhydon','hariyama','voltorb','smeargle','onix','electrike','magcargo','solrock','poliwhirl','gurdurr','graveler','watchog','mareep','gligar','hypno','cubchoo','swoobat','woobat',
+                                'shinx','lanturn','bronzong','stunfisk','dugtrio','palpitoad','donphan','ursaring','snover','tranquill','cofagrigus','basculin','bronzong','horsea','magikarp','krokorok','woobat','axew',
+                                'golbat','mankey','girafarig','lunatone','gloom','fearow','gloom','lunatone','spinda','golduck','machoke','lombre'
+                        ],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/treecko.gif',
+                                'https://media.giphy.com/media/g7C0f00QAimyUAMsYd/giphy.gif'
+                        ],
+                        vendidos: []
+        },
+        Davinchy: {     name:'Davinchy',
+                        rol: 'Chad',
+                        medallas:['b20'],
+                        shinys:['exploud','gallade','amoonguss','durant','banette','rapidash','ditto','poliwrath','darumaka','haunter','ditto','heatmor','arcanine','poliwrath','beedrill','ralts','raticate','meowth','sawk',
+                                'gothitelle','deino','cubchoo','vanilluxe','petilil','diglett','stantler','noctowl','nidorino','venipede'],
+                        destacados:[],
+                        vendidos: []
+        },
+        DiGoMo: {       name:'DiGoMo',
+                        rol: 'MegaChad',
+                        medallas:['b15','b24','b26','b29','b30'],
+                        shinys:['muk','cascoon','spearow','pidgeotto','magby','pelipper','raticate','ponyta','tynamo','raticate','chandelure','poliwrath','spinda','parasect','smeargle','banette','ponyta','weezing','raticate',
+                                'murkrow','joltik'
+                        ],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/breloom.gif'],
+                        vendidos: ['https://media.giphy.com/media/GpMgr8p0p13wASvhVk/giphy.gif',
+                                'https://media.giphy.com/media/y9dID1S7X6zTE330td/giphy.gif',
+                                'https://media.giphy.com/media/CNOYDXXMeqrcpEhIE1/giphy.gif',
+                                'https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif'
+                        ]
+        },
+        Dohrito: {      name:'Dohrito',
+                        rol: 'Chad',
+                        medallas:['b6','b10','b11','b14','b30'],
+                        shinys:['medicham','beedrill','gliscor','jynx','marill','wooper','sealeo','magikarp','rapidash','rapidash','dratini','electrike','stunfisk','druddigon','poliwag','swablu','wingull','pelipper','psyduck',
+                                'hypno','amoonguss','dunsparce','cubchoo','beartic','cryogonal','vanillite','vanillish','vanilluxe','crustle','grimer','torkoal','litwick','camerupt','magnezone','mareep','tentacruel','wurmple',
+                                'wurmple','weezing','vulpix','accelgor','shuppet','lopunny','teddiursa','quagsire','smeargle','spinarak','slugma'
+                        ],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/pinsir.gif',
+                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/cherubi.gif',
+                                'https://media.giphy.com/media/b3VLSA5czIMhv6WOKp/giphy.gif',
+                                'https://media.giphy.com/media/RFG3g6MyN5VpGHSqkK/giphy.gif'
+
+                        ],
+                        vendidos: ['https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc281Y3cxbTRlNGY1YnVwYXFsMzM4Z3FudW1uYWMxZzJrZjcybGt1OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xbpVD0pTXBBJVkgUKP/giphy.gif']
+        },
+        Moonlyze: {     name:'Moonlyze',
+                        rol: 'MaxiChad',
+                        medallas:['b6','b9','b18','b24','b26'],
+                        shinys:['smeargle','weezing','ninetales','wigglytuff','magikarp','ditto','bibarel','whismur'],
+                        destacados:[],
+                        vendidos: [ 'https://media.giphy.com/media/WMaKtMeEQ0nbIBSXL3/giphy.gif',
+                                'https://media.giphy.com/media/lYWCqTbScj7X18ZGvJ/giphy.gif',
+                                'https://media.giphy.com/media/VW7acYe1rLsGN7fkec/giphy.gif',
+                                'https://media.giphy.com/media/cEYKWJiZtqVfvWoy8n/giphy.gif',
+                                'https://media.giphy.com/media/Cf3jlPlB66Clh0QAlB/giphy.gif',
+                                'https://media.giphy.com/media/XJG6BYtBosorvy0vBF/giphy.gif',
+                                'https://media.giphy.com/media/jPuEQEPogo9ZbPJHRQ/giphy.gif',
+                                'https://media.giphy.com/media/jPuEQEPogo9ZbPJHRQ/giphy.gif',
+                                'https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif',
+                                'https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif',
+                                'https://media.giphy.com/media/tFwiptIH8CEuYpg3UQ/giphy.gif',
+                                'https://media.giphy.com/media/tFwiptIH8CEuYpg3UQ/giphy.gif',
+                                'https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
+                                'https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
+                                'https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif',
+                                'https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif',
+                                'https://media.giphy.com/media/m8tGRCtwerALjP9fnz/giphy.gif',
+                                'https://media.giphy.com/media/m8tGRCtwerALjP9fnz/giphy.gif',
+                                'https://media.giphy.com/media/vq0NbSfgNAzU9n9HZN/giphy.gif',
+                                'https://media.giphy.com/media/vq0NbSfgNAzU9n9HZN/giphy.gif',
+                                'https://media.giphy.com/media/vq0NbSfgNAzU9n9HZN/giphy.gif',
+                                'https://media.giphy.com/media/vq0NbSfgNAzU9n9HZN/giphy.gif',
+                                'https://media.giphy.com/media/vq0NbSfgNAzU9n9HZN/giphy.gif',
+                                'https://media.giphy.com/media/vq0NbSfgNAzU9n9HZN/giphy.gif',
+                                'https://media.giphy.com/media/wgoVjRL6nzlW7JToaD/giphy.gif',
+                                'https://media.giphy.com/media/F6yoZWYZ6rf1fJyUEY/giphy.gif',
+                                'https://media.giphy.com/media/LWm8fjHUKxqb0qyZpD/giphy.gif',
+                                'https://media.giphy.com/media/822MTo2BKJqejpx8is/giphy.gif',
+                                'https://media.giphy.com/media/e6ZkFqt8nd84QuSEbP/giphy.gif'
+                        ]
+        },
+        Panchimio: {    name: 'Panchimio',
+                        rol: 'MaxiChad',
+                        medallas: ['b1','b4','b5','b13','b14','b18','b24','b26','b28','b29','b30'],
+                        shinys: ['ninetales','ponyta','golem','vulpix','swellow','bouffalant','chandelure','purrloin','lickilicky','budew','pidgey','pidgeot','tangrowth','growlithe',
+                                'jumpluff','solrock','vileplume','slugma','grimer','electrike'],
+                        destacados: ['https://img.pokemondb.net/sprites/black-white/anim/shiny/riolu.gif',
+                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/furret.gif',
+                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/simisear.gif'
+                        ],
+                        vendidos: ['https://media.giphy.com/media/iaE6ItdRy56H79jQjg/giphy.gif',
+                                'https://media.giphy.com/media/EaNDmWPv4U1x4Jy7tM/giphy.gif',
+                                'https://media.giphy.com/media/ptSTYVxdNLH5oH4Siw/giphy.gif',
+                                'https://media.giphy.com/media/ptSTYVxdNLH5oH4Siw/giphy.gif',
+                                'https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif'
+                        ]
+        }
     };
