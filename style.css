@@ -2,33 +2,33 @@
 
 .card {
   background-color: white;
-  border-radius: 0.5rem;       /* rounded-lg */
+  border-radius: 0.5rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1),
-              0 1px 2px rgba(0, 0, 0, 0.06); /* shadow */
-  padding: 1rem;               /* p-4 */
+              0 1px 2px rgba(0, 0, 0, 0.06);
+  padding: 1rem;
   cursor: pointer;
   text-align: center;
   transition: background-color 0.2s ease;
 }
 
 .card:hover {
-  background-color: #eff6ff;   /* hover:bg-blue-50 */
+  background-color: #eff6ff;
 }
 
 .card-img {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0.5rem;       /* mb-2 */
+  margin-bottom: 0.5rem;
   object-fit: cover;
 }
 
 .card-title {
-  font-size: 1.25rem;          /* text-xl */
-  font-weight: 600;            /* font-semibold */
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 .card-role {
-  color: #4B5563;              /* text-gray-600 */
+  color: #4B5563;
 }
 
 /* Info */
@@ -45,52 +45,52 @@
 
 .modal-content {
   background-color: white;
-  border-radius: 0.5rem; /* rounded */
-  padding: 1.5rem; /* p-6 */
+  border-radius: 0.5rem;
+  padding: 1.5rem;
   max-width: 500px;
   width: 90%;
 }
 
 .modal-title {
-  font-size: 1.25rem;          /* text-xl */
+  font-size: 1.25rem;
   font-weight: 600;  
 }
 
 .modal-img {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0.5rem;       /* mb-2 */
+  margin-bottom: 0.5rem;
   object-fit: cover;
 }
 
 /* Botón de cerrar */
 .close-btn {
   margin-top: 0.5rem;
-  background-color: #ef4444;       /* bg-red-500 */
+  background-color: #ef4444;
   color: white;
-  padding: 0.5rem 1rem;            /* px-4 py-2 */
-  border-radius: 0.375rem;         /* rounded */
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
   transition: background-color 0.2s ease;
 }
 .close-btn:hover {
-  background-color: #dc2626;       /* hover:bg-red-600 */
+  background-color: #dc2626;
 }
 
 /* Contenedor de MeDallas */
 .medalla-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem; /* gap-2 */
+  gap: 0.5rem;
   margin-bottom: 1rem;
 }
 
 /* Estilo individual de cada insignia */
 .medalla {
-  background-color: #bfdbfe;      /* bg-blue-200 */
-  color: #1e40af;                 /* text-blue-800 */
-  padding: 0.25rem 0.75rem;       /* px-3 py-1 */
-  border-radius: 9999px;          /* rounded-full */
-  font-size: 0.875rem;            /* text-sm */
+  background-color: #bfdbfe;
+  color: #1e40af;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
 }
 
 .tooltip {
@@ -103,14 +103,14 @@
   visibility: hidden;
   width: max-content;
   max-width: 200px;
-  background-color: #1f2937; /* gris oscuro */
+  background-color: #1f2937;
   color: #fff;
   text-align: center;
   border-radius: 0.375rem;
   padding: 0.5rem;
   position: absolute;
   z-index: 1;
-  bottom: 125%; /* arriba del elemento */
+  bottom: 125%;
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
