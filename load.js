@@ -17,6 +17,7 @@ miembros.forEach(key => {
   const img_wrap = document.createElement('div');
   img_wrap.className = "modal-img-wrapper";
   card.appendChild(img_wrap);
+  
   const img = document.createElement('img');
   img.src = `Members_sprites/${key}.png`;
   img.onerror = function () {

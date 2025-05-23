@@ -1,29 +1,18 @@
-
 /* Grid de tarjetas*/
 .member-container {
   display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 1.5rem;
-}
-
-/* A partir de 640px (sm) */
-@media (min-width: 640px) {
-  .member-container {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-/* A partir de 768px (md) */
-@media (min-width: 768px) {
-  .member-container {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
+  grid-template-columns: repeat(auto-fit, minmax(270px, 20PX));
+  row-gap: 1rem;
+  column-gap: 20px;
+  justify-content: center;
 }
 
 
 /* Tarjeta */
 
 .card {
+  width: 250px;
+  height: 280px;
   background-color: white;
   border-radius: 0.5rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1),
@@ -31,30 +20,36 @@
   padding: 1rem;
   cursor: pointer;
   text-align: center;
+  align-items: center;
+  vertical-align: text-bottom;
   transition: background-color 0.2s ease;
 }
 
 .card:hover {
   background-color: #eff6ff;
+  align-items: center;
 }
 
 .card-img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0.5rem;
-  object-fit: cover;
+  object-fit: contain;
+  display: block;
 }
 
 .card-title {
   font-size: 1.25rem;
   font-weight: 600;
   bottom: 0;
+  vertical-align: text-bottom;
   text-align: center;
 }
 
 .card-role {
   color: #4B5563;
   bottom: 10;
+  vertical-align: text-bottom;
   text-align: center;
 }
 
@@ -106,10 +101,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
-  height: 200px;  
-  border: 1px;
-  overflow: hidden; 
+  width: 100%;
+  height: 200px;
 }
 
 /* gif shiny*/
