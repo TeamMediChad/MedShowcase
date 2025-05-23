@@ -1,3 +1,8 @@
+window.addEventListener('load', function () {
+  document.getElementById('loader').style.display = 'none';
+  document.getElementById('main-content').style.display = 'block';
+});
+
 const member_container = document.getElementById('member-container');
 member_container.innerHTML = '';
 
@@ -17,7 +22,7 @@ miembros.forEach(key => {
   const img_wrap = document.createElement('div');
   img_wrap.className = "modal-img-wrapper";
   card.appendChild(img_wrap);
-  
+
   const img = document.createElement('img');
   img.src = `Members_sprites/${key}.png`;
   img.onerror = function () {
