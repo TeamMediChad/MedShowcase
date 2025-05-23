@@ -76,11 +76,13 @@
 
       document.getElementById('modal-title2').textContent = `Shinys (${shinys.length + destacados.length})`;
 
-      document.getElementById('modal').classList.remove('hidden');
+      document.getElementById('modal').style.opacity = 100;
+      document.getElementById('modal').style.visibility = 'visible';
     }
 
     function closeModal() {
-      document.getElementById('modal').classList.add('hidden');
+      document.getElementById('modal').style.opacity = 0;
+      document.getElementById('modal').style.visibility = 'hidden';
     }
 
     function capitalize(str) {
