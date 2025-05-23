@@ -191,14 +191,15 @@ const memberData = {
         ElMasterFox: {  name:'ElMasterFox',
                         rol: 'Chad',
                         medallas:['b9','b10','b19','b12','b26','b30'],
-                        shinys:['butterfree','beedrill','raticate','parasect','venomoth','golem','rapidash','kingler','ditto','dunsparce','kingdra','exploud','altaria','lunatone','huntail','gigalith','leavanny','lilligant',
+                        shinys:['butterfree','raticate','parasect','venomoth','golem','rapidash','kingler','ditto','dunsparce','kingdra','exploud','altaria','lunatone','huntail','gigalith','leavanny','lilligant',
                                 'crustle','cinccino','gothitelle','vanilluxe','sawsbuck','galvantula','haxorus','accelgor','golurk','bouffalant','durant','chandelure','tyranitar'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/corsola.gif',
                                 'https://media.giphy.com/media/agBIyJ5VezN1rEyAH7/giphy.gif',
-                                'https://media.giphy.com/media/eCSsSbLABW1K8BMlrG/giphy.gif'
+                                'https://media.giphy.com/media/eCSsSbLABW1K8BMlrG/giphy.gif',
+                                'https://media.giphy.com/media/S14AkMdwMqLPtXwyTB/giphy.gif'
                         ],
-                        vendidos: []
+                        vendidos: ['https://media.giphy.com/media/GB3mLVQZvNawNjVxRT/giphy.gif']
         
         },
         ElMiga: {       name:'ElMiga',
@@ -393,6 +394,13 @@ const memberData = {
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/unown-em.gif',
                                 'https://media.giphy.com/media/9QCzuGqPrW812xEU7B/giphy.gif'
                         ],
+                        vendidos: []
+        },
+        lRenzz: {       name:'lRenzz',
+                        rol: 'Chad',
+                        medallas:['b6','b13','b24','b26'],
+                        shinys:['duosion','mismagius','ninetales','quagsire','rapidash','stunfisk','vulpix','weezing','wooper','bouffalant','horsea','kingdra','medicham'],
+                        destacados:[],
                         vendidos: []
         },
         Luciferovo: {   name:'Luciferovo',
@@ -603,7 +611,7 @@ const memberData = {
         Pimientadaza: { name:'Pimientadaza',
                         rol: 'Chad',
                         medallas:['b24','b26'],
-                        shinys:['seismitoad','haxorus','grimer'],
+                        shinys:['seismitoad','haxorus','muk'],
                         destacados:[],
                         vendidos: []
         },
@@ -727,13 +735,6 @@ const memberData = {
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/feraligatr.gif',
                                 'https://media.giphy.com/media/nUM3Kz42e3MZIkWuiv/giphy.gif'
                         ],
-                        vendidos: []
-        },
-        TheRenzz: {     name:'TheRenzz',
-                        rol: 'Chad',
-                        medallas:['b6','b13','b24','b26'],
-                        shinys:['duosion','mismagius','ninetales','quagsire','rapidash','stunfisk','vulpix','weezing','wooper','bouffalant','horsea','kingdra','medicham'],
-                        destacados:[],
                         vendidos: []
         },
         ToxicPlumber: { name:'ToxicPlumber',
