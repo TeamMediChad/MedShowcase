@@ -731,7 +731,7 @@ const memberData = {
                         ],
                         vendidos: []
         },
-        UltimoModador: {name:'UltimoModador',
+        UltimoMorador: {name:'UltimoMorador',
                         rol: 'Chad',
                         medallas:['b26'],
                         shinys:['bellossom','escavalier','litwick','donphan','machamp','graveler','graveler','weezing','dodrio','hariyama','masquerain','igglybuff','snubbull','mantyke','clamperl'],
