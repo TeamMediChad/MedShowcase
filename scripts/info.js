@@ -765,7 +765,9 @@ const memberData = {
         UltimoMorador: {name:'UltimoMorador',
                         rol: 'Chad',
                         medallas:['b15','b26'],
-                        shinys:['bellossom','escavalier','litwick','donphan','machamp','graveler','graveler','weezing','dodrio','hariyama','masquerain','igglybuff','snubbull','mantyke','clamperl','marill','boldore','scraggy'],
+                        shinys:['bellossom','escavalier','litwick','donphan','machamp','graveler','graveler','weezing','dodrio','hariyama','masquerain','igglybuff','snubbull','mantyke','clamperl','marill','boldore','scraggy',
+                                'tranquill'
+                        ],
                         destacados:[],
                         vendidos: []
         },

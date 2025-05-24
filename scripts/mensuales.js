@@ -70,7 +70,8 @@ const mensuales = [
     ['c', 'bibarel', 'Guabixd'],
     ['c', 'boldore', 'UltimoMorador'],
     ['c', 'scraggy', 'UltimoMorador'],
-    ['c', 'golett', 'Luciferovo']
+    ['c', 'golett', 'Luciferovo'],
+    ['c', 'tranquill', 'UltimoMorador']
   ];
 
 function showTab(tabId) {
