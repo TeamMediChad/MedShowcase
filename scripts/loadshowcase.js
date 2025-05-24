@@ -24,9 +24,9 @@ miembros.forEach(key => {
   card.appendChild(img_wrap);
 
   const img = document.createElement('img');
-  img.src = `Members_sprites/${key}.png`;
+  img.src = `../Members_sprites/${key}.png`;
   img.onerror = function () {
-    this.src = `Members_sprites/Placeholder.png`;
+    this.src = `../Members_sprites/Placeholder.png`;
   }
   img.className = 'card-img';
   img_wrap.appendChild(img);

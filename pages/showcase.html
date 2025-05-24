@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Med Shiny Showcase</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body class="background">
+
+  <!-- Loader -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <div class="topnav">
+    <a href="../index.html">Home</a>
+    <a class="active" href="#">Showcase</a>
+    <a href="./shinyrace.html">Shiny Race</a>
+    <a href="./shinydex.html">Shinydex</a>
+    <a href="./mensual.html">Resumen mensual</a>
+  </div>
+
+  <!-- Contenido principal -->
+  <div id="main-content" style="display: none;">
+
+    <h1 class="text-3xl font-bold mb-6">Medichad</h1>
+
+    <div class="member-container" id="member-container"></div>
+
+    <div id="modal" class="modal-overlay">
+      <div class="modal-content">
+        <img src="../Members_sprites/Placeholder.png" class="modal-img" id="member-img-modal">
+        <h3 class="modal-name" id="modal-name">Nombre</h3>
+        <h3 class="modal-title" id="modal-title">MeDallas</h3>
+        <div style="height: 1rem;"></div>
+        <div id="medalla-container" class="medalla-container"></div>
+        <h3 class="modal-title" id="modal-title2">Shinys</h3>
+        <div style="height: 1rem;"></div>
+        <div id="shiny-container" class="shiny-img-container"></div>
+        <div style="height: 3rem;"></div>
+        <div id="shiny-container2" class="shiny-img-container"></div>
+        <div style="height: 3rem;"></div>
+        <div id="shiny-container3" class="shiny-img-container"></div>
+        <div style="height: 1rem;"></div>
+        <button onclick="closeModal()" class="close-btn">Cerrar</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="../scripts/info.js"></script>
+  <script src="../scripts/showinfo.js"></script>
+  <script src="../scripts/loadshowcase.js"></script>
+
+</body>
+</html>
