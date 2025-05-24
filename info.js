@@ -656,7 +656,7 @@ const memberData = {
         },
         Seaba: {        name:'Seaba',
                         rol: 'Chad',
-                        medallas:['b8','b26'],
+                        medallas:['b8','b15','b16','18','b26'],
                         shinys:['gigalith','chandelure','solrock','jynx','crobat','dusknoir','haxorus','hydreigon','gyarados','smeargle','psyduck','gardevoir','liepard','gothitelle','cinccino','jumpluff','masquerain',
                                 'accelgor','petilil','wingull'
                         ],
@@ -758,9 +758,19 @@ const memberData = {
         UltimoMorador: {name:'UltimoMorador',
                         rol: 'Chad',
                         medallas:['b26'],
-                        shinys:['bellossom','escavalier','litwick','donphan','machamp','graveler','graveler','weezing','dodrio','hariyama','masquerain','igglybuff','snubbull','mantyke','clamperl','marill'],
+                        shinys:['bellossom','escavalier','litwick','donphan','machamp','graveler','graveler','weezing','dodrio','hariyama','masquerain','igglybuff','snubbull','mantyke','clamperl','marill','boldore'],
                         destacados:[],
                         vendidos: []
+        },
+        wallycba: {     name:'wallycba',
+                        rol: 'Chad',
+                        medallas:['b10','b19'],
+                        shinys:['tentacruel','tentacruel','ponyta','hydreigon','altaria','cottonee','reuniclus','amoonguss','machoke','gurdurr','cubchoo','dodrio','golbat','accelgor'],
+                        destacados:[],
+                        vendidos: ['https://img.pokemondb.net/sprites/black-white/anim/shiny/zoroark.gif',
+                                'https://media.giphy.com/media/QvBYmu8hATjJhgUuCS/giphy.gif',
+                                'https://media.giphy.com/media/JzTlsW58P05f8tAUKl/giphy.gif'
+                        ]
         },
         xDerxx: {       name:'xDerxx',
                         rol: 'Chad',
@@ -776,7 +786,7 @@ const memberData = {
                                 'gyarados','smeargle','weezing','braviary','jellicent-f','raichu','rapidash'
                         ],
                         destacados:[],
-                        vendidos: []
+                        vendidos: ['https://media.giphy.com/media/QAmOMaVAIsfyhe1qi1/giphy.gif']
         },
         xSorC: {        name:'xSorC',
                         rol: 'Chad',
