@@ -20,7 +20,7 @@ miembros.forEach(key => {
 
 
   const img_wrap = document.createElement('div');
-  img_wrap.className = "modal-img-wrapper";
+  img_wrap.className = "card-img-wrapper";
   card.appendChild(img_wrap);
 
   const img = document.createElement('img');

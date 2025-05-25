@@ -758,7 +758,7 @@ const memberData = {
                         medallas:['b1','b15','b19','b26','b29'],
                         shinys:['golbat','crobat','mienshao','manectric','rapidash','magikarp','gyarados','tentacruel','swoobat','mamoswine','altaria','horsea','slugma','magcargo','duskull','lunatone','raticate','rattata',
                                 'ditto','sandshrew','amoonguss','dodrio','mismagius','flygon','murkrow','tyranitar','hydreigon','chandelure','vanilluxe','whimsicott','smeargle','gliscor','spinda','krookodile','haxorus',
-                                'golbat'
+                                'golbat','graveler'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/feraligatr.gif',
                                 'https://media.giphy.com/media/nUM3Kz42e3MZIkWuiv/giphy.gif'
@@ -894,10 +894,14 @@ const memberData = {
         zShilphye: {    name:'zShilphye',
                         rol: 'Chad',
                         medallas:['b7','b24'],
-                        shinys:['stantler','mamoswine','dodrio','golbat','tentacruel','duskull','ponyta','mienfoo','scrafty','onix','rapidash'],
+                        shinys:['stantler','mamoswine','dodrio','golbat','tentacruel','duskull','ponyta','mienfoo','scrafty','onix','rapidash','durant'],
                         destacados:['https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXlrMTdnMjdsc3VlZWJ0M3o3amdtajB3ZzFyOTI4cWM0dWh3bXY3cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/vTcPfMe5Iul7kZoYHd/giphy.gif'],
                         vendidos: ['https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif']
         }
         
     };
+
+function capitalize(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+}
 
