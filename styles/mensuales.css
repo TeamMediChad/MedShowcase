@@ -1,0 +1,71 @@
+#mensuales-comunes, #mensuales-raros {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+/* Grid de tarjetas*/
+.mensuales-comunes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 20px));
+  row-gap: 1rem;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+.mensuales-raros {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 20px));
+  row-gap: 1rem;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tarjeta */
+
+.shinycard {
+  width: 150px;
+  height: 180px;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  padding: 1rem;
+  text-align: center;
+  align-items: center;
+  vertical-align: text-bottom;
+  transition: background-color 0.3s ease;
+  border-radius: 0.7rem;
+}
+
+.shinycard-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+  object-fit: contain;
+  display: block;
+}
+
+.shinycard-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  bottom: 0;
+  vertical-align: text-bottom;
+  text-align: center;
+}
+
+.shinycard-trainer {
+  color: #4B5563;
+  bottom: 10;
+  vertical-align: text-bottom;
+  text-align: center;
+}
+
+.shinycard-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}

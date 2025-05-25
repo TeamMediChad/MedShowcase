@@ -284,6 +284,17 @@ const memberData = {
                                 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDFwaGc5MmNwMWgyMmNkdmwyOG9wenoyNGYxanF1b3BreTVsbzg2dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WwQzqNsYX0l6SgCQZV/giphy.gif'
                         ]
         },
+        JackLoquinn: {  name:'JackLoquinn',
+                        rol: 'Chad',
+                        medallas:['b24'],
+                        shinys:['wurmple','cinccino'],
+                        destacados:[],
+                        vendidos: ['https://media.giphy.com/media/lYWCqTbScj7X18ZGvJ/giphy.gif',
+                                'https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
+                                'https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
+                                'https://media.giphy.com/media/822MTo2BKJqejpx8is/giphy.gif'
+                        ]
+        },
         JCancelo: {     name:'JCancelo',
                         rol: 'Chad',
                         medallas:['b24'],
@@ -311,6 +322,13 @@ const memberData = {
                                 'https://media.giphy.com/media/sonHNRtZEAI8bKerAX/giphy.gif',
                                 'https://media.giphy.com/media/s9iQ0TQppj5vj8COtm/giphy.gif'
                         ],
+                        vendidos: []
+        },
+        JosiasMccartney: {name:'JosiasMccartney',
+                        rol: 'Chad',
+                        medallas:['b0'],
+                        shinys:['fearow','arbok','tentacool','rapidash','gothorita','poliwhirl','woobat','meowth','ponyta','gengar','gyarados','kingdra','smeargle','rhydon','mienshao','chandelure','camerupt'],
+                        destacados:[],
                         vendidos: []
         },
         JuniorMx: {     name:'JuniorMx',
@@ -876,7 +894,7 @@ const memberData = {
         zShilphye: {    name:'zShilphye',
                         rol: 'Chad',
                         medallas:['b7','b24'],
-                        shinys:['stantler','mamoswine','dodrio','golbat','tentacruel','duskull','ponyta','mienfoo','scrafty','onix'],
+                        shinys:['stantler','mamoswine','dodrio','golbat','tentacruel','duskull','ponyta','mienfoo','scrafty','onix','rapidash'],
                         destacados:['https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXlrMTdnMjdsc3VlZWJ0M3o3amdtajB3ZzFyOTI4cWM0dWh3bXY3cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/vTcPfMe5Iul7kZoYHd/giphy.gif'],
                         vendidos: ['https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif']
         }

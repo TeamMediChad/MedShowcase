@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Med Shiny Showcase</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../styles/showcase.css">
   <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body class="background">
@@ -72,20 +73,35 @@
 
     <div id="modal" class="modal-overlay">
       <div class="modal-content">
-        <img src="../Members_sprites/Placeholder.png" class="modal-img" id="member-img-modal">
-        <h3 class="modal-name" id="modal-name">Nombre</h3>
-        <h3 class="modal-title" id="modal-title">MeDallas</h3>
-        <div style="height: 1rem;"></div>
-        <div id="medalla-container" class="medalla-container"></div>
-        <h3 class="modal-title" id="modal-title2">Shinys</h3>
-        <div style="height: 1rem;"></div>
-        <div id="shiny-container" class="shiny-img-container"></div>
-        <div style="height: 3rem;"></div>
-        <div id="shiny-container2" class="shiny-img-container"></div>
-        <div style="height: 3rem;"></div>
-        <div id="shiny-container3" class="shiny-img-container"></div>
-        <div style="height: 1rem;"></div>
-        <button onclick="closeModal()" class="close-btn">Cerrar</button>
+
+        <div class="modal1">
+          <img src="../Members_sprites/Placeholder.png" class="modal-img" id="member-img-modal">
+          <h3 class="modal-name" id="modal-name">Nombre</h3>
+        </div>
+        
+        <div class="modal2">
+          <h3 class="modal-title" id="modal-title">MeDallas</h3>
+          <div style="height: 0.5rem;"></div>
+          <div id="medalla-container" class="medalla-container"></div>
+        </div>
+
+        <div class="modal3">
+          <button onclick="closeModal()" class="close-btn">Cerrar</button>
+        </div>
+
+        <div class="modal4">
+          <h3 class="modal-title" id="modal-title2">Shinys</h3>
+          <div style="height: 1rem;"></div>
+          <div id="shiny-container2" class="shiny-img-container"></div>
+          <div style="height: 3rem;"></div>
+          <div id="shiny-container" class="shiny-img-container"></div>
+          <div style="height: 3rem;"></div>
+        </div>
+        
+        <div class="modal5">
+          <div id="shiny-container3" class="shiny-img-container"></div>
+        </div>
+        
       </div>
     </div>
 
