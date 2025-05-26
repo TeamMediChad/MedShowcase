@@ -25,7 +25,7 @@
   </div>
 
   <!-- Contenido principal -->
-  <div id="main-content" style="display: none;">
+  <div id="main-content" class="main-content" ="display: none;">
 
     <h1 class="text-3xl font-bold mb-6">Medichad</h1>
     <!-- Icon Bar -->
@@ -73,9 +73,9 @@
     <div class="member-container" id="member-container"></div>
 
     <div id="modal" class="modal-overlay">
-      <div class="modal-content">
+      <div class="modal-content" id="modal-content">
 
-        <div class="modal1">
+        <div class="modal1" id="modal1">
           <div class="modal-img-wrapper">
             <img src="../Members_sprites/Placeholder.png" class="modal-img" id="member-img-modal">
           </div>
@@ -84,11 +84,11 @@
           <div id="medalla-container" class="medalla-container"></div>
         </div>
         
-        <div class="modal2">
+        <div class="modal2" id="modal2">
           <button onclick="closeModal()" class="close-btn">Cerrar</button>
         </div>
 
-        <div class="modal3">
+        <div class="modal3" id="modal3">
           <h3 class="modal-title" id="modal-title2">Shinys</h3>
           <div style="height: 1rem;"></div>
           <div id="shiny-container2" class="shiny-img-container"></div>
@@ -96,7 +96,7 @@
           <div id="shiny-container3" class="shiny-img-container"></div>
         </div>
 
-        <div class="modal4">
+        <div class="modal4" id="modal4">
           <button onclick="show_shiny()" id="shiny-btn" class="shiny-btn">Shinys</button>
           <button onclick="show_sell()" id="sell-btn" class="sell-btn">Vendidos</button>
         </div>

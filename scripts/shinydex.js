@@ -18,33 +18,39 @@ for (const [genName, pokemonList] of Object.entries(generations)) {
     pokemonList.forEach((name) => {
         const container = document.createElement("div");
         container.className = "shinydex-card";
-if (lockedCaptured.includes(name)) {
-    container.classList.add("captured");
-    container.style.pointerEvents = "auto";
 
-    const registrador = capturedBy[name] || "Desconocido";
-    const tooltip = document.createElement("div");
-    tooltip.className = "shinydex-tooltip";
+    if (lockedCaptured.includes(name)) {
+        container.classList.add("captured");
+        container.style.pointerEvents = "auto";
 
+        const registrador = capturedBy[name] || "Desconocido";
+        const tooltip = document.createElement("div");
+        tooltip.className = "shinydex-tooltip";
 
-    if (userSprites[registrador]) {
+        const img_wrap = document.createElement('div');
+        img_wrap.className = "user-img-wrapper";
+
         const userImg = document.createElement("img");
-        userImg.src = userSprites[registrador];
+        userImg.src = `../Members_sprites/${registrador}.png`;
         userImg.alt = registrador;
-        userImg.style.width = "100px";
-        userImg.style.height = "100px";
-        userImg.style.display = "block";
-        userImg.style.margin = "0 auto 4px auto";
-        tooltip.appendChild(userImg);
+        userImg.onerror = () => {
+            userImg.src = '../Members_sprites/Placeholder.png';
+            userImg.alt = 'Imagen no disponible';
+        };
+        userImg.className = "user-img";
+
+        img_wrap.appendChild(userImg);
+
+        
+        tooltip.appendChild(img_wrap);
+
+
+        const text = document.createElement("div");
+        text.textContent = `Registrado por: ${registrador}`;
+        tooltip.appendChild(text);
+
+        container.appendChild(tooltip);
     }
-
-
-    const text = document.createElement("div");
-    text.textContent = `Registrado por: ${registrador}`;
-    tooltip.appendChild(text);
-
-    container.appendChild(tooltip);
-}
 
     const imgWrapper = document.createElement("div");
     imgWrapper.className = "shinydex-wraper";

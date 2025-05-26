@@ -142,9 +142,10 @@ const lockedCaptured = ["bulbasaur", "ivysaur", "venusaur", "charmander", "charm
       "zweilous", "hydreigon", "larvesta", "volcarona", "keldeo"],
     };
 
-    const capturedBy = {
-  sunkern: "Markos",
-  sunflora: "Markos",
+const capturedBy = {
+  sunkern: "MarkosW",
+  sunflora: "MarkosW",
+  riolu: "Panchimio"
 
 
 };

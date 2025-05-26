@@ -1,5 +1,14 @@
 const background = document.querySelector('.background');
 
+const screenWidth = screen.width;
+const screenHeight = screen.height;
+
+//const screenWidth = 1280;
+//const screenHeight = 1024;
+
+console.log(`Resolución total: ${screenWidth}x${screenHeight}`);
+console.log(`Resolución modal: ${Math.ceil(screenWidth*0.6)}x${Math.floor(screenHeight*0.6)}`);
+
 function blockScrollWheel(e) {
   e.preventDefault();
 }
@@ -122,6 +131,27 @@ function showInfo(personKey) {
   member_img_modal.onerror = function () {
     this.src = `../Members_sprites/Placeholder.png`;
   }
+
+  //resolución
+  const modal_content = document.getElementById('modal-content');
+  modal_content.style.width = `${Math.ceil(screenWidth*0.6)}px`;
+  modal_content.style.height = `${Math.floor(screenHeight*0.6)}px`;
+
+  const modal1 = document.getElementById('modal1');
+  modal1.style.width = `${Math.ceil((modal_content.style.width - 100)*0.35)}px`;
+  modal1.style.height = `${Math.floor((modal_content.style.height)*0.78)}px`;
+
+  const modal2 = document.getElementById('modal2');
+  modal2.style.width = `${Math.ceil((modal_content.style.width - 100)*0.35)}px`;
+  modal2.style.height = `${Math.floor((modal_content.style.height)*0.22)}px`;
+
+  const modal3 = document.getElementById('modal3');
+  modal3.style.width = `${Math.ceil((modal_content.style.width - 100)*0.65)}px`;
+  modal3.style.height = `${Math.floor((modal_content.style.height)*0.78)}px`;
+
+  const modal4 = document.getElementById('modal4');
+  modal4.style.width = `${Math.ceil((modal_content.style.width - 100)*0.65)}px`;
+  modal4.style.height = `${Math.floor((modal_content.style.height)*0.22)}px`;
 
   modal_name = document.getElementById('modal-name');
   modal_name.textContent = miembro.name;
