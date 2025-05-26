@@ -397,15 +397,14 @@ const memberData = {
         },
         LiXriio: {      name:'LiXriio',
                         rol: 'MegaChad',
-                        medallas:['b10','b12'],
+                        medallas:['b12'],
                         shinys:['ampharos','froslass','altaria','ninetales','wigglytuff','luxray','crobat','manectric','spinda','haxorus','hydreigon','ditto','garchomp','gyarados','kingdra','pikachu','krookodile',
                                 'honchkrow','pelipper','gengar','chandelure','cofagrigus','banette','dusclops','delibird','magcargo','weezing','amoonguss','weavile','conkeldurr','reuniclus','mienshao','gastrodon',
-                                'gastrodon-east','wynaut','gothitelle','mawile','golduck','lilligant','bellossom','jumpluff','dustox','roselia','parasect','ariados','slowbro','politoed',
+                                'gastrodon-east','wynaut','gothitelle','mawile','golduck','lilligant','bellossom','jumpluff','dustox','roselia','parasect','ariados','slowbro','politoed','smeargle',
                                 'poliwrath','ludicolo','lanturn','nidoking','solrock','torkoal'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/unown-em.gif',
-                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/corphish.gif',
-                                'https://media.giphy.com/media/9QCzuGqPrW812xEU7B/giphy.gif'
+                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/corphish.gif'
                         ],
                         vendidos: []
         },
@@ -733,20 +732,6 @@ const memberData = {
                                 'https://media.giphy.com/media/hWAgtS6Wjh2OL9d71b/giphy.gif',
                                 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3hvODB4ZnAydnRiOWZwMmx0ZHp6MndlZ3F5cWJuZmUyc2psOTd5ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/yxz6b5ZmjyR3bTEF44/giphy.gif'
                         ],
-                        vendidos: []
-        },
-        spectrerw: {    name:'spectrerw',
-                        rol: 'Chad',
-                        medallas:['b0'],
-                        shinys:['deino','gardevoir','mienfoo','haxorus','magikarp','poochyena','persian','ponyta','woobat','tentacruel','wooper','nidoking','roselia','slowpoke','chandelure'],
-                        destacados:[],
-                        vendidos: []
-        },
-        Taiheixd: {     name:'Taiheixd',
-                        rol: 'Chad',
-                        medallas:['b0'],
-                        shinys:['psyduck','ninetales','lilligant','mienfoo','mankey','magikarp'],
-                        destacados:[],
                         vendidos: []
         },
         Taqueritobonito: {name:'Taqueritobonito',
