@@ -397,13 +397,14 @@ const memberData = {
         },
         LiXriio: {      name:'LiXriio',
                         rol: 'MegaChad',
-                        medallas:['b0'],
+                        medallas:['b10','b12'],
                         shinys:['ampharos','froslass','altaria','ninetales','wigglytuff','luxray','crobat','manectric','spinda','haxorus','hydreigon','ditto','garchomp','gyarados','kingdra','pikachu','krookodile',
                                 'honchkrow','pelipper','gengar','chandelure','cofagrigus','banette','dusclops','delibird','magcargo','weezing','amoonguss','weavile','conkeldurr','reuniclus','mienshao','gastrodon',
                                 'gastrodon-east','wynaut','gothitelle','mawile','golduck','lilligant','bellossom','jumpluff','dustox','roselia','parasect','ariados','slowbro','politoed',
                                 'poliwrath','ludicolo','lanturn','nidoking','solrock','torkoal'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/unown-em.gif',
+                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/corphish.gif',
                                 'https://media.giphy.com/media/9QCzuGqPrW812xEU7B/giphy.gif'
                         ],
                         vendidos: []
