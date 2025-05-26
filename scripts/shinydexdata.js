@@ -141,3 +141,16 @@ const lockedCaptured = ["bulbasaur", "ivysaur", "venusaur", "charmander", "charm
       "braviary", "vullaby", "mandibuzz", "heatmor", "durant", "deino",
       "zweilous", "hydreigon", "larvesta", "volcarona", "keldeo"],
     };
+
+    const capturedBy = {
+  sunkern: "Markos",
+  sunflora: "Markos",
+
+
+};
+
+const userSprites = {
+  Markos: "../Members_sprites/MarkosW.png",
+
+
+};
