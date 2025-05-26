@@ -73,7 +73,6 @@ function showInfo(personKey) {
     shinyEL.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id}.gif`;
     shinyEL.className = "shiny-img"
     shiny_container.appendChild(shinyEL);
-    
   });
 
   // destacados
@@ -81,15 +80,42 @@ function showInfo(personKey) {
     const destacadosEl = document.createElement('img');
     destacadosEl.src = `${id}`;
     shiny_container2.appendChild(destacadosEl);
-    
   });
 
+  if(shinys.length == 0 && destacados.length == 0){
+    const shinyEL = document.createElement('span');
+    shiny_container2.className = "shiny-img-container-false";
+    shinyEL.className = "medalla2";
+    if(miembro.medallas.includes('b32')){
+      shinyEL.textContent = '☠️ Persona mega pecadora';
+    } else if (miembro.medallas.includes('b24')){
+      shinyEL.textContent = '👿 Persona pecadora';
+    } else {
+      shinyEL.textContent = '😢 No shiny todavía';
+    }
+    shiny_container2.appendChild(shinyEL);
+  } else { shiny_container2.className = "shiny-img-container";}
+  
   vendidos.forEach(id => {
     const vendidosEl = document.createElement('img');
     vendidosEl.src = `${id}`;
     shiny_container3.appendChild(vendidosEl);
     
   });
+
+  if(vendidos.length == 0){
+    const vendidosEl = document.createElement('span');
+    shiny_container3.className = "shiny-img-container-false";
+    vendidosEl.className = "medalla2";
+    if(miembro.medallas.includes('b32')){
+      vendidosEl.textContent = '☠️ No quieres saber';
+    } else if (miembro.medallas.includes('b24')){
+      vendidosEl.textContent = '👿 Pecador no confesado';
+    } else {
+      vendidosEl.textContent = '😇 Persona limpia de pecado';
+    }
+    shiny_container3.appendChild(vendidosEl);
+  } else { shiny_container3.className = "shiny-img-container";}
 
   member_img_modal = document.getElementById('member-img-modal');
   member_img_modal.src = `../Members_sprites/${miembro.name}.png`;
@@ -128,23 +154,25 @@ if (!modalContent.contains(e.target)) {
 });
 
 function show_shiny() {
+  const nombre = document.getElementById('modal-name').textContent;
   if(document.getElementById('shiny-container').classList[1] == 'hidden'){
     document.getElementById('shiny-container3').classList.add("hidden");
     document.getElementById('shiny-container2').classList.remove("hidden");
     document.getElementById('shiny-container').classList.remove("hidden");
     document.getElementById('shiny-btn').style.backgroundColor = '#838383';
     document.getElementById('sell-btn').style.backgroundColor = '#ef4444';
-    document.getElementById('modal-title2').textContent = `Shinys (${document.getElementById('shiny-container').children.length + document.getElementById('shiny-container2').children.length})`;
+    document.getElementById('modal-title2').textContent = `Shinys (${memberData[nombre].shinys.length + memberData[nombre].destacados.length})`;
   }
 }
 
 function show_sell() {
+  const nombre = document.getElementById('modal-name').textContent;
   if(document.getElementById('shiny-container3').classList[1] == 'hidden'){
     document.getElementById('shiny-container').classList.add("hidden");
     document.getElementById('shiny-container2').classList.add("hidden");
     document.getElementById('shiny-container3').classList.remove("hidden");
     document.getElementById('shiny-btn').style.backgroundColor = '#ef4444';
     document.getElementById('sell-btn').style.backgroundColor = '#838383';
-    document.getElementById('modal-title2').textContent = `Vendidos (${document.getElementById('shiny-container3').children.length})`;
+    document.getElementById('modal-title2').textContent = `Vendidos (${memberData[nombre].vendidos.length})`;
   }
 }
