@@ -16,11 +16,35 @@ for (const [genName, pokemonList] of Object.entries(generations)) {
     grid.className = "grid-container";
 
     pokemonList.forEach((name) => {
-    const container = document.createElement("div");
-    container.className = "shinydex-card";
-    if (lockedCaptured.includes(name)) {
-        container.classList.add("captured");
+        const container = document.createElement("div");
+        container.className = "shinydex-card";
+if (lockedCaptured.includes(name)) {
+    container.classList.add("captured");
+    container.style.pointerEvents = "auto";
+
+    const registrador = capturedBy[name] || "Desconocido";
+    const tooltip = document.createElement("div");
+    tooltip.className = "shinydex-tooltip";
+
+
+    if (userSprites[registrador]) {
+        const userImg = document.createElement("img");
+        userImg.src = userSprites[registrador];
+        userImg.alt = registrador;
+        userImg.style.width = "100px";
+        userImg.style.height = "100px";
+        userImg.style.display = "block";
+        userImg.style.margin = "0 auto 4px auto";
+        tooltip.appendChild(userImg);
     }
+
+
+    const text = document.createElement("div");
+    text.textContent = `Registrado por: ${registrador}`;
+    tooltip.appendChild(text);
+
+    container.appendChild(tooltip);
+}
 
     const imgWrapper = document.createElement("div");
     imgWrapper.className = "shinydex-wraper";
