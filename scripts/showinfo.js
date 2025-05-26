@@ -20,27 +20,37 @@ function blockScrollKey(e) {
 }
 
 
-function resolution(){
-  //resolución
+function resolution(isMobile){
   const modal_content = document.getElementById('modal-content');
-  modal_content.style.width = `${Math.ceil(screenWidth*0.6)}px`;
   modal_content.style.height = `${Math.floor(screenHeight*0.6)}px`;
 
   const modal1 = document.getElementById('modal1');
-  modal1.style.width = `${Math.ceil((modal_content.style.width - 100)*0.35)}px`;
   modal1.style.height = `${Math.floor((modal_content.style.height)*0.78)}px`;
 
   const modal2 = document.getElementById('modal2');
-  modal2.style.width = `${Math.ceil((modal_content.style.width - 100)*0.35)}px`;
   modal2.style.height = `${Math.floor((modal_content.style.height)*0.22)}px`;
 
   const modal3 = document.getElementById('modal3');
-  modal3.style.width = `${Math.ceil((modal_content.style.width - 100)*0.65)}px`;
+
   modal3.style.height = `${Math.floor((modal_content.style.height)*0.78)}px`;
 
   const modal4 = document.getElementById('modal4');
-  modal4.style.width = `${Math.ceil((modal_content.style.width - 100)*0.65)}px`;
   modal4.style.height = `${Math.floor((modal_content.style.height)*0.22)}px`;
+
+  if(isMobile){
+    modal_content.style.width = '90vw';
+    modal1.style.width = '32vw';
+    modal2.style.width = '32vw';
+    modal3.style.width = '58vw';
+    modal4.style.width = '58vw';
+  } else {
+    modal_content.style.width = `${Math.ceil(screenWidth*0.6)}px`;
+    modal1.style.width = `${Math.ceil((modal_content.style.width - 100)*0.35)}px`;
+    modal2.style.width = `${Math.ceil((modal_content.style.width - 100)*0.35)}px`;
+    modal3.style.width = `${Math.ceil((modal_content.style.width - 100)*0.65)}px`;
+    modal4.style.width = `${Math.ceil((modal_content.style.width - 100)*0.65)}px`;
+  }
+  
 }
 
 function disableScroll() {
@@ -216,9 +226,11 @@ function show_sell() {
 
 
 function verificarOrientacion() {
+  const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+  const isPortrait = window.innerHeight > window.innerWidth;
   screenWidth = screen.width;
   screenHeight = screen.height;
-  resolution();
+  resolution((isMobile && isPortrait));
   
 }
 

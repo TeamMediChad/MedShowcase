@@ -331,7 +331,7 @@ const memberData = {
                         destacados:[],
                         vendidos: []
         },
-        JuniorMx: {     name:'JuniorMx',
+        JuniorJMx: {    name:'JuniorJMx',
                         rol: 'GigaChad',
                         medallas:['b6','b12','b14','b15','b16','b26','b23','b31'],
                         shinys:['tentacruel','tentacruel','watchog','kricketune','golduck','smeargle','banette','weezing','torkoal','pelipper','petilil','gothitelle','graveler','vanilluxe','chandelure','rhyperior',
