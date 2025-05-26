@@ -53,6 +53,8 @@
     }
     .shinydex-card.captured {
       background: #98fb98;
+        position: relative;
+  cursor: pointer;
     }
     .shinydex-wraper {
       display: flex;
@@ -83,4 +85,27 @@
         max-height: 50px;
       }
     }
-    
+
+    .shinydex-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  background: #2a75bb;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 10px;
+  position: absolute;
+  z-index: 10;
+  bottom: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.2s;
+  font-size: 0.85rem;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.shinydex-card.captured:hover .shinydex-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
