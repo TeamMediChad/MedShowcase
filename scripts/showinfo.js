@@ -3,6 +3,7 @@ const background = document.querySelector('.background');
 screenWidth = screen.width;
 screenHeight = screen.height;
 
+
 //const screenWidth = 1280;
 //const screenHeight = 1024;
 
@@ -227,9 +228,10 @@ function show_sell() {
 
 function verificarOrientacion() {
   const isMobile = /Mobi|Android/i.test(navigator.userAgent);
-  const isPortrait = window.Height > window.Width;
+  const isPortrait = window.height > window.width;
   screenWidth = screen.width;
   screenHeight = screen.height;
+  document.getElementById('title-test').textContent = `${isMobile} && ${isPortrait} -- ${screen.height} > ${screen.width} -- ${window.innerHeight} > ${window.innerWidth}`
   resolution((isMobile && isPortrait));
   
 }
