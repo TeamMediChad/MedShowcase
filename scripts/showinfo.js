@@ -21,7 +21,7 @@ function blockScrollKey(e) {
 }
 
 
-function resolution(isMobile){
+function resolution(isPortrait){
   const modal_content = document.getElementById('modal-content');
   modal_content.style.height = `${Math.floor(screenHeight*0.6)}px`;
 
@@ -38,13 +38,15 @@ function resolution(isMobile){
   const modal4 = document.getElementById('modal4');
   modal4.style.height = `${Math.floor((modal_content.style.height)*0.22)}px`;
 
-  if(isMobile){
+  if(isPortrait){
+
     modal_content.style.width = '95vw';
     modal1.style.width = '35vw';
     modal2.style.width = '35vw';
     modal3.style.width = '60vw';
     modal4.style.width = '60vw';
   } else {
+
     modal_content.style.width = `${Math.ceil(screenWidth*0.6)}px`;
     modal1.style.width = `${Math.ceil((modal_content.style.width - 100)*0.35)}px`;
     modal2.style.width = `${Math.ceil((modal_content.style.width - 100)*0.35)}px`;
@@ -168,7 +170,7 @@ function showInfo(personKey) {
   }
 
   //resolución
-  resolution();
+  resolution(screenWidth > screenHeight);
 
   modal_name = document.getElementById('modal-name');
   modal_name.textContent = miembro.name;
@@ -227,12 +229,9 @@ function show_sell() {
 
 
 function verificarOrientacion() {
-  const isMobile = /Mobi|Android/i.test(navigator.userAgent);
-  const isPortrait = screen.height > screen.width;
   screenWidth = screen.width;
   screenHeight = screen.height;
-  document.getElementById('title-test').textContent = `${isMobile} && ${isPortrait} -- ${screen.height} > ${screen.width}`
-  resolution((isMobile && isPortrait));
+  resolution(screenWidth > screenHeight);
   
 }
 
