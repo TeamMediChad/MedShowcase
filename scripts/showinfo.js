@@ -170,7 +170,7 @@ function showInfo(personKey) {
   }
 
   //resolución
-  resolution(screenWidth > screenHeight);
+  resolution(screenHeight > screenWidth);
 
   modal_name = document.getElementById('modal-name');
   modal_name.textContent = miembro.name;
@@ -231,7 +231,7 @@ function show_sell() {
 function verificarOrientacion() {
   screenWidth = screen.width;
   screenHeight = screen.height;
-  resolution(screenWidth > screenHeight);
+  resolution(screenHeight > screenWidth);
   
 }
 
