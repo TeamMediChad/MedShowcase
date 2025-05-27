@@ -22,28 +22,37 @@ for (const [genName, pokemonList] of Object.entries(generations)) {
     if (lockedCaptured.includes(name)) {
         container.classList.add("captured");
         container.style.pointerEvents = "auto";
-
-        const registrador = capturedBy[name] || "Desconocido";
+        
+        registrador = '';
+        if(name == 'nidoran-f' || name == 'nidoran-m'){
+            registrador = 'ToxicPlumber';
+        } else {
+            registrador = capturedBy[name] || "Desconocido";
+        }
+        
         const tooltip = document.createElement("div");
         tooltip.className = "shinydex-tooltip";
 
         const img_wrap = document.createElement('div');
         img_wrap.className = "user-img-wrapper";
 
+        exist = true;
         const userImg = document.createElement("img");
         userImg.src = `../Members_sprites/${registrador}.png`;
         userImg.alt = registrador;
         userImg.onerror = () => {
-            userImg.src = '../Members_sprites/Placeholder.png';
-            userImg.alt = 'Imagen no disponible';
+            exist = false;
+            userImg.innerHTML = '';
+            userImg.remove();
         };
-        userImg.className = "user-img";
-
-        img_wrap.appendChild(userImg);
-
-        
-        tooltip.appendChild(img_wrap);
-
+        if(!exist){
+            img_wrap.innerHTML = '';
+            img_wrap.remove();
+        } else {
+            userImg.className = "user-img";
+            img_wrap.appendChild(userImg);
+            tooltip.appendChild(img_wrap);
+        }
 
         const text = document.createElement("div");
         text.textContent = `Registrado por: ${registrador}`;

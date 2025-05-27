@@ -154,6 +154,7 @@
 .modal3 { 
   grid-area: 1 / 3 / 7 / 6;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 .modal4 {
   grid-area: 7 / 3 / 8 / 6;

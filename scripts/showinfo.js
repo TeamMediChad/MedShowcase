@@ -76,10 +76,12 @@ function showInfo(personKey) {
   const shiny_container = document.getElementById('shiny-container');
   const shiny_container2 = document.getElementById('shiny-container2');
   const shiny_container3 = document.getElementById('shiny-container3');
+  const shiny_container4 = document.getElementById('shiny-container4');
   medalla_container.innerHTML = '';
   shiny_container.innerHTML = '';
   shiny_container2.innerHTML = '';
   shiny_container3.innerHTML = '';
+  shiny_container4.innerHTML = '';
 
   // sort
   const miembro = memberData[personKey] || [];
@@ -88,6 +90,7 @@ function showInfo(personKey) {
   const medallas = miembro.medallas || [];
   const shinys = miembro.shinys || [];
   const destacados = miembro.destacados || [];
+  const perdidos = miembro.perdidos || [];
   const vendidos = miembro.vendidos || [];
 
   // medallas
@@ -121,6 +124,13 @@ function showInfo(personKey) {
     shiny_container.appendChild(shinyEL);
   });
 
+  const espacio1 = document.getElementById('espacio1');
+  if (destacados.length == 0){
+    espacio1.style = "height: 0rem;";
+  } else {
+    espacio1.style = "height: 1rem;";
+  }
+
   // destacados
   destacados.forEach(id => {
     const destacadosEl = document.createElement('img');
@@ -128,9 +138,10 @@ function showInfo(personKey) {
     shiny_container2.appendChild(destacadosEl);
   });
 
-  if(shinys.length == 0 && destacados.length == 0){
+  if(shinys.length == 0 && destacados.length == 0 && perdidos.length == 0){
     const shinyEL = document.createElement('span');
     shiny_container2.className = "shiny-img-container-false";
+    shiny_container4.className = "shiny-img-container-false";
     shinyEL.className = "medalla2";
     if(miembro.medallas.includes('b32')){
       shinyEL.textContent = '☠️ Persona mega pecadora';
@@ -140,8 +151,26 @@ function showInfo(personKey) {
       shinyEL.textContent = '😢 No shiny todavía';
     }
     shiny_container2.appendChild(shinyEL);
-  } else { shiny_container2.className = "shiny-img-container";}
+  } else {
+    shiny_container2.className = "shiny-img-container";
+    shiny_container4.className = "shiny-img-container";
+  }
   
+  const espacio2 = document.getElementById('espacio2');
+  if (perdidos.length == 0){
+    espacio2.style = "height: 0rem;";
+  } else {
+    espacio2.style = "height: 2rem;";
+  }
+
+  // perdidos
+  perdidos.forEach(id => {
+    const perdidosEl = document.createElement('img');
+    perdidosEl.src = `${id}`;
+    shiny_container4.appendChild(perdidosEl);
+  });
+
+  //vendidos
   vendidos.forEach(id => {
     const vendidosEl = document.createElement('img');
     vendidosEl.src = `${id}`;
@@ -155,6 +184,8 @@ function showInfo(personKey) {
     vendidosEl.className = "medalla2";
     if(miembro.medallas.includes('b32')){
       vendidosEl.textContent = '☠️ No quieres saber';
+    } else if(miembro.name == 'LiXriio'){
+      vendidosEl.textContent = '🏳️‍🌈 Otro tipo de pecador';
     } else if (miembro.medallas.includes('b24')){
       vendidosEl.textContent = '👿 Pecador no confesado';
     } else {
@@ -180,10 +211,12 @@ function showInfo(personKey) {
   document.getElementById('shiny-container2').classList.add("hidden");
   document.getElementById('shiny-container').classList.add("hidden");
   document.getElementById('shiny-container3').classList.add("hidden");
+  document.getElementById('shiny-container4').classList.add("hidden");
   document.getElementById('shiny-btn').style.backgroundColor = '#838383';
   document.getElementById('sell-btn').style.backgroundColor = '#ef4444';
   document.getElementById('shiny-container2').classList.remove("hidden");
   document.getElementById('shiny-container').classList.remove("hidden");
+  document.getElementById('shiny-container4').classList.remove("hidden");
 
   document.getElementById('modal').style.opacity = 100;
   document.getElementById('modal').style.visibility = 'visible';
@@ -208,6 +241,7 @@ function show_shiny() {
     document.getElementById('shiny-container3').classList.add("hidden");
     document.getElementById('shiny-container2').classList.remove("hidden");
     document.getElementById('shiny-container').classList.remove("hidden");
+    document.getElementById('shiny-container4').classList.remove("hidden");
     document.getElementById('shiny-btn').style.backgroundColor = '#838383';
     document.getElementById('sell-btn').style.backgroundColor = '#ef4444';
     document.getElementById('modal-title2').textContent = `Shinys (${memberData[nombre].shinys.length + memberData[nombre].destacados.length})`;
@@ -219,10 +253,16 @@ function show_sell() {
   if(document.getElementById('shiny-container3').classList[1] == 'hidden'){
     document.getElementById('shiny-container').classList.add("hidden");
     document.getElementById('shiny-container2').classList.add("hidden");
+    document.getElementById('shiny-container4').classList.add("hidden");
     document.getElementById('shiny-container3').classList.remove("hidden");
     document.getElementById('shiny-btn').style.backgroundColor = '#ef4444';
     document.getElementById('sell-btn').style.backgroundColor = '#838383';
-    document.getElementById('modal-title2').textContent = `Vendidos (${memberData[nombre].vendidos.length})`;
+    if(!memberData[nombre].medallas.includes('b32')){
+      document.getElementById('modal-title2').textContent = `Vendidos (${memberData[nombre].vendidos.length})`;
+    } else {
+      document.getElementById('modal-title2').textContent = `Vendidos (Infinitos)`;
+    }
+    
   }
 }
 
