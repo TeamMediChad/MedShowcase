@@ -39,11 +39,11 @@ function resolution(isMobile){
   modal4.style.height = `${Math.floor((modal_content.style.height)*0.22)}px`;
 
   if(isMobile){
-    modal_content.style.width = '90vw';
-    modal1.style.width = '32vw';
-    modal2.style.width = '32vw';
-    modal3.style.width = '58vw';
-    modal4.style.width = '58vw';
+    modal_content.style.width = '95vw';
+    modal1.style.width = '35vw';
+    modal2.style.width = '35vw';
+    modal3.style.width = '60vw';
+    modal4.style.width = '60vw';
   } else {
     modal_content.style.width = `${Math.ceil(screenWidth*0.6)}px`;
     modal1.style.width = `${Math.ceil((modal_content.style.width - 100)*0.35)}px`;
@@ -228,10 +228,10 @@ function show_sell() {
 
 function verificarOrientacion() {
   const isMobile = /Mobi|Android/i.test(navigator.userAgent);
-  const isPortrait = window.height > window.width;
+  const isPortrait = screen.height > screen.width;
   screenWidth = screen.width;
   screenHeight = screen.height;
-  document.getElementById('title-test').textContent = `${isMobile} && ${isPortrait} -- ${screen.height} > ${screen.width} -- ${window.innerHeight} > ${window.innerWidth}`
+  document.getElementById('title-test').textContent = `${isMobile} && ${isPortrait} -- ${screen.height} > ${screen.width}`
   resolution((isMobile && isPortrait));
   
 }
