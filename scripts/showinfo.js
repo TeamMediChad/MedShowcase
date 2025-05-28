@@ -244,7 +244,13 @@ function show_shiny() {
     document.getElementById('shiny-container4').classList.remove("hidden");
     document.getElementById('shiny-btn').style.backgroundColor = '#838383';
     document.getElementById('sell-btn').style.backgroundColor = '#ef4444';
-    document.getElementById('modal-title2').textContent = `Shinys (${memberData[nombre].shinys.length + memberData[nombre].destacados.length})`;
+    const espacio2 = document.getElementById('espacio2');
+    if (memberData[nombre].perdidos.length == 0){
+      espacio2.style = "height: 0rem;";
+    } else {
+      espacio2.style = "height: 2rem;";
+    }
+      document.getElementById('modal-title2').textContent = `Shinys (${memberData[nombre].shinys.length + memberData[nombre].destacados.length})`;
   }
 }
 
@@ -257,6 +263,7 @@ function show_sell() {
     document.getElementById('shiny-container3').classList.remove("hidden");
     document.getElementById('shiny-btn').style.backgroundColor = '#ef4444';
     document.getElementById('sell-btn').style.backgroundColor = '#838383';
+    document.getElementById('espacio2').style = "height: 0rem;";
     if(!memberData[nombre].medallas.includes('b32')){
       document.getElementById('modal-title2').textContent = `Vendidos (${memberData[nombre].vendidos.length})`;
     } else {

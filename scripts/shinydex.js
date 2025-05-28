@@ -19,16 +19,11 @@ for (const [genName, pokemonList] of Object.entries(generations)) {
         const container = document.createElement("div");
         container.className = "shinydex-card";
 
-    if (lockedCaptured.includes(name)) {
+    if (Object.keys(capturedBy).includes(name)) {
         container.classList.add("captured");
         container.style.pointerEvents = "auto";
         
-        registrador = '';
-        if(name == 'nidoran-f' || name == 'nidoran-m'){
-            registrador = 'ToxicPlumber';
-        } else {
-            registrador = capturedBy[name] || "Desconocido";
-        }
+        const registrador = capturedBy[name] || "Desconocido";
         
         const tooltip = document.createElement("div");
         tooltip.className = "shinydex-tooltip";

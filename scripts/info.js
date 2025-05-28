@@ -270,7 +270,7 @@ const memberData = {
 
                         ]
         },
-        HoraxPc: {      name:'HoraxPc',
+        HoraxPC: {      name:'HoraxPC',
                         rol: 'Chad',
                         medallas:['b0'],
                         shinys:['haxorus','klink','klinklang','chandelure'],
@@ -307,7 +307,7 @@ const memberData = {
         JackLoquinn: {  name:'JackLoquinn',
                         rol: 'Chad',
                         medallas:['b24'],
-                        shinys:['wurmple','cinccino'],
+                        shinys:['wurmple','cinccino','golett'],
                         destacados:[],
                         perdidos: [],
                         vendidos: ['https://media.giphy.com/media/lYWCqTbScj7X18ZGvJ/giphy.gif',
@@ -489,6 +489,16 @@ const memberData = {
                         perdidos: ['https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDQzM2g0YjNjaDIwNjF6ODl0MTV5ZHRyc2UzdWZpYTBkamE1bjZ5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xIpPVNVgAxrr7mfHV2/giphy.gif'],
                         vendidos: []
         },
+        MasterSainz: {  name:'MasterSainz',
+                        rol: 'Chad',
+                        medallas:['b24'],
+                        shinys:[],
+                        destacados:[],
+                        perdidos: [],
+                        vendidos: ['https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif',
+                                'https://media.giphy.com/media/RiSG1piNjO9VPGPjmV/giphy.gif'
+                        ]
+        },
         Mdbzp: {        name:'Mdbzp',
                         rol: 'Chad',
                         medallas:['b12','b15','b26'],
@@ -527,9 +537,22 @@ const memberData = {
                         perdidos: [],
                         vendidos: []
         },
+        MonkeyCake: {   name:'MonkeyCake',
+                        rol: 'Chad',
+                        medallas:['b1','b8','b9','b24','b26'],
+                        shinys:[],
+                        destacados:['https://media.giphy.com/media/8W1sZrHzScrNbg6NZI/giphy.gif'],
+                        perdidos: ['https://media.giphy.com/media/n1rn0watJNvobQdzqb/giphy.gif'],
+                        vendidos: ['https://media.giphy.com/media/gwavhTbufATct7EFs0/giphy.gif',
+                                'https://media.giphy.com/media/v7BwuKEmsYbSzTXu2Z/giphy.gif',
+                                'https://media.giphy.com/media/oBe1LREMjvljQGVAgl/giphy.gif',
+                                'https://media.giphy.com/media/D0VlsgLGW6enaA5m7m/giphy.gif',
+                                'https://media.giphy.com/media/ABbHis5AHV4KFY18so/giphy.gif'
+                        ]
+        },
         Moonlyze: {     name:'Moonlyze',
                         rol: 'MaxiChad',
-                        medallas:['b6','b9','b18','b24','b26'],
+                        medallas:['b6','b9','b12','b18','b24','b26'],
                         shinys:['smeargle','weezing','ninetales','wigglytuff','magikarp','ditto','bibarel','whismur'],
                         destacados:[],
                         perdidos: ['https://media.giphy.com/media/WMaKtMeEQ0nbIBSXL3/giphy.gif'],
@@ -727,6 +750,22 @@ const memberData = {
                         perdidos: [],
                         vendidos: []
         },
+        salvadormc: {   name:'salvadormc',
+                        rol: 'Chad',
+                        medallas:['b10','b12','b24','b26'],
+                        shinys:['haxorus','ninetales','gigalith','litwick','weezing','swellow','torkoal','smeargle','bibarel','golurk','elgyem','electrode'],
+                        destacados:['https://media.giphy.com/media/sbptGtIipK7BKqDckI/giphy.gif'],
+                        perdidos: [],
+                        vendidos: ['https://media.giphy.com/media/3Z43q20eTxPd3flPxV/giphy.gif',
+                                'https://media.giphy.com/media/ybT9l6ye0rTcCJfv7T/giphy.gif',
+                                'https://media.giphy.com/media/ptSTYVxdNLH5oH4Siw/giphy.gif',
+                                'https://media.giphy.com/media/ptSTYVxdNLH5oH4Siw/giphy.gif',
+                                'https://media.giphy.com/media/sugYeQQ0BUa6GUPdY2/giphy.gif',
+                                'https://media.giphy.com/media/sugYeQQ0BUa6GUPdY2/giphy.gif',
+                                'https://media.giphy.com/media/Dlf0PstQvtGUFEiImQ/giphy.gif',
+                                'https://media.giphy.com/media/dIX281x6Etp6ekX4n7/giphy.gif'
+                        ]
+        },
         Seaba: {        name:'Seaba',
                         rol: 'Chad',
                         medallas:['b8','b15','b16','18','b26'],
@@ -846,9 +885,8 @@ const memberData = {
                         medallas:['b24','b30'],
                         shinys:[],
                         destacados:[],
-                        perdidos: [],
-                        vendidos: ['https://media.giphy.com/media/4usxGoNyYaW4iTubxf/giphy.gif',
-                                'https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
+                        perdidos: ['https://media.giphy.com/media/4usxGoNyYaW4iTubxf/giphy.gif'],
+                        vendidos: ['https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
                                 'https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
                                 'https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
                                 'https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif'
