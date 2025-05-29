@@ -295,7 +295,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b1','b9','b10','b11','b15','b19','b24','b26'],
                         shinys:['solrock','gastrodon','lopunny','politoed','scolipede','rattata','chandelure','bellossom','ninetales','azurill','lilligant','golem','rattata','vanillite','gorebyss','psyduck','wooper',
-                                'jumpluff','escavalier','deerling','gloom','ariados','weepinbell'
+                                'jumpluff','escavalier','deerling','gloom','ariados','weepinbell','graveler'
                         ],
                         destacados:['https://media.giphy.com/media/HpSnC62YvwsymoUU0o/giphy.gif',
                                 'https://media.giphy.com/media/qxLS97I8yoUYRzSdIj/giphy.gif',
@@ -699,7 +699,7 @@ const memberData = {
                                 'https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif'
                         ]
         },
-        Pimientadaza: { name:'Pimientadaza',
+        pimientadaza: { name:'pimientadaza',
                         rol: 'Chad',
                         medallas:['b24','b26'],
                         shinys:['seismitoad','haxorus','muk'],
@@ -714,6 +714,22 @@ const memberData = {
                         destacados:[],
                         perdidos: [],
                         vendidos: []
+        },
+        rebukittheveil: {name:'rebukittheveil',
+                        rol: 'Chad',
+                        medallas:['b15','b19','b24','b29','b30'],
+                        shinys:['haxorus','manectric','camerupt','nidoqueen','lickitung','lanturn','luxio','vulpix','horsea','dragonair','krokorok','mienfoo','lilligant'],
+                        destacados:['https://media.giphy.com/media/kI6DHEnVibteJcUDtY/giphy.gif'
+                        ],
+                        perdidos: [],
+                        vendidos: ['https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
+                                'https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
+                                'https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
+                                'https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
+                                'https://media.giphy.com/media/0vF7t16ROOFeGekWcF/giphy.gif',
+                                'https://media.giphy.com/media/0vF7t16ROOFeGekWcF/giphy.gif',
+                                'https://media.giphy.com/media/qI0CeWonaxP7k6Y4Lx/giphy.gif'
+                        ]
         },
         RIIW: {         name:'RIIW',
                         rol: 'Chad',
