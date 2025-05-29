@@ -158,7 +158,7 @@ const capturedBy = {
   mankey: "Krackon",
   primeape: "aeamanh",
   growlithe: "Panchimio",
-  arcanine: "gamermanco",
+  arcanine: "Souenx",
   poliwag: "DavidCitos",
   poliwhirl: "DavidCitos",
   poliwrath: "gamermanco",
