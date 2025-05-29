@@ -307,7 +307,7 @@ const capturedBy = {
   porygon2: 'Mawilice', 
   stantler: 'Moonlyze', 
   smeargle: 'ToxicPlumber',
-  smoochom: 'UltimoMorador',
+  smoochum: 'UltimoMorador',
   magby: 'DiGoMo', 
   miltank: 'DavidCitos', 
   larvitar: 'ToxicPlumber', 
