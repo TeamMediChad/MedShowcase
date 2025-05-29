@@ -35,3 +35,26 @@ body {
   background-color: #c95959;
   color: white;
 }
+
+
+.centrado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       
+  justify-content: center;  
+  margin-top: 25px;
+}
+
+.centrado img {
+  margin-bottom: 20px;
+}
+
+.centrado h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.centrado p {
+  font-size: 1.5rem;
+}

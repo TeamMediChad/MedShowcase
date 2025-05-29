@@ -124,3 +124,16 @@ cursor: pointer;
   object-fit: contain;
   display: block;
 }
+
+.top-capturer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #ffeaa7;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+

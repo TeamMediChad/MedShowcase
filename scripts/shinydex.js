@@ -1,11 +1,35 @@
-function getSpriteURL(name, index) {
+function getSpriteURL(name) {
     return `https://img.pokemondb.net/sprites/black-white/anim/shiny/${name}.gif`;
 }
 
+
 const mainContent = document.getElementById("main-content");
+
+// Maestro apóstol
+const topContainer = document.createElement("div");
+topContainer.className = "top-capturer";
+
+const topImg = document.createElement("img");
+topImg.src = `../Members_sprites/${topData.trainer}.png`;
+topImg.alt = topData.trainer;
+topImg.className = "user-img";
+topImg.onerror = () => {
+    topImg.remove();
+};
+const topText = document.createElement("div");
+topText.textContent = `🎉 El que más ha registrado en la Shinydex es ${topData.trainer} con ${topData.count} Pokémon.`;
+
+const img_wrap = document.createElement('div');
+img_wrap.className = "user-img-wrapper";
+img_wrap.appendChild(topImg);
+topContainer.appendChild(img_wrap);
+topContainer.appendChild(topText);
+mainContent.appendChild(topContainer);
 
 let globalIndex = 0;
 
+
+//shinydex cards
 for (const [genName, pokemonList] of Object.entries(generations)) {
     const title = document.createElement("div");
     title.className = "generation-title";
@@ -60,7 +84,7 @@ for (const [genName, pokemonList] of Object.entries(generations)) {
     imgWrapper.className = "shinydex-wraper";
 
     const img = document.createElement("img");
-    img.src = getSpriteURL(name, globalIndex);
+    img.src = getSpriteURL(name);
     img.className = "shinydex-img";
     img.alt = `Shiny ${name}`;
 

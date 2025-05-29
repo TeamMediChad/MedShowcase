@@ -29,10 +29,24 @@ miembros.forEach(key => {
 
   //MegaChad
   if(miembro.rol == 'MegaChad'){
+
     const icon = document.createElement('img');
     icon.src = '../img/mega_icon.png';
     icon.className = 'card-icon';
-    iconContainer.appendChild(icon);
+
+    const tooltipWrapper = document.createElement('span');
+    tooltipWrapper.className = 'tooltip';
+
+    const tooltip = document.createElement('span');
+    tooltip.className = 'tooltiptext';
+    tooltip.textContent = 'MegaChad';
+
+    tooltipWrapper.appendChild(icon);
+    tooltipWrapper.appendChild(tooltip);
+
+    iconContainer.appendChild(tooltipWrapper);
+
+    
   }
 
   //GigaChad
@@ -40,7 +54,18 @@ miembros.forEach(key => {
     const icon = document.createElement('img');
     icon.src = '../img/giga_icon.png';
     icon.className = 'card-icon';
-    iconContainer.appendChild(icon);
+    
+    const tooltipWrapper = document.createElement('span');
+    tooltipWrapper.className = 'tooltip';
+
+    const tooltip = document.createElement('span');
+    tooltip.className = 'tooltiptext';
+    tooltip.textContent = 'GigaChad';
+
+    tooltipWrapper.appendChild(icon);
+    tooltipWrapper.appendChild(tooltip);
+
+    iconContainer.appendChild(tooltipWrapper);
   }
 
   //MaxiChad
@@ -48,7 +73,18 @@ miembros.forEach(key => {
     const icon = document.createElement('img');
     icon.src = '../img/maxi_icon.png';
     icon.className = 'card-icon';
-    iconContainer.appendChild(icon);
+    
+    const tooltipWrapper = document.createElement('span');
+    tooltipWrapper.className = 'tooltip';
+
+    const tooltip = document.createElement('span');
+    tooltip.className = 'tooltiptext';
+    tooltip.textContent = 'MaxiChad';
+
+    tooltipWrapper.appendChild(icon);
+    tooltipWrapper.appendChild(tooltip);
+
+    iconContainer.appendChild(tooltipWrapper);
   }
 
   //Lider
@@ -56,16 +92,78 @@ miembros.forEach(key => {
     const icon = document.createElement('img');
     icon.src = '../img/lider_icon.png';
     icon.className = 'card-icon';
-    iconContainer.appendChild(icon);
+    
+    const tooltipWrapper = document.createElement('span');
+    tooltipWrapper.className = 'tooltip';
+
+    const tooltip = document.createElement('span');
+    tooltip.className = 'tooltiptext';
+    tooltip.textContent = 'Lider';
+
+    tooltipWrapper.appendChild(icon);
+    tooltipWrapper.appendChild(tooltip);
+
+    iconContainer.appendChild(tooltipWrapper);
   }
 
   //race winner
   if(miembro.medallas.includes('b13')){
     const icon = document.createElement('img');
-    icon.src = '../img/medal_icon.png';
+    icon.src = '../img/racewinner_medal.png';
     icon.className = 'card-icon';
-    iconContainer.appendChild(icon);
+    
+    const tooltipWrapper = document.createElement('span');
+    tooltipWrapper.className = 'tooltip';
+
+    const tooltip = document.createElement('span');
+    tooltip.className = 'tooltiptext';
+    tooltip.textContent = 'Shiny Race';
+
+    tooltipWrapper.appendChild(icon);
+    tooltipWrapper.appendChild(tooltip);
+
+    iconContainer.appendChild(tooltipWrapper);
   }
+
+  //Golden dex
+  if(miembro.name == topData.trainer){
+    const icon = document.createElement('img');
+    icon.src = '../img/goldendex_medal.png';
+    icon.className = 'card-icon';
+    
+    const tooltipWrapper = document.createElement('span');
+    tooltipWrapper.className = 'tooltip';
+
+    const tooltip = document.createElement('span');
+    tooltip.className = 'tooltiptext';
+    tooltip.textContent = 'Maestro Apóstol';
+
+    tooltipWrapper.appendChild(icon);
+    tooltipWrapper.appendChild(tooltip);
+
+    iconContainer.appendChild(tooltipWrapper);
+  }
+
+  //Supremo Pecador
+  if(miembro.name == 'AdrixJK'){
+    const icon = document.createElement('img');
+    icon.src = '../img/supremopecador_medal.png';
+    icon.className = 'card-icon';
+    
+    const tooltipWrapper = document.createElement('span');
+    tooltipWrapper.className = 'tooltip';
+
+    const tooltip = document.createElement('span');
+    tooltip.className = 'tooltiptext';
+    tooltip.textContent = 'Supremo Pecador';
+
+    tooltipWrapper.appendChild(icon);
+    tooltipWrapper.appendChild(tooltip);
+
+    iconContainer.appendChild(tooltipWrapper);
+  }
+
+
   card.onclick = () => showInfo(key);
 
 
