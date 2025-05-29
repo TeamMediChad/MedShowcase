@@ -208,7 +208,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b9','b10','b19','b12','b26','b30'],
                         shinys:['butterfree','raticate','parasect','venomoth','golem','rapidash','kingler','ditto','dunsparce','kingdra','exploud','altaria','lunatone','huntail','gigalith','leavanny','lilligant',
-                                'crustle','cinccino','gothitelle','vanilluxe','sawsbuck','galvantula','haxorus','accelgor','golurk','bouffalant','durant','chandelure','tyranitar'
+                                'crustle','cinccino','gothitelle','vanilluxe','sawsbuck','galvantula','haxorus','accelgor','golurk','bouffalant','durant','chandelure','tyranitar','sandslash'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/corsola.gif',
                                 'https://media.giphy.com/media/agBIyJ5VezN1rEyAH7/giphy.gif',
@@ -430,7 +430,7 @@ const memberData = {
                         shinys:['ampharos','froslass','altaria','ninetales','wigglytuff','luxray','crobat','manectric','spinda','haxorus','hydreigon','ditto','garchomp','gyarados','kingdra','pikachu','krookodile',
                                 'honchkrow','pelipper','gengar','chandelure','cofagrigus','banette','dusclops','delibird','magcargo','weezing','amoonguss','weavile','conkeldurr','reuniclus','mienshao','gastrodon',
                                 'gastrodon-east','wynaut','gothitelle','mawile','golduck','lilligant','bellossom','jumpluff','dustox','roselia','parasect','ariados','slowbro','politoed','smeargle',
-                                'poliwrath','ludicolo','lanturn','nidoking','solrock','torkoal'
+                                'poliwrath','ludicolo','lanturn','nidoking','solrock','torkoal','cottonee'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/unown-em.gif',
                                 'https://img.pokemondb.net/sprites/black-white/anim/shiny/corphish.gif'
@@ -874,7 +874,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b15','b26'],
                         shinys:['bellossom','escavalier','litwick','donphan','machamp','graveler','graveler','weezing','dodrio','hariyama','masquerain','igglybuff','snubbull','mantyke','clamperl','marill','boldore','scraggy',
-                                'tranquill','wobbuffet'
+                                'tranquill','wobbuffet','smoochum'
                         ],
                         destacados:[],
                         perdidos: [],
