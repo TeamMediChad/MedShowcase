@@ -60,7 +60,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b9','b12','b24'],
                         shinys:['raticate','ditto','marill','parasect','mienfoo','shuppet','duskull','smeargle','deino','magikarp','frillish-f','chatot','cottonee','cryogonal','swadloon','raticate','meowth','raticate',
-                                'lombre','golbat','poliwag'
+                                'lombre','golbat','poliwag','sneasel'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/zorua.gif'],
                         perdidos: ['https://media.giphy.com/media/yJy0PKLIFGlvtJJaew/giphy.gif'],
@@ -304,10 +304,10 @@ const memberData = {
                         ]
         },
         Jabubuu: {      name:'Jabubuu',
-                        rol: 'Chad',
+                        rol: 'MegaChad',
                         medallas:['b1','b9','b10','b11','b15','b19','b24','b26'],
                         shinys:['solrock','gastrodon','lopunny','politoed','scolipede','rattata','chandelure','bellossom','ninetales','azurill','lilligant','golem','rattata','vanillite','gorebyss','psyduck','wooper',
-                                'jumpluff','escavalier','deerling','gloom','ariados','weepinbell','graveler'
+                                'jumpluff','escavalier','deerling','gloom','ariados','weepinbell','graveler','graveler'
                         ],
                         destacados:['https://media.giphy.com/media/HpSnC62YvwsymoUU0o/giphy.gif',
                                 'https://media.giphy.com/media/qxLS97I8yoUYRzSdIj/giphy.gif',
@@ -870,7 +870,7 @@ const memberData = {
                         medallas:['b1','b15','b19','b26','b29'],
                         shinys:['golbat','crobat','mienshao','manectric','rapidash','magikarp','gyarados','tentacruel','swoobat','mamoswine','altaria','horsea','slugma','magcargo','duskull','lunatone','raticate','rattata',
                                 'ditto','sandshrew','amoonguss','dodrio','mismagius','flygon','murkrow','tyranitar','hydreigon','chandelure','vanilluxe','whimsicott','smeargle','gliscor','spinda','krookodile','haxorus',
-                                'zubat','graveler'
+                                'zubat','graveler','graveler'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/feraligatr.gif',
                                 'https://media.giphy.com/media/nUM3Kz42e3MZIkWuiv/giphy.gif'
