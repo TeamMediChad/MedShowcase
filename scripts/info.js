@@ -63,8 +63,10 @@ const memberData = {
                                 'lombre','golbat','poliwag'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/zorua.gif'],
-                        perdidos: [],
-                        vendidos: []
+                        perdidos: ['https://media.giphy.com/media/yJy0PKLIFGlvtJJaew/giphy.gif'],
+                        vendidos: ['https://media.giphy.com/media/ptSTYVxdNLH5oH4Siw/giphy.gif',
+                                'https://media.giphy.com/media/ptSTYVxdNLH5oH4Siw/giphy.gif'
+                        ]
         },
         AkaliWard: {    name:'AkaliWard',
                         rol: 'Chad',
