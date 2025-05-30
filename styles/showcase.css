@@ -109,6 +109,15 @@
 }
 
 
+.icon-container{
+  display: grid;
+  justify-content: center;
+  background-color: white;
+  border-radius: 0.5rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
 /* Info */
 
 /* Fondo oscuro */
@@ -122,6 +131,7 @@
   z-index: 50;
   visibility: hidden;
   opacity: 0;
+  flex-direction: column;
   transition: visibility 0.4s, opacity 0.35s;
 }
 

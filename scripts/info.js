@@ -56,6 +56,16 @@ const memberData = {
                         perdidos: [],
                         vendidos: ['https://media.giphy.com/media/vxRM9XurU5lvpae8Ko/giphy.gif']
         },
+        AguitaGooddUwU: {name:'AguitaGooddUwU',
+                        rol: 'Chad',
+                        medallas:['b9','b12','b24'],
+                        shinys:['raticate','ditto','marill','parasect','mienfoo','shuppet','duskull','smeargle','deino','magikarp','frillish-f','chatot','cottonee','cryogonal','swadloon','raticate','meowth','raticate',
+                                'lombre','golbat','poliwag'
+                        ],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/zorua.gif'],
+                        perdidos: [],
+                        vendidos: []
+        },
         AkaliWard: {    name:'AkaliWard',
                         rol: 'Chad',
                         medallas:['b1','b4','b5','b10','b12','b14','b15','b24','b26'],

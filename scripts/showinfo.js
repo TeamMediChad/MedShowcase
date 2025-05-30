@@ -230,7 +230,8 @@ function closeModal() {
 
 document.getElementById('modal').addEventListener('click', function (e) {
 const modalContent = document.querySelector('.modal-content');
-if (!modalContent.contains(e.target)) {
+const iconbar = document.querySelector('.icon-container');
+if (!modalContent.contains(e.target) && !iconbar.contains(e.target)) {
   closeModal();
 }
 });

@@ -28,6 +28,8 @@ mainContent.appendChild(topContainer);
 
 let globalIndex = 0;
 
+document.getElementById('Shinydex-header').textContent = `MeD Shinydex (${Object.keys(capturedBy).length + 1}/604)`;
+
 
 //shinydex cards
 for (const [genName, pokemonList] of Object.entries(generations)) {
