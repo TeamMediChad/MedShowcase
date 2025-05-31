@@ -33,7 +33,7 @@ function resolution(isPortrait){
 
   const modal3 = document.getElementById('modal3');
 
-  modal3.style.height = `${Math.floor((modal_content.style.height)*0.78)}px`;
+  modal3.style.height = `${Math.floor((modal_content.style.height)*0.72)}px`;
 
   const modal4 = document.getElementById('modal4');
   modal4.style.height = `${Math.floor((modal_content.style.height)*0.22)}px`;
