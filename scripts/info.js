@@ -572,7 +572,7 @@ const memberData = {
         },
         Moonlyze: {     name:'Moonlyze',
                         rol: 'MaxiChad',
-                        medallas:['b6','b9','b12','b18','b24','b26'],
+                        medallas:['b6','b9','b12','b15','b18','b24','b26'],
                         shinys:['smeargle','weezing','ninetales','wigglytuff','magikarp','ditto','bibarel','whismur'],
                         destacados:[],
                         perdidos: ['https://media.giphy.com/media/WMaKtMeEQ0nbIBSXL3/giphy.gif'],
@@ -704,7 +704,7 @@ const memberData = {
         },
         Panchimio: {    name: 'Panchimio',
                         rol: 'MaxiChad',
-                        medallas: ['b1','b4','b5','b13','b14','b18','b24','b26','b28','b29','b30'],
+                        medallas: ['b1','b4','b5','b13','b18','b24','b26','b28','b29','b30'],
                         shinys: ['ninetales','ponyta','golem','vulpix','swellow','bouffalant','chandelure','purrloin','lickilicky','budew','pidgey','pidgeot','tangrowth','growlithe',
                                 'jumpluff','solrock','vileplume','slugma','grimer','electrike'],
                         destacados: ['https://img.pokemondb.net/sprites/black-white/anim/shiny/riolu.gif',
@@ -805,12 +805,13 @@ const memberData = {
         },
         Seaba: {        name:'Seaba',
                         rol: 'Chad',
-                        medallas:['b8','b15','b16','b18','b26'],
+                        medallas:['b7','b8','b15','b16','b18','b26'],
                         shinys:['gigalith','chandelure','solrock','jynx','crobat','dusknoir','haxorus','hydreigon','gyarados','smeargle','psyduck','gardevoir','liepard','gothitelle','cinccino','jumpluff','masquerain',
                                 'accelgor','petilil','wingull'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/bisharp.gif',
-                                'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWEwM3prdjc2NWdmYTlvYTlidWh0cWViMDNjOG9pNHFicXIxOGx5aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/5goPOaLsUxMsfDIvTe/giphy.gif'
+                                'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWEwM3prdjc2NWdmYTlvYTlidWh0cWViMDNjOG9pNHFicXIxOGx5aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/5goPOaLsUxMsfDIvTe/giphy.gif',
+                                'https://media.giphy.com/media/aV92vbm8R8tZgg6Tvr/giphy.gif'
                         ],
                         perdidos: [],
                         vendidos: []
@@ -910,7 +911,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b15','b26'],
                         shinys:['bellossom','escavalier','litwick','donphan','machamp','graveler','graveler','weezing','dodrio','hariyama','masquerain','igglybuff','snubbull','mantyke','clamperl','marill','boldore','scraggy',
-                                'tranquill','wobbuffet','smoochum'
+                                'tranquill','wobbuffet','smoochum','patrat','persian'
                         ],
                         destacados:[],
                         perdidos: [],
