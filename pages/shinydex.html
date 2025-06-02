@@ -7,7 +7,6 @@
   <link rel="icon" type="image/png" href="../img/icon.png">
   <link rel="stylesheet" href="../styles/style.css">
   <link rel="stylesheet" href="../styles/shinydex.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MeD ShinyDex</title>
 </head>
 <body class="background">
@@ -20,12 +19,23 @@
     <a href="./mensual.html">Resumen mensual</a>
   </div>
 
-  <header id="Shinydex-header">MeD Shinydex (604/604)</header>
+  <div id="shinydex-loader">
+    <div class="spinner"></div>
+  </div>
+  
+  <header id="Shinydex-header" class="big-title">MeD Shinydex (604/604)</header>
 
   <div id="main-content" class="main-content" ="display: none;">
     <main id="main-content2"></main>
   </div>
 
+  <script>
+    window.addEventListener('load', () => {
+      document.getElementById('shinydex-loader').style.display = 'none';
+      document.getElementById('Shinydex-header').style.display = 'block';
+      document.getElementById('main-content').style.display = 'block';
+    });
+  </script>
   <script src="../scripts/info.js"></script>
   <script src="../scripts/shinydexdata.js"></script>
   <script src="../scripts/shinydex.js"></script>

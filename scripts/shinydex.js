@@ -16,7 +16,8 @@ topImg.onerror = () => {
     topImg.remove();
 };
 const topText = document.createElement("div");
-topText.textContent = `🎉 El que más ha registrado en la Shinydex es ${topData.trainer} con ${topData.count} Pokémon.`;
+topText.textContent = `🎉 El que mas ha registrado en la Shinydex es ${topData.trainer} con ${topData.count} Pokemon.`;
+topText.className = 'small-text-top';
 
 const img_wrap = document.createElement('div');
 img_wrap.className = "user-img-wrapper";

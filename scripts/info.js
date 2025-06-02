@@ -315,6 +315,17 @@ const memberData = {
 
                         ]
         },
+        IxGab: {        name:'IxGab',
+                        rol: 'Chad',
+                        medallas:['b12','b14','b26'],
+                        shinys:['kirlia','hydreigon','dragonair','crobat','accelgor','leavanny','weezing','dodrio','poliwag','linoone'],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/corphish.gif',
+                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/breloom.gif',
+                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/snivy.gif'
+                        ],
+                        perdidos: [],
+                        vendidos: []
+        },
         Iucifer: {      name:'Iucifer',
                         rol: 'MegaChad',
                         medallas:['b14','b24','b26'],
@@ -571,6 +582,14 @@ const memberData = {
                         perdidos: [],
                         vendidos: []
         },
+        Mexb: {         name:'Mexb',
+                        rol: 'Chad',
+                        medallas:['b0'],
+                        shinys:['dusclops','gallade','weezing','mienfoo','dugtrio','ponyta','chandelure','scrafty','smeargle','spinda','poliwrath','shellmet'],
+                        destacados:[],
+                        perdidos: [],
+                        vendidos: []
+        },
         Mikuwuu: {      name:'Mikuwuu',
                         rol: 'GigaChad',
                         medallas:['b11','b12','b13','b19','b26'],
@@ -761,6 +780,14 @@ const memberData = {
                         medallas:['b1','b13','b15','b19','b30'],
                         shinys:['ninetales','beedrill','teddiursa','golbat','weavile','lilligant','politoed','gothitelle','vanillish','purugly','bouffalant','shinx','purrloin'],
                         destacados:['https://media.giphy.com/media/85gvugRYucFsnkUNOZ/giphy.gif'],
+                        perdidos: [],
+                        vendidos: []
+        },
+        Payo: {         name:'Payo',
+                        rol: 'Chad',
+                        medallas:['b0'],
+                        shinys:['psyduck','roserade'],
+                        destacados:[],
                         perdidos: [],
                         vendidos: []
         },
@@ -970,7 +997,7 @@ const memberData = {
                         perdidos: [],
                         vendidos: []
         },
-        VicReborn: {    name:'VicReborn',
+        vitro: {        name:'vitro',
                         rol: 'Chad',
                         medallas:['b24','b30'],
                         shinys:[],

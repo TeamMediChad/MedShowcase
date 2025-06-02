@@ -1,0 +1,1 @@
+console.log("acá va ir todo lo que se use en todas las paginas");
