@@ -3,7 +3,7 @@ function getSpriteURL(name) {
 }
 
 
-const mainContent = document.getElementById("main-content");
+const mainContent = document.getElementById("main-content2");
 
 // Maestro apóstol
 const topContainer = document.createElement("div");
@@ -11,7 +11,6 @@ topContainer.className = "top-capturer";
 
 const topImg = document.createElement("img");
 topImg.src = `../Members_sprites/${topData.trainer}.png`;
-topImg.alt = topData.trainer;
 topImg.className = "user-img";
 topImg.onerror = () => {
     topImg.remove();

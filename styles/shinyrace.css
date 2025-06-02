@@ -1,0 +1,36 @@
+/* Grid de shinyrace */
+.wanted-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(342px, 20PX));
+  row-gap: 1rem;
+  column-gap: 20px;
+  justify-content: center;
+}
+/* cartel */
+.wanted-wrapper {
+  position: relative;
+  width: 342px;
+  height: 512px;
+  background-image: url('../img/wanted.png');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+/* gif */
+.poke-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: auto;
+  z-index: 1;
+}
+/* Grid de fases */
+.fases-container {
+  display: block;
+  grid-template-columns: repeat(auto-fit, minmax(342px, 20PX));
+  row-gap: 1rem;
+  column-gap: 20px;
+  justify-content: center;
+}

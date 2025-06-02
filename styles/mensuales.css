@@ -1,11 +1,19 @@
-#mensuales-comunes, #mensuales-raros {
+#mensuales-dex, #mensuales-destacados {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
+main {
+  flex-grow: 1;
+  padding: 1rem;
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
 
 /* Grid de tarjetas*/
-.mensuales-comunes {
+.mensuales-dex {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 20px));
   row-gap: 1rem;
@@ -13,7 +21,7 @@
   justify-content: center;
 }
 
-.mensuales-raros {
+.mensuales-destacados {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 20px));
   row-gap: 1rem;
@@ -68,4 +76,34 @@
   justify-content: center;
   width: 100%;
   height: 100px;
+}
+
+.user-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.user-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.2rem;
+  object-fit: contain;
+  display: block;
+}
+
+.top-capturer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #ffeaa7;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }

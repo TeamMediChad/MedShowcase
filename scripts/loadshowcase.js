@@ -1,8 +1,3 @@
-window.addEventListener('load', function () {
-  document.getElementById('loader').style.display = 'none';
-  document.getElementById('main-content').style.display = 'block';
-});
-
 const member_container = document.getElementById('member-container');
 member_container.innerHTML = '';
 
@@ -99,6 +94,25 @@ miembros.forEach(key => {
     const tooltip = document.createElement('span');
     tooltip.className = 'tooltiptext';
     tooltip.textContent = 'Lider';
+
+    tooltipWrapper.appendChild(icon);
+    tooltipWrapper.appendChild(tooltip);
+
+    iconContainer.appendChild(tooltipWrapper);
+  }
+
+  //shunter del mes
+  if(miembro.medallas.includes('b11')){
+    const icon = document.createElement('img');
+    icon.src = '../img/shunter_medal.png';
+    icon.className = 'card-icon';
+    
+    const tooltipWrapper = document.createElement('span');
+    tooltipWrapper.className = 'tooltip';
+
+    const tooltip = document.createElement('span');
+    tooltip.className = 'tooltiptext';
+    tooltip.textContent = 'Shunter del mes';
 
     tooltipWrapper.appendChild(icon);
     tooltipWrapper.appendChild(tooltip);
