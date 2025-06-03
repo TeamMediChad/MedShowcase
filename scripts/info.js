@@ -222,7 +222,7 @@ const memberData = {
         Distraaa: {     name:'Distraaa',
                         rol: 'Chad',
                         medallas:['b0'],
-                        shinys:['crobat','litwick','altaria','ditto','raticate','ditto','shuppet','smeargle'],
+                        shinys:['crobat','litwick','altaria','ditto','raticate','ditto','shuppet','smeargle','duskull'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []
@@ -440,7 +440,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b9','b12','b24'],
                         shinys:['raticate','gyarados','exploud','sneasel','duskull','smeargle','koffing','chandelure','haxorus','deino','beedrill','ursaring','masquerain','camerupt','psyduck','graveler','snorunt','nidoking',
-                                'zigzagoon','raticate','parasect'
+                                'zigzagoon','raticate','parasect','raticate'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/luvdisc.gif',
                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/treecko.gif' 
@@ -585,7 +585,7 @@ const memberData = {
         Mexb: {         name:'Mexb',
                         rol: 'Chad',
                         medallas:['b0'],
-                        shinys:['dusclops','gallade','weezing','mienfoo','dugtrio','ponyta','chandelure','scrafty','smeargle','spinda','poliwrath','shellmet'],
+                        shinys:['dusclops','gallade','weezing','mienfoo','dugtrio','ponyta','chandelure','scrafty','smeargle','spinda','poliwrath','accelgor'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []

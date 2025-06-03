@@ -22,7 +22,6 @@ body {
   display: flex;
 	width: 100%;
 	margin: auto;
-	justify-content: space-between;
 	text-align: center;
 }
 
