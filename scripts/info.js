@@ -327,7 +327,7 @@ const memberData = {
                         rol: 'MegaChad',
                         medallas:['b1','b9','b10','b11','b15','b18','b19','b24','b26'],
                         shinys:['solrock','gastrodon','lopunny','politoed','scolipede','rattata','chandelure','bellossom','ninetales','azurill','lilligant','golem','rattata','vanillite','gorebyss','psyduck','wooper',
-                                'jumpluff','escavalier','deerling','gloom','ariados','weepinbell','graveler','graveler'
+                                'jumpluff','escavalier','deerling','gloom','ariados','weepinbell','graveler','graveler','sableye'
                         ],
                         destacados:['https://media.giphy.com/media/HpSnC62YvwsymoUU0o/giphy.gif',
                                 'https://media.giphy.com/media/rZB8ws1KfCkByqtjn5/giphy.gif',
@@ -540,7 +540,7 @@ const memberData = {
         MasterSainz: {  name:'MasterSainz',
                         rol: 'Chad',
                         medallas:['b24'],
-                        shinys:[],
+                        shinys:['donphan'],
                         destacados:[],
                         perdidos: [],
                         vendidos: ['https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif',
@@ -870,9 +870,11 @@ const memberData = {
         },
         sadending: {    name:'sadending',
                         rol: 'Chad',
-                        medallas:['b8','b10'],
+                        medallas:['b8','b10','b18'],
                         shinys:['poochyena','poochyena','zigzagoon','bidoof','ponyta','wurmple','magikarp','mienshao'],
-                        destacados:['https://media.giphy.com/media/2pKZUMHKeaw2v48YC7/giphy.gif'],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/shroomish.gif',
+                                'https://media.giphy.com/media/2pKZUMHKeaw2v48YC7/giphy.gif'
+                        ],
                         perdidos: [],
                         vendidos: []
         },
