@@ -550,7 +550,7 @@ const memberData = {
         Maxii: {        name:'Maxii',
                         rol: 'Chad',
                         medallas:['b26'],
-                        shinys:['aggron','dusclops','eelektross','golduck','alakazam','weezing','grimer','magcargo','krabby'],
+                        shinys:['aggron','dusclops','eelektross','golduck','alakazam','weezing','grimer','magcargo','krabby','loudred'],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/heracross.gif'],
                         perdidos: [],
                         vendidos: []
