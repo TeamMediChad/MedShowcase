@@ -286,23 +286,10 @@ const memberData = {
         HoraxPC: {      name:'HoraxPC',
                         rol: 'Chad',
                         medallas:['b0'],
-                        shinys:['haxorus','klink','klinklang','chandelure'],
+                        shinys:['haxorus','klink','klinklang','chandelure','onix'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []
-        },
-        IgnacioCZ: {    name:'IgnacioCZ',
-                        rol: 'Chad',
-                        medallas:['b24','b26'],
-                        shinys:['klinklang'],
-                        destacados:[],
-                        perdidos: [],
-                        vendidos: ['https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif',
-                                'https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif',
-                                'https://media.giphy.com/media/2XolNQLvYlGqCJ1N0r/giphy.gif',
-                                'https://media.giphy.com/media/vQHNb11Syu3aXoKUBz/giphy.gif'
-
-                        ]
         },
         IxGab: {        name:'IxGab',
                         rol: 'Chad',
@@ -559,7 +546,9 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b12','b15','b26'],
                         shinys:['onix','chandelure','gliscor','banette','gyarados','smeargle','exploud','tentacruel'],
-                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/luvdisc.gif'],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/luvdisc.gif',
+                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/remoraid.gif'
+                        ],
                         perdidos: [],
                         vendidos: []
         },
@@ -767,7 +756,7 @@ const memberData = {
         Payo: {         name:'Payo',
                         rol: 'Chad',
                         medallas:['b0'],
-                        shinys:['psyduck','roserade','golett'],
+                        shinys:['psyduck','roserade','golett','rapidash'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []
