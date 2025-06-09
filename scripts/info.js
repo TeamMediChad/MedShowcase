@@ -151,10 +151,10 @@ const memberData = {
                         perdidos: [],
                         vendidos: []
         },
-        CeceMerdosa: {  name:'CeceMerdosa',
+        Cece: {         name:'Cece',
                         rol: 'MaxiChad',
                         medallas:['b4','b6','b30'],
-                        shinys:['sneasel','meditite','luxio','girafarig','wingull','magmar','deerling','golett'],
+                        shinys:['sneasel','meditite','luxio','girafarig','wingull','magmar','deerling','golett','weedle'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []
@@ -285,7 +285,7 @@ const memberData = {
         },
         HoraxPC: {      name:'HoraxPC',
                         rol: 'Chad',
-                        medallas:['b0'],
+                        medallas:['b15'],
                         shinys:['haxorus','klink','klinklang','chandelure','onix'],
                         destacados:[],
                         perdidos: [],
@@ -642,7 +642,7 @@ const memberData = {
         must: {         name:'must',
                         rol: 'Chad',
                         medallas:['b7','b9','b18','b24'],
-                        shinys:['pidgeot','persian','ludicolo','mantine','altaria','smeargle','hoothoot','poochyena','meowth','beautifly','wingull','jumpluff'],
+                        shinys:['pidgeot','persian','ludicolo','mantine','altaria','smeargle','hoothoot','poochyena','meowth','beautifly','wingull','jumpluff','poliwag'],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/furret.gif',
                                 'https://img.pokemondb.net/sprites/black-white/anim/shiny/sceptile.gif',
                                 'https://media.giphy.com/media/GKVQ6Xdjm9DDDIb63C/giphy.gif'
@@ -738,15 +738,14 @@ const memberData = {
         Pancho: {       name: 'Pancho',
                         rol: 'MaxiChad',
                         medallas: ['b1','b4','b5','b13','b18','b24','b26','b28','b29','b30'],
-                        shinys: ['ninetales','ponyta','golem','vulpix','swellow','bouffalant','chandelure','purrloin','lickilicky','budew','pidgey','pidgeot','tangrowth','growlithe',
+                        shinys: ['nidoking','ninetales','ponyta','golem','vulpix','swellow','bouffalant','chandelure','purrloin','lickilicky','budew','pidgey','pidgeot','tangrowth','growlithe',
                                 'jumpluff','solrock','vileplume','slugma','grimer','electrike'],
                         destacados: ['https://img.pokemondb.net/sprites/black-white/anim/shiny/riolu.gif',
                                 'https://img.pokemondb.net/sprites/black-white/anim/shiny/furret.gif',
                                 'https://img.pokemondb.net/sprites/black-white/anim/shiny/simisear.gif'
                         ],
                         perdidos: [],
-                        vendidos: ['https://media.giphy.com/media/iaE6ItdRy56H79jQjg/giphy.gif',
-                                'https://media.giphy.com/media/EaNDmWPv4U1x4Jy7tM/giphy.gif',
+                        vendidos: ['https://media.giphy.com/media/EaNDmWPv4U1x4Jy7tM/giphy.gif',
                                 'https://media.giphy.com/media/ptSTYVxdNLH5oH4Siw/giphy.gif',
                                 'https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
                                 'https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
@@ -1003,7 +1002,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b10','b15','b19'],
                         shinys:['tentacruel','tentacruel','ponyta','hydreigon','altaria','cottonee','reuniclus','amoonguss','machoke','gurdurr','cubchoo','dodrio','golbat','accelgor',
-                                'amoonguss','gastrodon'
+                                'amoonguss','gastrodon','mienfoo'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/zoroark.gif',
                                 'https://media.giphy.com/media/QvBYmu8hATjJhgUuCS/giphy.gif',
