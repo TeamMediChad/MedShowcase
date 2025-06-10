@@ -416,7 +416,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b9','b12','b24'],
                         shinys:['raticate','gyarados','exploud','sneasel','duskull','smeargle','koffing','chandelure','haxorus','deino','beedrill','ursaring','masquerain','camerupt','psyduck','graveler','snorunt','nidoking',
-                                'zigzagoon','raticate','parasect','raticate'
+                                'zigzagoon','raticate','parasect','raticate','lombre'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/luvdisc.gif',
                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/treecko.gif' 
@@ -674,7 +674,7 @@ const memberData = {
         nyumichaelis: {name:'nyumichaelis',
                         rol: 'Chad',
                         medallas:['b10','b15','b18','b24','b26','b29'],
-                        shinys:['tentacruel','bouffalant','rapidash','ponyta','scolipede','slugma','lopunny','poochyena','weedle','steelix','cottonee','bibarel','silcoon','beautifly','graveler','golem'],
+                        shinys:['tentacruel','bouffalant','rapidash','ponyta','scolipede','slugma','lopunny','poochyena','weedle','steelix','cottonee','bibarel','silcoon','dustox','beautifly','graveler','golem'],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/zorua.gif',
                                 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTR4MDgyYzNpejJicGR6dGJqYnFvYmpibjc2ejd6NmlyeWZtdHNhdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/A9lxfTVpkbM0x68HlH/giphy.gif',
                                 'https://media.giphy.com/media/4fOM1fIVBlAM7xh90c/giphy.gif'
