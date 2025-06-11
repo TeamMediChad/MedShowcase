@@ -416,7 +416,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b9','b12','b24'],
                         shinys:['raticate','gyarados','exploud','sneasel','duskull','smeargle','koffing','chandelure','haxorus','deino','beedrill','ursaring','masquerain','camerupt','psyduck','graveler','snorunt','nidoking',
-                                'zigzagoon','raticate','parasect','raticate','lombre'
+                                'zigzagoon','raticate','parasect','raticate','lombre','raticate'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/luvdisc.gif',
                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/treecko.gif' 
