@@ -189,7 +189,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b20'],
                         shinys:['exploud','gallade','amoonguss','durant','banette','rapidash','ditto','poliwrath','darumaka','haunter','ditto','heatmor','arcanine','poliwrath','beedrill','ralts','raticate','meowth','sawk',
-                                'gothitelle','deino','cubchoo','vanilluxe','petilil','diglett','stantler','noctowl','nidorino','venipede'],
+                                'gothitelle','deino','cubchoo','vanilluxe','petilil','diglett','stantler','noctowl','nidorino','venipede','grimer'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []
@@ -306,7 +306,7 @@ const memberData = {
                         rol: 'MegaChad',
                         medallas:['b14','b24','b26'],
                         shinys:['roselia','mienfoo','mienshao','swoobat','solrock','mienfoo','mienfoo','wooper','swablu','stunfisk','golett'],
-                        destacados:[],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/sentret.gif'],
                         perdidos: [],
                         vendidos: []
         },
@@ -414,9 +414,9 @@ const memberData = {
         },
         Kriber: {       name:'Kriber',
                         rol: 'Chad',
-                        medallas:['b9','b12','b24'],
+                        medallas:['b9','b12','b15','b24'],
                         shinys:['raticate','gyarados','exploud','sneasel','duskull','smeargle','koffing','chandelure','haxorus','deino','beedrill','ursaring','masquerain','camerupt','psyduck','graveler','snorunt','nidoking',
-                                'zigzagoon','raticate','parasect','raticate','lombre','raticate'
+                                'zigzagoon','raticate','parasect','raticate','lombre','raticate','tangela','krokorok'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/luvdisc.gif',
                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/treecko.gif' 
@@ -555,7 +555,7 @@ const memberData = {
         Mexb: {         name:'Mexb',
                         rol: 'Chad',
                         medallas:['b0'],
-                        shinys:['dusclops','gallade','weezing','mienfoo','dugtrio','ponyta','chandelure','scrafty','smeargle','spinda','poliwrath','accelgor'],
+                        shinys:['dusclops','gallade','weezing','mienfoo','dugtrio','ponyta','chandelure','scrafty','smeargle','spinda','poliwrath','accelgor','mienfoo'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []
@@ -850,7 +850,7 @@ const memberData = {
                                 'larvitar','seviper','snorunt','geodude','cubchoo','cubchoo','cubchoo','ponyta','stantler','sableye','golduck','cottonee','sawsbuck','stunky','dratini','wooper','eelektross','jigglypuff',
                                 'spinda','zangoose','swadloon','mawile','zubat','kingdra','psyduck','cryogonal','torkoal','poochyena','beartic','vanillish','victreebel','deerling','deerling-autumn','krokorok','weezing',
                                 'fearow','fearow','fearow','jumpluff','flygon','shuppet','scraggy','darmanitan','herdier','jynx','pidgey','weepinbell','spearow','chandelure','bronzong','bronzong','lairon','gabite',
-                                'surskit','pidove'
+                                'surskit','pidove','clamperl'
                         ],
                         destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/nincada.gif',
                                 'https://img.pokemondb.net/sprites/black-white/anim/shiny/swampert.gif',
