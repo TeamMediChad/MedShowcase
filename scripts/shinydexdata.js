@@ -421,7 +421,7 @@ const capturedBy = {
   bibarel: 'Moonlyze', 
   kricketune: 'JuniorJMx', 
   shinx: 'Akalii', 
-  luxio: 'chunchumaru', 
+  luxio: 'Cece', 
   luxray: 'Krackon', 
   budew: 'Pancho', 
   roserade: 'DavidCitos', 
