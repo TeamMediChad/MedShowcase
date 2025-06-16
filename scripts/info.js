@@ -154,7 +154,7 @@ const memberData = {
         Cece: {         name:'Cece',
                         rol: 'MaxiChad',
                         medallas:['b4','b6','b30'],
-                        shinys:['sneasel','meditite','luxio','girafarig','wingull','magmar','deerling','golett','weedle'],
+                        shinys:['sneasel','meditite','luxray','girafarig','wingull','magmar','deerling','golett','weedle'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []
