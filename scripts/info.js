@@ -234,7 +234,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b15','b18','b26'],
                         shinys:['smeargle','beedrill','haxorus','poliwrath','weavile','banette','weezing','amoonguss','spinda','ditto'],
-                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/slakoth.gif'],
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/slaking.gif'],
                         perdidos: [],
                         vendidos: []
         },

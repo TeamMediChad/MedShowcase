@@ -345,6 +345,8 @@ const capturedBy = {
   shroomish: 'KnowJiYong', 
   breloom: 'KnowJiYong',
   slakoth: 'Estorbiito',
+  vigoroth: 'Estorbiito',
+  slaking: 'Estorbiito',
   nincada: 'ritosenpai', 
   whismur: 'MixZeppeli', 
   loudred: 'MixZeppeli', 
