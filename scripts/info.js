@@ -308,7 +308,8 @@ const memberData = {
                                 'jumpluff','escavalier','deerling','gloom','ariados','weepinbell','graveler','graveler','sableye'
                         ],
                         destacados:['https://media.giphy.com/media/HpSnC62YvwsymoUU0o/giphy.gif',
-                                'https://media.giphy.com/media/rZB8ws1KfCkByqtjn5/giphy.gif'
+                                'https://media.giphy.com/media/rZB8ws1KfCkByqtjn5/giphy.gif',
+                                'https://media.giphy.com/media/5XY7dRvTVNprm5Givp/giphy.gif'
                         ],
                         perdidos: ['https://media.giphy.com/media/JLXanaUxCRYzlAEKWp/giphy.gif'],
                         vendidos: ['https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDFwaGc5MmNwMWgyMmNkdmwyOG9wenoyNGYxanF1b3BreTVsbzg2dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WwQzqNsYX0l6SgCQZV/giphy.gif']
