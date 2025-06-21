@@ -16,6 +16,16 @@
   background-position: center;
   overflow: hidden;
 }
+
+.wanted-wrapper2 {
+  position: relative;
+  width: 169px;
+  height: 254px;
+  background-image: url('../img/wanted-captured.png');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
 /* gif */
 .poke-img {
   position: absolute;
@@ -26,12 +36,45 @@
   height: auto;
   z-index: 1;
 }
-/* Grid de fases */
-.fases-container {
+
+.winner-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+  object-fit: contain;
   display: block;
-  grid-template-columns: repeat(auto-fit, minmax(342px, 20PX));
-  row-gap: 1rem;
-  column-gap: 20px;
-  justify-content: center;
+  transform: translateY(150px);
+  z-index: 3; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.winner-img2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+  object-fit: contain;
+  display: block;
+  transform: translateY(160px);
+  z-index: 3; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.captured-img {
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  display: block;
+  transform: translateY(100px);
+  z-index: 2; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
