@@ -38,7 +38,7 @@ const memberData = {
         AdrixJK: {      name:'AdrixJK',
                         rol: 'Chad',
                         medallas:['b9','b10','b15','b24','b26','b32'],
-                        shinys:[],
+                        shinys:['raticate','ditto'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []
@@ -116,7 +116,7 @@ const memberData = {
         AnderHacks: {   name:'AnderHacks',
                         rol: 'Chad',
                         medallas:['b0'],
-                        shinys:['mienshao','camerupt','wooper','psyduck','durant','bibarel'],
+                        shinys:['mienshao','camerupt','wooper','psyduck','durant','bibarel','roselia'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []
@@ -249,7 +249,7 @@ const memberData = {
         Guabixd: {      name:'Guabixd',
                         rol: 'Chad',
                         medallas:['b16','b24','b26'],
-                        shinys:['bibarel'],
+                        shinys:['bibarel','gothita'],
                         destacados:[],
                         perdidos: [],
                         vendidos: ['https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif',
@@ -656,7 +656,8 @@ const memberData = {
                         shinys:['weavile','tentacruel','amoonguss','sandslash','gligar','grimer','koffing','meowth','poochyena','zigzagoon','pelipper','wingull','mienshao','ditto','accelgor','ledyba','hoothoot',
                                 'bellsprout'
                         ],
-                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/remoraid.gif',
+                        destacados:['https://img.pokemondb.net/sprites/black-white/anim/shiny/pansage.gif',
+                                'https://img.pokemondb.net/sprites/black-white/anim/shiny/remoraid.gif',
                                 'https://img.pokemondb.net/sprites/black-white/anim/shiny/slakoth.gif',
                                 'https://img.pokemondb.net/sprites/black-white/anim/shiny/shroomish.gif',
                                 'https://img.pokemondb.net/sprites/black-white/anim/shiny/pawniard.gif',
@@ -732,7 +733,7 @@ const memberData = {
         pimientadaza: { name:'pimientadaza',
                         rol: 'Chad',
                         medallas:['b24','b26'],
-                        shinys:['haxorus','muk'],
+                        shinys:['haxorus','muk','fearow'],
                         destacados:[],
                         perdidos: [],
                         vendidos: ['https://media.giphy.com/media/AB2zHXNURMrFmsWTee/giphy.gif']
