@@ -11,7 +11,7 @@
   position: relative;
   width: 169px;
   height: 254px;
-  background-image: url('../img/wanted.png');
+  background-image: url('../img/Race/wanted.png');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -21,7 +21,7 @@
   position: relative;
   width: 169px;
   height: 254px;
-  background-image: url('../img/wanted-captured.png');
+  background-image: url('../img/Race/wanted-captured.png');
   background-size: cover;
   background-position: center;
   overflow: hidden;

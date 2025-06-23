@@ -458,6 +458,8 @@ const capturedBy = {
   munchlax: 'Gamermanco',
   riolu: "Pancho",
   lucario: "Pancho",
+  hippopotas: "aeamanh",
+  hippowdon: "aeamanh",
   skorupi: 'YuukiTwo', 
   drapion: 'YuukiTwo', 
   finneon: 'KnowJiYong', 

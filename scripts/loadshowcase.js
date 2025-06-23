@@ -26,7 +26,7 @@ miembros.forEach(key => {
   if(miembro.rol == 'MegaChad'){
 
     const icon = document.createElement('img');
-    icon.src = '../img/mega_icon.png';
+    icon.src = '../img/Medals/mega_icon.png';
     icon.className = 'card-icon';
 
     const tooltipWrapper = document.createElement('span');
@@ -47,7 +47,7 @@ miembros.forEach(key => {
   //GigaChad
   if(miembro.rol == 'GigaChad'){
     const icon = document.createElement('img');
-    icon.src = '../img/giga_icon.png';
+    icon.src = '../img/Medals/giga_icon.png';
     icon.className = 'card-icon';
     
     const tooltipWrapper = document.createElement('span');
@@ -66,7 +66,7 @@ miembros.forEach(key => {
   //MaxiChad
   if(miembro.rol == 'MaxiChad'){
     const icon = document.createElement('img');
-    icon.src = '../img/maxi_icon.png';
+    icon.src = '../img/Medals/maxi_icon.png';
     icon.className = 'card-icon';
     
     const tooltipWrapper = document.createElement('span');
@@ -85,7 +85,7 @@ miembros.forEach(key => {
   //Lider
   if(miembro.rol == 'Lider'){
     const icon = document.createElement('img');
-    icon.src = '../img/lider_icon.png';
+    icon.src = '../img/Medals/lider_icon.png';
     icon.className = 'card-icon';
     
     const tooltipWrapper = document.createElement('span');
@@ -104,7 +104,7 @@ miembros.forEach(key => {
   //shunter del mes
   if(miembro.medallas.includes('b11')){
     const icon = document.createElement('img');
-    icon.src = '../img/shunter_medal.png';
+    icon.src = '../img/Medals/shunter_medal.png';
     icon.className = 'card-icon';
     
     const tooltipWrapper = document.createElement('span');
@@ -123,7 +123,7 @@ miembros.forEach(key => {
   //race winner
   if(miembro.medallas.includes('b13')){
     const icon = document.createElement('img');
-    icon.src = '../img/racewinner_medal.png';
+    icon.src = '../img/Medals/racewinner_medal.png';
     icon.className = 'card-icon';
     
     const tooltipWrapper = document.createElement('span');
@@ -142,7 +142,7 @@ miembros.forEach(key => {
   //Golden dex
   if(miembro.name == topData.trainer){
     const icon = document.createElement('img');
-    icon.src = '../img/goldendex_medal.png';
+    icon.src = '../img/Medals/goldendex_medal.png';
     icon.className = 'card-icon';
     
     const tooltipWrapper = document.createElement('span');
@@ -161,7 +161,7 @@ miembros.forEach(key => {
   //Supremo Pecador
   if(miembro.name == 'AdrixJK'){
     const icon = document.createElement('img');
-    icon.src = '../img/supremopecador_medal.png';
+    icon.src = '../img/Medals/supremopecador_medal.png';
     icon.className = 'card-icon';
     
     const tooltipWrapper = document.createElement('span');

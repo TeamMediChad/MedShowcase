@@ -217,6 +217,7 @@ function showInfo(personKey) {
   document.getElementById('shiny-container2').classList.remove("hidden");
   document.getElementById('shiny-container').classList.remove("hidden");
   document.getElementById('shiny-container4').classList.remove("hidden");
+  document.getElementById('shiny-btn').disabled = true;
 
   document.getElementById('modal').style.opacity = 100;
   document.getElementById('modal').style.visibility = 'visible';
@@ -244,7 +245,11 @@ function show_shiny() {
     document.getElementById('shiny-container').classList.remove("hidden");
     document.getElementById('shiny-container4').classList.remove("hidden");
     document.getElementById('shiny-btn').style.backgroundColor = '#838383';
+    document.getElementById('shiny-btn').style.pointerEvents = 'auto';
     document.getElementById('sell-btn').style.backgroundColor = '#ef4444';
+    document.getElementById('sell-btn').style.pointerEvents = 'pointer';
+    document.getElementById('shiny-btn').disabled = true;
+    document.getElementById('sell-btn').disabled = false;
     const espacio2 = document.getElementById('espacio2');
     if (memberData[nombre].perdidos.length == 0){
       espacio2.style = "height: 0rem;";
@@ -263,8 +268,12 @@ function show_sell() {
     document.getElementById('shiny-container4').classList.add("hidden");
     document.getElementById('shiny-container3').classList.remove("hidden");
     document.getElementById('shiny-btn').style.backgroundColor = '#ef4444';
+    document.getElementById('shiny-btn').style.pointerEvents = 'pointer';
     document.getElementById('sell-btn').style.backgroundColor = '#838383';
+    document.getElementById('sell-btn').style.pointerEvents = 'auto';
     document.getElementById('espacio2').style = "height: 0rem;";
+    document.getElementById('shiny-btn').disabled = false;
+    document.getElementById('sell-btn').disabled = true;
     if(!memberData[nombre].medallas.includes('b32')){
       document.getElementById('modal-title2').textContent = `Vendidos (${memberData[nombre].vendidos.length})`;
     } else {

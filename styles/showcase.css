@@ -19,7 +19,7 @@
 .card {
   width: 250px;
   height: 280px;
-  background-image: url(../img/card.png);
+  background-image: url("../img/Cards/card.png");
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;
@@ -28,14 +28,14 @@
   text-align: center;
   align-items: center;
   vertical-align: text-bottom;
-  transition: background-image 0.3s ease;
+  transition: background-image 0.3s ease, filter 0.3s ease;
   position: relative;
 }
 
 .card-gold {
   width: 250px;
   height: 280px;
-  background-image: url(../img/card_gold.png);
+  background-image: url("../img/Cards/card_gold.png");
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;
@@ -44,16 +44,42 @@
   text-align: center;
   align-items: center;
   vertical-align: text-bottom;
-  transition: background-image 0.3s ease;
+  transition: background-image 0.3s ease, filter 0.3s ease;
   position: relative;
 }
 
 .card:hover {
-  background-image: url(../img/card_hover.png);
+  background-image: url("../img/Cards/card_hover.png");
+  filter: drop-shadow(rgb(124, 186, 238,0.9) 0px 4px 12px);
+}
+
+.card:hover .card-img {
+  transform: scale(1.05);
+}
+
+.card:hover .card-title {
+  transform: translateY(-2px);
+}
+
+.card:hover .card-role {
+  transform: translateY(-2px);
 }
 
 .card-gold:hover {
-  background-image: url(../img/card_gold_hover.png);
+  background-image: url("../img/Cards/card_gold_hover.png");
+  filter: drop-shadow(rgb(156, 204, 163,0.9) 0px 4px 12px);
+}
+
+.card-gold:hover .card-title {
+  transform: translateY(-2px);
+}
+
+.card-gold:hover .card-role {
+  transform: translateY(-2px);
+}
+
+.card-gold:hover .card-img {
+  transform: scale(1.05);
 }
 
 /* Medalla en tarjeta */
@@ -78,6 +104,7 @@
   margin-bottom: 0.5rem;
   object-fit: contain;
   display: block;
+  transition: transform 0.3s ease;
 }
 
 .card-img-wrapper {
@@ -95,6 +122,7 @@
   bottom: 0;
   vertical-align: text-bottom;
   text-align: center;
+  transition: transform 0.3s ease;
 }
 
 /* Rol Miembro */
@@ -103,6 +131,7 @@
   bottom: 10;
   vertical-align: text-bottom;
   text-align: center;
+  transition: transform 0.3s ease;
 }
 
 
@@ -135,8 +164,10 @@
 
 /* Fondo Info */
 .modal-content {
-  background-color: white;
+  background-image: url("../img/Background/showcasebackground.gif");
   border-radius: 0.5rem;
+  border-color: rgb(203, 193, 193);
+  border-width: 2px;
   padding: 5px;
   width: 90%;
   display: grid;
@@ -152,6 +183,9 @@
   font-size: 1.25rem;
   font-weight: 600;
   height: 30px;
+  font-family: "Retro";
+  font-size: 20px;
+  color: #fff;
 }
 
 .modal1 { 
@@ -161,7 +195,6 @@
   align-items: center;
   overflow-y: auto;
   overflow-x: hidden;
-
 }
 .modal2 {
   grid-area: 9 / 1 / 10 / 3;
@@ -184,6 +217,9 @@
   bottom: 0;
   vertical-align: text-bottom;
   text-align: center;
+  font-family: "Retro";
+  font-size: 30px;
+  color: #fff;
 }
 
 /* Personaje */
@@ -290,6 +326,7 @@
   padding: 0.25rem 0.75rem;
   border-radius: 9999px;
   font-size: 0.875rem;
+  image-rendering: pixelated;
 }
 
 /* Desc Medalla */
