@@ -6,6 +6,7 @@
 @font-face {
   font-family: 'Retro';
   src: url('../fonts/pokemon-ds-font.ttf') format('truetype');
+  image-rendering: pixelated;
 }
 
 html {

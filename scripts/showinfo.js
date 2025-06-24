@@ -134,8 +134,35 @@ function showInfo(personKey) {
   // destacados
   destacados.forEach(id => {
     const destacadosEl = document.createElement('img');
-    destacadosEl.src = `${id}`;
+    if(id.type == "normal"){
+      destacadosEl.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id.link}.gif`;
+    } else {
+      destacadosEl.src = `${id.link}`;
+    }
+    
+    if(id.type == "alpha"){
+      destacadosEl.className = "shiny-img-alpha";
+    } else {
+      destacadosEl.className = "shiny-img";
+    }
+    /*
+    if(id.type == "secret"){
+      const shinyWrap = document.createElement('div');
+      shinyWrap.className = "shiny-img-wrap";
+      const overlay = document.createElement('img');
+      overlay.className = "overlay-gif";
+      overlay.src = `../img/XiPv.gif`;
+
+      shinyWrap.appendChild(destacadosEl);
+      shinyWrap.appendChild(overlay);
+      shiny_container2.appendChild(shinyWrap);
+    } else {
+      shiny_container2.appendChild(destacadosEl);
+    }*/
+
     shiny_container2.appendChild(destacadosEl);
+
+  
   });
 
   if(shinys.length == 0 && destacados.length == 0 && perdidos.length == 0){
@@ -167,6 +194,7 @@ function showInfo(personKey) {
   perdidos.forEach(id => {
     const perdidosEl = document.createElement('img');
     perdidosEl.src = `${id}`;
+    perdidosEl.className = "shiny-img";
     shiny_container4.appendChild(perdidosEl);
   });
 
@@ -174,6 +202,7 @@ function showInfo(personKey) {
   vendidos.forEach(id => {
     const vendidosEl = document.createElement('img');
     vendidosEl.src = `${id}`;
+    vendidos.className = "shiny-img";
     shiny_container3.appendChild(vendidosEl);
     
   });
@@ -212,12 +241,11 @@ function showInfo(personKey) {
   document.getElementById('shiny-container').classList.add("hidden");
   document.getElementById('shiny-container3').classList.add("hidden");
   document.getElementById('shiny-container4').classList.add("hidden");
-  document.getElementById('shiny-btn').style.backgroundColor = '#838383';
-  document.getElementById('sell-btn').style.backgroundColor = '#ef4444';
   document.getElementById('shiny-container2').classList.remove("hidden");
   document.getElementById('shiny-container').classList.remove("hidden");
   document.getElementById('shiny-container4').classList.remove("hidden");
   document.getElementById('shiny-btn').disabled = true;
+  document.getElementById('sell-btn').disabled = false;
 
   document.getElementById('modal').style.opacity = 100;
   document.getElementById('modal').style.visibility = 'visible';
@@ -244,9 +272,7 @@ function show_shiny() {
     document.getElementById('shiny-container2').classList.remove("hidden");
     document.getElementById('shiny-container').classList.remove("hidden");
     document.getElementById('shiny-container4').classList.remove("hidden");
-    document.getElementById('shiny-btn').style.backgroundColor = '#838383';
     document.getElementById('shiny-btn').style.pointerEvents = 'auto';
-    document.getElementById('sell-btn').style.backgroundColor = '#ef4444';
     document.getElementById('sell-btn').style.pointerEvents = 'pointer';
     document.getElementById('shiny-btn').disabled = true;
     document.getElementById('sell-btn').disabled = false;
@@ -267,9 +293,7 @@ function show_sell() {
     document.getElementById('shiny-container2').classList.add("hidden");
     document.getElementById('shiny-container4').classList.add("hidden");
     document.getElementById('shiny-container3').classList.remove("hidden");
-    document.getElementById('shiny-btn').style.backgroundColor = '#ef4444';
     document.getElementById('shiny-btn').style.pointerEvents = 'pointer';
-    document.getElementById('sell-btn').style.backgroundColor = '#838383';
     document.getElementById('sell-btn').style.pointerEvents = 'auto';
     document.getElementById('espacio2').style = "height: 0rem;";
     document.getElementById('shiny-btn').disabled = false;
