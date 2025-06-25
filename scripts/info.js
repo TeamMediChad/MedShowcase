@@ -386,7 +386,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b15','b24','b26'],
                         shinys:['gigalith','altaria','raticate','politoed','victreebel','accelgor','quagsire','donphan','hydreigon','ludicolo','poliwrath','chandelure','magcargo','haxorus','darmanitan','psyduck','doduo',
-                                'gyarados','smeargle','weezing','braviary','jellicent-f','raichu','rapidash','gurdurr'
+                                'gyarados','smeargle','weezing','braviary','jellicent-f','raichu','rapidash','gurdurr','grimer'
                         ],
                         destacados:[],
                         perdidos: [],
@@ -659,13 +659,14 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b10','b12','b15','b18','b24'],
                         shinys:['weavile','tentacruel','amoonguss','sandslash','gligar','grimer','koffing','meowth','poochyena','zigzagoon','pelipper','wingull','mienshao','ditto','accelgor','ledyba','hoothoot',
-                                'bellsprout','leavanny'
+                                'bellsprout','leavanny','venipede'
                         ],
                         destacados:[{name: 'pansage', type: 'normal', link:'pansage'},
                                 {name: 'remoraid', type: 'normal', link:'remoraid'},
                                 {name: 'slakoth', type: 'normal', link:'slakoth'},
                                 {name: 'shroomish', type: 'normal', link:'shroomish'},
                                 {name: 'shroomish', type: 'normal', link:'pawniard'},
+                                {name: 'koffing', type: 'safari', link:'https://media.giphy.com/media/bro6Bi85eRrGodIkYs/giphy.gif'},
                                 {name: 'pelipper', type: 'secret', link:'https://media.giphy.com/media/g9HysJkxwY4NjKzrjg/giphy.gif'},
                                 {name: 'zigzagoon', type: 'secret', link:'https://media.giphy.com/media/KtpRlWqgvUC1uBAJbI/giphy.gif'},
                                 {name: 'growlithe', type: 'secret', link:'https://media.giphy.com/media/vYapmKuh0r9xrREN5K/giphy.gif'}
