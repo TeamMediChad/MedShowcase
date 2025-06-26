@@ -17,10 +17,11 @@
 
 /* Objeto tarjeta */
 .card {
+  font-family: 'Retro';
+  color: rgba(255, 255, 255, 0.895);
   width: 250px;
   height: 280px;
-  background-image: url("../img/Cards/card.png");
-  background-size: cover;
+  background-image: url("../img/Cards/card2.png");
   background-position: center;
   background-blend-mode: overlay;
   padding: 1rem;
@@ -33,9 +34,11 @@
 }
 
 .card-gold {
+  font-family: 'Retro';
+  color: rgba(255, 255, 255, 0.895);
   width: 250px;
   height: 280px;
-  background-image: url("../img/Cards/card_gold.png");
+  background-image: url("../img/Cards/card_gold2.png");
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;
@@ -49,8 +52,8 @@
 }
 
 .card:hover {
-  background-image: url("../img/Cards/card_hover.png");
-  filter: drop-shadow(rgb(124, 186, 238,0.9) 0px 4px 12px);
+  background-image: url("../img/Cards/card_hover2.png");
+  filter: drop-shadow(rgb(124, 186, 238,0.9) 0 0 0.75rem);
 }
 
 .card:hover .card-img {
@@ -58,24 +61,24 @@
 }
 
 .card:hover .card-title {
-  transform: translateY(-2px);
+  transform: translateY(-12px);
 }
 
 .card:hover .card-role {
-  transform: translateY(-2px);
+  transform: translateY(-12px);
 }
 
 .card-gold:hover {
-  background-image: url("../img/Cards/card_gold_hover.png");
-  filter: drop-shadow(rgb(156, 204, 163,0.9) 0px 4px 12px);
+  background-image: url("../img/Cards/card_gold_hover2.png");
+  filter: drop-shadow(rgb(217, 187, 65,1) 0 0 0.75rem);
 }
 
 .card-gold:hover .card-title {
-  transform: translateY(-2px);
+  transform: translateY(-12px);
 }
 
 .card-gold:hover .card-role {
-  transform: translateY(-2px);
+  transform: translateY(-12px);
 }
 
 .card-gold:hover .card-img {
@@ -95,6 +98,7 @@
   width: 32px;
   height: 32px;
   pointer-events: none;
+  image-rendering: pixelated;
 }
 
 /* Imagen miembro */
@@ -117,20 +121,22 @@
 
 /* Nombre Miembro */
 .card-title {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: 400;
   bottom: 0;
   vertical-align: text-bottom;
   text-align: center;
+  transform: translateY(-10px);
   transition: transform 0.3s ease;
 }
 
 /* Rol Miembro */
 .card-role {
-  color: #4B5563;
+  color: #ffffff98;
   bottom: 10;
   vertical-align: text-bottom;
   text-align: center;
+  transform: translateY(-10px);
   transition: transform 0.3s ease;
 }
 
@@ -407,7 +413,7 @@
   transition: opacity 0.3s;
   pointer-events: none;
   z-index: 9999;
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .tooltip:hover .tooltiptext {

@@ -15,7 +15,13 @@ html {
 
 /* Fondo */
 .background {
-  background-color: #eae1e1;
+  background-image: url("../img/Background/background3.gif");
+}
+
+.main-content{
+  border-width: 0px 4px 0px 4px;
+  border-style: solid;
+  border-color: #636363;
 }
 
 /* Navbar*/
@@ -30,10 +36,10 @@ body {
   height: 100px;
   display: flex;
 
-  border-width: 15px 1px 0px 1px;
+  border-width: 15px 1px 15px 1px;
   border-style: solid;
   border-image-source: url("../img/NavBar/NavBar_Background.png");
-  border-image-slice: 15 1 0 1 fill;
+  border-image-slice: 15 1 15 1 fill;
   border-image-repeat: round;
 }
 
@@ -47,6 +53,7 @@ body {
   font-size: 30px;
   text-transform: uppercase;
   display: flex;
+  image-rendering: pixelated;
 }
 
 .nav-icon {
@@ -62,16 +69,19 @@ body {
   color: #fff;
   text-decoration: underline;
   transform: translateY(-5px);
+  image-rendering: pixelated;
 }
 
 .topnav a.active {
   color: #696969;
+  image-rendering: pixelated;
 }
 
 .topnav a.active:hover {
   color: #696969;
   text-decoration: none;
-  transform: none; 
+  transform: none;
+  image-rendering: pixelated;
 }
 
 
@@ -103,6 +113,13 @@ body {
   color: white;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
+  margin-top: 0;
+  margin-bottom: 0.01rem;
+}
+
+.big-title2 {
+  font-family: 'Retro';
+  color: white;
   margin-top: 0;
   margin-bottom: 0.01rem;
 }

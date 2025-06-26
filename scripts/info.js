@@ -38,7 +38,7 @@ const memberData = {
         AdrixJK: {      name:'AdrixJK',
                         rol: 'Chad',
                         medallas:['b9','b10','b15','b24','b26','b32'],
-                        shinys:['raticate','ditto'],
+                        shinys:['raticate','ditto','raticate'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []
@@ -335,7 +335,7 @@ const memberData = {
                         shinys:['golurk','tyranitar','lanturn','haxorus','aggron','pidove','haunter','steelix','darmanitan','magikarp','gyarados','gyarados','gorebyss','altaria','ferrothorn','grimer','grimer','muk',
                                 'chandelure','wooper','quagsire','accelgor','torkoal','geodude','tentacool','duskull','dusclops','marill','camerupt','vanillite','vanilluxe','poliwrath','politoed','miltank','ponyta',
                                 'ponyta','rapidash','kingdra','ludicolo','druddigon','weavile','krokorok','psyduck','gigalith','electrike','hydreigon','mienshao','ampharos','wingull','weezing','smeargle','banette',
-                                'spinda','braviary','magneton','pikachu','whismur','raticate'
+                                'spinda','braviary','magneton','pikachu','whismur','raticate','ariados'
                         ],
                         destacados:[{name: 'charizard', type: 'egg', link:'https://media.giphy.com/media/kI6DHEnVibteJcUDtY/giphy.gif'},
                                 {name: 'breloom', type: 'normal', link:'breloom'},
@@ -435,8 +435,8 @@ const memberData = {
         },
         Lirio: {        name:'Lirio',
                         rol: 'MegaChad',
-                        medallas:['b12'],
-                        shinys:['ampharos','froslass','altaria','ninetales','wigglytuff','luxray','crobat','manectric','spinda','haxorus','hydreigon','ditto','garchomp','gyarados','kingdra','pikachu','krookodile',
+                        medallas:['b12','b24'],
+                        shinys:['ampharos','froslass','altaria','ninetales','wigglytuff','crobat','manectric','spinda','haxorus','hydreigon','ditto','garchomp','gyarados','kingdra','pikachu','krookodile',
                                 'honchkrow','pelipper','gengar','chandelure','cofagrigus','banette','dusclops','delibird','magcargo','weezing','amoonguss','weavile','conkeldurr','reuniclus','mienshao','gastrodon',
                                 'gastrodon-east','wynaut','gothitelle','mawile','golduck','lilligant','bellossom','jumpluff','dustox','roselia','parasect','ariados','slowbro','politoed','smeargle',
                                 'poliwrath','ludicolo','lanturn','nidoking','solrock','torkoal','cottonee','diglett'
@@ -659,7 +659,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b10','b12','b15','b18','b24'],
                         shinys:['weavile','tentacruel','amoonguss','sandslash','gligar','grimer','koffing','meowth','poochyena','zigzagoon','pelipper','wingull','mienshao','ditto','accelgor','ledyba','hoothoot',
-                                'bellsprout','leavanny','venipede'
+                                'bellsprout','leavanny','scolipede'
                         ],
                         destacados:[{name: 'pansage', type: 'normal', link:'pansage'},
                                 {name: 'remoraid', type: 'normal', link:'remoraid'},
@@ -956,7 +956,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b11','b15','b26'],
                         shinys:['bellossom','escavalier','litwick','donphan','machamp','graveler','graveler','weezing','dodrio','hariyama','masquerain','igglybuff','snubbull','mantyke','clamperl','marill','boldore','scraggy',
-                                'tranquill','wobbuffet','smoochum','patrat','persian','sawk','xatu'
+                                'tranquill','wobbuffet','smoochum','patrat','persian','sawk','xatu','makuhita'
                         ],
                         destacados:[],
                         perdidos: [],

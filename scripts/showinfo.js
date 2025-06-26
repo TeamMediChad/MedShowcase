@@ -213,8 +213,8 @@ function showInfo(personKey) {
     vendidosEl.className = "medalla2";
     if(miembro.medallas.includes('b32')){
       vendidosEl.textContent = '☠️ No quieres saber';
-    } else if(miembro.name == 'LiXriio'){
-      vendidosEl.textContent = '🏳️‍🌈 Otro tipo de pecador';
+    } else if(miembro.name == 'Lirio'){
+      vendidosEl.textContent = '🏳️‍🌈 Pecador';
     } else if (miembro.medallas.includes('b24')){
       vendidosEl.textContent = '👿 Pecador no confesado';
     } else {
