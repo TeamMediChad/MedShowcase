@@ -356,7 +356,7 @@ const memberData = {
         },
         JuniorJMx: {    name:'JuniorJMx',
                         rol: 'GigaChad',
-                        medallas:['b6','b12','b14','b15','b16','b26','b23','b31'],
+                        medallas:['b6','b7','b12','b14','b15','b16','b26','b23','b31'],
                         shinys:['tentacruel','tentacruel','watchog','kricketune','golduck','smeargle','banette','weezing','torkoal','pelipper','petilil','gothitelle','graveler','vanilluxe','chandelure','rhyperior',
                                 'ponyta','meowth','venipede','accelgor','vulpix','bronzong','stantler','golbat','wingull','magikarp','spinda','whirlipede','lilligant','swellow','cryogonal','pidgey','piloswine',
                                 'skuntank','golem','probopass','oddish','gloom','volbeat','trubbish','garbodor','trapinch','dratini','misdreavus','dusclops','tauros','cinccino','foongus','jynx','golurk','donphan',
@@ -364,7 +364,8 @@ const memberData = {
                         ],
                         destacados:[{name: 'shellder', type: 'normal', link:'shellder'},
                                 {name: 'carvanha', type: 'normal', link:'carvanha'},
-                                {name: 'luvdisc', type: 'normal', link:'luvdisc'}
+                                {name: 'luvdisc', type: 'normal', link:'luvdisc'},
+                                {name: 'koffing', type: 'safari', link:'https://media.giphy.com/media/bro6Bi85eRrGodIkYs/giphy.gif'}
                         ],
                         perdidos: [],
                         vendidos: []
@@ -511,7 +512,7 @@ const memberData = {
         },
         Mdbzp: {        name:'Mdbzp',
                         rol: 'Chad',
-                        medallas:['b12','b15','b26'],
+                        medallas:['b12','b15','b16','b26'],
                         shinys:['onix','chandelure','gliscor','banette','gyarados','smeargle','exploud','tentacruel','shelmet','koffing','slowbro'],
                         destacados:[{name: 'luvdisc', type: 'normal', link:'luvdisc'},
                                 {name: 'remoraid', type: 'normal', link:'remoraid'}
@@ -666,7 +667,6 @@ const memberData = {
                                 {name: 'slakoth', type: 'normal', link:'slakoth'},
                                 {name: 'shroomish', type: 'normal', link:'shroomish'},
                                 {name: 'shroomish', type: 'normal', link:'pawniard'},
-                                {name: 'koffing', type: 'safari', link:'https://media.giphy.com/media/bro6Bi85eRrGodIkYs/giphy.gif'},
                                 {name: 'pelipper', type: 'secret', link:'https://media.giphy.com/media/g9HysJkxwY4NjKzrjg/giphy.gif'},
                                 {name: 'zigzagoon', type: 'secret', link:'https://media.giphy.com/media/KtpRlWqgvUC1uBAJbI/giphy.gif'},
                                 {name: 'growlithe', type: 'secret', link:'https://media.giphy.com/media/vYapmKuh0r9xrREN5K/giphy.gif'}
@@ -919,7 +919,8 @@ const memberData = {
                                 'zubat','graveler','graveler'
                         ],
                         destacados:[{name: 'feraligatr', type: 'normal', link:'feraligatr'},
-                                {name: 'metagross', type: 'egg', link:'https://media.giphy.com/media/nUM3Kz42e3MZIkWuiv/giphy.gif'}
+                                {name: 'metagross', type: 'egg', link:'https://media.giphy.com/media/nUM3Kz42e3MZIkWuiv/giphy.gif'},
+                                {name: 'absol', type: 'egg', link:'https://media.giphy.com/media/85gvugRYucFsnkUNOZ/giphy.gif'}
                         ],
                         perdidos: [],
                         vendidos: []
