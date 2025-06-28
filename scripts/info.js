@@ -46,7 +46,7 @@ const memberData = {
         aeamanh: {      name:'aeamanh',
                         rol: 'MaxiChad',
                         medallas:['b10','b14','b15','b24','b26','b29'],
-                        shinys:['donphan','sandslash','scolipede','raticate','tangrowth','spinda','raticate','magneton','mienfoo','frillish-f','smeargle','nidoking','ditto','grimer',
+                        shinys:['donphan','sandslash','scolipede','raticate','tangrowth','spinda','raticate','mienfoo','frillish-f','smeargle','nidoking','ditto','grimer',
                                 'chandelure','leavanny','primeape','ditto','deino','snover','bibarel','quagsire','bellossom','weezing','durant','cryogonal','rapidash','pelipper','altaria',
                                 'politoed','duskull','duosion','mightyena','gliscor','gyarados','amoonguss','hippopotas'],
                         destacados:[ {name: 'gulpin', type: 'normal', link:'gulpin'},

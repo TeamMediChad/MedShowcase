@@ -25,7 +25,7 @@ const tiers = {
                 "shinx","luxio","luxray","snorunt","glalie","froslass","spinarak","ariados","teddiursa","ursaring","vanillite","vanillish","vanilluxe","vullaby",
                 "mandibuzz","vulpix","ninetales","weedle","kakuna","beedrill"
     ],
-    "tier4" : ["bellsprout","weepinbell","victreebel","buneary","lopuny","chimecho","cleffa","clefairy","clefable","cottonee","whimsicott","darumaka","darmanitan",
+    "tier4" : ["bellsprout","weepinbell","victreebel","buneary","lopunny","chimecho","cleffa","clefairy","clefable","cottonee","whimsicott","darumaka","darmanitan",
                 "dratini","dragonair","dragonite","drifloon","drifblim","elekid","electabuzz","electivire","hippopotas","hippowdon","hippopotas-f","hippowdon-f",
                 "karrablast","escavalier","larvitar","pupitar","tyranitar","ledyba","ledian","magby","magmar","magmortar","miltank","minccino","cinccino","misdreavus",
                 "mismagius","murkrow","honchkrow","nosepass","probopass","pachirisu","petilil","lilligant","sawk","snubbull","granbull","spinda","spoink","grumpig",
@@ -53,4 +53,59 @@ const tiers = {
                 "tepig","pignite","emboar","togepi","togetic","togekiss","torchic","combusken","blaziken","totodile","croconaw","feraligatr","treecko","grovyle","sceptile","turtwig","grotle",
                 "torterra","tyrogue","hitmonlee","hitmonchan","hitmontop"
     ],
+}
+
+function calculate_points_normal(shiny){
+    let points = 0;
+    for(const tier in tiers){
+        if(tiers[tier].includes(shiny)){
+            if(tier == "tier6"){
+                points += 2;
+            }else if(tier == "tier5"){
+                points += 3;
+            }else if(tier == "tier4"){
+                points += 6;
+            }else if(tier == "tier3"){
+                points += 10;
+            }else if(tier == "tier2"){
+                points += 15;
+            }else if(tier == "tier1"){
+                points += 25;
+            }else if(tier == "tier0"){
+                points += 30;
+            }
+        }
+    }
+    return points;
+}
+
+function calculate_points(member){
+    let points = 0;
+    const shinies = memberData[member].shinys;
+    for(const shiny of shinies){
+        points += calculate_points_normal(shiny);
+    }
+    
+    const destacados = memberData[member].destacados || [];
+    for (const d of destacados) {
+        if(d.type == "normal" || d.type == "swarm"){
+            points += calculate_points_normal(d.name);
+        }else if(d.type == "safari"){
+            points += calculate_points_normal(d.name) + 5;
+        }else if(d.type == "secret"){
+            points += calculate_points_normal(d.name) + 10;
+        }else if(d.type == "egg"){
+            if(calculate_points_normal(d.name) >= 20){
+                points += calculate_points_normal(d.name);
+            }else{
+                points += 20;
+            }
+        }else if(d.type == "alpha"){
+            points += 50;
+        }else if(d.type == "legend"){
+            points += 100;
+        }
+        
+    }
+    return points;
 }

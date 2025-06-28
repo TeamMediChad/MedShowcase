@@ -1,3 +1,7 @@
+let toppoints = {
+    name: "",
+    point: 0 
+  }
 const member_container = document.getElementById('member-container');
 member_container.innerHTML = '';
 
@@ -15,6 +19,18 @@ miembros.forEach(key => {
     card.className= 'card-gold';
   } else {
     card.className= 'card';
+  }
+
+  const points = calculate_points(key);
+
+  if(toppoints.name == ""){
+    toppoints.name = key;
+    toppoints.point = points;
+  } else {
+    if(toppoints.point < points){
+      toppoints.name = key;
+      toppoints.point = points;
+    }
   }
   
   //contenedor de medallas en tarjeta
@@ -195,7 +211,8 @@ miembros.forEach(key => {
 
   const title = document.createElement('h2');
   title.className = 'card-title';
-  title.textContent = miembro.name;
+  title.id = `${key}`
+  title.textContent = `${miembro.name} (${points})`;
   card.appendChild(title);
 
   // Crear rol
@@ -207,3 +224,5 @@ miembros.forEach(key => {
   member_container.appendChild(card);
 
 });
+
+document.getElementById(toppoints.name).style = "color : yellow;";
