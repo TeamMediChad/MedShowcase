@@ -6,7 +6,6 @@
 @font-face {
   font-family: 'Retro';
   src: url('../fonts/pokemon-ds-font.ttf') format('truetype');
-  image-rendering: pixelated;
 }
 
 html {
@@ -53,7 +52,6 @@ body {
   font-size: 30px;
   text-transform: uppercase;
   display: flex;
-  image-rendering: pixelated;
 }
 
 .nav-icon {
@@ -61,7 +59,6 @@ body {
   height: 24px;
   margin-right: 8px;
   vertical-align: middle;
-  image-rendering: pixelated;
   transform: translateY(10px);
 }
 
@@ -69,19 +66,16 @@ body {
   color: #fff;
   text-decoration: underline;
   transform: translateY(-5px);
-  image-rendering: pixelated;
 }
 
 .topnav a.active {
   color: #696969;
-  image-rendering: pixelated;
 }
 
 .topnav a.active:hover {
   color: #696969;
   text-decoration: none;
   transform: none;
-  image-rendering: pixelated;
 }
 
 

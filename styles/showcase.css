@@ -98,7 +98,6 @@
   width: 32px;
   height: 32px;
   pointer-events: none;
-  image-rendering: pixelated;
 }
 
 /* Imagen miembro */
@@ -374,7 +373,6 @@
 .medalla {
   color: rgba(255, 255, 255, 0.815);
   font-size: 0.875rem;
-  image-rendering: pixelated;
   padding: 5px 3px 5px 0px;
   border-width: 0px 5px 0px 5px;
   border-style: solid;
