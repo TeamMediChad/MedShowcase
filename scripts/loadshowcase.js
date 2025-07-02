@@ -1,7 +1,9 @@
 let toppoints = {
     name: "",
     point: 0 
-  }
+  };
+
+let member_points = {};
 const member_container = document.getElementById('member-container');
 member_container.innerHTML = '';
 
@@ -212,7 +214,8 @@ miembros.forEach(key => {
   const title = document.createElement('h2');
   title.className = 'card-title';
   title.id = `${key}`
-  title.textContent = `${miembro.name} (${points})`;
+  title.textContent = miembro.name;
+  member_points[key] = points;
   card.appendChild(title);
 
   // Crear rol

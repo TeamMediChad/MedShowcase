@@ -233,9 +233,17 @@ function showInfo(personKey) {
   resolution(screenHeight > screenWidth);
 
   modal_name = document.getElementById('modal-name');
-  modal_name.textContent = miembro.name;
-
-  document.getElementById('modal-title2').textContent = `Shinys (${shinys.length + destacados.length})`;
+  if (personKey == toppoints.name){
+    modal_name.textContent = miembro.name;
+    modal_name.style = "color : yellow;"
+    document.getElementById('modal-title2').innerHTML = `Shinys (${shinys.length + destacados.length}) &emsp; puntaje: ${member_points[personKey]}`;
+    document.getElementById('modal-title2').style = "color : yellow;"
+  }else{
+    modal_name.textContent = miembro.name;
+    modal_name.style = ""
+    document.getElementById('modal-title2').innerHTML = `Shinys (${shinys.length + destacados.length}) &emsp; puntaje: ${member_points[personKey]}`;
+    document.getElementById('modal-title2').style = ""
+  }
 
   document.getElementById('shiny-container2').classList.add("hidden");
   document.getElementById('shiny-container').classList.add("hidden");
@@ -282,7 +290,13 @@ function show_shiny() {
     } else {
       espacio2.style = "height: 2rem;";
     }
-      document.getElementById('modal-title2').textContent = `Shinys (${memberData[nombre].shinys.length + memberData[nombre].destacados.length})`;
+    if (nombre == toppoints.name){
+       document.getElementById('modal-title2').innerHTML = `Shinys (${memberData[nombre].shinys.length + memberData[nombre].destacados.length}) &emsp; puntaje: ${member_points[nombre]}`;
+       document.getElementById('modal-title2').style = "color : yellow;"
+    }else{
+      document.getElementById('modal-title2').innerHTML = `Shinys (${memberData[nombre].shinys.length + memberData[nombre].destacados.length}) &emsp; puntaje: ${member_points[nombre]}`;
+      document.getElementById('modal-title2').style = ""
+    }
   }
 }
 

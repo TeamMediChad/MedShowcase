@@ -132,29 +132,28 @@ cursor: pointer;
   display: block;
 }
 
+.top-wrap {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;  
+  align-items: center;
+}
 .top-capturer {
   display: flex;
+  flex-direction: column;  
+  justify-content: center;  
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  background-color: #ffeaa7;
+  width: 660px;
+  align-self: center;
   border-radius: 0.5rem;
   margin-bottom: 1.5rem;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-#shinydex-loader {
-  position: fixed;
-  top: 50px; /* para dejar espacio a la navbar */
-  left: 0;
-  width: 100%;
-  height: calc(100% - 50px); /* ajusta según el alto de la navbar */
-  background-color: rgb(169, 169, 169);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
+  border-width: 6px 6px 6px 6px;
+  border-style: solid;
+  border-image-source: url("../img/Background/member_holder.png");
+  border-image-slice: 6 6 6 6 fill;
+  border-image-repeat: round;
 }
 
 .spinner {

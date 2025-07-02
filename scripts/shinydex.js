@@ -20,23 +20,36 @@ topText.textContent = `🎉 El que mas ha registrado en la Shinydex es ${topData
 topText.className = 'small-text-top';
 
 const img_wrap = document.createElement('div');
+const toptop = document.createElement('div');
+toptop.className = "top-wrap";
 img_wrap.className = "user-img-wrapper";
 img_wrap.appendChild(topImg);
 topContainer.appendChild(img_wrap);
 topContainer.appendChild(topText);
-mainContent.appendChild(topContainer);
+toptop.appendChild(topContainer);
+mainContent.appendChild(toptop);
 
 let globalIndex = 0;
 
 document.getElementById('Shinydex-header').textContent = `MeD Shinydex (${Object.keys(capturedBy).length + 1}/604)`;
+//document.getElementById('Shinydex-progress').value = Object.keys(capturedBy).length + 1;
 
 
 //shinydex cards
 for (const [genName, pokemonList] of Object.entries(generations)) {
+    const generationlist = pokemonList.filter(name => capturedBy.hasOwnProperty(name)).length;
     const title = document.createElement("div");
     title.className = "generation-title";
-    title.textContent = genName;
+    title.innerHTML = `${genName}&emsp;(${generationlist}/${pokemonList.length})`;
     mainContent.appendChild(title);
+
+    /*
+    generation_progress = document.createElement("progress")
+    generation_progress.value = generationlist;
+    generation_progress.max = pokemonList.length;
+
+    title.appendChild(generation_progress)
+    */
 
     const grid = document.createElement("div");
     grid.className = "grid-container";

@@ -15,12 +15,13 @@ html {
 /* Fondo */
 .background {
   background-image: url("../img/Background/background3.gif");
+  background-color: #515151;
 }
 
 .main-content{
   border-width: 0px 4px 0px 4px;
   border-style: solid;
-  border-color: #636363;
+  border-color: #494949;
 }
 
 /* Navbar*/
@@ -127,8 +128,8 @@ body {
 }
 
 .small-text-top {
-  font-family: 'NiseSegaSonic';
+  font-family: 'Retro';
   color: #2a75bb;
-  font-size: 18px;
+  font-size: 24px;
 }
 
