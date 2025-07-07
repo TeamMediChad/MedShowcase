@@ -9,6 +9,7 @@ const mensuales = [
     ['c', 'hippopotas', 'aeamanh'],
     ['c', 'hippowdon', 'aeamanh'],
     ['c', 'makuhita', 'UltimoMorador'],
+    ['c', 'skarmory', 'sadending'],
     ['r',['shroomish','https://img.pokemondb.net/sprites/black-white/anim/shiny/shroomish.gif'],'sadending'],
     ['r',['skarmory','https://img.pokemondb.net/sprites/black-white/anim/shiny/skarmory.gif'],'sadending'],
     ['r',['growlithe','https://media.giphy.com/media/vYapmKuh0r9xrREN5K/giphy.gif'],'OniED'],
@@ -20,6 +21,7 @@ const mensuales = [
     ['r',['absol','https://media.giphy.com/media/85gvugRYucFsnkUNOZ/giphy.gif'],'TheJesucristian'],
     ['r',['larvesta','https://media.giphy.com/media/TMQQ5y9QIz9q0fGe4X/giphy.gif'],'AsuraSkyFlames'],
     ['r',['bulbasaur','https://media.giphy.com/media/WvZW5hIvmF33I0bYDI/giphy.gif'],'JJean'],
+    ['r',['magikarp','https://media.giphy.com/media/UNahzhszvptLgyuChJ/giphy.gif'],'ErnestoSwampert']
   ];
 
 function showTab(tabId) {
