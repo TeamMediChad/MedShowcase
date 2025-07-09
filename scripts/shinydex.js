@@ -59,7 +59,11 @@ for (const [genName, pokemonList] of Object.entries(generations)) {
         container.className = "shinydex-card";
 
     if (Object.keys(capturedBy).includes(name)) {
-        container.classList.add("captured");
+        if(Object.keys(memberData).includes(capturedBy[name])){
+            container.classList.add("captured");
+        }else{
+            container.classList.add("owned");
+        }
         container.style.pointerEvents = "auto";
         
         const registrador = capturedBy[name] || "Desconocido";

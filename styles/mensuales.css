@@ -33,18 +33,21 @@ main {
 /* Tarjeta */
 
 .shinycard {
+  color: white;
+  font-family: 'Retro';
   width: 150px;
   height: 180px;
-  background-color: white;
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: overlay;
   padding: 1rem;
   text-align: center;
   align-items: center;
   vertical-align: text-bottom;
   transition: background-color 0.3s ease;
   border-radius: 0.7rem;
+  border-width: 6px 6px 6px 6px;
+  border-style: solid;
+  border-image-source: url("../img/Background/member_holder.png");
+  border-image-slice: 6 6 6 6 fill;
+  border-image-repeat: round;
 }
 
 .shinycard-img {
@@ -56,18 +59,20 @@ main {
 }
 
 .shinycard-title {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 200;
   bottom: 0;
   vertical-align: text-bottom;
   text-align: center;
+  transform: translateY(-5px);
 }
 
 .shinycard-trainer {
-  color: #4B5563;
+  color: #ffffffb1;
   bottom: 10;
   vertical-align: text-bottom;
   text-align: center;
+  transform: translateY(-5px);
 }
 
 .shinycard-img-wrapper {
