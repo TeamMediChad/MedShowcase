@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resumen Mensual</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="../img/Icons/icon.png">
+  <link rel="stylesheet" href="../styles/mensuales.css">
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body class="background">
+
+  <div class="topnav">
+    <a href="../index.html"><img src="../img/Icons/icon2.png" alt="icon" class="nav-icon">Team Medichad</a>
+    <a href="./showcase.html"><img src="../img/Icons/iris.png" alt="icon" class="nav-icon">Showcase</a>
+    <a href="./shinyrace.html"><img src="../img/Icons/race.png" alt="icon" class="nav-icon">Shiny Race</a>
+    <a href="./shinydex.html"><img src="../img/Icons/pokedex.png" alt="icon" class="nav-icon">Shinydex</a>
+    <a href="./mensual.html"><img src="../img/Icons/resumen.png" alt="icon" class="nav-icon">Resumen Mensual</a>
+    <a class="active"><img src="../img/Icons/resumen.png" alt="icon" class="nav-icon">Spoilers</a>
+  </div>
+
+  <div id="main-content" class="main-content" ="display: none;">
+  <main>
+    
+
+    <div style="height: 1rem;"></div>
+    <div class="top-wrap">
+      <div class="top-capturer">
+        <div class="user-img-wrapper">
+          <img src="../Members_sprites/Placeholder.png" class="user-img">
+          <div class="top-text">🎉 El shunter del mes es placeholder con 100pts 🎉</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección: dex -->
+    <div class="centrado">
+      <img style="width: 25%;" src="../img/Titles/New_registers.png">
+    </div>
+    <div id="mensuales-dex" class="mensuales-dex"></div>
+    <div style="height: 1rem;"></div>
+    
+    <!-- Sección: destacados -->
+    <div class="centrado">
+      <img style="width: 15%;" src="../img/Titles/shiny_rare.png">
+    </div>
+    <div id="mensuales-destacados" class="mensuales-destacados"></div>
+
+    <script src="../scripts/mensuales2.js"></script>
+
+  </main>
+  </div>
+</body>
+</html>

@@ -377,7 +377,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b15','b24','b26'],
                         shinys:['gigalith','altaria','raticate','politoed','victreebel','accelgor','quagsire','donphan','hydreigon','ludicolo','poliwrath','chandelure','magcargo','haxorus','darmanitan','psyduck','doduo',
-                                'gyarados','smeargle','weezing','braviary','jellicent-f','raichu','rapidash','gurdurr','grimer','bellsprout'
+                                'gyarados','smeargle','weezing','braviary','jellicent-f','raichu','rapidash','gurdurr','grimer','bellsprout','metapod'
                         ],
                         destacados:[],
                         perdidos: [],
@@ -979,6 +979,14 @@ const memberData = {
                                 'https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif',
                                 'https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif'
                         ]
+        },
+        wallycbammo: {  name:'wallycbammo',
+                        rol: 'Chad',
+                        medallas:['b26'],
+                        shinys:[],
+                        destacados:[{name:'shedinja', type:'normal',link:'shedinja'}],
+                        perdidos: [],
+                        vendidos: []
         },
         xDerxx: {       name:'xDerxx',
                         rol: 'Chad',
