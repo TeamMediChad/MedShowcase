@@ -334,6 +334,7 @@ const capturedBy = {
   lotad: 'Azathotx', 
   lombre: 'UltimoMorador', 
   ludicolo: 'MonkeyCake', 
+  seedot: 'Guabixd',
   shiftry: 'AndresUY', 
   taillow: 'ToxicPlumber', 
   swellow: 'ToxicPlumber', 
