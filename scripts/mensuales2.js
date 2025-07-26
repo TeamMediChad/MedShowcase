@@ -13,6 +13,7 @@ const mensuales = [
     ['c', 'clefairy', 'MarkosW'],
     ['c', 'clefable', 'MarkosW'],
     ['c', 'cleffa', 'MarkosW'],
+    ['c', 'mandibuzz', 'Pancho'],
     ['r', ['staryu','https://img.pokemondb.net/sprites/black-white/anim/shiny/staryu.gif'],'Mexb'],
     ['r', ['roselia','https://media.giphy.com/media/oRnsLHK2wKMqpMcC5z/giphy.gif'],'Mexb'],
     ['r', ['gulpin','https://media.giphy.com/media/dMqaWGfSPgBwKmrZqZ/giphy.gif'],'Ixgab'],
@@ -28,6 +29,7 @@ const mensuales = [
     ['r', ['squirtle','https://media.giphy.com/media/fs3JDMSsrr7R1PwUL9/giphy.gif'],'Azathotx'],
     ['r', ['wailmer','https://img.pokemondb.net/sprites/black-white/anim/shiny/wailmer.gif'],'Dohrito'],
     ['r', ['carvanha','https://img.pokemondb.net/sprites/black-white/anim/shiny/carvanha.gif'],'AshFifero'],
+    ['r', ['jolteon','https://img.pokemondb.net/sprites/black-white/anim/shiny/jolteon.gif'],'Azathotx'],
   ];
 
 function showTab(tabId) {
