@@ -30,6 +30,7 @@ const mensuales = [
     ['r', ['wailmer','https://img.pokemondb.net/sprites/black-white/anim/shiny/wailmer.gif'],'Dohrito'],
     ['r', ['carvanha','https://img.pokemondb.net/sprites/black-white/anim/shiny/carvanha.gif'],'AshFifero'],
     ['r', ['jolteon','https://img.pokemondb.net/sprites/black-white/anim/shiny/jolteon.gif'],'Azathotx'],
+    ['r', ['feebas','https://img.pokemondb.net/sprites/black-white/anim/shiny/feebas.gif'],'AsuraSkyFlames'],
   ];
 
 function showTab(tabId) {
