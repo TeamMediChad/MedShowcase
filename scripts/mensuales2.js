@@ -15,6 +15,7 @@ const mensuales = [
     ['c', 'cleffa', 'MarkosW'],
     ['c', 'mandibuzz', 'Pancho'],
     ['c', 'stoutland', 'UltimoMorador'],
+    ['c', 'chimchar', 'Akalii'],
     ['r', ['staryu','https://img.pokemondb.net/sprites/black-white/anim/shiny/staryu.gif'],'Mexb'],
     ['r', ['roselia','https://media.giphy.com/media/oRnsLHK2wKMqpMcC5z/giphy.gif'],'Mexb'],
     ['r', ['gulpin','https://media.giphy.com/media/dMqaWGfSPgBwKmrZqZ/giphy.gif'],'Ixgab'],
@@ -27,12 +28,14 @@ const mensuales = [
     ['r', ['oshawott','https://media.giphy.com/media/hDg7AqmhGkzMiHFQer/giphy.gif'],'Seaba'],
     ['r', ['corphish','https://img.pokemondb.net/sprites/black-white/anim/shiny/corphish.gif'],'Alicia'],
     ['r', ['corphish','https://img.pokemondb.net/sprites/black-white/anim/shiny/corphish.gif'],'Salva'],
+    ['r', ['corphish','https://img.pokemondb.net/sprites/black-white/anim/shiny/corphish.gif'],'Maicol'],
     ['r', ['squirtle','https://media.giphy.com/media/fs3JDMSsrr7R1PwUL9/giphy.gif'],'Azathotx'],
     ['r', ['wailmer','https://img.pokemondb.net/sprites/black-white/anim/shiny/wailmer.gif'],'Dohrito'],
     ['r', ['carvanha','https://img.pokemondb.net/sprites/black-white/anim/shiny/carvanha.gif'],'AshFifero'],
     ['r', ['jolteon','https://img.pokemondb.net/sprites/black-white/anim/shiny/jolteon.gif'],'Azathotx'],
     ['r', ['feebas','https://img.pokemondb.net/sprites/black-white/anim/shiny/feebas.gif'],'AsuraSkyFlames'],
     ['r', ['larvesta','https://media.giphy.com/media/TMQQ5y9QIz9q0fGe4X/giphy.gif'],'OniED'],
+    ['r', ['Chimchar','https://media.giphy.com/media/fes3PgOa0BRFASIqCg/giphy.gif'],'Akalii'],
     
   ];
 
