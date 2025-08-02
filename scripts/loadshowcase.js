@@ -14,6 +14,7 @@ const miembros = Object.keys(memberData);
 miembros.forEach(key => {
   const miembro = memberData[key];
   if (!miembro) return;
+  if (!(key == "Palafo")){
 
   //verificar si tiene golden box
   const card = document.createElement('div');
@@ -225,7 +226,7 @@ miembros.forEach(key => {
   card.appendChild(role);
 
   member_container.appendChild(card);
-
+}
 });
 
 document.getElementById(toppoints.name).style = "color : yellow;";

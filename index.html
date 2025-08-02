@@ -7,6 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" type="image/png" href="./img/Icons/icon.png">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/showcase.css">
 </head>
 <body class="background">
 
@@ -24,16 +25,125 @@
     <p style="font-family: Retro; color: rgba(255, 255, 255, 0.936);">Tres amigos, que se conocían desde hacía mucho tiempo y que siempre jugaban juntos, pero a la vez por separado, un día dijeron: ¿y si hacemos un equipo donde podamos charlar y estar juntos?</p>
     <div style="height: 2rem;"></div>
     <p  style="font-family: Retro; color: rgba(255, 255, 255, 0.936);">Así, el 7 de febrero de 2023 nació Team MediChad, como respuesta a la pregunta del párrafo anterior, con el simple objetivo de compartir buenos momentos juntos y Buscando Shinys, pero en poco tiempo fueron llegando nuevos amigos y el equipo comenzó a crecer. . Se convirtió en un equipo con grandes aspiraciones, como completar la ShinyDex.</p>
+    <div style="height: 2rem;"></div>
+    <div class="card" onclick="showInfo()">
+      <div class="card-icon-container">
+      </div>
+      <div class="card-img-wrapper">
+        <img src="./Members_sprites/Palafo.png" class="card-img">
+      </div>
+      <h2 class="card-title" id="AdrixJK">Palafo</h2>
+      <p class="card-role">Fundador</p>
+  </div>
     <div style="height: 3rem;"></div>
-    <p  style="font-family: Retro;  color: rgba(255, 255, 255, 0.936);">En el mes de Agosto del 2024, el equipo rompió su record de mayor cantidad de shinys en el mes (135 shinys)</p>
-    <div style="height: 3rem;"></div>
+    <p  style="font-family: Retro;  color: rgba(255, 255, 255, 0.936);">En el mes de Julio del 2025, el equipo rompió su record de mayor cantidad de shinys en el mes</p>
+    <h1 class="big-title">262 Shinys</h1>
+    <!--div style="height: 3rem;"></div>
     <p  style="font-family: Retro;  color: rgba(255, 255, 255, 0.936);">Después de 3 semanas de arduo trabajo, ¡conseguiremos el primer puesto en las Pokelympics! Tenemos momentos felices y otros tensos. Estamos felices porque logramos encontrar muchos shinys y hacer nuevos amigos.</p>
     <p  style="font-family: Retro;  color: rgba(255, 255, 255, 0.936);">Estamos increíblemente agradecidos con quienes apoyaron a MeD con su esfuerzo, tiempo y dedicación, y también con quienes hicieron posible este evento.</p>
     <div style="height: 2rem;"></div>
     <img src="img/olympics.png" alt="Record del equipo">
     <img src="img/olympics2.png" alt="Record del equipo">
-    <div style="height: 3rem;"></div>
+    <div style="height: 3rem;"></div-->
   </div>
 
+
+  <div id="modal" class="modal-overlay">
+
+      <!-- Icon Bar -->
+      <div class="icon-container" id="icon-bar">
+      
+      <div class="flex flex-col items-center">
+        <span class="icon-img-wrapper">
+          <img src="./img/Icons/zz_secret_shiny-small.png">
+        </span>
+        <span class="text-sm font-medium">Secret</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <span class="icon-img-wrapper">
+          <img src="./img/Icons/zz_egg.png">
+        </span>
+        <span class="text-sm font-medium">Crianza</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <span class="icon-img-wrapper">
+          <img src="./img/Icons/zz_safari.png">
+        </span>
+        <span class="text-sm font-medium">Safari</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <span class="icon-img-wrapper">
+          <img src="./img/Icons/zz_alpha.png">
+        </span>
+        <span class="text-sm font-medium">Alpha</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <span class="icon-img-wrapper">
+          <img src="./img/Icons/zz_swarm.png">
+        </span>
+        <span class="text-sm font-medium">Swarm</span>
+      </div>
+      
+      <div class="flex flex-col items-center">
+        <span class="icon-img-wrapper">
+          <img src="./img/Icons/zz_multi.png">
+        </span>
+        <span class="text-sm font-medium">Cuenta sec.</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <span class="icon-img-wrapper">
+          <img src="./img/Icons/zz_CoinSprite.png">
+        </span>
+        <span class="text-sm font-medium">Vendido</span>
+      </div>
+    </div>
+
+    <div style="height: 1rem;"></div>
+    
+    <div class="modal-content" id="modal-content">
+
+      <div class="modal1" id="modal1">
+        <div class="modal-img-wrapper">
+          <img src="./Members_sprites/Placeholder.png" class="modal-img" id="member-img-modal">
+        </div>
+        <div style="height: 5px;"></div>
+        <h3 class="modal-name" id="modal-name">Nombre</h3>
+        <div id="medalla-container" class="medalla-container"></div>
+      </div>
+      
+      <div class="modal2" id="modal2">
+        <button onclick="closeModal()" class="close-btn">Cerrar</button>
+      </div>
+
+      <div class="modal-title">
+        <div class="modal-title-inner" id="modal-title2">Shinys</div>
+      </div>
+
+      <div class="modal3" id="modal3">
+        <div style="height: 1rem;"></div>
+        <div id="shiny-container2" class="shiny-img-container"></div>
+        <div id="espacio1" style="height: 1rem;"></div>
+        <div id="shiny-container" class="shiny-img-container"></div>
+        <div id="espacio2" style="height: 2rem;"></div>
+        <div id="shiny-container3" class="shiny-img-container"></div>
+        <div id="shiny-container4" class="shiny-img-container"></div>
+      </div>
+
+      <div class="modal4" id="modal4">
+        <button onclick="show_shiny()" id="shiny-btn" class="shiny-btn">Shinys</button>
+        <button onclick="show_sell()" id="sell-btn" class="sell-btn">Vendidos</button>
+      </div>
+
+        
+      </div>
+    </div>
+
+    <script src="./scripts/info.js"></script>
+    <script src="./scripts/showinfo_index.js"></script>
 </body>
 </html>
