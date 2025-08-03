@@ -186,7 +186,7 @@ const memberData = {
                         rol: 'MegaChad',
                         medallas:['b1','b24','b26','b29'],
                         shinys:['spearow','golduck','tentacool','vanillish','gyarados','ludicolo','rapidash','conkeldurr','galvantula','mienshao','bellossom','durant','smeargle','sandile','pidgeotto','jumpluff','meowth',
-                                'spinda','politoed','vanilluxe','cinccino','lanturn','rhydon','gligar','shelmet','koffing'
+                                'spinda','politoed','vanilluxe','cinccino','lanturn','rhydon','gligar','shelmet','koffing','litwick'
                         ],
                         destacados:[{name: 'furret', type: 'normal', link:'furret'}],
                         perdidos: [],
@@ -435,7 +435,7 @@ const memberData = {
                         shinys:['tentacruel','tentacruel','watchog','kricketune','golduck','smeargle','banette','weezing','torkoal','pelipper','petilil','gothitelle','graveler','vanilluxe','chandelure','rhyperior',
                                 'ponyta','meowth','venipede','accelgor','vulpix','bronzong','stantler','golbat','wingull','magikarp','spinda','whirlipede','lilligant','swellow','cryogonal','pidgey','piloswine',
                                 'skuntank','golem','probopass','oddish','gloom','volbeat','trubbish','garbodor','trapinch','dratini','misdreavus','dusclops','tauros','cinccino','foongus','jynx','golurk','donphan',
-                                'girafarig','lunatone','meditite','parasect','ditto','ditto','cacnea','pachirisu','staravia','vibrava','cryogonal','vanillish'
+                                'girafarig','lunatone','meditite','parasect','ditto','ditto','cacnea','pachirisu','staravia','vibrava','cryogonal','vanillish','bellsprout'
                         ],
                         destacados:[{name: 'shellder', type: 'normal', link:'shellder'},
                                 {name: 'carvanha', type: 'normal', link:'carvanha'},
@@ -661,8 +661,8 @@ const memberData = {
         },
         Monozee: {      name:'Monozee',
                         rol: 'Chad',
-                        medallas:['b0'],
-                        shinys:['watchog','dodrio','dodrio','donphan','donphan','horsea','purrloin','koffing','litwick','sneasel','smeargle','magikarp','duskull','vulpix','axew'
+                        medallas:['b9','b15','b24'],
+                        shinys:['watchog','dodrio','dodrio','donphan','donphan','horsea','purrloin','koffing','litwick','sneasel','smeargle','magikarp','duskull','vulpix','axew','banette'
                         ],
                         destacados:[],
                         perdidos: [],
@@ -703,6 +703,15 @@ const memberData = {
                                 'https://media.giphy.com/media/822MTo2BKJqejpx8is/giphy.gif',
                                 'https://media.giphy.com/media/e6ZkFqt8nd84QuSEbP/giphy.gif'
                         ]
+        },
+        MrCartago: {    name:'MrCartago',
+                        rol: 'Chad',
+                        medallas:['b12','b13','b26'],
+                        shinys:['crobat','hydreigon','dodrio','scolipede','gigalith','durant','gyarados','conkeldurr','rapidash','donphan','mienfoo','haxorus','cottonee','krokorok'
+                        ],
+                        destacados:[{name: 'milotic', type: 'normal', link: 'milotic'}],
+                        perdidos: [],
+                        vendidos: []
         },
         must: {         name:'must',
                         rol: 'Chad',
@@ -914,7 +923,7 @@ const memberData = {
         reylegendarioK: {name:'reylegendarioK',
                         rol: 'Chad',
                         medallas:['b0'],
-                        shinys:['scolipede','smeargle','mismagius','hydreigon','krokorok','rapidash','raticate','raticate','sawk'],
+                        shinys:['scolipede','smeargle','mismagius','hydreigon','krokorok','rapidash','raticate','raticate','sawk','cryogonal'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []
