@@ -119,6 +119,14 @@ body {
   margin-bottom: 0.01rem;
 }
 
+.big-title3 {
+  font-family: 'Retro';
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0.01rem;
+  font-size: 20px;
+}
+
 .small-text {
   font-family: 'NiseSegaSonic';
   color: white;
