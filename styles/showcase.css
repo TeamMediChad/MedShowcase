@@ -143,9 +143,13 @@
 .icon-container{
   display: grid;
   justify-content: center;
-  background-color: white;
+  background-color: #101821;
+  border-color: rgb(203, 193, 193);
+  border-width: 2px;
   border-radius: 0.5rem;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-family: "Retro";
+  color: #fff;
 }
 
 
@@ -297,11 +301,14 @@
   height: 200px;
 }
 .medalla2 {
-  background-color: #febfbf;
-  color: #af1e1e;
-  padding: 0.25rem 0.75rem;
-  border-radius: 9999px;
+  color: rgba(255, 176, 176, 0.815);
   font-size: 0.875rem;
+  padding: 5px 3px 5px 0px;
+  border-width: 0px 5px 0px 5px;
+  border-style: solid;
+  border-image-source: url("../img/button/medal-container2.png");
+  border-image-slice: 0 5 0 5 fill;
+  transition: border-image-source 0.2s ease;
 }
 
 /* Botón de cerrar */
@@ -408,10 +415,11 @@
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
   pointer-events: none;
   z-index: 9999;
   font-size: 1rem;
+  font-family: "Retro";
 }
 
 .tooltip:hover .tooltiptext {

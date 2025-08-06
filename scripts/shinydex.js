@@ -155,13 +155,13 @@ const toggle = document.getElementById('live-dex-toggle');
 
   toggle.addEventListener('change', () => {
     if (toggle.checked) {
-        document.getElementById('shinydex-live').classList.remove('hidden')
-        document.getElementById('shinydex-story').classList.add('hidden')
-        document.getElementById('text-dex').textContent = "La Live shinydex muestre el primer miembro actual en registrar el shiny, en caso de no haber muestra la primera persona en registrarlo"
+        document.getElementById('shinydex-live').classList.remove('hidden');
+        document.getElementById('shinydex-story').classList.add('hidden');
+        document.getElementById('text-dex').innerHTML = `La <span class="text-red-500">Live <span class="text-white">Shinydex muestre el primer miembro actual en registrar el shiny <br> en caso de no haber miembro actual encontes muestra la primera persona en registrarlo`;
     } else {
-        document.getElementById('shinydex-live').classList.add('hidden')
-        document.getElementById('shinydex-story').classList.remove('hidden')
-        document.getElementById('text-dex').textContent = "La shiny dex muestra la primera persona en registrar el shiny"
+        document.getElementById('shinydex-live').classList.add('hidden');
+        document.getElementById('shinydex-story').classList.remove('hidden');
+        document.getElementById('text-dex').innerHTML = `La Shinydex muestra la primera persona en registrar el shiny`;
 
     }
   });

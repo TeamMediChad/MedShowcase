@@ -219,6 +219,7 @@ function showInfo(personKey) {
       vendidosEl.textContent = '👿 Pecador no confesado';
     } else {
       vendidosEl.textContent = '😇 Persona limpia de pecado';
+      vendidosEl.className = "medalla";
     }
     shiny_container3.appendChild(vendidosEl);
   } else { shiny_container3.className = "shiny-img-container";}

@@ -90,7 +90,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 25px;
+  margin-top: 1px;
 }
 
 
@@ -136,6 +136,7 @@ body {
   font-family: 'Retro';
   color: white;
   margin-top: 0;
+  font-weight: normal;
   margin-bottom: 0.01rem;
   font-size: 20px;
 }
@@ -154,3 +155,62 @@ body {
   font-size: 24px;
 }
 
+.modal-content ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.modal-content ::-webkit-scrollbar-track {
+  background: none;
+}
+
+.modal-content ::-webkit-scrollbar-thumb {
+  background: none;
+  border-width: 3px 3px 3px 3px;
+  border-style: solid;
+  border-image-source: url("../img/button/scrollbar_button.png");
+  border-image-slice: 3 3 3 3 fill;
+  border-image-repeat: round;
+}
+
+.modal-content ::-webkit-scrollbar-thumb:hover {
+  filter: drop-shadow(5px 5px 5px #c3c3c3);
+}
+
+.custom-checkbox input {
+  opacity: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.custom-checkbox {
+  display: inline-block;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background-image: url('../img/button/checkbox.png');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.custom-checkbox input:checked + .checkmark {
+  background-image: url('../img/button/checkbox_check.png');
+}
+
+.custom-checkbox:hover input:checked + .checkmark {
+  background-image: url('../img/button/checkbox_hover_check.png');
+}
+
+.custom-checkbox:hover .checkmark {
+  background-image: url('../img/button/checkbox_hover.png');
+}
