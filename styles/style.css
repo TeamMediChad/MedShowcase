@@ -79,6 +79,19 @@ body {
   transform: none;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.centrado-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+}
 
 
 .centrado {

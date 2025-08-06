@@ -85,12 +85,14 @@ progress {
   display: block;
 }
 .shinydex-name {
+  position: absolute;
   font-size: 0.75rem;
   text-transform: capitalize;
   text-align: center;
   color: white;
   font-family: 'Retro';
   font-size: 16px;
+  transform: translateY(50px);
 }
 @media (max-width: 600px) {
   header {

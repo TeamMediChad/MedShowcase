@@ -20,11 +20,20 @@
   </div>
   
   <header id="Shinydex-header" class="big-title2">MeD Shinydex (604/604)</header>
-  <header class="big-title3">Esta shinydex prioriza a los miembros Actuales como registros y no los historicos, en caso de no haber miembro actual se respeta el historico</header>
+  <div class="centrado-horizontal">
+    <p class="big-title3">Live</p>
+    <input id="live-dex-toggle" type="checkbox" checked>
+  </div>
+  <header class="big-title3" id="text-dex">La Live shinydex muestre el primer miembro actual en registrar el shiny, en caso de no haber muestra la primera persona en registrarlo</header>
   <!--progress id="Shinydex-progress" value="0" max="604"></progress-->
 
+  <div id="top-trainer">
+    
+  </div>
+
   <div id="main-content" class="main-content" ="display: none;">
-    <main id="main-content2"></main>
+    <main id="shinydex-live"></main>
+    <main id="shinydex-story"></main>
   </div>
   <script src="../scripts/info.js"></script>
   <script src="../scripts/shinydexdata.js"></script>

@@ -142,7 +142,7 @@ const memberData = {
         Ashy: {         name:'Ashy',
                         rol: 'GigaChad',
                         medallas:['b10','b12','b24','b30'],
-                        shinys:['drifblim','dratini','raticate','gardevoir','duskull','marill','smeargle','scolipede','zangoose','staravia','bellossom','gloom','lanturn','golett','scraggy','swablu'],
+                        shinys:['drifblim','dratini','raticate','gardevoir','duskull','marill','smeargle','scolipede','zangoose','staravia','bellossom','gloom','lanturn','golett','scraggy','swablu','cubchoo'],
                         destacados:[{name: 'carvanha', type: 'normal', link:'carvanha'},
                                     {name: 'breloom', type: 'normal', link:'breloom'},
                                     {name: 'fearow', type: 'secret', link:'https://media.giphy.com/media/4fOM1fIVBlAM7xh90c/giphy.gif'}
@@ -472,7 +472,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['b15','b24','b26'],
                         shinys:['gigalith','altaria','raticate','politoed','victreebel','accelgor','quagsire','donphan','hydreigon','ludicolo','poliwrath','chandelure','magcargo','haxorus','darmanitan','psyduck','doduo',
-                                'gyarados','smeargle','weezing','braviary','jellicent-f','raichu','rapidash','gurdurr','grimer','bellsprout','metapod','scraggy','cubchoo'
+                                'gyarados','smeargle','weezing','braviary','jellicent-f','raichu','rapidash','gurdurr','grimer','bellsprout','metapod','scraggy','cubchoo','piloswine'
                         ],
                         destacados:[],
                         perdidos: [],
@@ -592,7 +592,7 @@ const memberData = {
         MasterSainz: {  name:'MasterSainz',
                         rol: 'Chad',
                         medallas:['b24'],
-                        shinys:['donphan','ditto'],
+                        shinys:['donphan','ditto','donphan'],
                         destacados:[],
                         perdidos: [],
                         vendidos: ['https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif',
@@ -1079,7 +1079,7 @@ const memberData = {
         Tyrantrum: {    name:'Tyrantrum',
                         rol: 'Chad',
                         medallas:['b17','b26','b30'],
-                        shinys:['drifblim','donphan','arbok','druddigon','roselia','tentacool','cubchoo'],
+                        shinys:['drifblim','donphan','arbok','druddigon','roselia','tentacool','cubchoo','cryogonal'],
                         destacados:[{name: 'totodile', type: 'normal', link:'totodile'},
                                 {name: 'sudowoodo', type: 'alpha', link:'https://media.giphy.com/media/da60GIUj74BHRR9Px5/giphy.gif'}
                         ],
