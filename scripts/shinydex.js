@@ -8,8 +8,6 @@ function create_shinydex(genName,pokemonList,shinydex,captured){
 
     if(shinydex.id == "otherdex"){
         title.className = "otherdex-title";
-    }else if(shinydex.id == "unowndex"){
-        grid.className = "unowndex-title";
     }else{
         title.className = "generation-title";
     }
@@ -46,8 +44,6 @@ function create_shinydex(genName,pokemonList,shinydex,captured){
         }
 
         let registrador = "";
-        console.log(name);
-        console.log(Object.keys(captured).includes(name));
         if (Object.keys(captured).includes(name)) {
 
             if(shinydex.id == "shinydex-live"){

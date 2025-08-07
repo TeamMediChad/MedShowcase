@@ -653,8 +653,8 @@ const captured_unown = {
 const captured_other = {
   "burmy-plant": ["KnowJiYong","KnowJiYong"],
   "wormadam-plant": ["KnowJiYong","KnowJiYong"],
-  "shellos-west": ["Azathotx","Azathotx"],
   "shellos-east": ["Souen","Souen"],
+  "gastrodon-west": ["Azathotx","Azathotx"],
   "gastrodon-east": ["Souen","Souen"],
   "basculin-red-striped": ["DavidCitos","DavidCitos"],
 }

@@ -47,18 +47,6 @@ progress {
   transform: translateX(370px);
 }
 
-.otherdex-title {
-  font-family: "Retro";
-  font-size: 1.8rem;
-  margin: 1.5rem 0 0.5rem;
-  font-weight: normal;
-  color: #fffffffb;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 0.3rem;
-  width: 430px;
-  transform: translateX(370px);
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
