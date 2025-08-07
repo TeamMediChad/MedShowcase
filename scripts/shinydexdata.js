@@ -104,6 +104,25 @@ const generations = {
   "zweilous", "hydreigon", "larvesta", "volcarona"],
 };
 
+const otherdex = {
+  "Burmy": ["burmy-plant","burmy-sandy","burmy-trash"],
+
+  "Wormadam": ["wormadam-plant","wormadam-sandy","wormadam-trash"],
+
+  "Shellos": ["shellos-west",'shellos-east'],
+
+  "Gastrodon": ["gastrodon-west",'gastrodon-east'],
+
+  "Basculin": ["basculin-red-striped","basculin-blue-striped"],
+};
+
+const unowndex = {
+  "Unown": ["unown-a","unown-b","unown-c","unown-d","unown-e","unown-f","unown-g","unown-h","unown-i","unown-j","unown-k","unown-l",
+            "unown-m","unown-n","unown-o","unown-p","unown-q","unown-r","unown-s","unown-t","unown-u","unown-v","unown-w","unown-x",
+            "unown-y","unown-z","unown-em","unown-qm"
+  ],
+};
+
 const capturedBy = {
   bulbasaur: [ "Maicol","Maicol"],
   ivysaur: [ "Maicol","Maicol"],
@@ -229,7 +248,7 @@ const capturedBy = {
   tauros: [ "KnowJiYong","KnowJiYong"],
   magikarp: [ "DavidCitos","Palafo"],
   gyarados: [ "ToxicPlumber","ToxicPlumber"],
-  lapras: [ "must","AshFifero"],
+  lapras: [ "AshFifero","AshFifero"],
   ditto: [ "Silvaryl","INotAaron"],
   eevee: [ "Alicia","Alicia"],
   vaporeon: [ "Jabubuu","Jabubuu"],
@@ -270,7 +289,7 @@ const capturedBy = {
   marill: [ "DavidCitos","DavidCitos"],
   azumarill: [ "MonkeyCake","MonkeyCake"],
   sudowoodo: [ "Tyrantrum","Tyrantrum"],
-  politoed: [ "ElConejoLoco","ElConejoLoco"],
+  politoed: [ "Ingrid","ElConejoLoco"],
   hoppip: [ "Doce","Doce"],
   skiploom: [ "Doce","Doce"],
   jumpluff: [ "Akalii","Akalii"],
@@ -381,7 +400,7 @@ const capturedBy = {
   swalot: [ "ToxicPlumber","ToxicPlumber"],
   carvanha: [ "JuniorJMx","JuniorJMx"],
   sharpedo: [ "Akalii","Akalii"],
-  wailmer: [ "Dohrito","AshFifero"],
+  wailmer: [ "AshFifero","AshFifero"],
   wailord: [ "ErnestoSwampert","ErnestoSwampert"],
   numel: [ "Alicia","Alicia"],
   camerupt: [ "KnowJiYong","KnowJiYong"],
@@ -467,7 +486,7 @@ const capturedBy = {
   bronzor: [ "Akalii","Akalii"],
   bronzong: [ "DavidCitos","DavidCitos"],
   "mime-jr": [ "Seaba","Seaba"],
-  chatot: [ "Veilia","Veilia"],
+  chatot: [ "Ingrid","Veilia"],
   gible: [ "Akalii","lMatzu"],
   gabite: [ "Gusteiv","Gusteiv"],
   garchomp: [ "Lirio","Lirio"],
@@ -626,6 +645,20 @@ const capturedBy = {
   volcarona: [ "MasterFox","MasterFox"],
 };
  
+const captured_unown = {
+  "unown-p": ["vitro","vitro"],
+  "unown-em": ["Lirio","Lirio"],
+}
+
+const captured_other = {
+  "burmy-plant": ["KnowJiYong","KnowJiYong"],
+  "wormadam-plant": ["KnowJiYong","KnowJiYong"],
+  "shellos-west": ["Azathotx","Azathotx"],
+  "shellos-east": ["Souen","Souen"],
+  "gastrodon-east": ["Souen","Souen"],
+  "basculin-red-striped": ["DavidCitos","DavidCitos"],
+}
+
 // Mejor Apostol
 function getTop(capturedBy) {
   const counts = {};

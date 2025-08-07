@@ -2,10 +2,18 @@ function getSpriteURL(name) {
     return `https://img.pokemondb.net/sprites/black-white/anim/shiny/${name}.gif`;
 }
 
-function create_shinydex(genName,pokemonList,shinydex){
-    const generationlist = pokemonList.filter(name => capturedBy.hasOwnProperty(name)).length;
+function create_shinydex(genName,pokemonList,shinydex,captured){
+    const generationlist = pokemonList.filter(name => captured.hasOwnProperty(name)).length;
     const title = document.createElement("div");
-    title.className = "generation-title";
+
+    if(shinydex.id == "otherdex"){
+        title.className = "otherdex-title";
+    }else if(shinydex.id == "unowndex"){
+        grid.className = "unowndex-title";
+    }else{
+        title.className = "generation-title";
+    }
+
     title.innerHTML = `${genName}&emsp;(${generationlist}/${pokemonList.length})`;
     shinydex.appendChild(title);
 
@@ -18,30 +26,45 @@ function create_shinydex(genName,pokemonList,shinydex){
     */
 
     const grid = document.createElement("div");
-    grid.className = "grid-container";
+
+    if(shinydex.id == "otherdex"){
+        grid.className = "grid-container-otherdex";
+    }else if(shinydex.id == "unowndex"){
+        grid.className = "grid-container-unowndex";
+    }else{
+        grid.className = "grid-container";
+    }
 
     pokemonList.forEach((name) => {
+        
 
         const container = document.createElement("div");
-        container.className = "shinydex-card";
+        if(shinydex.id == "otherdex"){
+            container.className = "otherdex-card";
+        }else{
+            container.className = "shinydex-card";
+        }
 
         let registrador = "";
+        console.log(name);
+        console.log(Object.keys(captured).includes(name));
+        if (Object.keys(captured).includes(name)) {
 
-        if (Object.keys(capturedBy).includes(name)) {
             if(shinydex.id == "shinydex-live"){
-                if(Object.keys(memberData).includes(capturedBy[name][0])){
+                if(Object.keys(memberData).includes(captured[name][0])){
                     container.classList.add("captured");
                 }else{
                     container.classList.add("owned");
                 }
-            registrador = capturedBy[name][0] || "Desconocido";
+                registrador = captured[name][0] || "Desconocido";
+
             } else {
-                if(Object.keys(memberData).includes(capturedBy[name][1])){
-                container.classList.add("captured");
+                if(Object.keys(memberData).includes(captured[name][1])){
+                    container.classList.add("captured");
                 }else{
                     container.classList.add("owned");
                 }
-            registrador = capturedBy[name][1] || "Desconocido";
+                registrador = captured[name][1] || "Desconocido";
             }
             
             container.style.pointerEvents = "auto";
@@ -110,6 +133,8 @@ function create_shinydex(genName,pokemonList,shinydex){
 
 const shinydex_live = document.getElementById("shinydex-live");
 const shinydex_story = document.getElementById("shinydex-story");
+const unowndex_list = document.getElementById("unowndex");
+const otherdex_list = document.getElementById("otherdex");
 // Maestro apóstol
 const topContainer = document.createElement("div");
 topContainer.className = "top-capturer";
@@ -137,14 +162,22 @@ document.getElementById('top-trainer').appendChild(toptop);
 
 
 document.getElementById('Shinydex-header').textContent = `MeD Shinydex (${Object.keys(capturedBy).length + 1}/604)`;
-//document.getElementById('Shinydex-progress').value = Object.keys(capturedBy).length + 1;
+//document.getElementById('Shinydex-progress').value = Object.keys(captured).length + 1;
 
 
 //shinydex cards
 for (const [genName, pokemonList] of Object.entries(generations)) {
-    create_shinydex(genName, pokemonList, shinydex_live);
-    create_shinydex(genName, pokemonList, shinydex_story);
+    create_shinydex(genName, pokemonList, shinydex_live, capturedBy);
+    create_shinydex(genName, pokemonList, shinydex_story, capturedBy);
     shinydex_story.classList.add("hidden");
+}
+
+for (const [typename, pokemonList] of Object.entries(otherdex)) {
+    create_shinydex(typename, pokemonList, otherdex_list, captured_other);
+}
+
+for (const [unownname, pokemonList] of Object.entries(unowndex)) {
+    create_shinydex(unownname, pokemonList, unowndex_list, captured_unown);
 }
 
 function chage_dex() {
@@ -165,3 +198,17 @@ const toggle = document.getElementById('live-dex-toggle');
 
     }
   });
+
+function open_shinydex(){
+    document.getElementById('shinydex-content').hidden = false;
+    document.getElementById('otherdex-content').hidden = true;
+    document.getElementById('shinydex-button').disabled = true;
+    document.getElementById('otherdex-button').disabled = false;
+}
+
+function open_otherdex(){
+    document.getElementById('shinydex-content').hidden = true;
+    document.getElementById('otherdex-content').hidden = false;
+    document.getElementById('shinydex-button').disabled = false;
+    document.getElementById('otherdex-button').disabled = true;
+}

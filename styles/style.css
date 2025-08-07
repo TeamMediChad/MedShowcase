@@ -24,6 +24,10 @@ html {
   border-color: #494949;
 }
 
+.main-content2{
+  border-color: none;
+}
+
 /* Navbar*/
 
 body {
@@ -214,3 +218,5 @@ body {
 .custom-checkbox:hover .checkmark {
   background-image: url('../img/button/checkbox_hover.png');
 }
+
+

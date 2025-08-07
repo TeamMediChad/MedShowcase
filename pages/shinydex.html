@@ -18,26 +18,45 @@
     <a class="active"><img src="../img/Icons/pokedex.png" alt="icon" class="nav-icon">Shinydex</a>
     <a href="./mensual.html"><img src="../img/Icons/resumen.png" alt="icon" class="nav-icon">Resumen mensual</a>
   </div>
+
+  <div class="button-nav">
+    <button class="button-dex" id="shinydex-button" onclick="open_shinydex()" disabled>Shinydex</button>
+    <button class="button-dex" id="otherdex-button" onclick="open_otherdex()">Otherdex</button>
+  </div>
   
-  <header id="Shinydex-header" class="big-title2">MeD Shinydex (604/604)</header>
-  <div class="centrado-horizontal">
-    <p class="big-title3">Live</p>
-    <label class="custom-checkbox">
-      <input type="checkbox" id="live-dex-toggle" checked>
-      <span class="checkmark"></span>
-    </label>
-  </div>
-  <header class="big-title3" id="text-dex">La <span class="text-red-500">Live <span class="text-white">Shinydex muestre el primer miembro actual en registrar el shiny <br> en caso de no haber miembro actual encontes muestra la primera persona en registrarlo</header>
-  <!--progress id="Shinydex-progress" value="0" max="604"></progress-->
+  <div id="shinydex-content">
 
-  <div id="top-trainer">
-    
+    <header id="Shinydex-header" class="big-title2">MeD Shinydex (604/604)</header>
+    <div class="centrado-horizontal">
+      <p class="big-title3">Live</p>
+      <label class="custom-checkbox">
+        <input type="checkbox" id="live-dex-toggle" checked>
+        <span class="checkmark"></span>
+      </label>
+    </div>
+    <header class="big-title3" id="text-dex">La <span class="text-red-500">Live <span class="text-white">Shinydex muestre el primer miembro actual en registrar el shiny <br> en caso de no haber miembro actual encontes muestra la primera persona en registrarlo</header>
+    <!--progress id="Shinydex-progress" value="0" max="604"></progress-->
+
+    <div id="top-trainer">
+      
+    </div>
+
+    <div id="main-content" class="main-content2">
+      <main id="shinydex-live"></main>
+      <main id="shinydex-story"></main>
+    </div>
+
   </div>
 
-  <div id="main-content" class="main-content" ="display: none;">
-    <main id="shinydex-live"></main>
-    <main id="shinydex-story"></main>
+  <div id="otherdex-content" hidden>
+    <p class="dex-title">Unowndex (2/28)</p>
+    <p class="dex-title2">Alfabeto unown regisrrado</p>
+    <main id="unowndex"></main>
+    <p class="dex-title">Otherdex (6/12)</p>
+    <p class="dex-title2">Registro de especies alternativas</p>
+    <main id="otherdex"></main>
   </div>
+
   <script src="../scripts/info.js"></script>
   <script src="../scripts/shinydexdata.js"></script>
   <script src="../scripts/shinydex.js"></script>
