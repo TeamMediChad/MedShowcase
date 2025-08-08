@@ -416,7 +416,7 @@ const capturedBy = {
   vibrava: [ "TheJesucristian","TheJesucristian"],
   flygon: [ "ritosenpai","ritosenpai"],
   cacnea: [ "JUANKAXGARCIA","jerryeric"],
-  cacturne: [ "jerryeric","jerryeric"],
+  cacturne: [ "JuniorJMx","jerryeric"],
   swablu: [ "DavidCitos","DavidCitos"],
   altaria: [ "Krackon","Domotwo"],
   zangoose: [ "Ashy","XxsvrgioxX"],
