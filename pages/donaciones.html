@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resumen Mensual</title>
+  <title>Donación</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" type="image/png" href="../img/Icons/icon.png">
   <link rel="stylesheet" href="../styles/mensuales.css">
   <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/shinydex.css">
+  <link rel="stylesheet" href="../styles/donaciones.css">
 </head>
 <body class="background">
 
@@ -17,7 +19,7 @@
     <a href="./shinyrace.html"><img src="../img/Icons/race.png" alt="icon" class="nav-icon">Shiny Race</a>
     <a href="./shinydex.html"><img src="../img/Icons/pokedex.png" alt="icon" class="nav-icon">Shinydex</a>
     <a href="./mensual.html"><img src="../img/Icons/resumen.png" alt="icon" class="nav-icon">Resumen Mensual</a>
-    <a class="active"><img src="../img/Icons/resumen.png" alt="icon" class="nav-icon">Spoilers</a>
+    <a class="active"><img src="../img/Icons/Monedero.png" alt="icon" class="nav-icon">Donaciones</a>
   </div>
 
   <div id="main-content" class="main-content" ="display: none;">
@@ -28,26 +30,20 @@
     <div class="top-wrap">
       <div class="top-capturer">
         <div class="user-img-wrapper">
-          <img src="../Members_sprites/Placeholder.png" class="user-img">
-          <div class="top-text">🎉 El shunter del mes es placeholder con 100pts 🎉</div>
+          <div class="top-text"><span class="text-white">Puedes apoyar mandando tu donación al banco de MeD en Pokemmo.<br>Nombre del banco: <span class="text-red-500 font-bold">HSBCMeD
+            <br><br><span class="text-white font-normal"> Dinero actual del banco: <span class="text-white font-bold"> $13.650.000
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Sección: dex -->
-    <div class="centrado">
-      <img style="width: 25%;" src="../img/Titles/New_registers.png">
-    </div>
-    <div id="mensuales-dex" class="mensuales-dex"></div>
-    <div style="height: 1rem;"></div>
-    
-    <!-- Sección: destacados -->
-    <div class="centrado">
-      <img style="width: 15%;" src="../img/Titles/shiny_rare.png">
-    </div>
-    <div id="mensuales-destacados" class="mensuales-destacados"></div>
+    <header class="big-title2">Top donadores</header>
 
-    <script src="../scripts/mensuales2.js"></script>
+    <div class="centrado">
+      <div id="tabla-donadores" class="tabla-donadores"></div>
+    </div>
+
+    <script src="../scripts/donaciones.js"></script>
 
   </main>
   </div>

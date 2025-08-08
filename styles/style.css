@@ -36,9 +36,10 @@ body {
 }
 
 .topnav {
-  overflow: hidden;
   height: 100px;
   display: flex;
+  overflow-y: hidden;
+  overflow-x: auto;
 
   border-width: 15px 1px 15px 1px;
   border-style: solid;
@@ -51,12 +52,13 @@ body {
   font-family: "Retro";
   color: #fff;
   text-decoration: none;
-  padding: 10px 65px 10px 15px;
+  padding: 10px 15px;
   transition: background-color .3s ease, transform .3s ease;
   text-align: center;
   font-size: 30px;
   text-transform: uppercase;
-  display: flex;
+  display: inline-flex;
+  white-space: nowrap;
 }
 
 .nav-icon {
@@ -82,6 +84,28 @@ body {
   text-decoration: none;
   transform: none;
 }
+
+.topnav::-webkit-scrollbar {
+  height: 10px;
+}
+
+.topnav::-webkit-scrollbar-track {
+  background: none;
+}
+
+.topnav::-webkit-scrollbar-thumb {
+  background: none;
+  border-width: 3px 3px 3px 3px;
+  border-style: solid;
+  border-image-source: url("../img/button/scrollbar_button.png");
+  border-image-slice: 3 3 3 3 fill;
+  border-image-repeat: round;
+}
+
+.topnav::-webkit-scrollbar-thumb:hover {
+  filter: drop-shadow(5px 5px 5px #c3c3c3);
+}
+
 
 .flex-center {
   display: flex;

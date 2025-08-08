@@ -105,13 +105,17 @@ const generations = {
 };
 
 const otherdex = {
-  "Burmy": ["burmy-plant","burmy-sandy","burmy-trash"],
+  /*"Burmy": ["burmy-plant","burmy-sandy","burmy-trash"],
 
-  "Wormadam": ["wormadam-plant","wormadam-sandy","wormadam-trash"],
+  "Wormadam": ["wormadam-plant","wormadam-sandy","wormadam-trash"],*/
 
   "Shellos": ["shellos-west",'shellos-east'],
 
   "Gastrodon": ["gastrodon-west",'gastrodon-east'],
+
+  "Deerling": ["deerling-summer",'deerling-autumn','deerling-winter','deerling-spring'],
+
+  "Sawsbuck": ["sawsbuck-summer",'sawsbuck-autumn','sawsbuck-winter','sawsbuck-spring'],
 
   "Basculin": ["basculin-red-striped","basculin-blue-striped"],
 };
@@ -253,6 +257,7 @@ const capturedBy = {
   eevee: [ "Alicia","Alicia"],
   vaporeon: [ "Jabubuu","Jabubuu"],
   jolteon: [ "ritosenpai","ritosenpai"],
+  flareon: [ "Jabubuu","Jabubuu"],
   porygon: [ "Alicia","Alicia"],
   kabuto: [ "chunchumaru","chunchumaru"],
   kabutops: [ "chunchumaru","chunchumaru"],
@@ -509,6 +514,7 @@ const capturedBy = {
   tangrowth: [ "Pancho","Pancho"],
   electivire: [ "iYerson","iYerson"],
   magmortar: [ "DiGoMo","DiGoMo"],
+  leafeon: [ "Mittoh","Mittoh"],
   gliscor: [ "TheJesucristian","Wildfredo"],
   mamoswine: [ "TheJesucristian","TheJesucristian"],
   "porygon-z": [ "Alicia","Alicia"],
@@ -527,6 +533,7 @@ const capturedBy = {
   dewott: [ "Seaba","Seaba"],
   patrat: [ "UltimoMorador","UltimoMorador"],
   watchog: [ "Krackon","watchog"],
+  lillipup: [ "UltimoMorador","UltimoMorador"],
   herdier: [ "ritosenpai","ritosenpai"],
   stoutland: [ "UltimoMorador","UltimoMorador"],
   purrloin: [ "Pancho","Pancho"],
@@ -651,11 +658,13 @@ const captured_unown = {
 }
 
 const captured_other = {
-  "burmy-plant": ["KnowJiYong","KnowJiYong"],
-  "wormadam-plant": ["KnowJiYong","KnowJiYong"],
+  /*"burmy-plant": ["KnowJiYong","KnowJiYong"],
+  "wormadam-plant": ["KnowJiYong","KnowJiYong"],*/
   "shellos-east": ["Souen","Souen"],
   "gastrodon-west": ["Azathotx","Azathotx"],
   "gastrodon-east": ["Souen","Souen"],
+  "deerling-summer": ["YuukiTwo","YuukiTwo"],
+  "sawsbuck-autumn": ["YuukiTwo","YuukiTwo"],
   "basculin-red-striped": ["DavidCitos","DavidCitos"],
 }
 

@@ -1,0 +1,68 @@
+
+
+.tabla-donadores {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    font-family: "Retro";
+}
+
+:root {
+    --team-height: 60px;
+    --team-spacing: 10px;
+}
+
+.team {
+    position: absolute;
+    width: 90%;
+    height: var(--team-height);
+    background: var(--color);
+    box-shadow: 0 3px 5px #0000001f;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(var(--i) * (var(--team-height) + var(--team-spacing)));
+    display: flex;
+
+    align-items: center;
+    transition-property: top;
+    transition-duration: 500ms;
+
+
+}
+
+.name {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 10px;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+}
+
+.dinero {
+    margin: 0 10px 0 auto;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.dinero:before {
+    content: '$';
+}
+
+
+
+.team i {
+    width: 80px;
+    height: var(--team-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.8rem;
+}

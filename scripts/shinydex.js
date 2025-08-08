@@ -8,20 +8,14 @@ function create_shinydex(genName,pokemonList,shinydex,captured){
 
     if(shinydex.id == "otherdex"){
         title.className = "otherdex-title";
+    }else if(shinydex.id == "unowndex"){
+        title.className = "unowndex-title";
     }else{
         title.className = "generation-title";
     }
 
     title.innerHTML = `${genName}&emsp;(${generationlist}/${pokemonList.length})`;
     shinydex.appendChild(title);
-
-    /*
-    generation_progress = document.createElement("progress")
-    generation_progress.value = generationlist;
-    generation_progress.max = pokemonList.length;
-
-    title.appendChild(generation_progress)
-    */
 
     const grid = document.createElement("div");
 

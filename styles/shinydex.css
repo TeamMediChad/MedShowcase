@@ -35,16 +35,24 @@ progress {
   padding-bottom: 0.3rem;
 }
 
-.otherdex-title {
+.unowndex-title {
   font-family: "Retro";
   font-size: 1.8rem;
-  margin: 1.5rem 0 0.5rem;
+  margin: 1.5rem 9rem 0.5rem;
   font-weight: normal;
   color: #fffffffb;
   border-bottom: 2px solid #ddd;
   padding-bottom: 0.3rem;
-  width: 430px;
-  transform: translateX(370px);
+}
+
+.otherdex-title {
+  font-family: "Retro";
+  font-size: 1.8rem;
+  margin: 1.5rem 18rem 0.5rem;
+  font-weight: normal;
+  color: #fffffffb;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.3rem;
 }
 
 .grid-container {
@@ -60,7 +68,7 @@ progress {
 .grid-container-otherdex {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-  max-width: calc(130px * 3 + 20px * 2);
+  max-width: calc(130px * 4 + 20px * 3);
   margin-left: auto;
   margin-right: auto;
   row-gap: 1rem;
@@ -70,7 +78,7 @@ progress {
 .grid-container-unowndex {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
-  max-width: calc(110px * 8 + 20px * 7);
+  max-width: calc(110px * 7 + 20px * 6);
   margin-left: auto;
   margin-right: auto;
   row-gap: 1rem;
