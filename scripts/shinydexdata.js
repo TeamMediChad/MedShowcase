@@ -142,7 +142,7 @@ const capturedBy = {
   butterfree: [ "LifeTown","LifeTown"],
   weedle: [ "nyumichaelis","nyumichaelis"],
   kakuna: [ "MangoOscuro","MangoOscuro"],
-  beedrill: [ "ISilverJR","ISilverJR"],
+  beedrill: [ "YuukiTwo","ISilverJR"],
   pidgey: [ "Pancho","Pancho"],
   pidgeotto: [ "Pancho","SantiagoYTGamer"],
   pidgeot: [ "Pancho","Pancho"],
