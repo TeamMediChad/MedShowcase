@@ -2,7 +2,7 @@ let data = [
   {name: "Souen", dinero: 800000},
   {name: "KnowYiJong", dinero: 500000},
   {name: "aeamanh", dinero: 1100000},
-  {name: "Pancho", dinero: 1350000},
+  {name: "Pancho", dinero: 2050000},
   {name: "ritosenpai", dinero: 100000},
   {name: "YuukiTwo", dinero: 11500000},
   {name: "Cece", dinero: 600000},
