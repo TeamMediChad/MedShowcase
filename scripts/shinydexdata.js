@@ -20,7 +20,7 @@ const generations = {
   "staryu", "starmie", "mr-mime", "scyther", "jynx", "electabuzz", "magmar",
   "pinsir", "tauros", "magikarp", "gyarados", "lapras", "ditto", "eevee",
   "vaporeon", "jolteon", "flareon", "porygon", "omanyte", "omastar", "kabuto",
-  "kabutops", "aerodactyl", "snorlax", "articuno", "zapdos", "moltres",
+  "kabutops", "aerodactyl", "snorlax",/* "articuno", "zapdos", "moltres",*/
   "dratini", "dragonair", "dragonite"],
 
   "Gen 2": ["chikorita", "bayleef", "meganium", "cyndaquil", "quilava", "typhlosion",
@@ -37,7 +37,7 @@ const generations = {
   "remoraid", "octillery", "delibird", "mantine", "skarmory", "houndour",
   "houndoom", "kingdra", "phanpy", "donphan", "porygon2", "stantler",
   "smeargle", "tyrogue", "hitmontop", "smoochum", "elekid", "magby",
-  "miltank", "blissey", "raikou", "entei", "suicune", "larvitar", "pupitar",
+  "miltank", "blissey",/* "raikou", "entei", "suicune", */"larvitar", "pupitar",
   "tyranitar"],
 
   "Gen 3": ["treecko", "grovyle", "sceptile", "torchic", "combusken", "blaziken",
@@ -60,7 +60,7 @@ const generations = {
   "tropius", "chimecho", "absol", "wynaut", "snorunt", "glalie",
   "spheal", "sealeo", "walrein", "clamperl", "huntail", "gorebyss",
   "relicanth", "luvdisc", "bagon", "shelgon", "salamence",
-  "beldum", "metang", "metagross","jirachi"],
+  "beldum", "metang", "metagross",/*"jirachi"*/],
 
   "Gen 4": [ "turtwig", "grotle", "torterra", "chimchar", "monferno", "infernape",
   "piplup", "prinplup", "empoleon", "starly", "staravia", "staraptor",
@@ -77,7 +77,7 @@ const generations = {
   "weavile", "magnezone", "lickilicky", "rhyperior", "tangrowth",
   "electivire", "magmortar", "togekiss", "yanmega", "leafeon", "glaceon",
   "gliscor", "mamoswine", "porygon-z", "gallade", "probopass", "dusknoir",
-  "froslass", "rotom","heatran","darkrai", "shaymin",],
+  "froslass", "rotom"/*,"heatran","darkrai", "shaymin",*/],
 
   "Gen 5": ["snivy", "servine", "serperior", "tepig", "pignite", "emboar",
   "oshawott", "dewott", "samurott", "patrat", "watchog", "lillipup", "herdier",

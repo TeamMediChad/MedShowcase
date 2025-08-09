@@ -151,7 +151,7 @@ document.getElementById('top-trainer').appendChild(toptop);
 
 
 
-document.getElementById('Shinydex-header').textContent = `MeD Shinydex (${Object.keys(capturedBy).length + 1}/604)`;
+document.getElementById('Shinydex-header').textContent = `MeD Shinydex (${Object.keys(capturedBy).length + 1}/601)`;
 //document.getElementById('Shinydex-progress').value = Object.keys(captured).length + 1;
 
 
