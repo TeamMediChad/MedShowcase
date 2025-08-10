@@ -170,9 +170,9 @@ function showInfo(personKey) {
     shiny_container2.className = "shiny-img-container-false";
     shiny_container4.className = "shiny-img-container-false";
     shinyEL.className = "medalla2";
-    if(miembro.medallas.includes('b32')){
+    if(miembro.medallas.includes('m_adrix')){
       shinyEL.textContent = '☠️ Persona mega pecadora';
-    } else if (miembro.medallas.includes('b24')){
+    } else if (miembro.medallas.includes('m_pecador')){
       shinyEL.textContent = '👿 Persona pecadora';
     } else {
       shinyEL.textContent = '😢 No shiny todavía';
@@ -211,11 +211,11 @@ function showInfo(personKey) {
     const vendidosEl = document.createElement('span');
     shiny_container3.className = "shiny-img-container-false";
     vendidosEl.className = "medalla2";
-    if(miembro.medallas.includes('b32')){
+    if(miembro.medallas.includes('m_adrix')){
       vendidosEl.textContent = '☠️ No quieres saber';
     } else if(miembro.name == 'Lirio'){
       vendidosEl.textContent = '🏳️‍🌈 Pecador';
-    } else if (miembro.medallas.includes('b24')){
+    } else if (miembro.medallas.includes('m_pecador')){
       vendidosEl.textContent = '👿 Pecador no confesado';
     } else {
       vendidosEl.textContent = '😇 Persona limpia de pecado';
@@ -313,7 +313,7 @@ function show_sell() {
     document.getElementById('espacio2').style = "height: 0rem;";
     document.getElementById('shiny-btn').disabled = false;
     document.getElementById('sell-btn').disabled = true;
-    if(!memberData[nombre].medallas.includes('b32')){
+    if(!memberData[nombre].medallas.includes('m_adrix')){
       document.getElementById('modal-title2').textContent = `Vendidos (${memberData[nombre].vendidos.length})`;
     } else {
       document.getElementById('modal-title2').textContent = `Vendidos (Infinitos)`;

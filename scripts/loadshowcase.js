@@ -18,7 +18,7 @@ miembros.forEach(key => {
 
   //verificar si tiene golden box
   const card = document.createElement('div');
-  if(miembro.medallas.includes('b23')){
+  if(miembro.medallas.includes('m_goldenbox')){
     card.className= 'card-gold';
   } else {
     card.className= 'card';
@@ -121,7 +121,7 @@ miembros.forEach(key => {
   }
 
   //shunter del mes
-  if(miembro.medallas.includes('b11')){
+  if(miembro.medallas.includes('m_shunter')){
     const icon = document.createElement('img');
     icon.src = '../img/Medals/shunter_medal.png';
     icon.className = 'card-icon';
@@ -140,7 +140,7 @@ miembros.forEach(key => {
   }
 
   //race winner
-  if(miembro.medallas.includes('b13')){
+  if(miembro.medallas.includes('m_raceW')){
     const icon = document.createElement('img');
     icon.src = '../img/Medals/racewinner_medal.png';
     icon.className = 'card-icon';
