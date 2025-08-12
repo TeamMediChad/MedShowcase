@@ -297,9 +297,10 @@ const memberData = {
         },
         ErnestoSwampert: {name:'ErnestoSwampert',
                         rol: 'Chad',
-                        medallas:['m_pescador','m_secret','m_suertudo','m_raza','m_apostol','parasect','banette'],
-                        shinys:['nidoking','gyarados','poliwag','weavile','mienshao','magikarp','weezing','beedrill','marill','jigglypuff','smeargle'],
+                        medallas:['m_safari','m_pescador','m_secret','m_suertudo','m_raza','m_apostol','parasect','banette'],
+                        shinys:['nidoking','gyarados','poliwag','weavile','mienshao','weezing','beedrill','marill','jigglypuff','smeargle','banette','parasect'],
                         destacados:[{name: 'wailord', type: 'normal', link:'wailord'},
+                                    {name: 'magikarp' ,type: 'safari', link: 'https://media.giphy.com/media/UNahzhszvptLgyuChJ/giphy.gif'},
                                     {name: 'staryu', type: 'secret', link:'https://media.giphy.com/media/zCSh5QHt2WemejGjzh/giphy.gif'},
                         ],
                         perdidos: [],
@@ -672,7 +673,7 @@ const memberData = {
         Monozee: {      name:'Monozee',
                         rol: 'Chad',
                         medallas:['m_dead','m_suertudo','m_pecador'],
-                        shinys:['watchog','dodrio','dodrio','donphan','donphan','horsea','purrloin','koffing','litwick','sneasel','smeargle','magikarp','duskull','vulpix','axew','banette'
+                        shinys:['watchog','dodrio','dodrio','donphan','donphan','horsea','purrloin','koffing','litwick','sneasel','smeargle','magikarp','duskull','vulpix','axew','banette','krokorok'
                         ],
                         destacados:[],
                         perdidos: [],
