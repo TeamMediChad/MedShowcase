@@ -185,7 +185,7 @@ const memberData = {
         Cece: {         name:'Cece',
                         rol: 'MaxiChad',
                         medallas:['m_lider','m_meditite','m_apostol','m_supremacy2'],
-                        shinys:['sneasel','meditite','luxray','girafarig','wingull','magmar','deerling','golett','weedle','purrloin','dratini','bronzong','jynx','cofagrigus','hypno','cryogonal'],
+                        shinys:['sneasel','meditite','luxray','girafarig','wingull','magmar','deerling','golett','weedle','purrloin','dratini','bronzong','jynx','cofagrigus','hypno','cryogonal','misdreavus'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []
@@ -194,7 +194,7 @@ const memberData = {
                         rol: 'MegaChad',
                         medallas:['m_gomed','m_sequia','m_pecador','m_apostol','m_olimpiadas'],
                         shinys:['spearow','golduck','tentacool','vanillish','gyarados','ludicolo','rapidash','conkeldurr','galvantula','mienshao','bellossom','durant','smeargle','sandile','pidgeotto','jumpluff','meowth',
-                                'spinda','politoed','vanilluxe','cinccino','lanturn','rhydon','gligar','shelmet','koffing','litwick','cubchoo'
+                                'spinda','politoed','vanilluxe','cinccino','lanturn','rhydon','gligar','shelmet','koffing','litwick','cubchoo','starly'
                         ],
                         destacados:[{name: 'furret', type: 'normal', link:'furret'}],
                         perdidos: [],
