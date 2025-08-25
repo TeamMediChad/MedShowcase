@@ -955,7 +955,7 @@ const memberData = {
         },
         ritosenpai: {   name:'ritosenpai',
                         rol: 'MaxiChad',
-                        medallas:['m_gomed','m_secret','m_shunter','m_raceL','m_suertudo','m_abuelo','m_mundo','m_goldenbox','m_raza','m_apostol','m_supremacy1','m_olimpiadas','m_supremacy2','m_shinywar'],
+                        medallas:['m_gomed','m_secret','m_shunter','m_raceL','m_suertudo','m_sequia','m_abuelo','m_mundo','m_goldenbox','m_raza','m_apostol','m_supremacy1','m_olimpiadas','m_supremacy2','m_shinywar'],
                         shinys:['slugma','mienfoo','mienfoo','mienfoo','mienfoo','volbeat','shelmet','voltorb','politoed','deino','bellsprout','linoone','weepinbell','drifblim','houndour','zigzagoon','zigzagoon','wynaut',
                                 'larvitar','seviper','snorunt','geodude','cubchoo','cubchoo','cubchoo','ponyta','stantler','sableye','golduck','cottonee','sawsbuck','stunky','dratini','wooper','eelektross','jigglypuff',
                                 'spinda','zangoose','swadloon','mawile','zubat','kingdra','psyduck','cryogonal','torkoal','poochyena','beartic','vanillish','victreebel','deerling','deerling-autumn','krokorok','weezing',
