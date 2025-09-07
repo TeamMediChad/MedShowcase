@@ -564,6 +564,7 @@ const capturedBy = {
   tympole: [ "pimientadaza","pimientadaza"],
   palpitoad: [ "DavidCitos","DavidCitos"],
   seismitoad: [ "pimientadaza","pimientadaza"],
+  throh: [ "Alakxel","Alakxel"],
   sawk: [ "UltimoMorador","UltimoMorador"],
   sewaddle: [ "ermifeNoPremium","ermifeNoPremium"],
   swadloon: [ "UltimoMorador","UltimoMorador"],

@@ -29,6 +29,8 @@ let data = [
   {name: "Alakxel", dinero: 10000000},
   {name: "CmAshto", dinero: 110000},
   {name: "Mexb", dinero: 795000},
+  {name: "Azathotx", dinero: 200000},
+  {name: "LMMRKNRM", dinero: 700000}
 
 ];
 
