@@ -10,7 +10,7 @@ const mensuales = [
     ['c', 'ninjask', 'ritosenpai'],
     ['c', 'monferno', 'Akalii'],
     ['c', 'infernape', 'Akalii'],
-    ['c', 'kricketune', 'Souen'],
+    ['c', 'kricketot', 'Souen'],
     ['r', ['staryu','https://media.giphy.com/media/zCSh5QHt2WemejGjzh/giphy.gif'],'ErnestoSwampert'],
     ['r', ['wailmer','https://img.pokemondb.net/sprites/black-white/anim/shiny/wailmer.gif'],'ErnestoSwampert'],
     ['r', ['barboach','https://img.pokemondb.net/sprites/black-white/anim/shiny/barboach.gif'],'Rebukittheveil'],

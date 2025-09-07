@@ -622,7 +622,7 @@ const memberData = {
         },
         Mexb: {         name:'Mexb',
                         rol: 'MegaChad',
-                        medallas:['m_secret','m_raceL','m_suertudo','m_sequia','m_abuelo','m_raza','m_apostol','m_shinywar'],
+                        medallas:['m_swarm','m_secret','m_raceL','m_suertudo','m_sequia','m_abuelo','m_raza','m_apostol','m_shinywar'],
                         shinys:['dusclops','gallade','weezing','mienshao','dugtrio','ponyta','chandelure','scrafty','smeargle','spinda','poliwrath','accelgor','mienfoo','yamask','kricketune','cacnea','shellos-east',
                                 'shellos-east'
                         ],
