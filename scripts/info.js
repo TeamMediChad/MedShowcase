@@ -42,14 +42,6 @@ const listaMedalla = {
 };
 
 const memberData = {
-        AdrixJK: {      name:'AdrixJK',
-                        rol: 'MegaChad',
-                        medallas:['m_dead','m_secret','m_raceL','m_suertudo','m_misterio','m_pecador','m_apostol','m_adrix'],
-                        shinys:['raticate','ditto','raticate','buizel','ditto','gloom','smeargle','raticate'],
-                        destacados:[],
-                        perdidos: [],
-                        vendidos: [],
-        },
         aeamanh: {      name:'aeamanh',
                         rol: 'MaxiChad',
                         medallas:['m_secret','m_raceL','m_suertudo','m_sequia','m_mundo','m_pecador','m_apostol','m_olimpiadas','m_shinywar'],
@@ -95,7 +87,7 @@ const memberData = {
                         ]
         },
         Alakxel: {      name:'Alakxel',
-                        rol: 'Chad',
+                        rol: 'MegaChad',
                         medallas:['m_cambio','m_meditite','m_dead','m_pescador','m_suertudo','m_racha','m_sequia','m_mundo','m_goldenbox','m_apostol','m_raza'],
                         shinys:['rapidash','tentacruel','tentacruel','banette','ponyta','ponyta','patrat','venipede','litwick','magikarp','vulpix','axew','ponyta','lombre','stantler','electivire','koffing','gyarados',
                                 'meowth','meowth','magikarp','durant','miltank','deino','ditto','lanturn','heatmor','meowth','duskull','smeargle','slugma','horsea','golett','druddigon','kadabra','haunter','pikachu',

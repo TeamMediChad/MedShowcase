@@ -23,8 +23,8 @@ const mensuales = [
     ['r', ['luvdisc','https://img.pokemondb.net/sprites/black-white/anim/shiny/luvdisc.gif'],'Krampus'],
     ['r', ['pidgey', 'https://media.giphy.com/media/wuQKOEVvovxvZElCoZ/giphy.gif'], 'KnowJiYong'],
     ['r', ['pelipper', 'https://media.giphy.com/media/g9HysJkxwY4NjKzrjg/giphy.gif'], 'DilanRM'],
-    ['r', ['pelipper', 'https://media.giphy.com/media/Dk1ECUJy7ElgT24Ncu/giphy.gif'], 'OniED'],
-    ['r', ['pelipper', 'https://media.giphy.com/media/TMQQ5y9QIz9q0fGe4X/giphy.gif'], 'Doce']
+    ['r', ['cranidos', 'https://media.giphy.com/media/Dk1ECUJy7ElgT24Ncu/giphy.gif'], 'OniED'],
+    ['r', ['larvesta', 'https://media.giphy.com/media/TMQQ5y9QIz9q0fGe4X/giphy.gif'], 'Doce']
   ];
 
 function showTab(tabId) {
