@@ -282,11 +282,11 @@ const memberData = {
                                 'https://media.giphy.com/media/xLXn3LWXz0X7vL1Gsd/giphy.gif'
                         ]
         },
-        ermifeNoPremium: {name:'ermifeNoPremium',
+        emirfeNoPremium: {name:'emirfeNoPremium',
                         rol: 'Chad',
-                        medallas:['m_apostol','m_shinywar'],
+                        medallas:['m_swarm','m_apostol','m_shinywar'],
                         shinys:['gyarados','lunatone','rattata','gothorita','rhyperior','jigglypuff','litwick','horsea','sewaddle','raticate','mankey','swablu'],
-                        destacados:[],
+                        destacados:[{name: 'squirtle', type:'swarm', link:'https://media.giphy.com/media/BgYP6yjR49jBxtKv6m/giphy.gif'}],
                         perdidos: [],
                         vendidos: []
         },
@@ -336,7 +336,7 @@ const memberData = {
         Guabixd: {      name:'Guabixd',
                         rol: 'Chad',
                         medallas:['m_raceL','m_suertudo','m_racha','m_pecador','m_apostol','m_shinywar'],
-                        shinys:['bibarel','gothita','budew','zigzagoon','heatmor','ditto','seedot','rufflet','golett','frillish','scraggy','mienfoo','ponyta'],
+                        shinys:['bibarel','gothita','budew','zigzagoon','heatmor','ditto','seedot','rufflet','golett','frillish','scraggy','mienfoo','ponyta','tauros'],
                         destacados:[],
                         perdidos: [],
                         vendidos: ['https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif',
