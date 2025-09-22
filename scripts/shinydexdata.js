@@ -399,6 +399,7 @@ const capturedBy = {
   medicham: [ "ToxicPlumber","ToxicPlumber"],
   electrike: [ "DavidCitos","chunchumaru"],
   manectric: [ "ToxicPlumber","ToxicPlumber"],
+  plusle: [ "DavinchY","DavinchY"],
   volbeat: [ "ritosenpai","ritosenpai"],
   illumise: [ "aeamanh","aeamanh"],
   roselia: [ "DavidCitos","DavidCitos"],
