@@ -316,7 +316,7 @@ const memberData = {
                         medallas:['m_meditite','m_swarm','m_suertudi','m_secret','m_sequia','m_pescador','m_goldenbox','m_mundo'],
                         shinys:['tentacruel','gyarados','ponyta','altaria','politoed','ludicolo','donphan','muk','chandelure','camerupt','donphan','aggron','weezing','dusclops','poliwrath','cofagrigus','psyduck','scolipede',
                                 'galvantula','ninetales','slowbro','mienshao','azumarill','medicham','bellossom','bibarel','accelgor','stantler','bibarel','crobat','vanilluxe','solrock','jigglypuff','machamp','dodrio','wobbuffet',
-                                'shinx','shellos-east','budew','walrein','hydreigon','smeargle','meowth','banette','spinda','gallade','dugtrio','haxorus','gurdurr','hoppip','wooper','frillish-f','scraggy','oddish'
+                                'shinx','shellos-east','budew','walrein','hydreigon','smeargle','meowth','banette','spinda','gallade','dugtrio','haxorus','conkeldurr','hoppip','wooper','jellicent-f','scrafty','oddish','pelipper','ferroseed'
                         ],
                         destacados:[{name: 'salamence', type:'normal', link:'salamence'},
                                     {name: 'luvdisc', type:'normal', link:'luvdisc'},
