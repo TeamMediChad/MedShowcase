@@ -118,7 +118,7 @@ function showInfo(personKey = "Palafo") {
 
   // shinys
   shinys.forEach(id => {
-    const shinyEL = document.createElement('img');
+    const shinyEL = document.createElement('img');zz
     shinyEL.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id}.gif`;
     shinyEL.className = "shiny-img"
     shiny_container.appendChild(shinyEL);

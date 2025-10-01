@@ -119,7 +119,11 @@ function showInfo(personKey) {
   // shinys
   shinys.forEach(id => {
     const shinyEL = document.createElement('img');
-    shinyEL.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id}.gif`;
+    if (id == "altaria"){
+      shinyEL.src = "../img/altaria.gif";
+    } else {
+      shinyEL.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id}.gif`;
+    }
     shinyEL.className = "shiny-img"
     shiny_container.appendChild(shinyEL);
   });
@@ -135,7 +139,11 @@ function showInfo(personKey) {
   destacados.forEach(id => {
     const destacadosEl = document.createElement('img');
     if(id.type == "normal"){
-      destacadosEl.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id.link}.gif`;
+      if (id == "altaria"){
+        destacadosEl.src = "../img/altaria.gif";
+      } else {
+        destacadosEl.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id.link}.gif`;
+      }
     } else {
       destacadosEl.src = `${id.link}`;
     }
