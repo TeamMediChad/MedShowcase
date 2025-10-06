@@ -780,7 +780,7 @@ const memberData = {
                         ]
         },
         OniED: {        name:'OniED',
-                        rol: 'MegaChad',
+                        rol: 'GigaChad',
                         medallas:['m_secret','m_pescador','m_suertudo','m_racha','m_rare','m_abuelo','m_huevo','m_fosil','m_raza','m_pecador','m_apostol','m_shinywar'],
                         shinys:['weavile','tentacruel','amoonguss','sandslash','gligar','grimer','koffing','meowth','poochyena','zigzagoon','pelipper','wingull','mienshao','ditto','accelgor','ledyba','hoothoot',
                                 'bellsprout','scolipede','sewaddle','lotad','golett','slugma','claydol','cryogonal','venipede','growlithe'
@@ -939,7 +939,7 @@ const memberData = {
         RIIW: {         name:'RIIW',
                         rol: 'Chad',
                         medallas:['m_dead'],
-                        shinys:['gengar','graveler','chandelure','mienshao'],
+                        shinys:['gengar','graveler','chandelure','mienshao','mienfoo'],
                         destacados:[],
                         perdidos: ['https://media.giphy.com/media/x9SlMSbBu4sM92smld/giphy.gif'],
                         vendidos: []
