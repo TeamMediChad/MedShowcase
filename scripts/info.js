@@ -140,17 +140,6 @@ const memberData = {
                         perdidos: [],
                         vendidos: []
         },
-        Ashy: {         name:'Ashy',
-                        rol: 'GigaChad',
-                        medallas:['m_secret','m_pescador','m_pecador','m_supremacy2','m_shinywar'],
-                        shinys:['drifblim','dratini','raticate','gardevoir','duskull','marill','smeargle','scolipede','zangoose','staravia','bellossom','gloom','lanturn','golett','scraggy','swablu','cubchoo'],
-                        destacados:[{name: 'carvanha', type: 'normal', link:'carvanha'},
-                                    {name: 'breloom', type: 'normal', link:'breloom'},
-                                    {name: 'fearow', type: 'secret', link:'https://media.giphy.com/media/4fOM1fIVBlAM7xh90c/giphy.gif'}
-                        ],
-                        perdidos: [],
-                        vendidos: ['https://media.giphy.com/media/nmviuh9fVteaRspu6U/giphy.gif']
-        },
         AsuraSkyFlames: {name:'AsuraSkyFlames',
                         rol: 'MegaChad',
                         medallas:['m_pescador','m_huevo','m_pecador'],
