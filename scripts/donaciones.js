@@ -43,7 +43,9 @@ data.sort((a, b) => {
     return b.dinero - a.dinero;
   }).forEach((e, i) => (e.rank = i));
 
-data.forEach((el, i) => {
+const data2 = data.slice(0,10)
+
+data2.forEach((el, i) => {
   let box = document.createElement("div");
   box.className = "team";
   box.style.setProperty("--i", i);
@@ -61,3 +63,8 @@ data.forEach((el, i) => {
   container.appendChild(box);
     
 });
+
+let espacio = document.createElement("div");
+espacio.className = "team-empty"
+espacio.style.setProperty("--i", 10);
+container.appendChild(espacio);

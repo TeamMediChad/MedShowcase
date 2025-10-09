@@ -238,6 +238,7 @@ const capturedBy = {
   rhydon: [ "DavidCitos","DavidCitos"],
   chansey: [ "Krackon","Krackon"],
   tangela: [ "Pancho","Palafo"],
+  kangaskhan: ["must","must"],
   horsea: [ "Renz","Renz"],
   seadra: [ "Renz","Renz"],
   goldeen: [ "chunchumaru","chunchumaru"],
