@@ -3,7 +3,7 @@ let data = [
   {name: "KnowYiJong", dinero: 500000},
   {name: "aeamanh", dinero: 1100000},
   {name: "Pancho", dinero: 2050000},
-  {name: "ritosenpai", dinero: 100000},
+  {name: "ritosenpai", dinero: 1100000},
   {name: "YuukiTwo", dinero: 11500000},
   {name: "Cece", dinero: 600000},
   {name: "JuniorJMx", dinero: 900000},
@@ -26,15 +26,26 @@ let data = [
   {name: "Shroomiish", dinero: 100000},
   {name: "MonkeyCake", dinero: 100000},
   {name: "Alicia", dinero: 500000},
-  {name: "Alakxel", dinero: 10000000},
+  {name: "Alakxel", dinero: 20000000},
   {name: "CmAshto", dinero: 110000},
   {name: "Mexb", dinero: 795000},
   {name: "Azathotx", dinero: 200000},
-  {name: "LMMRKNRM", dinero: 700000}
-
+  {name: "LMMRKNRM", dinero: 700000},
+  {name: "Monozee", dinero: 100000},
+  {name: "Murkrow", dinero: 200000}
 ];
 
+let rifadores = [
+  
+];
+
+
+let espacio = document.createElement("div");
+espacio.className = "team-empty"
+espacio.style.setProperty("--i", 10);
+
 let container = document.getElementById("tabla-donadores");
+let container2 = document.getElementById("tabla-rifa");
 
 data.sort((a, b) => {
     if (b.dinero === a.dinero) {
@@ -45,26 +56,73 @@ data.sort((a, b) => {
 
 const data2 = data.slice(0,10)
 
-data2.forEach((el, i) => {
-  let box = document.createElement("div");
-  box.className = "team";
-  box.style.setProperty("--i", i);
-  let name = document.createElement("span");
-  name.className = "name";
-  name.innerHTML = el.name;
-  let dinero = document.createElement("span");
-  dinero.className = "dinero";
-  dinero.innerHTML = el.dinero;
-  let num = Number(dinero.innerHTML).toLocaleString('en');
-  dinero.innerHTML = num;
-  box.appendChild(name);
-  box.appendChild(dinero);
-  box.style.setProperty("--color", "#5b2727ff");
-  container.appendChild(box);
-    
-});
+if(container != null){
+  data2.forEach((el, i) => {
+    let box = document.createElement("div");
+    box.className = "team";
+    box.style.setProperty("--i", i);
+    let name = document.createElement("span");
+    name.className = "name";
+    name.innerHTML = el.name;
+    let dinero = document.createElement("span");
+    dinero.className = "dinero";
+    dinero.innerHTML = el.dinero;
+    let num = Number(dinero.innerHTML).toLocaleString('en');
+    dinero.innerHTML = num;
+    box.appendChild(name);
+    box.appendChild(dinero);
+    box.style.setProperty("--color", "#5b2727ff");
+    container.appendChild(box);
+  });
+  container.appendChild(espacio);
+}
 
-let espacio = document.createElement("div");
-espacio.className = "team-empty"
-espacio.style.setProperty("--i", 10);
-container.appendChild(espacio);
+if(container2 != null){
+  for(let i = 1; i < 101; i++){
+    let card = document.createElement("div");
+    let rifador = rifadores.find(r => r.n === i);
+    if (rifador) {
+      card.className = "participante-card";
+
+      const img_wrap = document.createElement('div');
+      img_wrap.className = "participante-img-wrapper";
+      card.appendChild(img_wrap);
+
+      const img = document.createElement('img');
+      img.src = `../Members_sprites/${rifador.participante}.png`;
+      img.onerror = function () {
+        this.src = `../Members_sprites/Placeholder.png`;
+      };
+      img.className = 'participante-img';
+      img_wrap.appendChild(img);
+
+      const title = document.createElement('h2');
+      title.className = 'participante-title';
+      title.id = `${rifador.participante}`;
+      title.textContent = i + ": " + rifador.participante;
+      card.appendChild(title);
+
+
+    } else {
+      // No tomado
+      card.className = "none-card";
+       const img_wrap = document.createElement('div');
+      img_wrap.className = "participante-img-wrapper";
+      card.appendChild(img_wrap);
+
+      const img = document.createElement('img');
+      img.className = 'participante-img';
+      img_wrap.appendChild(img);
+
+      const title = document.createElement('h2');
+      title.className = 'participante-title';
+      title.id = `${i}`;
+      title.textContent = i + ": libre";
+      card.appendChild(title);
+    }
+    container2.appendChild(card);
+  }
+}
+
+let titulorifa = document.getElementById("titulo-rifa");
+titulorifa.textContent = `Números disponibles: ${(100 - rifadores.length)}/100`

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Donación</title>
+  <title>Rifa</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" type="image/png" href="../img/Icons/icon.png">
   <link rel="stylesheet" href="../styles/mensuales.css">
@@ -19,32 +19,43 @@
     <a href="./shinyrace.html"><img src="../img/Icons/race.png" alt="icon" class="nav-icon">Shiny Race</a>
     <a href="./shinydex.html"><img src="../img/Icons/pokedex.png" alt="icon" class="nav-icon">Shinydex</a>
     <a href="./mensual.html"><img src="../img/Icons/resumen.png" alt="icon" class="nav-icon">Resumen Mensual</a>
-    <a class="active"><img src="../img/Icons/Monedero.png" alt="icon" class="nav-icon">Donaciones</a>
+    <a href="./donaciones.html"><img src="../img/Icons/Monedero.png" alt="icon" class="nav-icon">Donaciones</a>
   </div>
 
-  <div id="main-content" class="main-content" ="display: none;">
-  <main>
-    
+  <div id="main-content">
+    <header class="big-title" style="font-size: xx-large;">Rifa MeD</header>
 
     <div style="height: 1rem;"></div>
     <div class="top-wrap">
-      <div class="top-capturer">
+      <div class="premio-container">
         <div class="user-img-wrapper">
-          <div class="top-text"><span class="text-white">Puedes apoyar mandando tu donación al banco de MeD en Pokemmo.<br>Nombre del banco: <span class="text-red-500 font-bold">HSBCMeD
+          <img class="premio-img" src="../img/Icons/premio.png" alt="">
+          <div class="top-text">
+            <span class="text-white font-bold" style="font-size: 36px;">
+              Premio: Estado donador de 7 días.<br>
+            <span class="text-white font-normal" style="font-size: 26px;">
+              Para participar mandar
+            <span class="text-white font-bold">
+              25k
+            <span class="text-white font-normal"> 
+              a 
+            <span class="text-red-500 font-bold">
+              HSBCMeD
+            <span class="text-white font-normal">
+              por correo con el/los número(s) deseado(s) <br> (en caso de que ya esté tomado se asigna uno al azar)
+              <br>
+              Máximo 5 números.
           </div>
         </div>
       </div>
     </div>
 
-    <header class="big-title2">Top 10 donadores</header>
+    <header id="titulo-rifa" class="big-title2">Números</header>
 
-    <div class="centrado">
-      <div id="tabla-donadores" class="tabla-donadores"></div>
-    </div>
+    <div id="tabla-rifa" class="premio-list"></div>
 
     <script src="../scripts/donaciones.js"></script>
 
-  </main>
   </div>
 </body>
 </html>
