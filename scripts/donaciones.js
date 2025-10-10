@@ -51,8 +51,10 @@ let rifadores = [
   {n: 16, participante: "OniED"},
   {n: 18, participante: "Pancho"},
   {n: 21, participante: "Souen"},
+  {n: 23, participante: "IvanMKS"},
   {n: 24, participante: "Souen"},
   {n: 26, participante: "Guabixd"},
+  {n: 27, participante: "IvanMKS"},
   {n: 29, participante: "OniED"},
   {n: 31, participante: "KnowJiYong"},
   {n: 33, participante: "Lirio"},
@@ -64,6 +66,7 @@ let rifadores = [
   {n: 47, participante: "Lirio"},
   {n: 51, participante: "KnowJiYong"},
   {n: 52, participante: "Guabixd"},
+  {n: 58, participante: "IvanMKS"},
   {n: 61, participante: "KnowJiYong"},
   {n: 63, participante: "Guabixd"},
   {n: 66, participante: "Gamuvk"},
@@ -82,6 +85,7 @@ let rifadores = [
   {n: 93, participante: "Gamuvk"},
   {n: 98, participante: "Souen"},
   {n: 99, participante: "Lirio"},
+  {n: 100, participante: "IvanMKS"},
 ];
 
 
