@@ -36,7 +36,19 @@ let data = [
 ];
 
 let rifadores = [
-  
+  {n: 7, participante: "Souen"},
+  {n: 9, participante: "OniED"},
+  {n: 10, participante: "Pancho"},
+  {n: 11, participante: "OniED"},
+  {n: 13, participante: "OniED"},
+  {n: 15, participante: "Pancho"},
+  {n: 16, participante: "OniED"},
+  {n: 18, participante: "Pancho"},
+  {n: 21, participante: "Souen"},
+  {n: 24, participante: "Souen"},
+  {n: 29, participante: "OniED"},
+  {n: 45, participante: "Souen"},
+  {n: 98, participante: "Souen"},
 ];
 
 
