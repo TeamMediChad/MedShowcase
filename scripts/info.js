@@ -576,7 +576,7 @@ const memberData = {
                         vendidos: []
         },
         MarkosW: {      name:'MarkosW',
-                        rol: 'GigaChad',
+                        rol: 'Chad',
                         medallas:['m_dead','m_olimpiadas','m_supremacy2','m_shinywar'],
                         shinys:['sunflora','litwick','cryogonal','beedrill','ponyta','smeargle','koffing','tentacruel','psyduck','golett','clefable','vanilluxe'],
                         destacados:[],
