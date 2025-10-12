@@ -234,9 +234,11 @@ const memberData = {
         },
         Doce: {         name:'Doce',
                         rol: 'MegaChad',
-                        medallas:['m_gomed','m_raceW','m_suertudo','m_huevo','m_pecador','m_apostol','m_supremacy2'],
+                        medallas:['m_gomed','m_swarm','m_raceW','m_suertudo','m_huevo','m_pecador','m_apostol','m_supremacy2'],
                         shinys:['crobat','litwick','altaria','ditto','raticate','ditto','shuppet','smeargle','duskull','vanillish','spinarak','lombre','golbat','luxio'],
-                        destacados:[{name: 'volcarona', type: 'egg', link:'https://media.giphy.com/media/agBIyJ5VezN1rEyAH7/giphy.gif'},],
+                        destacados:[{name: 'volcarona', type: 'egg', link:'https://media.giphy.com/media/agBIyJ5VezN1rEyAH7/giphy.gif'},
+                                    {name: 'typhlosion', type: 'swarm', link:'https://media.giphy.com/media/fynqur2oZHMNXio52O/giphy.gif'}
+                        ],
                         perdidos: [],
                         vendidos: ['https://media.giphy.com/media/WF2DTy2zrS7IYBXwtQ/giphy.gif',
                              'https://media.giphy.com/media/nEIv8rJh2tV9rMWaAi/giphy.gif'   
@@ -276,7 +278,7 @@ const memberData = {
         emirfeNoPremium: {name:'emirfeNoPremium',
                         rol: 'Chad',
                         medallas:['m_swarm','m_apostol','m_shinywar'],
-                        shinys:['gyarados','lunatone','rattata','gothorita','rhyperior','jigglypuff','litwick','horsea','sewaddle','raticate','mankey','swablu'],
+                        shinys:['gyarados','lunatone','rattata','gothorita','rhyperior','jigglypuff','litwick','horsea','sewaddle','raticate','mankey','swablu','ditto'],
                         destacados:[{name: 'squirtle', type:'swarm', link:'https://media.giphy.com/media/BgYP6yjR49jBxtKv6m/giphy.gif'}],
                         perdidos: [],
                         vendidos: []
@@ -987,7 +989,7 @@ const memberData = {
                         rol: 'MegaChad',
                         medallas:['m_safari','m_swarm','m_suertudo','m_racha','m_sequia','m_abuelo','m_huevo','m_apostol'],
                         shinys:['gigalith','chandelure','solrock','jynx','crobat','dusknoir','haxorus','hydreigon','gyarados','smeargle','psyduck','gardevoir','liepard','gothitelle','cinccino','jumpluff','masquerain',
-                                'accelgor','petilil','wingull','cacnea','darumaka','electrike','cubchoo'
+                                'accelgor','petilil','wingull','cacnea','darumaka','electrike','cubchoo','nidoran-m'
                         ],
                         destacados:[{name: 'bisharp', type: 'normal', link:'bisharp'},
                                 {name:'oshawott', type:'egg', link:'https://media.giphy.com/media/hDg7AqmhGkzMiHFQer/giphy.gif'},
