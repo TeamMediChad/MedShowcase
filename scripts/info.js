@@ -1066,7 +1066,7 @@ const memberData = {
                         medallas:['m_gomed','m_suertudo','m_sequia','m_rare','m_huevo','m_mundo','m_raza','m_apostol'],
                         shinys:['golbat','crobat','mienshao','manectric','rapidash','magikarp','gyarados','tentacruel','swoobat','mamoswine','altaria','horsea','slugma','magcargo','duskull','lunatone','raticate','rattata',
                                 'ditto','sandshrew','amoonguss','dodrio','mismagius','flygon','murkrow','tyranitar','hydreigon','chandelure','vanilluxe','whimsicott','smeargle','gliscor','spinda','krookodile','haxorus',
-                                'zubat','graveler','golem','sableye','pikachu','floatzel'
+                                'zubat','graveler','golem','sableye','pikachu','floatzel','floatzel'
                         ],
                         destacados:[{name: 'feraligatr', type: 'normal', link:'feraligatr'},
                                 {name: 'metagross', type: 'egg', link:'https://media.giphy.com/media/nUM3Kz42e3MZIkWuiv/giphy.gif'},
