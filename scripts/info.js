@@ -308,7 +308,7 @@ const memberData = {
                         shinys:['tentacruel','gyarados','ponyta','altaria','politoed','ludicolo','donphan','muk','chandelure','camerupt','donphan','aggron','weezing','dusclops','poliwrath','cofagrigus','psyduck','scolipede',
                                 'galvantula','ninetales','slowbro','mienshao','azumarill','medicham','bellossom','bibarel','accelgor','stantler','bibarel','crobat','vanilluxe','solrock','jigglypuff','machamp','dodrio','wobbuffet',
                                 'shinx','shellos-east','budew','walrein','hydreigon','smeargle','meowth','banette','spinda','gallade','dugtrio','haxorus','conkeldurr','hoppip','wooper','jellicent-f','scrafty','oddish','pelipper','ferroseed',
-                                'duosion','magnemite','kricketune'
+                                'duosion','magnemite','kricketune','whismur'
                         ],
                         destacados:[{name: 'salamence', type:'normal', link:'salamence'},
                                     {name: 'luvdisc', type:'normal', link:'luvdisc'},
@@ -428,7 +428,7 @@ const memberData = {
                         ],
                         destacados:[{name: 'munna', type: 'secret', link:'https://media.giphy.com/media/HpSnC62YvwsymoUU0o/giphy.gif'},
                                 {name: 'umbreon', type: 'egg', link:'https://media.giphy.com/media/rZB8ws1KfCkByqtjn5/giphy.gif'},
-                                {name: 'aipom', type: 'second', link:'https://media.giphy.com/media/5XY7dRvTVNprm5Givp/giphy.gif'}
+                                /*{name: 'aipom', type: 'second', link:'https://media.giphy.com/media/5XY7dRvTVNprm5Givp/giphy.gif'}*/
                         ],
                         perdidos: ['https://media.giphy.com/media/JLXanaUxCRYzlAEKWp/giphy.gif'],
                         vendidos: ['https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDFwaGc5MmNwMWgyMmNkdmwyOG9wenoyNGYxanF1b3BreTVsbzg2dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WwQzqNsYX0l6SgCQZV/giphy.gif']
@@ -1138,7 +1138,7 @@ const memberData = {
         },
         wallycbammo: {  name:'wallycbammo',
                         rol: 'Chad',
-                        medallas:['m_apostol','m_shinywar'],
+                        medallas:['m_dead','m_apostol','m_shinywar'],
                         shinys:['pelipper','wurmple','wooper','venipede','tentacruel','raticate'],
                         destacados:[{name:'shedinja', type:'normal',link:'shedinja'}],
                         perdidos: [],
