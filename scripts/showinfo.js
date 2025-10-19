@@ -245,12 +245,12 @@ function showInfo(personKey) {
   if (personKey == toppoints.name){
     modal_name.textContent = miembro.name;
     modal_name.style = "color : yellow;"
-    document.getElementById('modal-title2').innerHTML = `Shinys (${shinys.length + destacados.length}) &emsp; puntaje: ${member_points[personKey]}`;
+    document.getElementById('modal-title2').innerHTML = `Shinys: ${shinys.length + destacados.length} &emsp; puntaje: ${member_points[personKey]}`;
     document.getElementById('modal-title2').style = "color : yellow;"
   }else{
     modal_name.textContent = miembro.name;
     modal_name.style = ""
-    document.getElementById('modal-title2').innerHTML = `Shinys (${shinys.length + destacados.length}) &emsp; puntaje: ${member_points[personKey]}`;
+    document.getElementById('modal-title2').innerHTML = `Shinys: ${shinys.length + destacados.length} &emsp; puntaje: ${member_points[personKey]}`;
     document.getElementById('modal-title2').style = ""
   }
 

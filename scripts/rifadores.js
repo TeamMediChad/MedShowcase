@@ -1,6 +1,6 @@
 const rifadores =
   `
-  1 Seaba
+1 Seaba
 2 Snip
 3 KnowJiYong
 4 Ferbus
@@ -48,7 +48,7 @@ const rifadores =
 46 
 47 Krampus
 48 
-49 
+49 Gamuvk
 50 Tyrantrum
 51 KnowJiYong
 52 YankiX
@@ -63,14 +63,14 @@ const rifadores =
 61 Reimy
 62 
 63 
-64
+64 Gamuvk
 65 
 66 emrfeNoPremium
 67 naern
 68 
 69 Reimy
 70 Mittoh
-71 
+71 GamerManco
 72 
 73 YankiX
 74 HoraxPC
@@ -85,7 +85,7 @@ const rifadores =
 83 naern
 84 
 85 YankiX
-86
+86 Gamuvk
 87 HoraxPC
 88 Ferbus
 89 emirfeNoPremium
@@ -104,7 +104,7 @@ const rifadores =
 102 LauraSkylar
 103 
 104 
-105 
+105 GamerManco
 106 
 107 
 108
@@ -123,7 +123,7 @@ const rifadores =
 121 LauraSkylar
 122 Miguel
 123 MonkeyCake
-124
+124 Gamuvk
 125
 126
 127 WillWolfestein
@@ -144,9 +144,9 @@ const rifadores =
 142 Krampus
 143
 144
-145
+145 Gamuvk
 146
-147
+147 GamerManco
 148 KnowJiYong
 149 Reimy
 150 Seaba
