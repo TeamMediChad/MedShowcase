@@ -373,8 +373,8 @@ const memberData = {
         },
         HoraxPC: {      name:'HoraxPC',
                         rol: 'Chad',
-                        medallas:['m_suertudo'],
-                        shinys:['haxorus','klink','klinklang','chandelure','onix','onix','joltik'],
+                        medallas:['m_suertudo','m_sequia'],
+                        shinys:['haxorus','klink','klinklang','chandelure','onix','onix','joltik','deino'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []
@@ -775,7 +775,7 @@ const memberData = {
                         rol: 'GigaChad',
                         medallas:['m_secret','m_pescador','m_suertudo','m_racha','m_rare','m_abuelo','m_huevo','m_fosil','m_raza','m_pecador','m_apostol','m_shinywar'],
                         shinys:['weavile','tentacruel','amoonguss','sandslash','gligar','grimer','koffing','meowth','poochyena','zigzagoon','pelipper','wingull','mienshao','ditto','accelgor','ledyba','hoothoot',
-                                'bellsprout','scolipede','sewaddle','lotad','golett','slugma','claydol','cryogonal','venipede','growlithe','growlithe','nidoran-f'
+                                'bellsprout','scolipede','sewaddle','lotad','golett','slugma','claydol','cryogonal','venipede','growlithe','growlithe','nidoran-f','pidgey'
                         ],
                         destacados:[{name: 'pansage', type: 'normal', link:'pansage'},
                                 {name: 'remoraid', type: 'normal', link:'remoraid'},
