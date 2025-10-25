@@ -31,59 +31,59 @@ const rifadores =
 29 sadending
 30 Alicia
 31 YankiX
-32 
+32 Guabixd
 33 sadending
-34
-35 
+34 Seaba
+35 Krampus
 36 Reimy
 37 HoraxPC
 38 MonkeyCake
-39 
-40 
+39 HoraxPC
+40 KnowJiYong
 41 YankiX
 42 emirfeNoPremium
-43 
+43 ElMiga
 44 Ferbus
 45 Souen
-46 
+46 ElMiga
 47 Krampus
-48 
+48 Guabixd
 49 Gamuvk
 50 Tyrantrum
 51 KnowJiYong
 52 YankiX
 53 naern
-54 
+54 ElMiga
 55 Alicia
 56 Azathotx
 57 HoraxPC
 58 Krampus
-59 
+59 ElMiga
 60 Tyrantrum
 61 Reimy
-62 
-63 
+62 MarkosW
+63 HoraxPC
 64 Gamuvk
-65 
+65 Guabixd
 66 emrfeNoPremium
 67 naern
-68 
+68 Krampus
 69 Reimy
 70 Mittoh
 71 GamerManco
-72 
+72 Seaba
 73 YankiX
 74 HoraxPC
 75 emirfeNoPremium
-76 
+76 ElMiga
 77 Snip
-78 
-79 
+78 Guabixd
+79 HoraxPC
 80 Ferbus
-81 
+81 ElMiga
 82 Seaba
 83 naern
-84 
+84 MarkosW
 85 YankiX
 86 Gamuvk
 87 HoraxPC
@@ -92,8 +92,8 @@ const rifadores =
 90 Tyrantrum
 91 naern
 92 SamuDG
-93
-94
+93 Seaba
+94 Reimy
 95 Murkrow
 96 Reimy
 97 Mittoh
@@ -102,50 +102,50 @@ const rifadores =
 100 Seaba
 101 MonkeyCake
 102 LauraSkylar
-103 
-104 
+103 KnowJiYong
+104 MarkosW
 105 GamerManco
-106 
-107 
-108
-109 
+106 Krampus
+107 Souen
+108 Reimy
+109 Guabixd
 110 Alicia
 111 LauraSkylar
 112 Miguel
-113
-114
+113 MarkosW
+114 Souen
 115 MonkeyCake
-116
+116 ElMiga
 117 emirfeNoPremium
-118
+118 MarkosW
 119 Krampus
 120 Mittoh
 121 LauraSkylar
 122 Miguel
 123 MonkeyCake
 124 Gamuvk
-125
-126
+125 Guabixd
+126 Souen
 127 WillWolfestein
-128
-129
+128 MarkosW
+129 ElMiga
 130 Tyrantrum
 131 LauraSkylar
 132 Azathotx
 133 Murkrow
-134
-135
+134 Martxn
+135 MarkosW
 136 Krampus
-137
-138
-139
+137 Martxn
+138 KnowJiYong
+139 Martxn
 140 Tyrantrum
 141 LauraSkylar
 142 Krampus
-143
-144
+143 Guabixd
+144 Reimy
 145 Gamuvk
-146
+146 MarkosW
 147 GamerManco
 148 KnowJiYong
 149 Reimy
