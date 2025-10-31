@@ -4,22 +4,60 @@ screenWidth = screen.width;
 screenHeight = screen.height;
 
 
+
 //const screenWidth = 1280;
 //const screenHeight = 1024;
 
 //console.log(`Resolución total: ${screenWidth}x${screenHeight}`);
 //console.log(`Resolución modal: ${Math.ceil(screenWidth*0.6)}x${Math.floor(screenHeight*0.6)}`);
+// ---------- bloqueo de scroll robusto ----------
+let __savedScroll = 0;
+let __savedBodyPaddingRight = '';
+let __isScrollDisabled = false;
 
-function blockScrollWheel(e) {
-  e.preventDefault();
+function getScrollbarWidth() {
+  return window.innerWidth - document.documentElement.clientWidth;
 }
-function blockScrollKey(e) {
-  const keys = ['ArrowDown', 'ArrowUp', 'PageDown', 'PageUp', ' '];
-  if (keys.includes(e.key)) {
-    e.preventDefault();
+
+function disableScroll() {
+  if (__isScrollDisabled) return;
+  __isScrollDisabled = true;
+
+  __savedScroll = window.scrollY || window.pageYOffset;
+  __savedBodyPaddingRight = document.body.style.paddingRight || '';
+
+  const sbw = getScrollbarWidth();
+  if (sbw > 0) {
+    document.body.style.paddingRight = `${sbw}px`;
   }
+
+  document.body.style.position = 'fixed';
+  document.body.style.top = `-${__savedScroll}px`;
+  document.body.style.left = '0';
+  document.body.style.right = '0';
+  document.body.style.width = '100%';
+
+  // evitar scroll en html también como refuerzo
+  document.documentElement.style.overflow = 'hidden';
+  console.log('disableScroll(): scrollY=', __savedScroll, 'sbw=', getScrollbarWidth());
 }
 
+function enableScroll() {
+  if (!__isScrollDisabled) return;
+  __isScrollDisabled = false;
+
+  document.body.style.position = '';
+  document.body.style.top = '';
+  document.body.style.left = '';
+  document.body.style.right = '';
+  document.body.style.width = '';
+  document.body.style.paddingRight = __savedBodyPaddingRight;
+
+  document.documentElement.style.overflow = '';
+
+  window.scrollTo(0, __savedScroll);
+  console.log('enableScroll(): restoring to', __savedScroll);
+}
 
 function resolution(isPortrait){
   const modal_content = document.getElementById('modal-content');
@@ -56,22 +94,8 @@ function resolution(isPortrait){
   
 }
 
-function disableScroll() {
-  background.addEventListener('wheel', blockScrollWheel, { passive: false });
-  background.addEventListener('touchmove', blockScrollWheel, { passive: false });
-  document.addEventListener('keydown', blockScrollKey, { passive: false });
-  background.style.overflowY = 'auto';
-}
-
-function enableScroll() {
-  background.removeEventListener('wheel', blockScrollWheel);
-  background.removeEventListener('touchmove', blockScrollWheel);
-  document.removeEventListener('keydown', blockScrollKey);
-  background.style.overflowY = 'auto';
-}
-
 function showInfo(personKey) {
-  //disableScroll()
+  disableScroll();
   const medalla_container = document.getElementById('medalla-container');
   const shiny_container = document.getElementById('shiny-container');
   const shiny_container2 = document.getElementById('shiny-container2');
@@ -266,12 +290,16 @@ function showInfo(personKey) {
 
   document.getElementById('modal').style.opacity = 100;
   document.getElementById('modal').style.visibility = 'visible';
+
+  document.body.classList.add('modal-open');
 }
 
 function closeModal() {
-  //enableScroll()
+  enableScroll();
   document.getElementById('modal').style.opacity = 0;
   document.getElementById('modal').style.visibility = 'hidden';
+
+  document.body.style.overflow = "";
 }
 
 document.getElementById('modal').addEventListener('click', function (e) {

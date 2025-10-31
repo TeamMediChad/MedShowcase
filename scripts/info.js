@@ -178,7 +178,7 @@ const memberData = {
                         rol: 'MegaChad',
                         medallas:['m_gomed','m_sequia','m_pecador','m_apostol','m_olimpiadas'],
                         shinys:['spearow','golduck','tentacool','vanillish','gyarados','ludicolo','rapidash','conkeldurr','galvantula','mienshao','bellossom','durant','smeargle','sandile','pidgeotto','jumpluff','meowth',
-                                'spinda','politoed','vanilluxe','cinccino','lanturn','rhydon','gligar','shelmet','koffing','litwick','cubchoo','starly','geodude','teddiursa'
+                                'spinda','politoed','vanilluxe','cinccino','lanturn','rhydon','gligar','shelmet','koffing','litwick','cubchoo','starly','geodude','teddiursa','tranquill'
                         ],
                         destacados:[{name: 'furret', type: 'normal', link:'furret'}],
                         perdidos: [],
@@ -214,7 +214,7 @@ const memberData = {
                         rol: 'MegaChad',
                         medallas:['m_dead','m_suertudo','m_pecador','m_apostol','m_olimpiadas','m_supremacy2'],
                         shinys:['muk','cascoon','spearow','pidgeotto','magmortar','pelipper','raticate','ponyta','tynamo','raticate','chandelure','poliwrath','spinda','parasect','smeargle','banette','ponyta','weezing','raticate',
-                                'murkrow','joltik','haxorus','vanillish','floatzel','floatzel'
+                                'murkrow','joltik','haxorus','vanillish','floatzel','floatzel','gabite'
                         ],
                         perdidos: ['https://media.giphy.com/media/ixzzR0H9cgH6YX9EJI/giphy.gif'],
                         destacados:[{name: 'breelom', type: 'normal', link:'breloom'},
@@ -250,7 +250,7 @@ const memberData = {
                         medallas:['m_meditite','m_secret','m_shunter','m_raceL','m_rare','m_mundo','m_supremacy2'],
                         shinys:['medicham','beedrill','gliscor','jynx','marill','wooper','sealeo','magikarp','rapidash','rapidash','dratini','electrike','stunfisk','druddigon','poliwag','swablu','wingull','pelipper','psyduck',
                                 'hypno','amoonguss','dunsparce','cubchoo','beartic','cryogonal','vanillite','vanillish','vanilluxe','crustle','grimer','torkoal','litwick','camerupt','magnezone','mareep','tentacruel','wurmple',
-                                'wurmple','weezing','vulpix','accelgor','shuppet','lopunny','teddiursa','quagsire','smeargle','spinarak','slugma','gible'
+                                'wurmple','weezing','vulpix','accelgor','shuppet','lopunny','teddiursa','quagsire','smeargle','spinarak','slugma','gible','mienfoo'
                         ],
                         destacados:[{name:'pinsir', type:'normal', link:'pinsir'},
                                 {name:'cherubi', type:'normal', link:'cherubi'},
@@ -279,7 +279,7 @@ const memberData = {
         emirfeNoPremium: {name:'emirfeNoPremium',
                         rol: 'Chad',
                         medallas:['m_swarm','m_apostol','m_shinywar'],
-                        shinys:['gyarados','lunatone','rattata','gothorita','rhyperior','jigglypuff','litwick','horsea','sewaddle','raticate','mankey','swablu','ditto'],
+                        shinys:['gyarados','lunatone','rattata','gothorita','rhyperior','jigglypuff','litwick','horsea','sewaddle','raticate','mankey','swablu','ditto','sealeo'],
                         destacados:[{name: 'squirtle', type:'swarm', link:'https://media.giphy.com/media/BgYP6yjR49jBxtKv6m/giphy.gif'}],
                         perdidos: [],
                         vendidos: []
@@ -305,11 +305,11 @@ const memberData = {
         },
         Ferbus: {       name:'Ferbus',
                         rol:'Chad',
-                        medallas:['m_meditite','m_swarm','m_suertudi','m_secret','m_sequia','m_pescador','m_goldenbox','m_mundo'],
+                        medallas:['m_meditite','m_swarm','m_suertudo','m_secret','m_sequia','m_pescador','m_goldenbox','m_mundo'],
                         shinys:['tentacruel','gyarados','ponyta','altaria','politoed','ludicolo','donphan','muk','chandelure','camerupt','donphan','aggron','weezing','dusclops','poliwrath','cofagrigus','psyduck','scolipede',
                                 'galvantula','ninetales','slowbro','mienshao','azumarill','medicham','bellossom','bibarel','accelgor','stantler','bibarel','crobat','vanilluxe','solrock','jigglypuff','machamp','dodrio','wobbuffet',
                                 'shinx','shellos-east','budew','walrein','hydreigon','smeargle','meowth','banette','spinda','gallade','dugtrio','haxorus','conkeldurr','hoppip','wooper','jellicent-f','scrafty','oddish','pelipper','ferroseed',
-                                'duosion','magnemite','kricketune','whismur'
+                                'duosion','magnemite','kricketune','whismur','volbeat'
                         ],
                         destacados:[{name: 'salamence', type:'normal', link:'salamence'},
                                     {name: 'luvdisc', type:'normal', link:'luvdisc'},
@@ -1096,10 +1096,10 @@ const memberData = {
         },
         ToxicPlumber: { name:'ToxicPlumber',
                         rol: 'GigaChad',
-                        medallas:['m_gomed','m_guardian','m_meditite','m_safari','m_dead','m_secret','m_pescador','m_suertudo','m_huevo','m_arbol','m_raza','m_apostol','m_olimpiadas','m_aniMeD'],
+                        medallas:['m_gomed','m_guardian','m_meditite','m_safari','m_dead','m_secret','m_shunter','m_pescador','m_suertudo','m_huevo','m_arbol','m_raza','m_apostol','m_olimpiadas','m_aniMeD'],
                         shinys:['krookodile','raticate','venipede','weezing','nidoqueen','quagsire','altaria','kingdra','pichu','rattata','seaking','machamp','smeargle','gengar','chandelure','pidgey','ferrothorn','aggron',
                                 'pelipper','scolipede','swellow','petilil','graveler','whismur','taillow','grimer','alakazam','crobat','marowak','noctowl','beautifly','reuniclus','rapidash','venonat','tentacruel','zubat',
-                                'gigalith','vileplume','maractus','manectric','marowak','xatu','gyarados','baltoy','voltorb','lunatone','tyranitar','spinda','raticate','trubbish'
+                                'gigalith','vileplume','maractus','manectric','marowak','xatu','gyarados','baltoy','voltorb','lunatone','tyranitar','spinda','raticate'
                         ],
                         destacados:[{name: 'combee', type: 'normal', link:'combee'},
                                 {name: 'corphish', type: 'normal', link:'corphish'},
@@ -1115,7 +1115,7 @@ const memberData = {
         Tyrantrum: {    name:'Tyrantrum',
                         rol: 'Chad',
                         medallas:['m_elegido','m_pecador','m_apostol','m_supremacy2'],
-                        shinys:['drifblim','donphan','arbok','druddigon','roselia','tentacool','cubchoo','cryogonal','raticate'],
+                        shinys:['drifblim','donphan','arbok','druddigon','roselia','tentacool','cubchoo','cryogonal','raticate','druddigon'],
                         destacados:[{name: 'totodile', type: 'normal', link:'totodile'},
                                 {name: 'sudowoodo', type: 'alpha', link:'https://media.giphy.com/media/da60GIUj74BHRR9Px5/giphy.gif'}
                         ],

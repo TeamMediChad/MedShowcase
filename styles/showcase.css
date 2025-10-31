@@ -1,9 +1,7 @@
-
-
 /* Grid de Mimebros */
 .member-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 20PX));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 20px));
   max-width: calc(270px * 9 + 20px * 8);
   margin-left: auto;
   margin-right: auto;
@@ -12,12 +10,11 @@
   justify-content: center;
 }
 
-
 /* Tarjeta */
 
 /* Objeto tarjeta */
 .card {
-  font-family: 'Retro';
+  font-family: "Retro";
   color: rgba(255, 255, 255, 0.895);
   width: 250px;
   height: 280px;
@@ -34,7 +31,7 @@
 }
 
 .card-gold {
-  font-family: 'Retro';
+  font-family: "Retro";
   color: rgba(255, 255, 255, 0.895);
   width: 250px;
   height: 280px;
@@ -53,7 +50,7 @@
 
 .card:hover {
   background-image: url("../img/Cards/card_hover2.png");
-  filter: drop-shadow(rgb(124, 186, 238,0.9) 0 0 0.75rem);
+  filter: drop-shadow(rgb(124, 186, 238, 0.9) 0 0 0.75rem);
 }
 
 .card:hover .card-img {
@@ -70,7 +67,7 @@
 
 .card-gold:hover {
   background-image: url("../img/Cards/card_gold_hover2.png");
-  filter: drop-shadow(rgb(217, 187, 65,1) 0 0 0.75rem);
+  filter: drop-shadow(rgb(217, 187, 65, 1) 0 0 0.75rem);
 }
 
 .card-gold:hover .card-title {
@@ -140,8 +137,7 @@
   transition: transform 0.3s ease;
 }
 
-
-.icon-container{
+.icon-container {
   display: grid;
   justify-content: center;
   background-color: #101821;
@@ -152,7 +148,6 @@
   font-family: "Retro";
   color: #fff;
 }
-
 
 /* Info */
 
@@ -170,7 +165,6 @@
   flex-direction: column;
   transition: visibility 0.4s, opacity 0.35s;
 }
-
 
 /* Fondo Info */
 .modal-content {
@@ -198,7 +192,7 @@
   font-weight: normal;
 }
 
-.modal1 { 
+.modal1 {
   grid-area: 1 / 1 / 9 / 3;
   padding: 15px;
   text-align: center;
@@ -209,7 +203,7 @@
 .modal2 {
   grid-area: 9 / 1 / 10 / 3;
 }
-.modal3 { 
+.modal3 {
   grid-area: 2 / 3 / 9 / 6;
   overflow-y: auto;
   overflow-x: hidden;
@@ -219,11 +213,10 @@
   grid-area: 9 / 3 / 10 / 6;
 }
 
-
 /* Nombre */
 .modal-name {
   font-size: 1.5rem;
-  text-align: center; 
+  text-align: center;
   bottom: 0;
   vertical-align: text-bottom;
   text-align: center;
@@ -253,14 +246,14 @@
 /* Gif Shiny*/
 .shiny-img {
   max-width: none;
-  height: auto; 
+  height: auto;
   width: auto;
   display: block;
 }
 
 .shiny-img-alpha {
   max-width: none;
-  height: auto; 
+  height: auto;
   width: auto;
   display: block;
   filter: drop-shadow(rgba(232, 238, 124, 0.6) 0px 4px 12px);
@@ -268,7 +261,7 @@
 
 .shiny-img-wrap {
   max-width: none;
-  height: auto; 
+  height: auto;
   width: auto;
   display: block;
 }
@@ -276,19 +269,17 @@
 .overlay-gif {
   position: absolute;
   display: block;
-  height: auto; 
+  height: auto;
   width: auto;
   pointer-events: none;
-  transform: translate(10px,-60px);
+  transform: translate(10px, -60px);
   object-fit: cover;
 }
-
-
 
 /* Grid Shinys */
 .shiny-img-container {
   display: grid;
-  grid-template-columns :repeat(auto-fit, minmax(100px, 10PX));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 10px));
   gap: 0.5rem;
   place-items: center;
 }
@@ -344,7 +335,7 @@
 .shiny-btn:hover {
   border-image-source: url("../img/button/button-showcase-hover.png");
 }
-.shiny-btn:disabled{
+.shiny-btn:disabled {
   border-image-source: url("../img/button/button-showcase-disabled.png");
 }
 
@@ -365,7 +356,7 @@
   border-image-source: url("../img/button/button-showcase-hover.png");
 }
 
-.sell-btn:disabled{
+.sell-btn:disabled {
   border-image-source: url("../img/button/button-showcase-disabled.png");
 }
 
@@ -389,7 +380,7 @@
   transition: border-image-source 0.2s ease;
 }
 
-.medalla:hover{
+.medalla:hover {
   border-image-source: url("../img/button/medal-container-hover.png");
 }
 
@@ -397,7 +388,7 @@
 .tooltip {
   position: relative;
   display: inline-block;
-  cursor:   help;
+  cursor: help;
   z-index: 9999;
 }
 
@@ -442,11 +433,11 @@
 }
 
 .filtros {
-display: grid;
-grid-template-columns: repeat(3, 150px);
-grid-template-rows: repeat(2, 40px);
-grid-column-gap: 30px;
-grid-row-gap: 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(2, 40px);
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
 }
 
 .Nombre-texto {
@@ -455,7 +446,7 @@ grid-row-gap: 0px;
   font-size: 1.8rem;
   font-weight: 400;
   bottom: 0;
-  font-family: 'Retro';
+  font-family: "Retro";
   vertical-align: text-bottom;
   text-align: start;
   color: rgba(255, 255, 255, 0.895);
@@ -467,7 +458,7 @@ grid-row-gap: 0px;
   font-size: 1.8rem;
   font-weight: 400;
   bottom: 0;
-  font-family: 'Retro';
+  font-family: "Retro";
   vertical-align: text-bottom;
   text-align: start;
   color: rgba(255, 255, 255, 0.895);
@@ -478,7 +469,7 @@ grid-row-gap: 0px;
   font-size: 1.8rem;
   font-weight: 400;
   bottom: 0;
-  font-family: 'Retro';
+  font-family: "Retro";
   vertical-align: text-bottom;
   text-align: start;
   color: rgba(255, 255, 255, 0.895);
@@ -486,7 +477,7 @@ grid-row-gap: 0px;
 .Nombre-filtro {
   grid-area: 2 / 1 / 3 / 2;
   width: 150px;
-  font-family: 'Retro';
+  font-family: "Retro";
   font-size: 1.3rem;
   color: rgba(255, 255, 255, 0.895);
   background-image: url("../img/button/Filters.png");
@@ -494,7 +485,7 @@ grid-row-gap: 0px;
 .Cantidad-filtro {
   grid-area: 2 / 2 / 3 / 3;
   width: 150px;
-  font-family: 'Retro';
+  font-family: "Retro";
   font-size: 1.3rem;
   color: rgba(255, 255, 255, 0.895);
   background-image: url("../img/button/Filters.png");
@@ -502,7 +493,7 @@ grid-row-gap: 0px;
 .Puntaje-filtro {
   grid-area: 2 / 3 / 3 / 4;
   width: 150px;
-  font-family: 'Retro';
+  font-family: "Retro";
   font-size: 1.3rem;
   color: rgba(255, 255, 255, 0.895);
   background-image: url("../img/button/Filters.png");
@@ -511,5 +502,5 @@ grid-row-gap: 0px;
 option {
   color: rgba(255, 255, 255, 0.895);
   background-color: #000000e9;
-  border-color: #B6B6B6;
+  border-color: #b6b6b6;
 }
