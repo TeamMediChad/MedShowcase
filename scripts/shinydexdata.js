@@ -679,6 +679,7 @@ const captured_other = {
   "gastrodon-west": ["Azathotx","Azathotx"],
   "gastrodon-east": ["Souen","Souen"],
   "deerling-summer": ["YuukiTwo","YuukiTwo"],
+  "deerling-spring": ["Cece","Cece"],
   "sawsbuck-autumn": ["YuukiTwo","YuukiTwo"],
   "basculin-red-striped": ["DavidCitos","DavidCitos"],
 }
