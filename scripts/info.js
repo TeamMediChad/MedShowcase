@@ -289,7 +289,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['m_safari','m_shunter','m_pescador','m_secret','m_suertudo','m_raza','m_apostol'],
                         shinys:['nidoking','gyarados','poliwag','weavile','mienshao','weezing','beedrill','marill','jigglypuff','smeargle','banette','parasect','wingull','spinarak','shelmet','persian','graveler','marill','litwick','gliscor',
-                                'poliwhirl','poliwhirl'
+                                'poliwhirl','poliwhirl','golett'
                         ],
                         destacados:[{name: 'wailord', type: 'normal', link:'wailord'},
                                     {name: 'magikarp' ,type: 'safari', link: 'https://media.giphy.com/media/UNahzhszvptLgyuChJ/giphy.gif'},
@@ -312,7 +312,7 @@ const memberData = {
                         shinys:['tentacruel','gyarados','ponyta','altaria','politoed','ludicolo','donphan','muk','chandelure','camerupt','donphan','aggron','weezing','dusclops','poliwrath','cofagrigus','psyduck','scolipede',
                                 'galvantula','ninetales','slowbro','mienshao','azumarill','medicham','bellossom','bibarel','accelgor','stantler','bibarel','crobat','vanilluxe','solrock','jigglypuff','machamp','dodrio','wobbuffet',
                                 'shinx','shellos-east','budew','walrein','hydreigon','smeargle','meowth','banette','spinda','gallade','dugtrio','haxorus','conkeldurr','hoppip','wooper','jellicent-f','scrafty','oddish','pelipper','ferroseed',
-                                'duosion','magnemite','kricketune','whismur','volbeat','drifblim','purrloin','heatmor','karrablast'
+                                'duosion','magnemite','kricketune','whismur','volbeat','drifblim','purrloin','heatmor','karrablast','hoothoot','zebstrika'
                         ],
                         destacados:[{name: 'salamence', type:'normal', link:'salamence'},
                                     {name: 'luvdisc', type:'normal', link:'luvdisc'},
@@ -415,7 +415,7 @@ const memberData = {
                         medallas:['m_gomed','m_safari','m_dead','m_secret','m_shunter','m_suertudo','m_racha','m_sequia','m_abuelo','m_huevo','m_raza','m_pecador','m_apostol','m_shinywar'],
                         shinys:['solrock','gastrodon','lopunny','politoed','scolipede','raticate','chandelure','bellossom','ninetales','azurill','lilligant','golem','rattata','vanilluxe','gorebyss','psyduck','wooper',
                                 'jumpluff','escavalier','deerling','vileplume','ariados','victreebel','graveler','graveler','sableye','spearow','durant','boldore','sneasel','crustle','slowking','meowth','dewgong','krookodile',
-                                'muk','cubchoo','banette'
+                                'muk','cubchoo','banette','smeargle'
                         ],
                         destacados:[{name: 'munna', type: 'secret', link:'https://media.giphy.com/media/HpSnC62YvwsymoUU0o/giphy.gif'},
                                 {name: 'eevee', type: 'egg', link:'https://media.giphy.com/media/nJZvHOjihRvNqn2v8d/giphy.gif'},
@@ -497,7 +497,7 @@ const memberData = {
                         medallas:['m_pescador','m_suertudo','m_sequia','m_pecador','m_apostol'],
                         shinys:['gigalith','altaria','raticate','politoed','victreebel','accelgor','quagsire','donphan','hydreigon','ludicolo','poliwrath','chandelure','magcargo','haxorus','darmanitan','psyduck','doduo',
                                 'gyarados','smeargle','weezing','braviary','jellicent-f','raichu','rapidash','gurdurr','grimer','bellsprout','metapod','scraggy','cubchoo','piloswine','krokorok','duskull','duosion', 'lanturn',
-                                'marill','petilil','meditite','graveler','poliwhirl','luxio'
+                                'marill','petilil','meditite','graveler','poliwhirl','luxio','shuppet'
                         ],
                         destacados:[{name: 'luvdisc', type: 'normal', link:'luvdisc'}],
                         perdidos: [],
@@ -608,7 +608,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['m_apostol'],
                         shinys:['aggron','dusclops','eelektross','golduck','alakazam','weezing','grimer','magcargo','krabby','loudred','pidgey','parasect','larvitar','floatzel','lombre','stantler',
-                                'nidorina'
+                                'nidorina','sandslash'
                         ],
                         destacados:[{name: 'heracross', type: 'normal', link:'heracross'}],
                         perdidos: [],
@@ -1073,7 +1073,7 @@ const memberData = {
                         medallas:['m_gomed','m_lider','m_guardian','m_meditite','m_swarm','m_secret','m_pescador','m_raceL','m_suertudo','m_racha','m_sequia','m_abuelo','m_huevo','m_raza','m_pecador','m_apostol','m_olimpiadas'],
                         shinys:['pidgeot','chandelure','ditto','amoonguss','scolipede','ninetales','crobat','arcanine','rapidash','golem','roserade','slugma','crobat','graveler','rapidash','weezing','tentacruel','ditto',
                                 'shellos-east','bibarel','kricketune','oddish','bibarel','misdreavus','smeargle','woobat','mienshao','jellicent-f','nidoking','luxray','medicham','cubchoo','cryogonal','petilil','rapidash','starly',
-                                'zubat','bibarel','starly','starly','zubat','bibarel','starly'
+                                'zubat','bibarel','starly','starly','zubat','bibarel','starly','bibarel'
                         ],
                         destacados:[{name: 'octillery', type: 'normal', link:'octillery'},
                                 {name: 'dragonite', type: 'swarm', link:'https://media.giphy.com/media/MtbA3WQ8H564xigCqN/giphy.gif'},
@@ -1182,7 +1182,7 @@ const memberData = {
         xSorC: {        name:'xSorC',
                         rol: 'Chad',
                         medallas:['m_vacio'],
-                        shinys:['duosion','bronzor'],
+                        shinys:['duosion','bronzor','bibarel'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []

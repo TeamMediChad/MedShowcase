@@ -39,7 +39,7 @@ const tiers = {
                 "unown-q","unown-r","unown-s","unown-t","unown-u","unown-v","unown-w","unown-x","unown-y","unown-z","unown-em","unown-qm"
     ],
     "tier2" : ["aerodactyl","aipom","ambipom","anorith","armaldo","archen","archeops","combee","vespiquen","cranidos","rampardos","croagunk","toxicroak","exeggcute","exeggutor",
-                "farfetchd","gulpin","swalot","heracross","kabuto","kabutops","kangaskhan","lapras","lileep","cradily","minum","mr-mime","omanyte","omastar","pineco","forretress",
+                "farfetchd","gulpin","swalot","heracross","kabuto","kabutops","kangaskhan","lapras","lileep","cradily","minun","mr-mime","omanyte","omastar","pineco","forretress",
                 "plusle","qwilfish","relicanth","shieldon","bastiodon","shroomish","breloom","shuckle","titourga","carracosta","tropius","yanma","yanmega"
     ],
     "tier1" : ["absol","beldum","metang","metagross","burmy-plant","burmy-sandy","burmy-trash","wormadam-plant","wormadam-sandy","wormadam-trash","mothim","carnivine","castform",
