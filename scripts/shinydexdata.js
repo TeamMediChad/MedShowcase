@@ -444,6 +444,7 @@ const capturedBy = {
   banette: [ "DavidCitos","DavidCitos"],
   duskull: [ "DavidCitos","DavidCitos"],
   dusclops: [ "Maxii","Maxii"],
+  tropius: [ "Scashh","Scashh"],
   absol: [ "TheJesucristian","MixZeppeli"],
   wynaut: [ "ritosenpai","ritosenpai"],
   snorunt: [ "Akalii","Akalii"],
