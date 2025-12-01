@@ -497,7 +497,7 @@ const memberData = {
                         medallas:['m_pescador','m_suertudo','m_sequia','m_pecador','m_apostol'],
                         shinys:['gigalith','altaria','raticate','politoed','victreebel','accelgor','quagsire','donphan','hydreigon','ludicolo','poliwrath','chandelure','magcargo','haxorus','darmanitan','psyduck','doduo',
                                 'gyarados','smeargle','weezing','braviary','jellicent-f','raichu','rapidash','gurdurr','grimer','bellsprout','metapod','scraggy','cubchoo','piloswine','krokorok','duskull','duosion', 'lanturn',
-                                'marill','petilil','meditite','graveler','poliwhirl','luxio','shuppet'
+                                'marill','petilil','meditite','graveler','poliwhirl','luxio','shuppet','torkoal'
                         ],
                         destacados:[{name: 'luvdisc', type: 'normal', link:'luvdisc'}],
                         perdidos: [],
@@ -653,9 +653,11 @@ const memberData = {
         },
         MonkeyCake: {   name:'MonkeyCake',
                         rol: 'Chad',
-                        medallas:['m_gomed','m_swarm','m_dead','m_pecador','m_apostol'],
+                        medallas:['m_gomed','m_swarm','m_dead','m_huevo','m_pecador','m_apostol'],
                         shinys:[],
-                        destacados:[{name: 'arbok', type: 'swarm', link:'https://media.giphy.com/media/8W1sZrHzScrNbg6NZI/giphy.gif'}],
+                        destacados:[{name: 'arbok', type: 'swarm', link:'https://media.giphy.com/media/8W1sZrHzScrNbg6NZI/giphy.gif'},
+                                {name: 'excadrill', type: 'egg', link:'https://media.giphy.com/media/EZhczbhmxTmrjF70nM/giphy.gif'}
+                        ],
                         perdidos: ['https://media.giphy.com/media/n1rn0watJNvobQdzqb/giphy.gif'],
                         vendidos: ['https://media.giphy.com/media/gwavhTbufATct7EFs0/giphy.gif',
                                 'https://media.giphy.com/media/v7BwuKEmsYbSzTXu2Z/giphy.gif',
@@ -1133,7 +1135,7 @@ const memberData = {
                         medallas:['m_gomed','m_guardian','m_meditite','m_safari','m_dead','m_secret','m_shunter','m_pescador','m_suertudo','m_huevo','m_arbol','m_raza','m_apostol','m_olimpiadas','m_aniMeD'],
                         shinys:['krookodile','raticate','venipede','weezing','nidoqueen','quagsire','altaria','kingdra','pichu','rattata','seaking','machamp','smeargle','gengar','chandelure','pidgey','ferrothorn','aggron',
                                 'pelipper','scolipede','swellow','petilil','graveler','whismur','taillow','grimer','alakazam','crobat','marowak','noctowl','beautifly','reuniclus','rapidash','venonat','tentacruel','zubat',
-                                'gigalith','vileplume','maractus','manectric','marowak','xatu','gyarados','baltoy','voltorb','lunatone','tyranitar','spinda','raticate','graveler'
+                                'gigalith','vileplume','maractus','manectric','marowak','xatu','gyarados','baltoy','voltorb','lunatone','tyranitar','spinda','raticate','graveler','toxic'
                         ],
                         destacados:[{name: 'combee', type: 'normal', link:'combee'},
                                 {name: 'corphish', type: 'normal', link:'corphish'},
@@ -1182,7 +1184,7 @@ const memberData = {
         wallycbammo: {  name:'wallycbammo',
                         rol: 'Chad',
                         medallas:['m_dead','m_apostol','m_shinywar'],
-                        shinys:['pelipper','wurmple','wooper','venipede','tentacruel','raticate'],
+                        shinys:['pelipper','wurmple','wooper','venipede','tentacruel','raticate','magikarp'],
                         destacados:[{name:'shedinja', type:'normal',link:'shedinja'},
                                     {name:'porygon', type:'egg', link:'https://media.giphy.com/media/2jI8Fg5v3U8E23x8xH/giphy.gif'}
                         ],

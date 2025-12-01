@@ -568,6 +568,8 @@ const capturedBy = {
   gigalith: [ "ToxicPlumber","ToxicPlumber"],
   woobat: [ "DavidCitos","chunchumaru"],
   swoobat: [ "Iucifer","Iucifer"],
+  drilbur: [ "MonkeyCake","MonkeyCake"],
+  excadrill: [ "MonkeyCake","MonkeyCake"],
   timburr: [ "Krackon","Krackon"],
   gurdurr: [ "DavidCitos","DavidCitos"],
   conkeldurr: [ "MrCartago","Lirio"],

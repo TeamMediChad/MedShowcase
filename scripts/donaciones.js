@@ -131,5 +131,7 @@ if (container2 != null) {
 }
 
 let titulorifa = document.getElementById("titulo-rifa");
-let ocupados = rifadoresArray.filter(r => r.participante !== 'nan').length;
-titulorifa.textContent = `Números restantes: ${150 - ocupados}/150`;
+if(titulorifa != null){
+  let ocupados = rifadoresArray.filter(r => r.participante !== 'nan').length;
+  titulorifa.textContent = `Números restantes: ${150 - ocupados}/150`;
+}

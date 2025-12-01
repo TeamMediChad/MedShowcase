@@ -244,3 +244,19 @@ body {
 }
 
 
+.lideres-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 20PX));
+  row-gap: 1rem;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+.lideres-wrapper {
+  position: relative;
+  width: 150px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
