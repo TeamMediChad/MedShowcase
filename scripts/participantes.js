@@ -11,6 +11,11 @@ const participantes =
 9.- Krampus
 10.- ToddGold
 11.- TheDarl
-12.- Must
+12.- Mustam
 13.- Pancho
+14.- pimientadaza
+15.- KnowJiYong
+16.- Maxii
+17.- Azathotx
+18.- JaretZC
   `;

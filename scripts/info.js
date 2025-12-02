@@ -399,7 +399,7 @@ const memberData = {
         IxGab: {        name:'IxGab',
                         rol: 'MegaChad',
                         medallas:['m_secret','m_pescador','m_raceL','m_suertudo','m_apostol'],
-                        shinys:['kirlia','hydreigon','dragonair','crobat','accelgor','leavanny','weezing','dodrio','poliwag','linoone','vanilluxe','raticate','magikarp'],
+                        shinys:['kirlia','hydreigon','dragonair','crobat','accelgor','leavanny','weezing','dodrio','poliwag','linoone','vanilluxe','raticate','magikarp','swadloon'],
                         destacados:[{name: 'corphish', type: 'normal', link:'corphish'},
                                 {name: 'luvdisc', type: 'normal', link:'luvdisc'},
                                 {name: 'breloom', type: 'normal', link:'breloom'},
@@ -654,7 +654,7 @@ const memberData = {
         MonkeyCake: {   name:'MonkeyCake',
                         rol: 'Chad',
                         medallas:['m_gomed','m_swarm','m_dead','m_huevo','m_pecador','m_apostol'],
-                        shinys:[],
+                        shinys:['bibarel'],
                         destacados:[{name: 'arbok', type: 'swarm', link:'https://media.giphy.com/media/8W1sZrHzScrNbg6NZI/giphy.gif'},
                                 {name: 'excadrill', type: 'egg', link:'https://media.giphy.com/media/EZhczbhmxTmrjF70nM/giphy.gif'}
                         ],
@@ -742,7 +742,7 @@ const memberData = {
                         perdidos: [],
                         vendidos: []
         },
-        must: {         name:'must',
+        Mustam: {       name:'Mustam',
                         rol: 'Chad',
                         medallas:['m_safari','m_dead','m_abuelo','m_huevo','m_raza','m_pecador'],
                         shinys:['pidgeot','persian','ludicolo','mantine','altaria','smeargle','hoothoot','poochyena','meowth','beautifly','wingull','jumpluff','poliwag','torkoal','dewgong','mareep','meowth'
