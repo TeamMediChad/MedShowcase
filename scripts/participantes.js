@@ -18,4 +18,9 @@ const participantes =
 16.- Maxii
 17.- Azathotx
 18.- JaretZC
+19.- Maicol
+20.- emirfeNoPremium
+21.- Alakxel
+22.- IxGab
+23.- TheJesucristian
   `;
