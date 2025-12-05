@@ -23,4 +23,9 @@ const participantes =
 21.- Alakxel
 22.- IxGab
 23.- TheJesucristian
+24.- Rebukittheveil
+25.- DPirlo
+26.- Dohrito
+27.- zShilphye
+28.- MonkeyCake
   `;

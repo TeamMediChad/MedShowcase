@@ -425,6 +425,15 @@ const memberData = {
                         perdidos: ['https://media.giphy.com/media/JLXanaUxCRYzlAEKWp/giphy.gif'],
                         vendidos: ['https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDFwaGc5MmNwMWgyMmNkdmwyOG9wenoyNGYxanF1b3BreTVsbzg2dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WwQzqNsYX0l6SgCQZV/giphy.gif']
         },
+        JaretZC: {      name:'JaretZC',
+                        rol: 'Chad',
+                        medallas:['m_shinywar'],
+                        shinys:['rhyperior','hydreigon','reuniclus'
+                        ],
+                        destacados:[],
+                        perdidos: [],
+                        vendidos: []
+        },
         JJean: {        name:'JJean',
                         rol: 'Chad',
                         medallas:['m_secret','m_suertudo','m_rare','m_huevo','m_goldenbox','m_raza','m_apostol','m_supremacy2','m_aniMeD'],
@@ -448,7 +457,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['m_raza'],
                         shinys:['fearow','arbok','tentacool','rapidash','gothorita','poliwhirl','woobat','meowth','ponyta','gengar','gyarados','kingdra','smeargle','rhydon','mienshao','chandelure','camerupt','luxio',
-                                'swablu','ralts','venipede'
+                                'swablu','ralts','venipede','venipede'
                         ],
                         destacados:[],
                         perdidos: [],
@@ -494,12 +503,14 @@ const memberData = {
         },
         Krampus: {      name:'Krampus',
                         rol: 'MegaChad',
-                        medallas:['m_pescador','m_suertudo','m_sequia','m_pecador','m_apostol'],
+                        medallas:['m_pescador','m_suertudo','m_sequia','m_secret','m_pecador','m_apostol'],
                         shinys:['gigalith','altaria','raticate','politoed','victreebel','accelgor','quagsire','donphan','hydreigon','ludicolo','poliwrath','chandelure','magcargo','haxorus','darmanitan','psyduck','doduo',
                                 'gyarados','smeargle','weezing','braviary','jellicent-f','raichu','rapidash','gurdurr','grimer','bellsprout','metapod','scraggy','cubchoo','piloswine','krokorok','duskull','duosion', 'lanturn',
                                 'marill','petilil','meditite','graveler','poliwhirl','luxio','shuppet','torkoal'
                         ],
-                        destacados:[{name: 'luvdisc', type: 'normal', link:'luvdisc'}],
+                        destacados:[{name: 'luvdisc', type: 'normal', link:'luvdisc'},
+                                    {name: 'farfetchd', type: 'secret', link:'https://media.giphy.com/media/jeoAKBFi01hbV0UamQ/giphy.gif'}
+                        ],
                         perdidos: [],
                         vendidos: ['https://media.giphy.com/media/QAmOMaVAIsfyhe1qi1/giphy.gif']
         },
