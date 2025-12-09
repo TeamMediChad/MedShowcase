@@ -562,8 +562,9 @@ const memberData = {
         Maicol: {     name:'Maicol',
                         rol: 'Chad',
                         medallas:['m_dead','m_huevo','m_apostol','m_supremacy2'],
-                        shinys:['ludicolo','larvitar','steelix','venipede','chandelure','smeargle','magikarp','gyarados','cubchoo','cacnea','alakazam','parasect','spinda','duskull'],
+                        shinys:['chandelure','steelix','gyarados','tyranitar','scolipede','cubchoo','cacnea','ludicolo','alakazam','smeargle','parasect','dusclops','spinda'],
                         destacados:[{name: 'breloom', type: 'normal', link:'breloom'},
+                                {name: 'crawdaunt', type: 'normal', link:'crawdaunt'},
                                 {name: 'venusaur', type: 'egg', link:'https://media.giphy.com/media/71JqlJebXFCWBdw4j4/giphy.gif'}
                                 ],
                         perdidos: ['https://media.giphy.com/media/xApUnnnPV5cJhTqy2c/giphy.gif'],
@@ -664,7 +665,7 @@ const memberData = {
         },
         MonkeyCake: {   name:'MonkeyCake',
                         rol: 'Chad',
-                        medallas:['m_gomed','m_swarm','m_dead','m_huevo','m_pecador','m_apostol'],
+                        medallas:['m_gomed','m_swarm','m_dead','m_huevo','m_shunter','m_pecador','m_apostol'],
                         shinys:['bibarel'],
                         destacados:[{name: 'arbok', type: 'swarm', link:'https://media.giphy.com/media/8W1sZrHzScrNbg6NZI/giphy.gif'},
                                 {name: 'excadrill', type: 'egg', link:'https://media.giphy.com/media/EZhczbhmxTmrjF70nM/giphy.gif'}
@@ -810,7 +811,7 @@ const memberData = {
                         rol: 'GigaChad',
                         medallas:['m_secret','m_pescador','m_shunter','m_suertudo','m_racha','m_rare','m_abuelo','m_huevo','m_fosil','m_raza','m_pecador','m_apostol','m_shinywar'],
                         shinys:['weavile','tentacruel','amoonguss','sandslash','gligar','grimer','koffing','meowth','poochyena','zigzagoon','pelipper','wingull','mienshao','ditto','accelgor','ledyba','hoothoot',
-                                'bellsprout','scolipede','sewaddle','lotad','golett','slugma','claydol','cryogonal','venipede','growlithe','growlithe','nidoran-f','pidgey','ninetales'
+                                'bellsprout','scolipede','sewaddle','lotad','golett','slugma','claydol','cryogonal','venipede','growlithe','growlithe','nidoran-f','pidgey','ninetales','vulpix'
                         ],
                         destacados:[{name: 'pansage', type: 'normal', link:'pansage'},
                                 {name: 'remoraid', type: 'normal', link:'remoraid'},

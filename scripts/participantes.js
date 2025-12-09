@@ -11,7 +11,7 @@ const participantes =
 9.- Krampus
 10.- ToddGold
 11.- TheDarl
-12.- Mustam
+12.- nan
 13.- Pancho
 14.- pimientadaza
 15.- KnowJiYong
@@ -28,4 +28,7 @@ const participantes =
 26.- Dohrito
 27.- zShilphye
 28.- MonkeyCake
+29.- Jabubuu
+30.- Doce
+31.- AdrixJK
   `;

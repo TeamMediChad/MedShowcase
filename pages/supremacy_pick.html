@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supremacy Pickeos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="../img/Icons/icon.png">
+  <link rel="stylesheet" href="../styles/mensuales.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/shinydex.css">
+  <link rel="stylesheet" href="../styles/donaciones.css">
+  <link rel="stylesheet" href="../styles/supremacy.css">
+</head>
+<body class="background">
+
+  <div class="topnav">
+    <a href="../index.html"><img src="../img/Icons/icon2.png" alt="icon" class="nav-icon">Team Medichad</a>
+    <a href="./showcase.html"><img src="../img/Icons/iris.png" alt="icon" class="nav-icon">Showcase</a>
+    <a href="./shinyrace.html"><img src="../img/Icons/race.png" alt="icon" class="nav-icon">Shiny Race</a>
+    <a href="./shinydex.html"><img src="../img/Icons/pokedex.png" alt="icon" class="nav-icon">Shinydex</a>
+    <a href="./mensual.html"><img src="../img/Icons/resumen.png" alt="icon" class="nav-icon">Resumen Mensual</a>
+    <a href="./donaciones.html"><img src="../img/Icons/Monedero.png" alt="icon" class="nav-icon">Donaciones</a>
+  </div>
+
+  <div id="main-content">
+
+     <div class="top-wrap" style="font-family: Retro;">
+      <div class="premio-container">
+        <img src="../img/Supremacy.png" alt="Supremacy" height="70%" width="70%">
+        <div class="user-img-wrapper">
+          <div class="top-text">
+            <span class="text-white font-bold centrado" style="font-size: 36px;">
+              MeD Supremacy 3<br>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="text-white font-bold centrado text-4xl mb-4" style="font-family: 'Retro';">Equipos</h2>
+
+    <div id="equipos-container"
+        class="grid grid-cols-1 md:grid-cols-3 gap-6 p-4 text-white">
+    </div>
+
+
+    <header id="titulo-supremacy" class="big-title2">Números</header>
+
+    <div id="tabla-supremacy-pick" class="premio-list"></div>
+
+    <div id="modal" class="hidden fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center">
+      <div class="bg-white rounded-xl p-6 text-black max-w-sm w-full relative">
+
+        <h2 id="modal-name" class="text-2xl font-bold text-center mb-4"></h2>
+
+        <div class="flex justify-center mb-4">
+          <img id="modal-img">
+        </div>
+
+        <p class="text-center font-bold mb-4">Seleccionar equipo:</p>
+
+        <div class="grid grid-cols-1 gap-2">
+          <button id="btn-navidad"   onclick="add('Navidad')" class="p-2 bg-red-500 text-white rounded">Team Navidad</button>
+          <button id="btn-halloween" onclick="add('Halloween')" class="p-2 bg-orange-500 text-white rounded">Team Halloween</button>
+          <button id="btn-lunar"     onclick="add('Nuevoyear')" class="p-2 bg-cyan-500 text-white rounded">Team Año Nuevo</button>
+        </div>
+
+        <button id="modal-close" class="absolute top-2 right-3 text-xl font-bold">×</button>
+      </div>
+    </div>
+
+    <script src="../scripts/participantes.js"></script>
+    <script src="../scripts/supremacy.js"></script>
+    <script src="../scripts/pickeos.js"></script>
+
+  </div>
+</body>
+</html>
