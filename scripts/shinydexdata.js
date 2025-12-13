@@ -415,6 +415,7 @@ const capturedBy = {
   camerupt: [ "KnowJiYong","KnowJiYong"],
   torkoal: [ "Moonlyze","chunchumaru"],
   spoink: [ "Palafo","Palafo"],
+  spoink: [ "Ferbus","Ferbus"],
   spinda: [ "Krackon","IIHeartDragonsII"],
   trapinch: [ "DavidCitos","DavidCitos"],
   vibrava: [ "TheJesucristian","TheJesucristian"],

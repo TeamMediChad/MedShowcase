@@ -11,7 +11,7 @@ const participantes =
 9.- Krampus
 10.- ToddGold
 11.- TheDarl
-12.- nan
+12.- Scashh
 13.- Pancho
 14.- pimientadaza
 15.- KnowJiYong
@@ -31,4 +31,13 @@ const participantes =
 29.- Jabubuu
 30.- Doce
 31.- AdrixJK
+32.- JosiasMccartney
+33.- DiGoMo
+34.- vitro
+35.- CmAshto
+36.- Reimy
+37.- WillWolfestein
+38.- nyumichaelis
+39.- Schizoularz
+40.- Cece
   `;
