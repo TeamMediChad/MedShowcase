@@ -40,4 +40,16 @@ const participantes =
 38.- nyumichaelis
 39.- Schizoularz
 40.- Cece
+41.- AnderHacks
+42.- paulinte
+43.- HoraxPC
+44.- Monteszzz
+45.- Mexb
+46.- PAXPO
+47.- Hectoralberto
+48.- MasterFox
+49.- CXRLITUS
+50.- SamuDG
+51.- MaxVerstappen
+52.- zSoso
   `;
