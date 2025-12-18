@@ -27,7 +27,7 @@ const participantes =
 25.- DPirlo
 26.- Dohrito
 27.- zShilphye
-28.- MonkeyCake
+28.- Guabixd
 29.- Jabubuu
 30.- Doce
 31.- AdrixJK
@@ -52,4 +52,7 @@ const participantes =
 50.- SamuDG
 51.- MaxVerstappen
 52.- zSoso
+53.- xSorC
+54.- Farithi
+55.- wallycbammo
   `;

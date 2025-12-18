@@ -29,3 +29,81 @@
   background-image: url("../img/Cards/card_hover.png");
 
 }
+
+.modal-content {
+  background-image: url("../img/Background/showcasebackground.gif");
+  border-radius: 0.5rem;
+  border-color: rgb(203, 193, 193);
+  border-width: 2px;
+  padding: 5px;
+  display: grid;
+}
+
+.modal-name {
+  font-family: 'Retro';
+  font-size: 40px;
+  color: white;
+}
+
+.modal-text {
+  font-family: 'Retro';
+  font-size: 20px;
+  color: white;
+}
+
+.halloween-btn {
+  font-family: "Retro";
+  font-size: 27px;
+  margin-top: 0.5rem;
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.815);
+  border-width: 0px 10px 0px 10px;
+  border-style: solid;
+  border-image-source: url("../img/button/button-showcase-halloween.png");
+  border-image-slice: 0 10 0 10 fill;
+  transition: border-image-source 0.2s ease;
+}
+.halloween-btn:hover {
+  border-image-source: url("../img/button/button-showcase-hover-halloween.png");
+}
+.halloween-btn:disabled {
+  border-image-source: url("../img/button/button-showcase-disabled-halloween.png");
+}
+
+.lny-btn {
+  font-family: "Retro";
+  font-size: 27px;
+  margin-top: 0.5rem;
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.815);
+  border-width: 0px 10px 0px 10px;
+  border-style: solid;
+  border-image-source: url("../img/button/button-showcase-lny.png");
+  border-image-slice: 0 10 0 10 fill;
+  transition: border-image-source 0.2s ease;
+}
+.lny-btn:hover {
+  border-image-source: url("../img/button/button-showcase-hover-lny.png");
+}
+.lny-btn:disabled {
+  border-image-source: url("../img/button/button-showcase-disabled-lny.png");
+}
+
+.xmas-btn {
+  font-family: "Retro";
+  font-size: 27px;
+  margin-top: 0.5rem;
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.815);
+  border-width: 0px 10px 0px 10px;
+  border-style: solid;
+  border-image-source: url("../img/button/button-showcase-xmas.png");
+  border-image-slice: 0 10 0 10 fill;
+  transition: border-image-source 0.2s ease;
+}
+.xmas-btn:hover {
+  border-image-source: url("../img/button/button-showcase-hover-xmas.png");
+}
+.xmas-btn:disabled {
+  border-image-source: url("../img/button/button-showcase-disabled-xmas.png");
+}
