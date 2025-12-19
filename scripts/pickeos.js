@@ -1,8 +1,16 @@
 const lideres = [
   { nombre: "Team Navidad", user: "OniED" },
-  { nombre: "Team Halloween", user: "LauraSkylar" },
-  { nombre: "Team Año Nuevo", user: "Souen" }
+  { nombre: "Team Halloween", user: "Souen" },
+  { nombre: "Team Año Nuevo", user: "LauraSkylar" }
 ];
+
+
+function asignarInicial(card, liderUser, team) {
+    card.classList.add(`card-team-${team}`);
+    const removeBtn = card.querySelector(".card-remove-btn");
+    if (removeBtn) removeBtn.style.display = "block";
+}
+
 
 const equiposContainer = document.getElementById("equipos-container");
 
@@ -20,7 +28,7 @@ lideres.forEach(lider => {
       <p class="mb-4 text-center" style="font-family: 'Retro'; font-size: 32px">${lider.user}</p>
 
       <ul id="lista-${lider.user}"
-          class="mt-2 flex flex-col gap-2 text-center"></ul>
+          class="mt-2 flex flex-wrap gap-2 justify-center w-full"></ul>
     </div>
   `;
 
@@ -80,6 +88,18 @@ participantesArray.forEach(p => {
         card.appendChild(close);
 
         card.id = `${p.participante}`;
+        lideres.forEach(l => {
+            if (p.participante === l.user) {
+                let team =
+                    l.nombre.includes("Navidad") ? "Navidad" :
+                    l.nombre.includes("Halloween") ? "Halloween" :
+                    "Nuevoyear";
+
+                asignarInicial(card, l.user, team);
+                close.style.pointerEvents = "none";
+                close.style.opacity = "0.0";
+            }
+        });
     } else {
         card.className = "none-card";
 
@@ -121,17 +141,35 @@ modal.addEventListener("click", (e) => {
   }
 });
 
+
 let lista_lider = null
 
 function handlelist(lider, team, action){
     lista_lider = document.getElementById(`lista-${lider}`);
     let miembroT = null;
     if(action == 'add'){
-        miembroT = document.createElement('div');
-        miembroT.textContent = participanteSeleccionado;
+        const miembroT = document.createElement('div');
+        miembroT.className = 'miembro-holder';
+        miembroT.style = `border-image-source: url("../img/button/${team}-container.png");`
+
+        const img = document.createElement('img');
+        img.className = 'miembro-img';
+        img.src = `../Members_sprites/${participanteSeleccionado}.png`;
+        img.onerror = function () {
+            this.src = `../Members_sprites/Placeholder.png`;
+        };
+
+        const name = document.createElement('span');
+        name.className = 'miembro-name';
+        name.textContent = participanteSeleccionado;
+
         miembroT.id = `${team}-${participanteSeleccionado}`;
+
+        miembroT.appendChild(img);
+        miembroT.appendChild(name);
+
         lista_lider.appendChild(miembroT);
-        currentcard.classList.add(`card-team-${team}`);    
+        currentcard.classList.add(`card-team-${team}`); 
     }
     else{
         miembroT = document.getElementById(`${team}-${action}`);
@@ -141,13 +179,13 @@ function handlelist(lider, team, action){
 }
 
 function add(team){
-        if(team == "Navidad"){
-            handlelist('OniED',team, 'add');
-        }else if(team == "Halloween"){
-            handlelist('LauraSkylar',team, 'add');
-        }else if(team == "Nuevoyear"){
-            handlelist('Souen',team, 'add');
-        }
+    if(team == "Navidad"){
+        handlelist('OniED',team, 'add');
+    }else if(team == "Halloween"){
+        handlelist('LauraSkylar',team, 'add');
+    }else if(team == "Nuevoyear"){
+        handlelist('Souen',team, 'add');
+    }
 
     const removeBtn = currentcard.querySelector(".card-remove-btn");
     if (removeBtn) removeBtn.style.display = "block";

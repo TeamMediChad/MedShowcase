@@ -85,7 +85,7 @@
 .lny-btn:hover {
   border-image-source: url("../img/button/button-showcase-hover-lny.png");
 }
-.lny-btn:disabled {
+.lny-btn:disabled {  
   border-image-source: url("../img/button/button-showcase-disabled-lny.png");
 }
 
@@ -106,4 +106,29 @@
 }
 .xmas-btn:disabled {
   border-image-source: url("../img/button/button-showcase-disabled-xmas.png");
+}
+
+.miembro-holder {
+  color: rgba(255, 255, 255, 0.815);
+  font-size: 1.875rem;
+  padding: 5px 3px 5px 0px;
+  border-width: 0px 5px 0px 5px;
+  border-style: solid;
+  font-family: 'Retro';
+  height: 55px;
+  border-image-slice: 0 5 0 5 fill;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  transition: border-image-source 0.2s ease;
+}
+
+.miembro-img {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.miembro-name {
+  font-family: 'Retro';
 }

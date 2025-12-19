@@ -249,7 +249,7 @@ const memberData = {
         },
         Dohrito: {      name:'Dohrito',
                         rol: 'Chad',
-                        medallas:['m_meditite','m_secret','m_shunter','m_raceL','m_rare','m_mundo','m_supremacy2'],
+                        medallas:['m_meditite','m_secret','m_shunter','m_raceL','m_rare','m_mundo','m_pecador','m_supremacy2'],
                         shinys:['medicham','beedrill','gliscor','jynx','marill','wooper','sealeo','magikarp','rapidash','rapidash','dratini','electrike','stunfisk','druddigon','poliwag','swablu','wingull','pelipper','psyduck',
                                 'hypno','amoonguss','dunsparce','cubchoo','beartic','cryogonal','vanillite','vanillish','vanilluxe','crustle','grimer','torkoal','litwick','camerupt','magnezone','mareep','tentacruel','wurmple',
                                 'wurmple','weezing','vulpix','accelgor','shuppet','lopunny','teddiursa','quagsire','smeargle','spinarak','slugma','gible','mienfoo'
