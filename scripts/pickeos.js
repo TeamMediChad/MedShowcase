@@ -190,10 +190,10 @@ function add(team){
         handlelist('OniED',team, 'add');
         Navidad_lista.push(participanteSeleccionado);
     }else if(team == "Halloween"){
-        handlelist('LauraSkylar',team, 'add');
+        handlelist('Souen',team, 'add');
         Halloween_lista.push(participanteSeleccionado);
     }else if(team == "Nuevoyear"){
-        handlelist('Souen',team, 'add');
+        handlelist('LauraSkylar',team, 'add');
         NuevoYear_lista.push(participanteSeleccionado);
     }
 
@@ -215,11 +215,11 @@ function remove(event, nombre) {
         const index = Navidad_lista.indexOf(nombre);
         if (index !== -1) Navidad_lista.splice(index, 1);
     } else if(card.classList[1] == "card-team-Halloween"){
-        handlelist('LauraSkylar','Halloween',card.id);
+        handlelist('Souen','Halloween',card.id);
         const index = Halloween_lista.indexOf(nombre);
         if (index !== -1) Halloween_lista.splice(index, 1);
     } else if(card.classList[1] == "card-team-Nuevoyear"){
-        handlelist('Souen','Nuevoyear',card.id);
+        handlelist('LauraSkylar','Nuevoyear',card.id);
         const index = NuevoYear_lista.indexOf(nombre);
         if (index !== -1) NuevoYear_lista.splice(index, 1);
     }
