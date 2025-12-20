@@ -62,10 +62,11 @@ const participantes =
 60.- ToxicPlumber
 61.- Murkrow
 62.- Renz
-63.- elemii
-64.- messi
-65.- Miguel
-66.- MrVanzZ
-67.- Ashy
-68.- IbaiAlmeida
+63.- ivanMKS
+64.- elemii
+65.- messi
+66.- Miguel
+67.- MrVanzZ
+68.- Ashy
+69.- IbaiAlmeida
   `;
