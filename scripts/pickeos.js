@@ -1,9 +1,15 @@
 const lideres = [
-  { nombre: "Team Navidad", user: "OniED" },
-  { nombre: "Team Halloween", user: "Souen" },
-  { nombre: "Team Año Nuevo", user: "LauraSkylar" }
+  { nombre: "Team Navidad", user: "OniED", button:'xmas' },
+  { nombre: "Team Halloween", user: "Souen", button:'halloween' },
+  { nombre: "Team Año Nuevo", user: "LauraSkylar", button:'lny' }
 ];
 
+let Navidad_lista = [];
+let Halloween_lista = [];
+let NuevoYear_lista = [];
+Navidad_lista.push('OniED');
+Halloween_lista.push('Souen');
+NuevoYear_lista.push('LauraSkylar');
 
 function asignarInicial(card, liderUser, team) {
     card.classList.add(`card-team-${team}`);
@@ -29,6 +35,7 @@ lideres.forEach(lider => {
 
       <ul id="lista-${lider.user}"
           class="mt-2 flex flex-wrap gap-2 justify-center w-full"></ul>
+      <button onclick="copiar${lider.button}()" class="text-white ${lider.button}-btn">Copiar Lista</button>
     </div>
   `;
 
@@ -83,7 +90,7 @@ participantesArray.forEach(p => {
 
         const close = document.createElement('div');
         close.className = "card-remove-btn";
-        close.onclick = (event) => remove(event);
+        close.onclick = (event) => remove(event, p.participante);
         close.textContent = "X"
         card.appendChild(close);
 
@@ -181,10 +188,13 @@ function handlelist(lider, team, action){
 function add(team){
     if(team == "Navidad"){
         handlelist('OniED',team, 'add');
+        Navidad_lista.push(participanteSeleccionado);
     }else if(team == "Halloween"){
         handlelist('LauraSkylar',team, 'add');
+        Halloween_lista.push(participanteSeleccionado);
     }else if(team == "Nuevoyear"){
         handlelist('Souen',team, 'add');
+        NuevoYear_lista.push(participanteSeleccionado);
     }
 
     const removeBtn = currentcard.querySelector(".card-remove-btn");
@@ -195,19 +205,64 @@ function add(team){
     currentcard = null;
 }
 
-function remove(event) {
+function remove(event, nombre) {
     event.stopPropagation();
     const card = event.target.closest(".participante-card");
     if (!card) return;
 
     if(card.classList[1] == "card-team-Navidad"){
         handlelist('OniED','Navidad',card.id);
+        const index = Navidad_lista.indexOf(nombre);
+        if (index !== -1) Navidad_lista.splice(index, 1);
     } else if(card.classList[1] == "card-team-Halloween"){
         handlelist('LauraSkylar','Halloween',card.id);
+        const index = Halloween_lista.indexOf(nombre);
+        if (index !== -1) Halloween_lista.splice(index, 1);
     } else if(card.classList[1] == "card-team-Nuevoyear"){
         handlelist('Souen','Nuevoyear',card.id);
+        const index = NuevoYear_lista.indexOf(nombre);
+        if (index !== -1) NuevoYear_lista.splice(index, 1);
     }
 
     card.classList.remove("card-team-Navidad", "card-team-Halloween", "card-team-Nuevoyear");
     event.target.style.display = "none";
+}
+
+function copiarxmas() {
+    if (!Navidad_lista || Navidad_lista.length === 0) return;
+    let texto = "";
+    Navidad_lista.forEach((nombre, index) => {
+        if (index === 0) {
+            texto += `${index + 1}.- ${nombre} (L)\n`;
+        } else {
+            texto += `${index + 1}.- ${nombre}\n`;
+        }
+    });
+    navigator.clipboard.writeText(texto)
+}
+
+function copiarhalloween() {
+    if (!Halloween_lista || Halloween_lista.length === 0) return;
+    let texto = "";
+    Halloween_lista.forEach((nombre, index) => {
+        if (index === 0) {
+            texto += `${index + 1}.- ${nombre} (L)\n`;
+        } else {
+            texto += `${index + 1}.- ${nombre}\n`;
+        }
+    });
+    navigator.clipboard.writeText(texto)
+}
+
+function copiarlny() {
+    if (!NuevoYear_lista || NuevoYear_lista.length === 0) return;
+    let texto = "";
+    NuevoYear_lista.forEach((nombre, index) => {
+        if (index === 0) {
+            texto += `${index + 1}.- ${nombre} (L)\n`;
+        } else {
+            texto += `${index + 1}.- ${nombre}\n`;
+        }
+    });
+    navigator.clipboard.writeText(texto)
 }

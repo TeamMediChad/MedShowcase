@@ -24,7 +24,7 @@ const participantes =
 22.- IxGab
 23.- TheJesucristian
 24.- Rebukittheveil
-25.- DPirlo
+25.- ErnestoSwampert
 26.- Dohrito
 27.- zShilphye
 28.- Guabixd
@@ -44,7 +44,7 @@ const participantes =
 42.- paulinte
 43.- HoraxPC
 44.- Monteszzz
-45.- Mexb
+45.- YuukiTwo
 46.- PAXPO
 47.- Hectoralberto
 48.- MasterFox
@@ -56,4 +56,16 @@ const participantes =
 54.- Farithi
 55.- wallycbammo
 56.- Ferbus
+57.- MarkosW
+58.- JJean
+59.- Snip
+60.- ToxicPlumber
+61.- Murkrow
+62.- Renz
+63.- elemii
+64.- messi
+65.- Miguel
+66.- MrVanzZ
+67.- Ashy
+68.- IbaiAlmeida
   `;
