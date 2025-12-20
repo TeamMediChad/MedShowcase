@@ -62,7 +62,7 @@ const participantes =
 60.- ToxicPlumber
 61.- Murkrow
 62.- Renz
-63.- ivanMKS
+63.- IvanMKS
 64.- elemii
 65.- messi
 66.- Miguel
