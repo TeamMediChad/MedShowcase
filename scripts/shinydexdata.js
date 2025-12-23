@@ -520,6 +520,7 @@ const capturedBy = {
   hippowdon: [ "aeamanh","aeamanh"],
   skorupi: [ "YuukiTwo","YuukiTwo"],
   drapion: [ "YuukiTwo","YuukiTwo"],
+  croagunk: ["Souen","Souen"],
   finneon: [ "KnowJiYong","KnowJiYong"],
   lumineon: [ "KnowJiYong","KnowJiYong"],
   mantyke: [ "UltimoMorador","UltimoMorador"],
