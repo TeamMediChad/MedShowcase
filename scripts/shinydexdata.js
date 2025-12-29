@@ -292,8 +292,8 @@ const capturedBy = {
   natu: [ "ToxicPlumber","ToxicPlumber"],
   xatu: [ "ToxicPlumber","ToxicPlumber"],
   mareep: [ "Silvaryl","Silvaryl"],
-  flaaffy: [ "attomico","attomico"],
-  ampharos: [ "Lirio","JerichoKenobii"],
+  flaaffy: [ "Souen","attomico"],
+  ampharos: [ "Souen","JerichoKenobii"],
   bellossom: [ "Jabubuu","Palafo"],
   marill: [ "DavidCitos","DavidCitos"],
   azumarill: [ "Akalii","MonkeyCake"],
@@ -513,7 +513,7 @@ const capturedBy = {
   chatot: [ "Ingrid","Veilia"],
   gible: [ "Akalii","lMatzu"],
   gabite: [ "Gusteiv","Gusteiv"],
-  garchomp: [ "TheJesucristian","Lirio"],
+  garchomp: [ "TheJesucristian","TheJesucristian"],
   riolu: [ "Pancho","Pancho"],
   lucario: [ "Pancho","Pancho"],
   hippopotas: [ "aeamanh","aeamanh"],
@@ -521,6 +521,7 @@ const capturedBy = {
   skorupi: [ "YuukiTwo","YuukiTwo"],
   drapion: [ "YuukiTwo","YuukiTwo"],
   croagunk: ["Souen","Souen"],
+  toxicroak: ["Souen","Souen"],
   finneon: [ "KnowJiYong","KnowJiYong"],
   lumineon: [ "KnowJiYong","KnowJiYong"],
   mantyke: [ "UltimoMorador","UltimoMorador"],
@@ -579,7 +580,7 @@ const capturedBy = {
   excadrill: [ "MonkeyCake","MonkeyCake"],
   timburr: [ "Krackon","Krackon"],
   gurdurr: [ "DavidCitos","DavidCitos"],
-  conkeldurr: [ "MrCartago","Lirio"],
+  conkeldurr: [ "MrCartago","MrCartago"],
   tympole: [ "pimientadaza","pimientadaza"],
   palpitoad: [ "DavidCitos","DavidCitos"],
   seismitoad: [ "pimientadaza","pimientadaza"],
@@ -679,7 +680,7 @@ const capturedBy = {
  
 const captured_unown = {
   "unown-p": ["vitro","vitro"],
-  "unown-em": ["Lirio","Lirio"],
+  "unown-em": ["vitro","vitro"]
 }
 
 const captured_other = {
