@@ -393,6 +393,7 @@ const capturedBy = {
   makuhita: [ "UltimoMorador","UltimoMorador"],
   hariyama: [ "DavidCitos","DavidCitos"],
   azurill: [ "Jabubuu","Jabubuu"],
+  nosepass: [ "LauraSkylar","LauraSkylar"],
   skitty: [ "Mikuwuu","Mikuwuu"],
   delcatty: [ "Mikuwuu","Mikuwuu"],
   sableye: [ "ritosenpai","ritosenpai"],
