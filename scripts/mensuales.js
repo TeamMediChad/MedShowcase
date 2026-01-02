@@ -1,15 +1,14 @@
 const mensuales = [
-    ['c', 'cradily', 'OniED'],
-    ['c', 'tropius', 'Scashh'],
-    ['c', 'drilbur', 'MonkeyCake'],
-    ['c', 'excadrill', 'MonkeyCake'],
+    ['c', 'grumpig', 'Ferbus'],
+    ['c', 'togepi', 'MarkosW'],
+    ['c', 'togetic', 'MarkosW'],
+    ['c', 'togekiss', 'MarkosW'],
+    ['c', 'glaceon', 'Doce'],
+    ['c', 'exeggutor', 'Maxii'],
+    ['c', 'croagunk', 'Souen'],
+    ['c', 'toxicroak', 'Souen'],
+    ['c', 'nosepass', 'LauraSkylar'],
     ['r', ['cubone','https://media.giphy.com/media/C3gmsf8A7LfrKzpGDY/giphy.gif'],'AdrixJK'],
-    ['r', ['hoothoot','https://media.giphy.com/media/wrvpm9RfzVS6NrghQO/giphy.gif'],'CXRLITUS'],
-    ['r', ['misdreavus','https://media.giphy.com/media/4UZxfBHHPVtzNGkt2o/giphy.gif'],'IxGab'],
-    ['r', ['eevee','https://media.giphy.com/media/nJZvHOjihRvNqn2v8d/giphy.gif'],'Doce'],
-    ['r', ['drowzee','https://media.giphy.com/media/l7u1smgtUnfhkmO2dv/giphy.gif'],'HoraxPC'],
-    ['r', ['mudkip','https://media.giphy.com/media/tbC1NEwy3G4QZ3ng7t/giphy.gif'],'Scashh'],
-    ['r', ['drilbur','https://media.giphy.com/media/75dF5sbB1cId5DxiXN/giphy.gif'],'MonkeyCake'],
   ];
 
 function showTab(tabId) {
