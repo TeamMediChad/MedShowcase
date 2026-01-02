@@ -1025,7 +1025,7 @@ const memberData = {
                         medallas:['m_gomed','m_lider','m_guardian','m_meditite','m_shunter','m_mundo','m_raceW','m_swarm','m_secret','m_pescador','m_raceL','m_suertudo','m_racha','m_sequia','m_abuelo','m_huevo','m_raza','m_pecador','m_apostol','m_olimpiadas'],
                         shinys:['pidgeot','chandelure','ditto','amoonguss','scolipede','ninetales','crobat','arcanine','rapidash','golem','roserade','slugma','crobat','graveler','rapidash','weezing','tentacruel','ditto',
                                 'shellos-east','bibarel','kricketune','oddish','bibarel','misdreavus','smeargle','woobat','mienshao','jellicent-f','nidoking','luxray','medicham','cubchoo','cryogonal','petilil','rapidash','starly',
-                                'zubat','bibarel','starly','starly','zubat','bibarel','starly','bibarel','ralts','mankey','girafarig','primeape','misdreavus','ampharos','lopunny'
+                                'zubat','bibarel','starly','starly','zubat','bibarel','starly','bibarel','gallade','mankey','girafarig','primeape','misdreavus','ampharos','lopunny'
                         ],
                         destacados:[{name: 'toxicroak', type: 'egg', link: 'https://media.giphy.com/media/BNFt1mxhdD4EkUz8r5/giphy.gif'},
                                 {name: 'octillery', type: 'normal', link:'octillery'},
