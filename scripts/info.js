@@ -12,7 +12,7 @@ const listaMedalla = {
   m_secret:     {name: '🌟 Top secret', info: 'Has obtenido un shiny secret (salvaje)'},
   m_shunter:    {name: '📆 Shunter del mes', info: 'Has obtenido la mayor puntuación de shinys en un mes'},
   m_pescador:   {name: '🎣 Maestro pescador', info: 'Has obtenido un shiny pescando'},
-  m_cardumen:   {name: '🐟  Cardumen', info: 'Has obtenido 3 shiny pescando (Sin repetir especies)'},
+  m_cardumen:   {name: '🐟 Cardumen', info: 'Has obtenido 3 shiny pescando (Sin repetir especies)'},
   m_raceW:      {name: '🥇 Race winner', info: 'Has ganado una shiny race'},
   m_raceL:      {name: '🥈 Fail race', info: 'Has obtenido una fase buscando el shiny de la race'},
   m_suertudo:   {name: '🍀 Suertudo', info: 'Has obtenido 2 o mas shiny en 1 día (24h o menos)'},
@@ -417,7 +417,7 @@ const memberData = {
                         medallas:['m_gomed','m_safari','m_dead','m_secret','m_shunter','m_suertudo','m_racha','m_sequia','m_abuelo','m_huevo','m_raza','m_pecador','m_apostol','m_shinywar'],
                         shinys:['solrock','gastrodon','lopunny','politoed','scolipede','raticate','chandelure','bellossom','ninetales','azurill','lilligant','golem','rattata','vanilluxe','gorebyss','psyduck','wooper',
                                 'jumpluff','escavalier','deerling','vileplume','ariados','victreebel','graveler','graveler','sableye','spearow','durant','boldore','sneasel','crustle','slowking','meowth','dewgong','krookodile',
-                                'muk','cubchoo','banette','smeargle','wobbuffet','arbok','eelektross'
+                                'muk','cubchoo','banette','smeargle','wobbuffet','arbok','eelektross','weepinbell'
                         ],
                         destacados:[{name: 'munna', type: 'secret', link:'https://media.giphy.com/media/HpSnC62YvwsymoUU0o/giphy.gif'},
                                 {name: 'eevee', type: 'egg', link:'https://media.giphy.com/media/nJZvHOjihRvNqn2v8d/giphy.gif'},
@@ -469,8 +469,8 @@ const memberData = {
         },
         KilluaZoldyck: {name:'KilluaZoldyck',
                         rol: 'Chad',
-                        medallas:['m_gomed'],
-                        shinys:['dratini','smeargle','duskull','koffing','gyarados','donphan','rapidash','ponyta','vulpix','woobat','darumaka'
+                        medallas:['m_gomed','m_misterio'],
+                        shinys:['dratini','smeargle','duskull','koffing','gyarados','donphan','rapidash','ponyta','vulpix','woobat','darumaka','elekid'
                         ],
                         destacados:[],
                         perdidos: [],
@@ -692,7 +692,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['m_safari','m_dead','m_secret','m_pescador','m_abuelo','m_huevo','m_raza','m_pecador'],
                         shinys:['pidgeot','persian','ludicolo','mantine','altaria','smeargle','hoothoot','poochyena','meowth','beautifly','wingull','jumpluff','poliwag','torkoal','dewgong','mareep','meowth'
-                                ,'gligar','lanturn','pikachu','drowzee','rattata','raticate'
+                                ,'gligar','lanturn','pikachu','drowzee','rattata','raticate','parasect'
                         ],
                         destacados:[{name: 'furret', type: 'normal', link:'furret'},
                                 {name: 'sceptile', type: 'normal', link:'sceptile'},
@@ -1096,7 +1096,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['m_shunter','m_suertudo','m_apostol'],
                         shinys:['bellossom','escavalier','litwick','donphan','machamp','graveler','graveler','weezing','dodrio','hariyama','masquerain','igglybuff','snubbull','mantyke','clamperl','marill','boldore','scraggy',
-                                'tranquill','wobbuffet','smoochum','patrat','persian','sawk','xatu','makuhita','joltik','stoutland','cubchoo','donphan'
+                                'tranquill','wobbuffet','smoochum','patrat','persian','sawk','xatu','makuhita','joltik','stoutland','cubchoo','donphan','hoppip','mankey'
                         ],
                         destacados:[],
                         perdidos: [],
