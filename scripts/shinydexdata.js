@@ -344,6 +344,7 @@ const capturedBy = {
   stantler: [ "Maxii","Moonlyze"],
   smeargle: [ "ToxicPlumber","ToxicPlumber"],
   smoochum: [ "UltimoMorador","UltimoMorador"],
+  elekid: ["KilluaZoldyck","KilluaZoldyck"],
   magby: [ "DiGoMo","DiGoMo"],
   miltank: [ "DavidCitos","DavidCitos"],
   larvitar: [ "ToxicPlumber","Treeecko"],

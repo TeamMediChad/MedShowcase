@@ -469,7 +469,7 @@ const memberData = {
         },
         KilluaZoldyck: {name:'KilluaZoldyck',
                         rol: 'Chad',
-                        medallas:['m_gomed','m_misterio'],
+                        medallas:['m_gomed','m_misterio','m_apostol'],
                         shinys:['dratini','smeargle','duskull','koffing','gyarados','donphan','rapidash','ponyta','vulpix','woobat','darumaka','elekid'
                         ],
                         destacados:[],
