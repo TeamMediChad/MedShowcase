@@ -543,14 +543,6 @@ const memberData = {
                                 'https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif'
                         ]
         },
-        Liarfuneral: {  name:'Liarfuneral',
-                        rol: 'Chad',
-                        medallas:['m_shinywar'],
-                        shinys:['dusclops','dragonite','hydreigon','bouffalant','gyarados','lilligant','chandelure','golett','ponyta','pelipper'],
-                        destacados:[],
-                        perdidos: [],
-                        vendidos: []
-        },
         Maicol: {     name:'Maicol',
                         rol: 'Chad',
                         medallas:['m_pescador','m_dead','m_huevo','m_apostol','m_supremacy2'],
