@@ -180,7 +180,7 @@ const toggle = document.getElementById('live-dex-toggle');
     if (toggle.checked) {
         document.getElementById('shinydex-live').classList.remove('hidden');
         document.getElementById('shinydex-story').classList.add('hidden');
-        document.getElementById('text-dex').innerHTML = `La <span class="text-red-500">Live <span class="text-white">Shinydex muestra el primer miembro actual en registrar el shiny <br> en caso de no haber miembro actual encontes muestra la primera persona en registrarlo`;
+        document.getElementById('text-dex').innerHTML = `La <span class="text-red-500">Live <span class="text-white">Shinydex muestra el primer miembro actual en registrar el shiny <br> en caso de no haber miembro actual entonces muestra la primera persona en registrarlo`;
     } else {
         document.getElementById('shinydex-live').classList.add('hidden');
         document.getElementById('shinydex-story').classList.remove('hidden');

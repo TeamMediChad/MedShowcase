@@ -166,7 +166,7 @@ const memberData = {
         CmAshto: {      name:'CmAshto',
                         rol: 'Chad',
                         medallas:['m_dead','m_supremacy3'],
-                        shinys:['solrock','gyarados','ditto','poochyena','surskit'],
+                        shinys:['solrock','gyarados','ditto','poochyena','surskit','ponyta'],
                         destacados:[],
                         perdidos: [],
                         vendidos: []
@@ -418,7 +418,7 @@ const memberData = {
         IxGab: {        name:'IxGab',
                         rol: 'MegaChad',
                         medallas:['m_gomed','m_secret','m_pescador','m_cardumen','m_raceL','m_suertudo','m_apostol','m_supremacy3'],
-                        shinys:['kirlia','hydreigon','dragonair','crobat','accelgor','leavanny','weezing','dodrio','poliwag','linoone','vanilluxe','raticate','magikarp','swadloon','starly','golett','darumaka'],
+                        shinys:['kirlia','hydreigon','dragonair','crobat','accelgor','leavanny','weezing','dodrio','poliwag','linoone','vanilluxe','raticate','magikarp','swadloon','starly','golett','darumaka','venipede','petilil'],
                         destacados:[{name: 'corphish', type: 'normal', link:'corphish'},
                                 {name: 'luvdisc', type: 'normal', link:'luvdisc'},
                                 {name: 'breloom', type: 'normal', link:'breloom'},
@@ -771,7 +771,7 @@ const memberData = {
         },
         OniED: {        name:'OniED',
                         rol: 'GigaChad',
-                        medallas:['m_guardian','m_secret','m_pescador','m_shunter','m_suertudo','m_racha','m_rare','m_abuelo','m_huevo','m_fosil','m_arbol','m_raza','m_pecador','m_apostol','m_shinywar','m_supremacy3'],
+                        medallas:['m_guardian','m_dead','m_secret','m_pescador','m_shunter','m_suertudo','m_racha','m_rare','m_abuelo','m_huevo','m_fosil','m_arbol','m_raza','m_pecador','m_apostol','m_shinywar','m_supremacy3'],
                         shinys:['weavile','tentacruel','amoonguss','sandslash','gligar','grimer','koffing','meowth','poochyena','zigzagoon','pelipper','wingull','mienshao','ditto','accelgor','ledyba','hoothoot',
                                 'bellsprout','scolipede','sewaddle','lotad','golett','slugma','claydol','cryogonal','venipede','growlithe','growlithe','nidoran-f','pidgey','ninetales','vulpix','horsea','dustox'
                         ],
@@ -787,7 +787,7 @@ const memberData = {
                                 {name: 'zigzagoon', type: 'secret', link:'https://media.giphy.com/media/KtpRlWqgvUC1uBAJbI/giphy.gif'},
                                 {name: 'growlithe', type: 'secret', link:'https://media.giphy.com/media/vYapmKuh0r9xrREN5K/giphy.gif'}
                         ],
-                        perdidos: [],
+                        perdidos: ['https://media.giphy.com/media/uHS2rHxHDIhPKEnv6q/giphy.gif'],
                         vendidos: ['https://media.giphy.com/media/3XWhYuF1IEcTsDBJXD/giphy.gif',
                                 'https://media.giphy.com/media/tILTB4DTScZ7Sd5PIP/giphy.gif',
                                 'https://media.giphy.com/media/7B05VelRsf0qfQptsT/giphy.gif',
@@ -956,7 +956,7 @@ const memberData = {
                                 'larvitar','seviper','snorunt','geodude','cubchoo','cubchoo','cubchoo','ponyta','stantler','sableye','golduck','cottonee','sawsbuck','stunky','dratini','wooper','eelektross','jigglypuff',
                                 'spinda','zangoose','swadloon','mawile','zubat','kingdra','psyduck','cryogonal','torkoal','poochyena','beartic','vanillish','victreebel','deerling','deerling-autumn','krokorok','weezing',
                                 'fearow','fearow','fearow','jumpluff','flygon','shuppet','scraggy','darmanitan','herdier','jynx','pidgey','weepinbell','spearow','chandelure','bronzong','bronzong','lairon','gabite',
-                                'surskit','pidove','clamperl','mightyena','golbat','lunatone','lunatone','ralts','zebstrika'
+                                'surskit','pidove','clamperl','mightyena','golbat','lunatone','lunatone','ralts','zebstrika','quagsire'
                         ],
                         destacados:[{name: 'ninjask', type: 'normal', link:'ninjask'},
                                 {name: 'swampert', type: 'normal', link:'swampert'},
