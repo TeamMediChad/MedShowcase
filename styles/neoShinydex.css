@@ -1,0 +1,64 @@
+.contenedor {
+    width: 145px;  
+    height: 36px;
+    background-image: url("../img/shinydex/shinydex_nameplate.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 45px;
+    box-sizing: border-box;
+
+    font-family: 'Retro';
+    color: white;
+}
+
+.contenedor2 {
+    width: 145px;  
+    height: 36px;
+    background-image: url("../img/shinydex/shinydex_nameplate2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 45px;
+    box-sizing: border-box;
+
+    font-family: 'Retro';
+    color: white;
+}
+
+/* icono */
+.icono {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 2px;
+}
+
+.wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.nombre {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pokedex-info{
+    height: 80vh;
+    width: 50vh;
+}
+
+.pokedex{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    height: 80vh;
+    overflow: auto;
+}
