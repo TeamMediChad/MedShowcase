@@ -4,6 +4,7 @@
     background-image: url("../img/shinydex/shinydex_nameplate.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    image-rendering: pixelated;
 
     display: flex;
     align-items: center;
@@ -13,6 +14,12 @@
 
     font-family: 'Retro';
     color: white;
+    transition: all 0.2s ease;
+}
+
+.contenedor:hover{
+    background-image: url("../img/shinydex/shinydex_nameplate_hover.png");
+    cursor: pointer;
 }
 
 .contenedor2 {
@@ -30,6 +37,35 @@
 
     font-family: 'Retro';
     color: white;
+    transition: all 0.2s ease;
+}
+
+.contenedor2:hover{
+    background-image: url("../img/shinydex/shinydex_nameplate2_hover.png");
+    cursor: pointer;
+}
+
+.contenedor_empty {
+    width: 145px;  
+    height: 36px;
+    background-image: url("../img/shinydex/shinydex_nameplate_empty.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 45px;
+    box-sizing: border-box;
+
+    font-family: 'Retro';
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.contenedor_empty:hover{
+    background-image: url("../img/shinydex/shinydex_nameplate_empty_hover.png");
+    cursor: pointer;
 }
 
 /* icono */
