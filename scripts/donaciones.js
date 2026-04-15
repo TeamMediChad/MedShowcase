@@ -33,6 +33,7 @@ let data = [
   {name: "LMMRKNRM", dinero: 700000},
   {name: "Monozee", dinero: 100000},
   {name: "Murkrow", dinero: 200000},
+  {name: "AsuraSkyFlames", dinero: 1000000},
 ];
 
 
