@@ -519,7 +519,7 @@ const capturedBy = {
   buneary: [ "DavidCitos","DavidCitos"],
   lopunny: [ "DavidCitos","DavidCitos"],
   mismagius: [ "Renz","Renz"],
-  honchkrow: [ "Lirio","Lirio"],
+  honchkrow: [ "Souen","Souen"],
   glameow: [ "Reimy","Reimy"],
   purugly: [ "XIGoroxlX","XIGoroxlX"],
   chingling: ["MonkeyCake","MonkeyCake"],

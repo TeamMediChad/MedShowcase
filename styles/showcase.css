@@ -251,6 +251,13 @@
   display: block;
 }
 
+.shiny-effect {
+  position: absolute;
+  image-rendering: pixelated;
+  bottom: 2px;
+  right: 2px;
+}
+
 .shiny-img-alpha {
   max-width: none;
   height: auto;
@@ -260,10 +267,15 @@
 }
 
 .shiny-img-wrap {
-  max-width: none;
-  height: auto;
-  width: auto;
-  display: block;
+  position: relative;
+  display: inline-block;
+}
+
+.shiny-img-wrap2 {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .overlay-gif {
@@ -279,7 +291,7 @@
 /* Grid Shinys */
 .shiny-img-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 10px));
+  grid-template-columns: repeat(auto-fit, minmax(95px, 10px));
   gap: 0.5rem;
   place-items: center;
 }

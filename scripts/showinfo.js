@@ -161,38 +161,55 @@ function showInfo(personKey) {
 
   // destacados
   destacados.forEach(id => {
+    const shinyWrap = document.createElement('div');
+    shinyWrap.className = "shiny-img-wrap";
+    const shinyWrap2 = document.createElement('div');
+    shinyWrap2.className = "shiny-img-wrap2";
     const destacadosEl = document.createElement('img');
-    if(id.type == "normal"){
-      if (id == "altaria"){
-        destacadosEl.src = "../img/altaria.gif";
-      } else {
-        destacadosEl.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id.link}.gif`;
-      }
-    } else {
-      destacadosEl.src = `${id.link}`;
-    }
-    
+
     if(id.type == "alpha"){
       destacadosEl.className = "shiny-img-alpha";
     } else {
       destacadosEl.className = "shiny-img";
     }
-    /*
-    if(id.type == "secret"){
-      const shinyWrap = document.createElement('div');
-      shinyWrap.className = "shiny-img-wrap";
-      const overlay = document.createElement('img');
-      overlay.className = "overlay-gif";
-      overlay.src = `../img/XiPv.gif`;
 
-      shinyWrap.appendChild(destacadosEl);
-      shinyWrap.appendChild(overlay);
-      shiny_container2.appendChild(shinyWrap);
+    destacadosEl.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id.name}.gif`;
+    
+    if(id.type == "normal"){
+      if (id == "altaria"){
+        destacadosEl.src = "../img/altaria.gif";
+      }
+      shinyWrap2.appendChild(destacadosEl);
+      shinyWrap.appendChild(shinyWrap2);
     } else {
-      shiny_container2.appendChild(destacadosEl);
-    }*/
+      shinyWrap2.appendChild(destacadosEl);
+      shinyWrap.appendChild(shinyWrap2);
 
-    shiny_container2.appendChild(destacadosEl);
+      if (Array.isArray(id.type)){
+        let aux = 2;
+        id.type.forEach((type, index) => {
+          const watermark = document.createElement('img');
+          watermark.className = "shiny-effect";
+          watermark.src = `../img/Icons/zz_${type}.png`;
+
+          watermark.onload = () => {
+            aux += watermark.naturalWidth;
+            watermark.style.right = `${2 + aux-watermark.naturalWidth}px`;
+            shinyWrap.appendChild(watermark);
+          };
+          
+        });
+      }
+      else {
+        const watermark = document.createElement('img');
+        watermark.className = "shiny-effect";
+        watermark.src = `../img/Icons/zz_${id.type}.png`
+        
+      shinyWrap.appendChild(watermark);
+      }
+      
+    }
+    shiny_container2.appendChild(shinyWrap);
 
   
   });

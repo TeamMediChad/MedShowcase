@@ -81,31 +81,39 @@ function calculate_points_normal(shiny){
 
 function calculate_points(member){
     let points = 0;
+
     const shinies = memberData[member].shinys;
     for(const shiny of shinies){
         points += calculate_points_normal(shiny);
     }
     
     const destacados = memberData[member].destacados || [];
+
     for (const d of destacados) {
-        if(d.type == "normal" || d.type == "swarm"){
-            points += calculate_points_normal(d.name);
-        }else if(d.type == "safari"){
-            points += calculate_points_normal(d.name) + 5;
-        }else if(d.type == "secret"){
-            points += calculate_points_normal(d.name) + 10;
-        }else if(d.type == "egg"){
-            if(calculate_points_normal(d.name) >= 20){
+        const types = Array.isArray(d.type) ? d.type : [d.type];
+
+        for (const type of types) {
+            if(type === "normal" || type === "swarm"){
                 points += calculate_points_normal(d.name);
-            }else{
-                points += 20;
+
+            } else if(type === "safari"){
+                points += calculate_points_normal(d.name) + 5;
+
+            } else if(type === "secret"){
+                points += calculate_points_normal(d.name) + 10;
+
+            } else if(type === "egg"){
+                const base = calculate_points_normal(d.name);
+                points += (base >= 20 ? base : 20);
+
+            } else if(type === "alpha"){
+                points += 50;
+
+            } else if(type === "legend"){
+                points += 100;
             }
-        }else if(d.type == "alpha"){
-            points += 50;
-        }else if(d.type == "legend"){
-            points += 100;
         }
-        
     }
+
     return points;
 }
