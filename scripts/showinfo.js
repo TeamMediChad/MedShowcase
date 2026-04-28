@@ -186,7 +186,7 @@ function showInfo(personKey) {
       shinyWrap.appendChild(shinyWrap2);
 
       if (Array.isArray(id.type)){
-        let aux = 2;
+        let aux = 10;
         id.type.forEach((type, index) => {
           const watermark = document.createElement('img');
           watermark.className = "shiny-effect";
@@ -207,11 +207,8 @@ function showInfo(personKey) {
         
       shinyWrap.appendChild(watermark);
       }
-      
     }
     shiny_container2.appendChild(shinyWrap);
-
-  
   });
 
   if(shinys.length == 0 && destacados.length == 0 && perdidos.length == 0){
@@ -241,11 +238,57 @@ function showInfo(personKey) {
 
   // perdidos
   perdidos.forEach(id => {
+    const shinyWrap = document.createElement('div');
+    shinyWrap.className = "shiny-img-wrap";
+    const shinyWrap2 = document.createElement('div');
+    shinyWrap2.className = "shiny-img-wrap2";
     const perdidosEl = document.createElement('img');
-    perdidosEl.src = `${id}`;
-    perdidosEl.className = "shiny-img";
-    shiny_container4.appendChild(perdidosEl);
+
+    if(id.type == "alpha"){
+      perdidosEl.className = "shiny-img-alpha";
+    } else {
+      perdidosEl.className = "shiny-img";
+    }
+    perdidosEl.classList.add("lost-shiny");
+
+    perdidosEl.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id.name}.gif`;
+    
+    if(id.type == "normal"){
+      if (id == "altaria"){
+        perdidosEl.src = "../img/altaria.gif";
+      }
+      shinyWrap2.appendChild(perdidosEl);
+      shinyWrap.appendChild(shinyWrap2);
+    } else {
+      shinyWrap2.appendChild(perdidosEl);
+      shinyWrap.appendChild(shinyWrap2);
+
+      if (Array.isArray(id.type)){
+        let aux = 2;
+        id.type.forEach((type, index) => {
+          const watermark = document.createElement('img');
+          watermark.className = "shiny-effect";
+          watermark.src = `../img/Icons/zz_${type}.png`;
+
+          watermark.onload = () => {
+            aux += watermark.naturalWidth;
+            watermark.style.right = `${2 + aux-watermark.naturalWidth}px`;
+            shinyWrap.appendChild(watermark);
+          };
+          
+        });
+      }
+      else {
+        const watermark = document.createElement('img');
+        watermark.className = "shiny-effect";
+        watermark.src = `../img/Icons/zz_${id.type}.png`
+        
+      shinyWrap.appendChild(watermark);
+      }
+    }
+    shiny_container4.appendChild(shinyWrap);
   });
+
 
   //vendidos
   vendidos.forEach(id => {

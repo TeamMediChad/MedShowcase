@@ -255,7 +255,7 @@
   position: absolute;
   image-rendering: pixelated;
   bottom: 2px;
-  right: 2px;
+  right: 10px;
 }
 
 .shiny-img-alpha {
@@ -265,6 +265,11 @@
   display: block;
   filter: drop-shadow(rgba(232, 238, 124, 0.6) 0px 4px 12px);
 }
+
+.lost-shiny {
+  filter: grayscale(100%);
+}
+
 
 .shiny-img-wrap {
   position: relative;
