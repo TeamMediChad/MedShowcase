@@ -156,7 +156,7 @@ const memberData = {
                         rol: 'Chad',
                         medallas:['m_swarm','m_secret','m_raceL','m_suertudo','m_sequia','m_abuelo','m_raza','m_apostol','m_shinywar'],
                         shinys:['dusclops','gallade','weezing','mienshao','dugtrio','ponyta','chandelure','scrafty','smeargle','spinda','poliwrath','accelgor','mienfoo','yamask','kricketune','cacnea','shellos-east',
-                                'shellos-east','vanillish','floatzel','pidgey','linoone','donphan','gabite','meowth'
+                                'shellos-east','vanillish','floatzel','pidgey','linoone','donphan','garchomp','meowth','mienshao'
                         ],
                         destacados:[{name: 'staryu', type: 'normal'},
                                 {name: 'porygon-z', type: 'swarm'},
@@ -273,8 +273,8 @@ const memberData = {
         Drakulaura: {  name:'Drakulaura',
                         rol: 'MegaChad',
                         medallas:['m_gomed','m_guardian','m_shunter','m_safari','m_dead','m_pescador','m_huevo','m_suertudo','m_racha','m_raza','m_mundo','m_apostol','m_shinywar'],
-                        shinys:['lanturn','roserade','geodude','golem','donphan','braviary','pelipper','volbeat','sigilyph','minccino','cinccino','trubbish','gyarados','golbat','electrike','drifblim','shellos-east','nosepass',
-                                'rhydon','drifblim','mawile','throh','misdreavus'
+                        shinys:['lanturn','roserade','geodude','golem','donphan','braviary','pelipper','volbeat','sigilyph','minccino','cinccino','trubbish','gyarados','crobat','electrike','drifblim','shellos-east','nosepass',
+                                'rhydon','drifloon','mawile','throh','misdreavus'
                         ],
                         destacados:[{name: 'nidoran-f', type: 'safari'},
                                     {name: 'ledyba', type: 'safari'},
@@ -433,6 +433,15 @@ const memberData = {
                         destacados:[{name: 'drowzee', type: 'swarm'},
                                 {name: 'charizard', type: 'egg'}
                         ],
+                        perdidos: [],
+                        vendidos: []
+        },
+        Illumibestii: { name:'Illumibestii',
+                        rol: 'Chad',
+                        medallas:['m_abuelo'],
+                        shinys:['dugtrio','mienshao','reuniclus','hydreigon','swoobat','golett','ninetales','litwick','woobat'
+                        ],
+                        destacados:[],
                         perdidos: [],
                         vendidos: []
         },
@@ -612,8 +621,8 @@ const memberData = {
         },
         Maxii: {        name:'Maxii',
                         rol: 'Chad',
-                        medallas:['m_meditite','m_apostol'],
-                        shinys:['aggron','dusclops','eelektross','golduck','alakazam','weezing','grimer','magcargo','krabby','loudred','pidgey','parasect','larvitar','floatzel','lombre','stantler',
+                        medallas:['m_meditite','m_apostol','m_supremacy2'],
+                        shinys:['aggron','eelektross','golduck','alakazam','weezing','grimer','magcargo','krabby','loudred','pidgey','parasect','larvitar','floatzel','lombre','stantler',
                                 'nidorina','sandslash','rhyperior','petilil','joltik','meditite','machoke','psyduck','magnemite','roselia'
                         ],
                         destacados:[{name: 'heracross', type: 'normal'},
