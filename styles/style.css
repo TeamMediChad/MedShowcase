@@ -122,12 +122,19 @@ body {
 }
 
 
-.centrado {
+.centrado-main {
   display: flex;
   flex-direction: column;
   align-items: center;       
   justify-content: center;  
   margin-top: 25px;
+}
+
+.centrado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       
+  justify-content: center;  
 }
 
 .centrado img {
@@ -260,3 +267,99 @@ body {
   overflow: hidden;
 }
 
+.card-med-wrap {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;  
+  align-items: center;
+}
+
+.card-med-img {
+  margin-right: 50px;
+  object-fit: contain;
+  display: block;
+  width: 100px;
+  image-rendering: pixelated;
+}
+
+.card-med-container {
+  flex-direction: column;  
+  justify-content: center;  
+  align-items: center;
+  padding: 1rem;
+  align-self: center;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-width: 6px 6px 6px 6px;
+  border-style: solid;
+  border-image-source: url("../img/Background/member_holder.png");
+  border-image-slice: 6 6 6 6 fill;
+  border-image-repeat: round;
+  min-width: 500px;
+  max-width: 900px;
+}
+
+.card-med-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 20PX));
+  max-width: calc(200px * 5 + 20px * 4);
+  margin-left: auto;
+  margin-right: auto;
+  row-gap: 1rem;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+.progress-container{
+    width: min(900px, 90%);
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.rank-bar .label{
+    display:block;
+    margin-bottom:8px;
+    color:white;
+    font-family:Retro;
+}
+
+.progress-track{
+    position:relative;
+    height:20px;
+    background:#222;
+    border-radius:999px;
+    overflow:visible;
+    border:2px solid #444;
+}
+
+.progress-fill{
+    height:100%;
+    background:linear-gradient(
+        90deg,
+        #ff6b6b,
+        #ff8e8e
+    );
+    border-radius:999px;
+}
+
+.progress-icon{
+    position:absolute;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width:42px;
+    height:42px;
+    image-rendering:pixelated;
+    pointer-events:none;
+}
+
+.info-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    font-size:26px;
+    color:white;
+    font-family:Retro;
+}

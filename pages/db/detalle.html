@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Med Shiny Showcase</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="../../img/Icons/icon.png">
+  
+  <link rel="stylesheet" href="../../styles/showcase.css">
+  <link rel="stylesheet" href="../../styles/style.css">
+</head>
+<body class="background" id="background">
+
+
+  <div class="topnav">
+    <a href="../../index.html"><img src="../../img/Icons/icon2.png" alt="icon" class="nav-icon">Team Medichad</a>
+    <a class="active"><img src="../../img/Icons/iris.png" alt="icon" class="nav-icon">Showcase</a>
+    <a href="./shinyrace.html"><img src="../../img/Icons/race.png" alt="icon" class="nav-icon">Shiny Race</a>
+    <a href="./shinydex.html"><img src="../../img/Icons/pokedex.png" alt="icon" class="nav-icon">Shinydex</a>
+    <a href="./mensual.html"><img src="../../img/Icons/resumen.png" alt="icon" class="nav-icon">Resumen mensual</a>
+    <a href="./donaciones.html"><img src="../../img/Icons/Monedero.png" alt="icon" class="nav-icon">Donaciones</a>
+  </div>
+
+  <!-- Contenido principal -->
+  <div id="main-content" class="main-content">
+    <div style="height: 2rem;"></div>
+    <div class="centrado"><h1 class="big-title">SHINY <span class="text-red-500">SHOWCASE</span></h1></div>
+    <div class="flex flex-wrap justify-center gap-4 items-center my-4">
+
+    <!-- Icon Bar -->
+    <div class="icon-container" id="icon-bar">
+    
+    <div class="flex flex-col items-center">
+      <span class="icon-img-wrapper">
+        <img src="../../img/Icons/zz_secret.png">
+      </span>
+      <span class="text-sm font-medium">Secret</span>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <span class="icon-img-wrapper">
+        <img src="../../img/Icons/zz_egg.png">
+      </span>
+      <span class="text-sm font-medium">Crianza</span>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <span class="icon-img-wrapper">
+        <img src="../../img/Icons/zz_safari.png">
+      </span>
+      <span class="text-sm font-medium">Safari</span>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <span class="icon-img-wrapper">
+        <img src="../../img/Icons/zz_alpha.png">
+      </span>
+      <span class="text-sm font-medium">Alpha</span>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <span class="icon-img-wrapper">
+        <img src="../../img/Icons/zz_swarm.png">
+      </span>
+      <span class="text-sm font-medium">Swarm</span>
+    </div>
+    
+    <div class="flex flex-col items-center">
+      <span class="icon-img-wrapper">
+        <img src="../../img/Icons/zz_multi.png">
+      </span>
+      <span class="text-sm font-medium">Cuenta sec.</span>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <span class="icon-img-wrapper">
+        <img src="../../img/Icons/zz_CoinSprite.png">
+      </span>
+      <span class="text-sm font-medium">Vendido</span>
+    </div>
+  </div>
+
+  <div style="height: 1rem;"></div>
+  
+  <div class="modal-content" id="modal-content">
+
+    <div class="modal1" id="modal1">
+      <div class="modal-img-wrapper">
+        <img src="../../Members_sprites/Placeholder.png" class="modal-img" id="member-img-modal">
+      </div>
+      <div style="height: 5px;"></div>
+      <h3 class="modal-name" id="modal-name">Nombre</h3>
+      <div id="medalla-container" class="medalla-container"></div>
+    </div>
+    
+    <div class="modal2" id="modal2">
+      <button onclick="closeModal()" class="close-btn">Cerrar</button>
+    </div>
+
+    <div class="modal-title">
+      <div class="modal-title-inner" id="modal-title2">Shinys</div>
+    </div>
+
+    <div class="modal3" id="modal3">
+      <div style="height: 1rem;"></div>
+      <div id="shiny-container2" class="shiny-img-container"></div>
+      <div id="espacio1" style="height: 1rem;"></div>
+      <div id="shiny-container" class="shiny-img-container"></div>
+      <div id="espacio2" style="height: 2rem;"></div>
+      <div id="shiny-container3" class="shiny-img-container"></div>
+      <div id="shiny-container4" class="shiny-img-container"></div>
+    </div>
+
+    <div class="modal4" id="modal4">
+      <button onclick="show_shiny()" id="shiny-btn" class="shiny-btn">Shinys</button>
+      <button onclick="show_sell()" id="sell-btn" class="sell-btn">Vendidos</button>
+    </div>
+
+      
+    </div>
+  </div>
+
+  <script src="../../scripts/info.js"></script>
+  <script src="../../scripts/db/detalle.js"></script>
+
+</body>
+</html>

@@ -1,10 +1,7 @@
-import { memberData, listaMedalla } from './info.js';
-import { toppoints, member_points } from './loadshowcase.js';
-
 const background = document.querySelector('.background');
 
-let screenWidth = screen.width;
-let screenHeight = screen.height;
+screenWidth = screen.width;
+screenHeight = screen.height;
 
 
 
@@ -42,7 +39,7 @@ function disableScroll() {
 
   // evitar scroll en html también como refuerzo
   document.documentElement.style.overflow = 'hidden';
-  console.log('disableScroll(): scrollY=', __savedScroll, 'sbw=', getScrollbarWidth());
+  //console.log('disableScroll(): scrollY=', __savedScroll, 'sbw=', getScrollbarWidth());
 }
 
 function enableScroll() {
@@ -59,7 +56,7 @@ function enableScroll() {
   document.documentElement.style.overflow = '';
 
   window.scrollTo(0, __savedScroll);
-  console.log('enableScroll(): restoring to', __savedScroll);
+  //console.log('enableScroll(): restoring to', __savedScroll);
 }
 
 function resolution(isPortrait){
@@ -97,7 +94,7 @@ function resolution(isPortrait){
   
 }
 
-export function showInfo(personKey) {
+function showInfo(usuario) {
   disableScroll();
   const medalla_container = document.getElementById('medalla-container');
   const shiny_container = document.getElementById('shiny-container');
@@ -111,14 +108,11 @@ export function showInfo(personKey) {
   shiny_container4.innerHTML = '';
 
   // sort
-  const miembro = memberData[personKey] || [];
-  if (!miembro) return;
-
-  const medallas = miembro.medallas || [];
-  const shinys = miembro.shinys || [];
-  const destacados = miembro.destacados || [];
-  const perdidos = miembro.perdidos || [];
-  const vendidos = miembro.vendidos || [];
+  const medallas = usuario.medallas || [];
+  const shinys = usuario.shinys || [];
+  const destacados = usuario.destacados || [];
+  const perdidos = usuario.perdidos || [];
+  const vendidos = usuario.vendidos || [];
 
   // medallas
   medallas.forEach(id => {
@@ -147,7 +141,7 @@ export function showInfo(personKey) {
   shinys.forEach(id => {
     const shinyEL = document.createElement('img');
     if (id == "altaria"){
-      shinyEL.src = "../img/altaria.gif";
+      shinyEL.src = "../../img/altaria.gif";
     } else {
       shinyEL.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id}.gif`;
     }
@@ -178,9 +172,9 @@ export function showInfo(personKey) {
 
     destacadosEl.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id.name}.gif`;
     
-    if(id.type == "normal"){
+    if(id.type == "normal" || id.type == ""){
       if (id == "altaria"){
-        destacadosEl.src = "../img/altaria.gif";
+        destacadosEl.src = "../../img/altaria.gif";
       }
       shinyWrap2.appendChild(destacadosEl);
       shinyWrap.appendChild(shinyWrap2);
@@ -206,7 +200,7 @@ export function showInfo(personKey) {
       else {
         const watermark = document.createElement('img');
         watermark.className = "shiny-effect";
-        watermark.src = `../img/Icons/zz_${id.type}.png`
+        watermark.src = `../../img/Icons/zz_${id.type}.png`
         
       shinyWrap.appendChild(watermark);
       }
@@ -219,9 +213,9 @@ export function showInfo(personKey) {
     shiny_container2.className = "shiny-img-container-false";
     shiny_container4.className = "shiny-img-container-false";
     shinyEL.className = "medalla2";
-    if(miembro.medallas.includes('m_adrix')){
+    if(medallas.includes('m_adrix')){
       shinyEL.textContent = '☠️ Persona mega pecadora';
-    } else if (miembro.medallas.includes('m_pecador')){
+    } else if (medallas.includes('m_pecador')){
       shinyEL.textContent = '👿 Persona pecadora';
     } else {
       shinyEL.textContent = '😢 No shiny todavía';
@@ -258,7 +252,7 @@ export function showInfo(personKey) {
     
     if(id.type == "normal"){
       if (id == "altaria"){
-        perdidosEl.src = "../img/altaria.gif";
+        perdidosEl.src = "../../img/altaria.gif";
       }
       shinyWrap2.appendChild(perdidosEl);
       shinyWrap.appendChild(shinyWrap2);
@@ -271,7 +265,7 @@ export function showInfo(personKey) {
         id.type.forEach((type, index) => {
           const watermark = document.createElement('img');
           watermark.className = "shiny-effect";
-          watermark.src = `../img/Icons/zz_${type}.png`;
+          watermark.src = `../../img/Icons/zz_${type}.png`;
 
           watermark.onload = () => {
             aux += watermark.naturalWidth;
@@ -284,7 +278,7 @@ export function showInfo(personKey) {
       else {
         const watermark = document.createElement('img');
         watermark.className = "shiny-effect";
-        watermark.src = `../img/Icons/zz_${id.type}.png`
+        watermark.src = `../../img/Icons/zz_${id.type}.png`
         
       shinyWrap.appendChild(watermark);
       }
@@ -306,11 +300,11 @@ export function showInfo(personKey) {
     const vendidosEl = document.createElement('span');
     shiny_container3.className = "shiny-img-container-false";
     vendidosEl.className = "medalla2";
-    if(miembro.medallas.includes('m_adrix')){
+    if(medallas.includes('m_adrix')){
       vendidosEl.textContent = '☠️ No quieres saber';
-    } else if(miembro.name == 'Lirio'){
+    } else if(usuario.name == 'Lirio'){
       vendidosEl.textContent = '🏳️‍🌈 Pecador';
-    } else if (miembro.medallas.includes('m_pecador')){
+    } else if (medallas.includes('m_pecador')){
       vendidosEl.textContent = '👿 Pecador no confesado';
     } else {
       vendidosEl.textContent = '😇 Persona limpia de pecado';
@@ -319,28 +313,16 @@ export function showInfo(personKey) {
     shiny_container3.appendChild(vendidosEl);
   } else { shiny_container3.className = "shiny-img-container";}
 
-  const member_img_modal = document.getElementById('member-img-modal');
-  member_img_modal.src = `../Members_sprites/${miembro.name}.png`;
+  member_img_modal = document.getElementById('member-img-modal');
+  member_img_modal.src = `../../Members_sprites/${usuario.name}.png`;
   member_img_modal.onerror = function () {
-    this.src = `../Members_sprites/Placeholder.png`;
+    this.src = `../../Members_sprites/Placeholder.png`;
   }
 
   //resolución
   resolution(screenHeight > screenWidth);
 
-  const modal_name = document.getElementById('modal-name');
-  if (personKey == toppoints.name){
-    modal_name.textContent = miembro.name;
-    modal_name.style = "color : yellow;"
-    document.getElementById('modal-title2').innerHTML = `Shinys: ${shinys.length + destacados.length} &emsp; puntaje: ${member_points[personKey]}`;
-    document.getElementById('modal-title2').style = "color : yellow;"
-  }else{
-    modal_name.textContent = miembro.name;
-    modal_name.style = ""
-    document.getElementById('modal-title2').innerHTML = `Shinys: ${shinys.length + destacados.length} &emsp; puntaje: ${member_points[personKey]}`;
-    document.getElementById('modal-title2').style = ""
-  }
-
+  modal_name = document.getElementById('modal-name');
   document.getElementById('shiny-container2').classList.add("hidden");
   document.getElementById('shiny-container').classList.add("hidden");
   document.getElementById('shiny-container3').classList.add("hidden");
@@ -373,6 +355,7 @@ if (!modalContent.contains(e.target) && !iconbar.contains(e.target)) {
 }
 });
 
+
 function show_shiny() {
   const nombre = document.getElementById('modal-name').textContent;
   if(document.getElementById('shiny-container').classList[1] == 'hidden'){
@@ -389,13 +372,6 @@ function show_shiny() {
       espacio2.style = "height: 0rem;";
     } else {
       espacio2.style = "height: 2rem;";
-    }
-    if (nombre == toppoints.name){
-       document.getElementById('modal-title2').innerHTML = `Shinys (${memberData[nombre].shinys.length + memberData[nombre].destacados.length}) &emsp; puntaje: ${member_points[nombre]}`;
-       document.getElementById('modal-title2').style = "color : yellow;"
-    }else{
-      document.getElementById('modal-title2').innerHTML = `Shinys (${memberData[nombre].shinys.length + memberData[nombre].destacados.length}) &emsp; puntaje: ${member_points[nombre]}`;
-      document.getElementById('modal-title2').style = ""
     }
   }
 }
@@ -421,11 +397,6 @@ function show_sell() {
   }
 }
 
-window.show_shiny = show_shiny;
-window.show_sell = show_sell;
-window.closeModal = closeModal;
-
-
 function verificarOrientacion() {
   screenWidth = screen.width;
   screenHeight = screen.height;
@@ -437,3 +408,34 @@ function verificarOrientacion() {
 verificarOrientacion();
 
 window.addEventListener('orientationchange', verificarOrientacion);
+
+
+async function get_member_data(miembro_param) {
+  const key = `miembro_${miembro_param}`;
+  const cached = localStorage.getItem(key);
+
+  if (cached) {
+    const { data, timestamp } = JSON.parse(cached);
+    if (Date.now() - timestamp < CACHE_TIME_SHINYS) {
+      console.log(`cached ${miembro_param} shinys`)
+      return data;
+    }
+  }
+
+  const response = await fetch(
+    `https://worker-med.med-showcase.workers.dev/usuarios/${miembro_param}`
+  );
+
+  const data = await response.json();
+
+  localStorage.setItem(
+    key,
+    JSON.stringify({
+      data,
+      timestamp: Date.now()
+    })
+  );
+
+  console.log(`fetched ${miembro_param} shinys`)
+  return data;
+}

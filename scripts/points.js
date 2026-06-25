@@ -1,3 +1,5 @@
+import { memberData } from './info.js';
+
 const tiers = {
     "tier6" : ["abra","kadabra","alakazam","aron","lairon","aggron","basculin","bidoof","bibarel","blitzle","zebstrika","bouffalant",
                 "bronzor","bronzong","buizel","floatzel","chinchou","lanturn","clamperl","huntail","gorebyss","cubchoo","beartic",
@@ -79,7 +81,7 @@ function calculate_points_normal(shiny){
     return points;
 }
 
-function calculate_points(member){
+export function calculate_points(member){
     let points = 0;
 
     const shinies = memberData[member].shinys;

@@ -264,6 +264,7 @@ const capturedBy = {
   porygon: [ "Alicia","Alicia"],
   kabuto: [ "chunchumaru","chunchumaru"],
   kabutops: [ "chunchumaru","chunchumaru"],
+  aerodactyl : ["Azathotx","Azathotx"],
   snorlax: [ "DiGoMo","XxsvrgioxX"],
   dratini: [ "KilluaZoldyck","attomico"],
   dragonair: [ "rebukittheveil","rebukittheveil"],

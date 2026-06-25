@@ -3,27 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team MeD</title>
+  <title>Med Shiny Showcase</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="icon" type="image/png" href="../img/Icons/icon.png">
+  <link rel="icon" type="image/png" href="../../img/Icons/icon.png">
   
-  <link rel="stylesheet" href="../styles/showcase.css">
-  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../../styles/showcase.css">
+  <link rel="stylesheet" href="../../styles/style.css">
 </head>
 <body class="background" id="background">
 
 
   <div class="topnav">
-    <a class="active"><img src="../img/Icons/icon2.png" alt="icon" class="nav-icon">MeD Showcase</a>
-    <a href="./shinyrace.html"><img src="../img/Icons/race.png" alt="icon" class="nav-icon">Shiny Race</a>
-    <a href="./shinydex.html"><img src="../img/Icons/pokedex.png" alt="icon" class="nav-icon">Shinydex</a>
-    <a href="./donaciones.html"><img src="../img/Icons/Monedero.png" alt="icon" class="nav-icon">Donaciones</a>
+    <a href="../../index.html"><img src="../../img/Icons/icon2.png" alt="icon" class="nav-icon">Team Medichad</a>
+    <a class="active"><img src="../../img/Icons/iris.png" alt="icon" class="nav-icon">Showcase</a>
+    <a href="./shinyrace.html"><img src="../../img/Icons/race.png" alt="icon" class="nav-icon">Shiny Race</a>
+    <a href="./shinydex.html"><img src="../../img/Icons/pokedex.png" alt="icon" class="nav-icon">Shinydex</a>
+    <a href="./mensual.html"><img src="../../img/Icons/resumen.png" alt="icon" class="nav-icon">Resumen mensual</a>
+    <a href="./donaciones.html"><img src="../../img/Icons/Monedero.png" alt="icon" class="nav-icon">Donaciones</a>
   </div>
 
   <!-- Contenido principal -->
   <div id="main-content" class="main-content" ="display: none;">
     <div class="centrado-main">
-    <img src="../img/medlogo.png" alt="Logo del equipo" style="width: 688px;">
+    <img src="../../img/medlogo.png" alt="Logo del equipo" style="width: 688px;">
     <div style="height: 2rem;"></div>
     <div class="card-med-wrap" style="font-family: Retro;">
       <div class="card-med-container">
@@ -42,7 +44,7 @@
               <span>262</span>
           </div>
           <div class="info-row">
-              <span data-i18n="best_member">Miembro con más shinys:</span>
+              <span data-i18n="best_member">Miembrio con más shinys:</span>
               <span>Ferbus (107)</span>
           </div>
       </div>
@@ -92,49 +94,49 @@
       
       <div class="flex flex-col items-center">
         <span class="icon-img-wrapper">
-          <img src="../img/Icons/zz_secret.png">
+          <img src="../../img/Icons/zz_secret.png">
         </span>
         <span class="text-sm font-medium">Secret</span>
       </div>
 
       <div class="flex flex-col items-center">
         <span class="icon-img-wrapper">
-          <img src="../img/Icons/zz_egg.png">
+          <img src="../../img/Icons/zz_egg.png">
         </span>
         <span class="text-sm font-medium">Crianza</span>
       </div>
 
       <div class="flex flex-col items-center">
         <span class="icon-img-wrapper">
-          <img src="../img/Icons/zz_safari.png">
+          <img src="../../img/Icons/zz_safari.png">
         </span>
         <span class="text-sm font-medium">Safari</span>
       </div>
 
       <div class="flex flex-col items-center">
         <span class="icon-img-wrapper">
-          <img src="../img/Icons/zz_alpha.png">
+          <img src="../../img/Icons/zz_alpha.png">
         </span>
         <span class="text-sm font-medium">Alpha</span>
       </div>
 
       <div class="flex flex-col items-center">
         <span class="icon-img-wrapper">
-          <img src="../img/Icons/zz_swarm.png">
+          <img src="../../img/Icons/zz_swarm.png">
         </span>
         <span class="text-sm font-medium">Swarm</span>
       </div>
       
       <div class="flex flex-col items-center">
         <span class="icon-img-wrapper">
-          <img src="../img/Icons/zz_multi.png">
+          <img src="../../img/Icons/zz_multi.png">
         </span>
         <span class="text-sm font-medium">Cuenta sec.</span>
       </div>
 
       <div class="flex flex-col items-center">
         <span class="icon-img-wrapper">
-          <img src="../img/Icons/zz_CoinSprite.png">
+          <img src="../../img/Icons/zz_CoinSprite.png">
         </span>
         <span class="text-sm font-medium">Vendido</span>
       </div>
@@ -146,7 +148,7 @@
 
       <div class="modal1" id="modal1">
         <div class="modal-img-wrapper">
-          <img src="../Members_sprites/Placeholder.png" class="modal-img" id="member-img-modal">
+          <img src="../../Members_sprites/Placeholder.png" class="modal-img" id="member-img-modal">
         </div>
         <div style="height: 5px;"></div>
         <h3 class="modal-name" id="modal-name">Nombre</h3>
@@ -182,12 +184,11 @@
 
   </div>
 
-  <script type="module" src="../scripts/info.js"></script>
-  <script src="../scripts/main.js"></script>
-  <script type="module" src="../scripts/points.js"></script>
-  <script src="../scripts/shinydexdata.js"></script>
-  <script type="module" src="../scripts/showinfo.js"></script>
-  <script type="module" src="../scripts/loadshowcase.js"></script>
+  <script src="../../scripts/info.js"></script>
+  <script src="../../scripts/points.js"></script>
+  <script src="../../scripts/shinydexdata.js"></script>
+  <script src="../../scripts/db/detalle.js"></script>
+  <script src="../../scripts/db/loadshowcase.js"></script>
 
 </body>
 </html>

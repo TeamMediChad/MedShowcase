@@ -1,5 +1,9 @@
-let toppoints = { name: "", point: 0 };
-let member_points = {};
+import { memberData } from './info.js';
+import { calculate_points } from './points.js';
+import { showInfo } from './showinfo.js';
+
+export let toppoints = { name: "", point: 0 };
+export let member_points = {};
 const member_container = document.getElementById('member-container');
 member_container.innerHTML = '';
 

@@ -1,3 +1,5 @@
+import { memberData } from './info.js';
+
 function getSpriteURL(name) {
     return `https://img.pokemondb.net/sprites/black-white/anim/shiny/${name}.gif`;
 }
@@ -67,7 +69,7 @@ function create_shinydex(genName,pokemonList,shinydex,captured){
             const img_wrap = document.createElement('div');
             img_wrap.className = "user-img-wrapper";
 
-            exist = true;
+            let exist = true;
             const userImg = document.createElement("img");
             userImg.src = `../Members_sprites/${registrador}.png`;
             userImg.alt = registrador;
@@ -202,3 +204,6 @@ function open_otherdex(){
     document.getElementById('shinydex-button').disabled = false;
     document.getElementById('otherdex-button').disabled = true;
 }
+
+window.open_shinydex = open_shinydex;
+window.open_otherdex = open_otherdex;
