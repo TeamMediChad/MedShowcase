@@ -4857,5 +4857,16 @@
     ],
     "perdidos": [],
     "vendidos": []
+  },
+  "hironakamura": {
+    "name": "hironakamura",
+    "rol": "Miembro",
+    "medals": [],
+    "shinys": [
+      "electabuzz"
+    ],
+    "destacados": [],
+    "perdidos": [],
+    "vendidos": []
   }
 }
