@@ -1125,6 +1125,10 @@
       {
         "name": "finneon",
         "type": "normal"
+      },
+      {
+        "name": "alomomola",
+        "type": "egg"
       }
     ],
     "perdidos": [
@@ -1934,6 +1938,10 @@
       {
         "name": "hoppip",
         "type": "normal"
+      },
+      {
+        "name": "yanma",
+        "type": "safarifailed"
       }
     ],
     "vendidos": [
