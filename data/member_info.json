@@ -1664,7 +1664,8 @@
       "litwick",
       "woobat",
       "woobat",
-      "steelix"
+      "steelix",
+      "woobat"
     ],
     "destacados": [],
     "perdidos": [],
@@ -1916,7 +1917,8 @@
       "weepinbell",
       "dugtrio",
       "luxray",
-      "gloom"
+      "gloom",
+      "swadloon"
     ],
     "destacados": [
       {
@@ -2781,7 +2783,8 @@
       "shelmet",
       "shelmet",
       "shelmet",
-      "meditite"
+      "meditite",
+      "golett"
     ],
     "destacados": [],
     "perdidos": [],
@@ -4883,6 +4886,17 @@
     "medallas": [],
     "shinys": [
       "electabuzz"
+    ],
+    "destacados": [],
+    "perdidos": [],
+    "vendidos": []
+  },
+  "AllysM": {
+    "name": "AllysM",
+    "rol": "Miembro",
+    "medallas": [],
+    "shinys": [
+      "girafarig"
     ],
     "destacados": [],
     "perdidos": [],
