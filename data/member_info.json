@@ -4903,5 +4903,19 @@
     "destacados": [],
     "perdidos": [],
     "vendidos": []
+  },
+  "EliClarck": {
+    "name": "EliClarck",
+    "rol": "Miembro",
+    "medallas": [],
+    "shinys": [],
+    "destacados": [],
+    "perdidos": [
+      {
+        "name": "graveler",
+        "type": "dead"
+      }
+    ],
+    "vendidos": []
   }
 }
