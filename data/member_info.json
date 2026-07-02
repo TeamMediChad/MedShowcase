@@ -526,7 +526,8 @@
       "ponyta",
       "meowth",
       "pelipper",
-      "ludicolo"
+      "ludicolo",
+      "ponyta"
     ],
     "destacados": [],
     "perdidos": [],
@@ -1104,7 +1105,8 @@
       "drifloon",
       "mawile",
       "throh",
-      "misdreavus"
+      "misdreavus",
+      "oddish"
     ],
     "destacados": [
       {
@@ -4917,6 +4919,17 @@
         "type": "dead"
       }
     ],
+    "vendidos": []
+  },
+  "CYRLITUS": {
+    "name": "CYRLITUS",
+    "rol": "Miembro",
+    "medallas": [],
+    "shinys": [
+      "shelmet"
+    ],
+    "destacados": [],
+    "perdidos": [],
     "vendidos": []
   }
 }
