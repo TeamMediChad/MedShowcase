@@ -1623,7 +1623,8 @@
       "shelmet",
       "koffing",
       "krokorok",
-      "meditite"
+      "meditite",
+      "ditto"
     ],
     "destacados": [
       {
@@ -4951,6 +4952,17 @@
     "medallas": [],
     "shinys": [
       "taillow"
+    ],
+    "destacados": [],
+    "perdidos": [],
+    "vendidos": []
+  },
+  "Antoniperdo": {
+    "name": "Antoniperdo",
+    "rol": "Miembro",
+    "medallas": [],
+    "shinys": [
+      "darumaka"
     ],
     "destacados": [],
     "perdidos": [],
