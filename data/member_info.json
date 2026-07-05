@@ -322,7 +322,8 @@
       "psyduck",
       "durant",
       "bibarel",
-      "roselia"
+      "roselia",
+      "lombre"
     ],
     "destacados": [],
     "perdidos": [],
@@ -4939,6 +4940,17 @@
     "medallas": [],
     "shinys": [
       "golett"
+    ],
+    "destacados": [],
+    "perdidos": [],
+    "vendidos": []
+  },
+  "NestoMudkip": {
+    "name": "NestoMudkip",
+    "rol": "Miembro",
+    "medallas": [],
+    "shinys": [
+      "taillow"
     ],
     "destacados": [],
     "perdidos": [],
