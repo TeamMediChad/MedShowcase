@@ -2791,7 +2791,8 @@
       "shelmet",
       "shelmet",
       "meditite",
-      "golett"
+      "golett",
+      "dugtrio"
     ],
     "destacados": [],
     "perdidos": [],
@@ -4963,6 +4964,17 @@
     "medallas": [],
     "shinys": [
       "darumaka"
+    ],
+    "destacados": [],
+    "perdidos": [],
+    "vendidos": []
+  },
+  "WillWolfstein": {
+    "name": "WillWolfstein",
+    "rol": "Miembro",
+    "medallas": [],
+    "shinys": [
+      "diglett"
     ],
     "destacados": [],
     "perdidos": [],
