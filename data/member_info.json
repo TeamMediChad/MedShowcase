@@ -1304,7 +1304,8 @@
       "ditto",
       "raticate",
       "raticate",
-      "ditto"
+      "ditto",
+      "taillow"
     ],
     "destacados": [
       {
@@ -4942,17 +4943,6 @@
     "medallas": [],
     "shinys": [
       "golett"
-    ],
-    "destacados": [],
-    "perdidos": [],
-    "vendidos": []
-  },
-  "NestoMudkip": {
-    "name": "NestoMudkip",
-    "rol": "Miembro",
-    "medallas": [],
-    "shinys": [
-      "taillow"
     ],
     "destacados": [],
     "perdidos": [],
