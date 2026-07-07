@@ -4980,5 +4980,16 @@
     "destacados": [],
     "perdidos": [],
     "vendidos": []
+  },
+  "Yukisz": {
+    "name": "Yukisz",
+    "rol": "Miembro",
+    "medallas": [],
+    "shinys": [
+      "ditto"
+    ],
+    "destacados": [],
+    "perdidos": [],
+    "vendidos": []
   }
 }
