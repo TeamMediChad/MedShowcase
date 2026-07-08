@@ -1519,6 +1519,10 @@
       {
         "name": "raticate",
         "type": "secret"
+      },
+      {
+        "name": "staravia",
+        "type": "secret"
       }
     ],
     "perdidos": [],
