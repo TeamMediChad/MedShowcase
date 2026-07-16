@@ -149,7 +149,7 @@ export function showInfo(personKey) {
     if (id == "altaria"){
       shinyEL.src = "../img/altaria.gif";
     } else {
-      shinyEL.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id}.gif`;
+      shinyEL.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id.replace("_","-")}.gif`;
     }
     shinyEL.className = "shiny-img"
     shiny_container.appendChild(shinyEL);
@@ -166,52 +166,54 @@ export function showInfo(personKey) {
   destacados.forEach(id => {
     const shinyWrap = document.createElement('div');
     shinyWrap.className = "shiny-img-wrap";
+
     const shinyWrap2 = document.createElement('div');
     shinyWrap2.className = "shiny-img-wrap2";
+
     const destacadosEl = document.createElement('img');
 
-    if(id.type == "alpha"){
-      destacadosEl.className = "shiny-img-alpha";
-    } else {
-      destacadosEl.className = "shiny-img";
-    }
+    const types = Array.isArray(id.type) ? id.type : [id.type];
 
-    destacadosEl.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id.name}.gif`;
+    destacadosEl.className = types.includes("alpha")
+        ? "shiny-img-alpha"
+        : "shiny-img";
     
-    if(id.type == "normal"){
-      if (id == "altaria"){
-        destacadosEl.src = "../img/altaria.gif";
-      }
-      shinyWrap2.appendChild(destacadosEl);
-      shinyWrap.appendChild(shinyWrap2);
-    } else {
-      shinyWrap2.appendChild(destacadosEl);
-      shinyWrap.appendChild(shinyWrap2);
-
-      if (Array.isArray(id.type)){
-        let aux = 10;
-        id.type.forEach((type, index) => {
-          const watermark = document.createElement('img');
-          watermark.className = "shiny-effect";
-          watermark.src = `../img/Icons/zz_${type}.png`;
-
-          watermark.onload = () => {
-            aux += watermark.naturalWidth;
-            watermark.style.right = `${2 + aux-watermark.naturalWidth}px`;
-            shinyWrap.appendChild(watermark);
-          };
-          
-        });
-      }
-      else {
-        const watermark = document.createElement('img');
-        watermark.className = "shiny-effect";
-        watermark.src = `../img/Icons/zz_${id.type}.png`
-        
-      shinyWrap.appendChild(watermark);
-      }
+    if (types.includes("sold")){
+      destacadosEl.classList.add("lost-shiny");
     }
-    shiny_container2.appendChild(shinyWrap);
+
+    if (id.name == "altaria") {
+        destacadosEl.src = "../img/altaria.gif";
+    } else {
+        destacadosEl.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id.name.replace("_","-")}.gif`;
+    }
+
+    shinyWrap2.appendChild(destacadosEl);
+    shinyWrap.appendChild(shinyWrap2);
+
+    if (!types.includes("normal")) {
+        let right = 2;
+
+        types.forEach(type => {
+            const watermark = document.createElement('img');
+            watermark.className = "shiny-effect";
+            watermark.src = `../img/Icons/zz_${type}.png`;
+
+            watermark.onload = () => {
+                watermark.style.right = `${right}px`;
+                right += watermark.naturalWidth;
+            };
+
+            shinyWrap.appendChild(watermark);
+        });
+    }
+
+    if (types.includes("sold")){
+      shiny_container3.appendChild(shinyWrap);
+    }
+    else {
+      shiny_container2.appendChild(shinyWrap);
+    }
   });
 
   if(shinys.length == 0 && destacados.length == 0 && perdidos.length == 0){
@@ -243,63 +245,95 @@ export function showInfo(personKey) {
   perdidos.forEach(id => {
     const shinyWrap = document.createElement('div');
     shinyWrap.className = "shiny-img-wrap";
+
     const shinyWrap2 = document.createElement('div');
     shinyWrap2.className = "shiny-img-wrap2";
+
     const perdidosEl = document.createElement('img');
 
-    if(id.type == "alpha"){
-      perdidosEl.className = "shiny-img-alpha";
-    } else {
-      perdidosEl.className = "shiny-img";
-    }
+    const types = Array.isArray(id.type) ? id.type : [id.type];
+
+    perdidosEl.className = types.includes("alpha")
+        ? "shiny-img-alpha"
+        : "shiny-img";
+
     perdidosEl.classList.add("lost-shiny");
 
-    perdidosEl.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id.name}.gif`;
-    
-    if(id.type == "normal"){
-      if (id == "altaria"){
+    if (id.name == "altaria") {
         perdidosEl.src = "../img/altaria.gif";
-      }
-      shinyWrap2.appendChild(perdidosEl);
-      shinyWrap.appendChild(shinyWrap2);
     } else {
-      shinyWrap2.appendChild(perdidosEl);
-      shinyWrap.appendChild(shinyWrap2);
-
-      if (Array.isArray(id.type)){
-        let aux = 2;
-        id.type.forEach((type, index) => {
-          const watermark = document.createElement('img');
-          watermark.className = "shiny-effect";
-          watermark.src = `../img/Icons/zz_${type}.png`;
-
-          watermark.onload = () => {
-            aux += watermark.naturalWidth;
-            watermark.style.right = `${2 + aux-watermark.naturalWidth}px`;
-            shinyWrap.appendChild(watermark);
-          };
-          
-        });
-      }
-      else {
-        const watermark = document.createElement('img');
-        watermark.className = "shiny-effect";
-        watermark.src = `../img/Icons/zz_${id.type}.png`
-        
-      shinyWrap.appendChild(watermark);
-      }
+        perdidosEl.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id.name.replace("_","-")}.gif`;
     }
+
+    shinyWrap2.appendChild(perdidosEl);
+    shinyWrap.appendChild(shinyWrap2);
+
+    if (!types.includes("normal")) {
+        let right = 2;
+
+        types.forEach(type => {
+            const watermark = document.createElement('img');
+            watermark.className = "shiny-effect";
+            watermark.src = `../img/Icons/zz_${type}.png`;
+
+            watermark.onload = () => {
+                watermark.style.right = `${right}px`;
+                right += watermark.naturalWidth;
+            };
+
+            shinyWrap.appendChild(watermark);
+        });
+    }
+
     shiny_container4.appendChild(shinyWrap);
   });
 
 
-  //vendidos
+  // vendidos
   vendidos.forEach(id => {
+    const shinyWrap = document.createElement('div');
+    shinyWrap.className = "shiny-img-wrap";
+
+    const shinyWrap2 = document.createElement('div');
+    shinyWrap2.className = "shiny-img-wrap2";
+
     const vendidosEl = document.createElement('img');
-    vendidosEl.src = `${id}`;
-    vendidos.className = "shiny-img";
-    shiny_container3.appendChild(vendidosEl);
-    
+
+    const types = Array.isArray(id.type) ? id.type : [id.type];
+
+    vendidosEl.className = types.includes("alpha")
+        ? "shiny-img-alpha"
+        : "shiny-img";
+
+    vendidosEl.classList.add("lost-shiny");
+
+    if (id.name == "altaria") {
+        vendidosEl.src = "../img/altaria.gif";
+    } else {
+        vendidosEl.src = `https://img.pokemondb.net/sprites/black-white/anim/shiny/${id.name.replace("_","-")}.gif`;
+    }
+
+    shinyWrap2.appendChild(vendidosEl);
+    shinyWrap.appendChild(shinyWrap2);
+
+    let right = 2;
+
+    // Siempre mostrar el icono de vendido
+    ["sold", ...types.filter(t => t !== "normal")].forEach(type => {
+
+        const watermark = document.createElement("img");
+        watermark.className = "shiny-effect";
+        watermark.src = `../img/Icons/zz_${type}.png`;
+
+        watermark.onload = () => {
+            watermark.style.right = `${right}px`;
+            right += watermark.naturalWidth;
+        };
+
+        shinyWrap.appendChild(watermark);
+    });
+
+    shiny_container3.appendChild(shinyWrap);
   });
 
   if(vendidos.length == 0){

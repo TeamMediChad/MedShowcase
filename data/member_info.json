@@ -105,7 +105,10 @@
     ],
     "perdidos": [],
     "vendidos": [
-      "https://media.giphy.com/media/vxRM9XurU5lvpae8Ko/giphy.gif"
+      {
+        "name": "zubat",
+        "type": "normal"
+      }
     ]
   },
   "AguitaGooddUwU": {
@@ -157,8 +160,14 @@
       }
     ],
     "vendidos": [
-      "https://media.giphy.com/media/ptSTYVxdNLH5oH4Siw/giphy.gif",
-      "https://media.giphy.com/media/ptSTYVxdNLH5oH4Siw/giphy.gif"
+      {
+        "name": "magikarp",
+        "type": "normal"
+      },
+      {
+        "name": "magikarp",
+        "type": "secret"
+      }
     ]
   },
   "Akalii": {
@@ -231,11 +240,22 @@
     ],
     "perdidos": [],
     "vendidos": [
-      "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW54bXF1OWhocTF3cHMzd3lyMmd2MW5xdTFpNWxucmRkbjlhcjI2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/apS40Kh2I8ZZiTD07i/giphy.gif",
-      "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHBxbzBvM2k5OGFpZXJsMHQ4dzk5NGxteW42NXk3N3IyNjEwaXNnYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ubXLD0w80oZjtsrIUH/giphy.gif",
-      "https://media.giphy.com/media/PMMrLwzj3iqyMtpxQs/giphy.gif",
-      "https://media.giphy.com/media/A2NlfU2OIPj0GAVoJy/giphy.gif",
-      "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXY3dXh2MnNsZHQyYjNzdHE3MmpqMnI5dnoxeDU1cW40cTAyMmc3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ptSTYVxdNLH5oH4Siw/giphy.gif"
+      {
+        "name": "raticate",
+        "type": "normal"
+      },
+      {
+        "name": "deino",
+        "type": "normal"
+      },
+      {
+        "name": "bronzor",
+        "type": "normal"
+      },
+      {
+        "name": "magikarp",
+        "type": "normal"
+      }
     ]
   },
   "Alicia": {
@@ -299,14 +319,38 @@
       }
     ],
     "vendidos": [
-      "https://media.giphy.com/media/v9IOxgCRm5BbGXEUEG/giphy.gif",
-      "https://media.giphy.com/media/lYWCqTbScj7X18ZGvJ/giphy.gif",
-      "https://media.giphy.com/media/TvZULFmyJBHodh9Py0/giphy.gif",
-      "https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif",
-      "https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif",
-      "https://media.giphy.com/media/jz9aaVnHL7w4V8cX9R/giphy.gif",
-      "https://media.giphy.com/media/GewTzo5C9FI68FMJol/giphy.gif",
-      "https://media.giphy.com/media/7B05VelRsf0qfQptsT/giphy.gif"
+      {
+        "name": "munna",
+        "type": "normal"
+      },
+      {
+        "name": "bouffalant",
+        "type": "normal"
+      },
+      {
+        "name": "tangela",
+        "type": "normal"
+      },
+      {
+        "name": "rapidash",
+        "type": "normal"
+      },
+      {
+        "name": "rapidash",
+        "type": "normal"
+      },
+      {
+        "name": "nidorino",
+        "type": "normal"
+      },
+      {
+        "name": "pikachu",
+        "type": "normal"
+      },
+      {
+        "name": "gastly",
+        "type": "normal"
+      }
     ]
   },
   "AnderHacks": {
@@ -324,6 +368,30 @@
       "bibarel",
       "roselia",
       "lombre"
+    ],
+    "destacados": [],
+    "perdidos": [],
+    "vendidos": []
+  },
+  "Antoniperdo": {
+    "name": "Antoniperdo",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "sigilyph",
+      "electrike",
+      "gligar",
+      "gurdurr",
+      "nidoqueen",
+      "klink",
+      "cofagrigus",
+      "mienshao",
+      "kingdra",
+      "golurk",
+      "ninetales",
+      "litwick"
     ],
     "destacados": [],
     "perdidos": [],
@@ -587,9 +655,63 @@
     ],
     "perdidos": [],
     "vendidos": [
-      "https://media.giphy.com/media/tFwiptIH8CEuYpg3UQ/giphy.gif",
-      "https://media.giphy.com/media/tFwiptIH8CEuYpg3UQ/giphy.gif"
+      {
+        "name": "tentacruel",
+        "type": "normal"
+      },
+      {
+        "name": "tentacruel",
+        "type": "normal"
+      }
     ]
+  },
+  "DanieLeonR": {
+    "name": "DanieLeonR",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "minccino",
+      "swablu",
+      "swablu",
+      "grimer",
+      "druddigon",
+      "geodude",
+      "mienfoo",
+      "lunatone",
+      "meowth",
+      "graveler",
+      "golduck",
+      "clamperl",
+      "ariados",
+      "jynx",
+      "solrock",
+      "pelipper",
+      "rapidash",
+      "cryogonal",
+      "joltik",
+      "swadloon",
+      "venipede",
+      "vanilluxe",
+      "ditto"
+    ],
+    "destacados": [
+      {
+        "name" : "spiritomb",
+        "type" : "egg"
+      },
+      {
+        "name" : "slakoth",
+        "type" : "normal"
+      },
+      {
+        "name" : "poochyena",
+        "type" : "secret"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
   },
   "DavidCitos": {
     "name": "DavidCitos",
@@ -845,9 +967,18 @@
       }
     ],
     "vendidos": [
-      "https://media.giphy.com/media/GpMgr8p0p13wASvhVk/giphy.gif",
-      "https://media.giphy.com/media/CNOYDXXMeqrcpEhIE1/giphy.gif",
-      "https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif"
+      {
+        "name": "rhydon",
+        "type": "normal"
+      },
+      {
+        "name": "joltik",
+        "type": "normal"
+      },
+      {
+        "name": "rhydon",
+        "type": "normal"
+      }
     ]
   },
   "Distraaa": {
@@ -919,10 +1050,22 @@
     ],
     "perdidos": [],
     "vendidos": [
-      "https://media.giphy.com/media/WF2DTy2zrS7IYBXwtQ/giphy.gif",
-      "https://media.giphy.com/media/nEIv8rJh2tV9rMWaAi/giphy.gif",
-      "https://media.giphy.com/media/UiQHTGjRqobKcFfCqX/giphy.gif",
-      "https://media.giphy.com/media/WBCKmSHx1P3rtJeWFe/giphy.gif"
+      {
+        "name": "mothim",
+        "type": "egg"
+      },
+      {
+        "name": "furret",
+        "type": "normal"
+      },
+      {
+        "name": "typhlosion",
+        "type": "swarm"
+      },
+      {
+        "name": "loudred",
+        "type": "normal"
+      }
     ]
   },
   "Dohrito": {
@@ -1062,7 +1205,10 @@
     ],
     "perdidos": [],
     "vendidos": [
-      "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc281Y3cxbTRlNGY1YnVwYXFsMzM4Z3FudW1uYWMxZzJrZjcybGt1OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xbpVD0pTXBBJVkgUKP/giphy.gif"
+      {
+        "name": "quagsire",
+        "type": "normal"
+      }
     ]
   },
   "Drakulaura": {
@@ -1150,13 +1296,34 @@
       }
     ],
     "vendidos": [
-      "https://media.giphy.com/media/nbxsygYVLvm1Z9IXpu/giphy.gif",
-      "https://media.giphy.com/media/RiSG1piNjO9VPGPjmV/giphy.gif",
-      "https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif",
-      "https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif",
-      "https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif",
-      "https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif",
-      "https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif"
+      {
+        "name": "onix",
+        "type": "normal"
+      },
+      {
+        "name": "persian",
+        "type": "normal"
+      },
+      {
+        "name": "rapidash",
+        "type": "normal"
+      },
+      {
+        "name": "rapidash",
+        "type": "normal"
+      },
+      {
+        "name": "rapidash",
+        "type": "normal"
+      },
+      {
+        "name": "rapidash",
+        "type": "normal"
+      },
+      {
+        "name": "rapidash",
+        "type": "normal"
+      }
     ]
   },
   "ElMiga": {
@@ -1199,10 +1366,22 @@
       }
     ],
     "vendidos": [
-      "https://media.giphy.com/media/gSUVBePKqAbJpmfIoA/giphy.gif",
-      "https://media.giphy.com/media/cPHoY81t2gnlZ8kqg5/giphy.gif",
-      "https://media.giphy.com/media/xLXn3LWXz0X7vL1Gsd/giphy.gif",
-      "https://media.giphy.com/media/xLXn3LWXz0X7vL1Gsd/giphy.gif"
+      {
+        "name": "altaria",
+        "type": "normal"
+      },
+      {
+        "name": "hypno",
+        "type": "normal"
+      },
+      {
+        "name": "bellsprout",
+        "type": "normal"
+      },
+      {
+        "name": "bellsprout",
+        "type": "normal"
+      }
     ]
   },
   "emirfeNoPremium": {
@@ -1250,8 +1429,8 @@
     "perdidos": [],
     "vendidos": []
   },
-  "ErnestoSwampert": {
-    "name": "ErnestoSwampert",
+  "NestoMudkip": {
+    "name": "NestoMudkip",
     "rol": "Chad",
     "medallas": [
       "m_safari",
@@ -1305,7 +1484,8 @@
       "raticate",
       "raticate",
       "ditto",
-      "taillow"
+      "taillow",
+      "poliwhirl"
     ],
     "destacados": [
       {
@@ -1571,7 +1751,7 @@
       },
       {
         "name": "snivy",
-        "type": "normal"
+        "type": "sold"
       }
     ],
     "perdidos": [
@@ -1581,19 +1761,58 @@
       }
     ],
     "vendidos": [
-      "https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif",
-      "https://media.giphy.com/media/ptSTYVxdNLH5oH4Siw/giphy.gif",
-      "https://media.giphy.com/media/dIX281x6Etp6ekX4n7/giphy.gif",
-      "https://media.giphy.com/media/0vF7t16ROOFeGekWcF/giphy.gif",
-      "https://media.giphy.com/media/dlxXpY9xfkQ1OuNIux/giphy.gif",
-      "https://media.giphy.com/media/2AcQyIAzpCLU22J9ps/giphy.gif",
-      "https://media.giphy.com/media/R0MfWMPIGXgWZgF5gG/giphy.gif",
-      "https://media.giphy.com/media/JV7Psnvy4K5rl24OMw/giphy.gif",
-      "https://media.giphy.com/media/olvnpZMLJ9Thfm9Vo7/giphy.gif",
-      "https://media.giphy.com/media/PMMrLwzj3iqyMtpxQs/giphy.gif",
-      "https://media.giphy.com/media/3Z43q20eTxPd3flPxV/giphy.gif",
-      "https://media.giphy.com/media/y4R16mDezBPthJ6eHQ/giphy.gif",
-      "https://media.giphy.com/media/sWvXj1UGtwF6qqV5gz/giphy.gif"
+      {
+        "name": "ditto",
+        "type": "normal"
+      },
+      {
+        "name": "magikarp",
+        "type": "normal"
+      },
+      {
+        "name": "mienfoo",
+        "type": "normal"
+      },
+      {
+        "name": "woobat",
+        "type": "normal"
+      },
+      {
+        "name": "minccino",
+        "type": "normal"
+      },
+      {
+        "name": "zebtrika",
+        "type": "normal"
+      },
+      {
+        "name": "vanillish",
+        "type": "normal"
+      },
+      {
+        "name": "stunfisk",
+        "type": "normal"
+      },
+      {
+        "name": "durant",
+        "type": "normal"
+      },
+      {
+        "name": "ponyta",
+        "type": "normal"
+      },
+      {
+        "name": "rattata",
+        "type": "normal"
+      },
+      {
+        "name": "vulpix",
+        "type": "normal"
+      },
+      {
+        "name": "quagsire",
+        "type": "secret"
+      }
     ]
   },
   "HoraxPC": {
@@ -1777,8 +1996,14 @@
     "destacados": [],
     "perdidos": [],
     "vendidos": [
-      "https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif",
-      "https://media.giphy.com/media/gwavhTbufATct7EFs0/giphy.gif"
+      {
+        "name": "rapidash",
+        "type": "normal"
+      },
+      {
+        "name": "ludicolo",
+        "type": "normal"
+      }
     ]
   },
   "IxGab": {
@@ -1959,7 +2184,10 @@
       }
     ],
     "vendidos": [
-      "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDFwaGc5MmNwMWgyMmNkdmwyOG9wenoyNGYxanF1b3BreTVsbzg2dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WwQzqNsYX0l6SgCQZV/giphy.gif"
+      {
+        "name": "jigglypuff",
+        "type": "normal"
+      }
     ]
   },
   "JAHIRNXD": {
@@ -2242,7 +2470,10 @@
     ],
     "perdidos": [],
     "vendidos": [
-      "https://media.giphy.com/media/QAmOMaVAIsfyhe1qi1/giphy.gif"
+      {
+        "name": "loudred",
+        "type": "normal"
+      }
     ]
   },
   "KnowJiYong": {
@@ -2361,7 +2592,10 @@
     ],
     "perdidos": [],
     "vendidos": [
-      "https://media.giphy.com/media/WnUoZLB0Sa1LV9rel3/giphy.gif"
+      {
+        "name": "wingull",
+        "type": "secret"
+      }
     ]
   },
   "Maicol": {
@@ -2415,9 +2649,18 @@
       }
     ],
     "vendidos": [
-      "https://media.giphy.com/media/7uxLPTrZZAl2HjGG9y/giphy.gif",
-      "https://media.giphy.com/media/tFwiptIH8CEuYpg3UQ/giphy.gif",
-      "https://media.giphy.com/media/bsxtXWvus1jvqHDZA7/giphy.gif"
+      {
+        "name": "scolipede",
+        "type": "normal"
+      },
+      {
+        "name": "tentacruel",
+        "type": "normal"
+      },
+      {
+        "name": "ferrothorn",
+        "type": "secret"
+      }
     ]
   },
   "MarkosW": {
@@ -2703,10 +2946,22 @@
     ],
     "perdidos": [],
     "vendidos": [
-      "https://media.giphy.com/media/tFwiptIH8CEuYpg3UQ/giphy.gif",
-      "https://media.giphy.com/media/WBCKmSHx1P3rtJeWFe/giphy.gif",
-      "https://media.giphy.com/media/WBCKmSHx1P3rtJeWFe/giphy.gif",
-      "https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif"
+      {
+        "name": "tentacruel",
+        "type": "normal"
+      },
+      {
+        "name": "loudred",
+        "type": "normal"
+      },
+      {
+        "name": "loudred",
+        "type": "normal"
+      },
+      {
+        "name": "ditto",
+        "type": "normal"
+      }
     ]
   },
   "MonkeyCake": {
@@ -2749,11 +3004,26 @@
       }
     ],
     "vendidos": [
-      "https://media.giphy.com/media/gwavhTbufATct7EFs0/giphy.gif",
-      "https://media.giphy.com/media/v7BwuKEmsYbSzTXu2Z/giphy.gif",
-      "https://media.giphy.com/media/oBe1LREMjvljQGVAgl/giphy.gif",
-      "https://media.giphy.com/media/D0VlsgLGW6enaA5m7m/giphy.gif",
-      "https://media.giphy.com/media/ABbHis5AHV4KFY18so/giphy.gif"
+      {
+        "name": "ludicolo",
+        "type": "normal"
+      },
+      {
+        "name": "marill",
+        "type": "normal"
+      },
+      {
+        "name": "grimer",
+        "type": "normal"
+      },
+      {
+        "name": "psyduck",
+        "type": "normal"
+      },
+      {
+        "name": "floatzel",
+        "type": "normal"
+      }
     ]
   },
   "Monozee": {
@@ -3031,17 +3301,50 @@
       }
     ],
     "vendidos": [
-      "https://media.giphy.com/media/lAcpPVwrBgQfMfBHlD/giphy.gif",
-      "https://media.giphy.com/media/T2bUB6ZHTIO3fxlH11/giphy.gif",
-      "https://media.giphy.com/media/FF9MGEFeqTS4Mn2vAJ/giphy.gif",
-      "https://media.giphy.com/media/13ZtgbQM9NwuIjtoyN/giphy.gif",
-      "https://media.giphy.com/media/rAa3yXQEgFsN72fvoY/giphy.gif",
-      "https://media.giphy.com/media/rAa3yXQEgFsN72fvoY/giphy.gif",
-      "https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif",
-      "https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif",
-      "https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif",
-      "https://media.giphy.com/media/EQIOBvPaS0RoyW6P2J/giphy.gif",
-      "https://media.giphy.com/media/vgltunPjQb3mMh3pYq/giphy.gif"
+      {
+        "name": "meowth",
+        "type": "normal"
+      },
+      {
+        "name": "politoed",
+        "type": "normal"
+      },
+      {
+        "name": "crobat",
+        "type": "normal"
+      },
+      {
+        "name": "mightyena",
+        "type": "normal"
+      },
+      {
+        "name": "drowzee",
+        "type": "normal"
+      },
+     {
+        "name": "drowzee",
+        "type": "normal"
+      },
+      {
+        "name": "ditto",
+        "type": "normal"
+      },
+      {
+        "name": "raticate",
+        "type": "normal"
+      },
+      {
+        "name": "raticate",
+        "type": "normal"
+      },
+      {
+        "name": "abra",
+        "type": "normal"
+      },
+      {
+        "name": "pidgeotto",
+        "type": "normal"
+      }
     ]
   },
   "Mxxarc": {
@@ -3139,11 +3442,26 @@
     ],
     "perdidos": [],
     "vendidos": [
-      "https://media.giphy.com/media/Xp5TIjgmifuCgKtk8D/giphy.gif",
-      "https://media.giphy.com/media/Xp5TIjgmifuCgKtk8D/giphy.gif",
-      "https://media.giphy.com/media/Xp5TIjgmifuCgKtk8D/giphy.gif",
-      "https://media.giphy.com/media/Xp5TIjgmifuCgKtk8D/giphy.gif",
-      "https://media.giphy.com/media/Xp5TIjgmifuCgKtk8D/giphy.gif"
+      {
+        "name": "wrumple",
+        "type": "normal"
+      },
+      {
+        "name": "wrumple",
+        "type": "normal"
+      },
+      {
+        "name": "wrumple",
+        "type": "normal"
+      },
+      {
+        "name": "wrumple",
+        "type": "normal"
+      },
+      {
+        "name": "wrumple",
+        "type": "normal"
+      }
     ]
   },
   "OniED": {
@@ -3264,27 +3582,90 @@
       }
     ],
     "vendidos": [
-      "https://media.giphy.com/media/3XWhYuF1IEcTsDBJXD/giphy.gif",
-      "https://media.giphy.com/media/tILTB4DTScZ7Sd5PIP/giphy.gif",
-      "https://media.giphy.com/media/7B05VelRsf0qfQptsT/giphy.gif",
-      "https://media.giphy.com/media/D3Lvv8nOqyVEkRFrWZ/giphy.gif",
-      "https://media.giphy.com/media/ofHxoizb5ZyN3uvFU6/giphy.gif",
-      "https://media.giphy.com/media/Lk4bupthAXzZiYNLPx/giphy.gif",
-      "https://media.giphy.com/media/juwTFb2dmySsKb2N3b/giphy.gif",
-      "https://media.giphy.com/media/juwTFb2dmySsKb2N3b/giphy.gif",
-      "https://media.giphy.com/media/25US6QyxVKt91tanHm/giphy.gif",
-      "https://media.giphy.com/media/25US6QyxVKt91tanHm/giphy.gif",
-      "https://media.giphy.com/media/DTGNzyLWgweQqRRGJ4/giphy.gif",
-      "https://media.giphy.com/media/DTGNzyLWgweQqRRGJ4/giphy.gif",
-      "https://media.giphy.com/media/dIX281x6Etp6ekX4n7/giphy.gif",
-      "https://media.giphy.com/media/dIX281x6Etp6ekX4n7/giphy.gif",
-      "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3BlaHRvZm5ubGg1NWp5Y2VsMnNmZ2M0NXp6cHkwM29vYXVhdXQ4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/oBe1LREMjvljQGVAgl/giphy.gif",
-      "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3BlaHRvZm5ubGg1NWp5Y2VsMnNmZ2M0NXp6cHkwM29vYXVhdXQ4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/oBe1LREMjvljQGVAgl/giphy.gif",
-      "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3BlaHRvZm5ubGg1NWp5Y2VsMnNmZ2M0NXp6cHkwM29vYXVhdXQ4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/oBe1LREMjvljQGVAgl/giphy.gif",
-      "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3BlaHRvZm5ubGg1NWp5Y2VsMnNmZ2M0NXp6cHkwM29vYXVhdXQ4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/oBe1LREMjvljQGVAgl/giphy.gif",
-      "https://media.giphy.com/media/jUZ6vbouEmCb3ZEKlA/giphy.gif",
-      "https://media.giphy.com/media/jLFYwkOfbOK6EYuImb/giphy.gif",
-      "https://media.giphy.com/media/sugYeQQ0BUa6GUPdY2/giphy.gif"
+      {
+        "name": "scraggy",
+        "type": "normal"
+      },
+      {
+        "name": "mankey",
+        "type": "normal"
+      },
+      {
+        "name": "gastly",
+        "type": "normal"
+      },
+      {
+        "name": "hoppip",
+        "type": "normal"
+      },
+      {
+        "name": "piloswine",
+        "type": "normal"
+      },
+      {
+        "name": "hariyama",
+        "type": "normal"
+      },
+      {
+        "name": "zigzagoon",
+        "type": "normal"
+      },
+      {
+        "name": "zigzagoon",
+        "type": "normal"
+      },
+      {
+        "name": "throh",
+        "type": "normal"
+      },
+      {
+        "name": "throh",
+        "type": "normal"
+      },
+      {
+        "name": "wingull",
+        "type": "normal"
+      },
+      {
+        "name": "wingull",
+        "type": "normal"
+      },
+      {
+        "name": "mienfoo",
+        "type": "normal"
+      },
+      {
+        "name": "mienfoo",
+        "type": "normal"
+      },
+      {
+        "name": "grimer",
+        "type": "normal"
+      },
+      {
+        "name": "grimer",
+        "type": "normal"
+      },
+      {
+        "name": "grimer",
+        "type": "normal"
+      },
+      {
+        "name": "grimer",
+        "type": "normal"
+      },
+      {
+        "name": "poochyena",
+        "type": "normal"
+      },
+      {
+        "name": "leavanny",
+        "type": "normal"
+      },
+      {
+        "name": "venipede",
+        "type": "normal"
+      }
     ]
   },
   "Palafo": {
@@ -3397,11 +3778,26 @@
     ],
     "perdidos": [],
     "vendidos": [
-      "https://media.giphy.com/media/EaNDmWPv4U1x4Jy7tM/giphy.gif",
-      "https://media.giphy.com/media/ptSTYVxdNLH5oH4Siw/giphy.gif",
-      "https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif",
-      "https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif",
-      "https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif"
+      {
+        "name": "machop",
+        "type": "normal"
+      },
+      {
+        "name": "magikarp",
+        "type": "normal"
+      },
+      {
+        "name": "raticate",
+        "type": "normal"
+      },
+      {
+        "name": "raticate",
+        "type": "normal"
+      },
+      {
+        "name": "ditto",
+        "type": "normal"
+      }
     ]
   },
   "PierciLmL": {
@@ -3520,13 +3916,34 @@
     ],
     "perdidos": [],
     "vendidos": [
-      "https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif",
-      "https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif",
-      "https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif",
-      "https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif",
-      "https://media.giphy.com/media/0vF7t16ROOFeGekWcF/giphy.gif",
-      "https://media.giphy.com/media/0vF7t16ROOFeGekWcF/giphy.gif",
-      "https://media.giphy.com/media/qI0CeWonaxP7k6Y4Lx/giphy.gif"
+      {
+        "name": "raticate",
+        "type": "normal"
+      },
+      {
+        "name": "raticate",
+        "type": "normal"
+      },
+      {
+        "name": "raticate",
+        "type": "normal"
+      },
+      {
+        "name": "raticate",
+        "type": "normal"
+      },
+      {
+        "name": "woobat",
+        "type": "normal"
+      },
+      {
+        "name": "woobat",
+        "type": "normal"
+      },
+      {
+        "name": "vullaby",
+        "type": "normal"
+      }
     ]
   },
   "Reimy": {
@@ -3580,27 +3997,94 @@
       }
     ],
     "vendidos": [
-      "https://media.giphy.com/media/gSUVBePKqAbJpmfIoA/giphy.gif",
-      "https://media.giphy.com/media/UCSl0CT0X05tKQKvmv/giphy.gif",
-      "https://media.giphy.com/media/iaE6ItdRy56H79jQjg/giphy.gif",
-      "https://media.giphy.com/media/cZI8bvqidD7iphlbdH/giphy.gif",
-      "https://media.giphy.com/media/v7BwuKEmsYbSzTXu2Z/giphy.gif",
-      "https://media.giphy.com/media/QBMPSmPsPc2VXpWte4/giphy.gif",
-      "https://media.giphy.com/media/QBMPSmPsPc2VXpWte4/giphy.gif",
-      "https://media.giphy.com/media/maxPYO7zrPpNCFO0pV/giphy.gif",
-      "https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif",
-      "https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif",
-      "https://media.giphy.com/media/lYWCqTbScj7X18ZGvJ/giphy.gif",
-      "https://media.giphy.com/media/vq0NbSfgNAzU9n9HZN/giphy.gif",
-      "https://media.giphy.com/media/vq0NbSfgNAzU9n9HZN/giphy.gif",
-      "https://media.giphy.com/media/I3nMAb29UTofjDsWFg/giphy.gif",
-      "https://media.giphy.com/media/dIX281x6Etp6ekX4n7/giphy.gif",
-      "https://media.giphy.com/media/SMttCxbkrQWz8LNsx5/giphy.gif",
-      "https://media.giphy.com/media/olvnpZMLJ9Thfm9Vo7/giphy.gif",
-      "https://media.giphy.com/media/sugYeQQ0BUa6GUPdY2/giphy.gif",
-      "https://media.giphy.com/media/IttNS3VLZryvvxmoL9/giphy.gif",
-      "https://media.giphy.com/media/822MTo2BKJqejpx8is/giphy.gif",
-      "https://media.giphy.com/media/822MTo2BKJqejpx8is/giphy.gif"
+      {
+        "name": "altaria",
+        "type": "normal"
+      },
+      {
+        "name": "masquerain",
+        "type": "normal"
+      },
+      {
+        "name": "nidoking",
+        "type": "normal"
+      },
+      {
+        "name": "swoobat",
+        "type": "normal"
+      },
+      {
+        "name": "marill",
+        "type": "normal"
+      },
+      {
+        "name": "roserade",
+        "type": "normal"
+      },
+      {
+        "name": "roserade",
+        "type": "normal"
+      },
+      {
+        "name": "magikarp",
+        "type": "normal"
+      },
+      {
+        "name": "rapidash",
+        "type": "normal"
+      },
+      {
+        "name": "rapidash",
+        "type": "normal"
+      },
+      {
+        "name": "bouffalant",
+        "type": "normal"
+      },
+      {
+        "name": "bibarel",
+        "type": "normal"
+      },
+      {
+        "name": "bibarel",
+        "type": "normal"
+      },
+      {
+        "name": "xatu",
+        "type": "normal"
+      },
+      {
+        "name": "mienfoo",
+        "type": "normal"
+      },
+      {
+        "name": "mienshao",
+        "type": "normal"
+      },
+      {
+        "name": "durant",
+        "type": "normal"
+      },
+      {
+        "name": "venipede",
+        "type": "normal"
+      },
+      {
+        "name": "pidgey",
+        "type": "normal"
+      },
+      {
+        "name": "donphan",
+        "type": "normal"
+      },
+      {
+        "name": "donphan",
+        "type": "normal"
+      },
+      {
+        "name": "ditto",
+        "type": "normal"
+      }
     ]
   },
   "Renz": {
@@ -3980,7 +4464,7 @@
       "shellos-east",
       "jigglypuff",
       "quagsire",
-      "shellos_west"
+      "shellos_east"
     ],
     "destacados": [
       {
@@ -4121,7 +4605,10 @@
     ],
     "perdidos": [],
     "vendidos": [
-      "https://media.giphy.com/media/g6kCi54TtATJcjgnUj/giphy.gif"
+      {
+        "name": "sandslash",
+        "type": "secret"
+      }
     ]
   },
   "SorlanNorfleet": {
@@ -4313,7 +4800,10 @@
     "destacados": [],
     "perdidos": [],
     "vendidos": [
-      "https://media.giphy.com/media/TWlNAIDfpw23BhIogu/giphy.gif"
+      {
+        "name": "cubchoo",
+        "type": "normal"
+      }
     ]
   },
   "TheJesucristian": {
@@ -4517,7 +5007,10 @@
       }
     ],
     "vendidos": [
-      "https://media.giphy.com/media/DzSVwMWmMHRiYqaLeC/giphy.gif"
+      {
+        "name": "gliscor",
+        "type": "secret"
+      }
     ]
   },
   "UltimoMorador": {
@@ -4574,37 +5067,6 @@
     "perdidos": [],
     "vendidos": []
   },
-  "vitro": {
-    "name": "vitro",
-    "rol": "Chad",
-    "medallas": [
-      "m_dead",
-      "m_pecador",
-      "m_supremacy2",
-      "m_supremacy3"
-    ],
-    "shinys": [
-      "magikarp",
-      "nidoking"
-    ],
-    "destacados": [],
-    "perdidos": [
-      {
-        "name": "druddigon",
-        "type": "normal"
-      },
-      {
-        "name": "smeargle",
-        "type": "normal"
-      }
-    ],
-    "vendidos": [
-      "https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif",
-      "https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif",
-      "https://media.giphy.com/media/apS40Kh2I8ZZiTD07i/giphy.gif",
-      "https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif"
-    ]
-  },
   "wallycbammo": {
     "name": "wallycbammo",
     "rol": "Chad",
@@ -4641,7 +5103,10 @@
     ],
     "perdidos": [],
     "vendidos": [
-      "https://media.giphy.com/media/BC9Utvs1rCt1mS3uHy/giphy.gif"
+      {
+        "name": "porygon",
+        "type": "egg"
+      }
     ]
   },
   "WillWolfestein": {
@@ -4662,7 +5127,8 @@
       "manectric",
       "poliwrath",
       "smeargle",
-      "haxorus"
+      "haxorus",
+      "diglett"
     ],
     "destacados": [
       {
@@ -4730,10 +5196,22 @@
     ],
     "perdidos": [],
     "vendidos": [
-      "https://media.giphy.com/media/zs883L4G0LcaWp62Iv/giphy.gif",
-      "https://media.giphy.com/media/ofHxoizb5ZyN3uvFU6/giphy.gif",
-      "https://media.giphy.com/media/sugYeQQ0BUa6GUPdY2/giphy.gif",
-      "https://media.giphy.com/media/LWm8fjHUKxqb0qyZpD/giphy.gif"
+      {
+        "name": "ditto",
+        "type": "normal"
+      },
+      {
+        "name": "piloswine",
+        "type": "normal"
+      },
+      {
+        "name": "venipede",
+        "type": "normal"
+      },
+      {
+        "name": "metapod",
+        "type": "normal"
+      }
     ]
   },
   "Zeurir": {
@@ -4759,10 +5237,22 @@
       }
     ],
     "vendidos": [
-      "https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif",
-      "https://media.giphy.com/media/gYfpfKjVkjlLsJmKhF/giphy.gif",
-      "https://media.giphy.com/media/7eBAfbvAahCmhTreRI/giphy.gif",
-      "https://media.giphy.com/media/joRe8SDxlxpAZOQ8VQ/giphy.gif"
+      {
+        "name": "rapidash",
+        "type": "normal"
+      },
+      {
+        "name": "rapidash",
+        "type": "normal"
+      },
+      {
+        "name": "slowbro",
+        "type": "normal"
+      },
+      {
+        "name": "rhyperior",
+        "type": "normal"
+      }
     ]
   },
   "Zulh": {
@@ -4900,109 +5390,6 @@
         "type": "secret"
       }
     ],
-    "perdidos": [],
-    "vendidos": []
-  },
-  "hironakamura": {
-    "name": "hironakamura",
-    "rol": "Miembro",
-    "medallas": [],
-    "shinys": [
-      "electabuzz",
-      "horsea"
-    ],
-    "destacados": [],
-    "perdidos": [],
-    "vendidos": []
-  },
-  "AllysM": {
-    "name": "AllysM",
-    "rol": "Miembro",
-    "medallas": [],
-    "shinys": [
-      "girafarig"
-    ],
-    "destacados": [],
-    "perdidos": [],
-    "vendidos": []
-  },
-  "EliClarck": {
-    "name": "EliClarck",
-    "rol": "Miembro",
-    "medallas": [],
-    "shinys": [],
-    "destacados": [],
-    "perdidos": [
-      {
-        "name": "graveler",
-        "type": "dead"
-      }
-    ],
-    "vendidos": []
-  },
-  "CYRLITUS": {
-    "name": "CYRLITUS",
-    "rol": "Miembro",
-    "medallas": [],
-    "shinys": [
-      "shelmet"
-    ],
-    "destacados": [],
-    "perdidos": [],
-    "vendidos": []
-  },
-  "Ruubbiii": {
-    "name": "Ruubbiii",
-    "rol": "Miembro",
-    "medallas": [],
-    "shinys": [
-      "golett"
-    ],
-    "destacados": [],
-    "perdidos": [],
-    "vendidos": []
-  },
-  "Antoniperdo": {
-    "name": "Antoniperdo",
-    "rol": "Miembro",
-    "medallas": [],
-    "shinys": [
-      "darumaka"
-    ],
-    "destacados": [],
-    "perdidos": [],
-    "vendidos": []
-  },
-  "WillWolfstein": {
-    "name": "WillWolfstein",
-    "rol": "Miembro",
-    "medallas": [],
-    "shinys": [
-      "diglett"
-    ],
-    "destacados": [],
-    "perdidos": [],
-    "vendidos": []
-  },
-  "NestoMudkip": {
-    "name": "NestoMudkip",
-    "rol": "Miembro",
-    "medallas": [],
-    "shinys": [
-      "poliwhirl"
-    ],
-    "destacados": [],
-    "perdidos": [],
-    "vendidos": []
-  },
-  "Yukisz": {
-    "name": "Yukisz",
-    "rol": "Miembro",
-    "medallas": [],
-    "shinys": [
-      "ditto"
-    ],
-    "destacados": [],
     "perdidos": [],
     "vendidos": []
   }

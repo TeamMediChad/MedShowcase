@@ -1,15 +1,12 @@
 const lideres = [
-  { nombre: "Team Navidad", user: "OniED", button:'xmas' },
-  { nombre: "Team Halloween", user: "Souen", button:'halloween' },
-  { nombre: "Team Año Nuevo", user: "LauraSkylar", button:'lny' }
+  { nombre: "Team Fire", user: "KnowJiYong", button:'fire' },
+  { nombre: "Team Ice", user: "Pancho", button:'ice' }
 ];
 
-let Navidad_lista = [];
-let Halloween_lista = [];
-let NuevoYear_lista = [];
-Navidad_lista.push('OniED');
-Halloween_lista.push('Souen');
-NuevoYear_lista.push('LauraSkylar');
+let Ice_lista = [];
+let Fire_lista = [];
+Ice_lista.push('Pancho');
+Fire_lista.push('KnowJiYong');
 
 function asignarInicial(card, liderUser, team) {
     card.classList.add(`card-team-${team}`);
@@ -50,7 +47,7 @@ let participanteSeleccionado = null;
 let currentcard = null;
 
 function selection(cardElement, nombre) {
-    if (!(cardElement.classList[1] == "card-team-Navidad" || cardElement.classList[1] == "card-team-Halloween" || cardElement.classList[1] == "card-team-Nuevoyear")){
+    if (!(cardElement.classList[1] == "card-team-Fire" || cardElement.classList[1] == "card-team-Ice")){
         currentcard = cardElement;
         participanteSeleccionado = nombre;
         modalName.textContent = nombre;
@@ -98,9 +95,8 @@ participantesArray.forEach(p => {
         lideres.forEach(l => {
             if (p.participante === l.user) {
                 let team =
-                    l.nombre.includes("Navidad") ? "Navidad" :
-                    l.nombre.includes("Halloween") ? "Halloween" :
-                    "Nuevoyear";
+                    l.nombre.includes("Fire") ? "Fire" :
+                    "Ice"
 
                 asignarInicial(card, l.user, team);
                 close.style.pointerEvents = "none";
@@ -186,15 +182,12 @@ function handlelist(lider, team, action){
 }
 
 function add(team){
-    if(team == "Navidad"){
-        handlelist('OniED',team, 'add');
-        Navidad_lista.push(participanteSeleccionado);
-    }else if(team == "Halloween"){
-        handlelist('Souen',team, 'add');
-        Halloween_lista.push(participanteSeleccionado);
-    }else if(team == "Nuevoyear"){
-        handlelist('LauraSkylar',team, 'add');
-        NuevoYear_lista.push(participanteSeleccionado);
+    if(team == "Fire"){
+        handlelist('KnowJiYong',team, 'add');
+        Fire_lista.push(participanteSeleccionado);
+    }else if(team == "Ice"){
+        handlelist('Pancho',team, 'add');
+        Ice_lista.push(participanteSeleccionado);
     }
 
     const removeBtn = currentcard.querySelector(".card-remove-btn");
@@ -210,28 +203,23 @@ function remove(event, nombre) {
     const card = event.target.closest(".participante-card");
     if (!card) return;
 
-    if(card.classList[1] == "card-team-Navidad"){
-        handlelist('OniED','Navidad',card.id);
-        const index = Navidad_lista.indexOf(nombre);
-        if (index !== -1) Navidad_lista.splice(index, 1);
-    } else if(card.classList[1] == "card-team-Halloween"){
-        handlelist('Souen','Halloween',card.id);
-        const index = Halloween_lista.indexOf(nombre);
-        if (index !== -1) Halloween_lista.splice(index, 1);
-    } else if(card.classList[1] == "card-team-Nuevoyear"){
-        handlelist('LauraSkylar','Nuevoyear',card.id);
-        const index = NuevoYear_lista.indexOf(nombre);
-        if (index !== -1) NuevoYear_lista.splice(index, 1);
+    if(card.classList[1] == "card-team-Fire"){
+        handlelist('KnowJiYong','Fire',card.id);
+        const index = Fire_lista.indexOf(nombre);
+        if (index !== -1) Fire_lista.splice(index, 1);
+    } else if(card.classList[1] == "card-team-Ice"){
+        handlelist('Pancho','Ice',card.id);
+        const index = Ice_lista.indexOf(nombre);
+        if (index !== -1) Ice_lista.splice(index, 1);
     }
-
-    card.classList.remove("card-team-Navidad", "card-team-Halloween", "card-team-Nuevoyear");
+    card.classList.remove("card-team-Fire", "card-team-Ice");
     event.target.style.display = "none";
 }
 
 function copiarxmas() {
-    if (!Navidad_lista || Navidad_lista.length === 0) return;
+    if (!Fire_lista || Fire_lista.length === 0) return;
     let texto = "";
-    Navidad_lista.forEach((nombre, index) => {
+    Fire_lista.forEach((nombre, index) => {
         if (index === 0) {
             texto += `${index + 1}.- ${nombre} (L)\n`;
         } else {
@@ -241,23 +229,10 @@ function copiarxmas() {
     navigator.clipboard.writeText(texto)
 }
 
-function copiarhalloween() {
-    if (!Halloween_lista || Halloween_lista.length === 0) return;
+function copiarIce() {
+    if (!Ice_lista || Ice_lista.length === 0) return;
     let texto = "";
-    Halloween_lista.forEach((nombre, index) => {
-        if (index === 0) {
-            texto += `${index + 1}.- ${nombre} (L)\n`;
-        } else {
-            texto += `${index + 1}.- ${nombre}\n`;
-        }
-    });
-    navigator.clipboard.writeText(texto)
-}
-
-function copiarlny() {
-    if (!NuevoYear_lista || NuevoYear_lista.length === 0) return;
-    let texto = "";
-    NuevoYear_lista.forEach((nombre, index) => {
+    Ice_lista.forEach((nombre, index) => {
         if (index === 0) {
             texto += `${index + 1}.- ${nombre} (L)\n`;
         } else {

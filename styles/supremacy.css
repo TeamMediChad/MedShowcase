@@ -1,13 +1,9 @@
-.card-team-Navidad {
+.card-team-Fire {
   background-image: url("../img/Cards/card-navidad.png") !important; 
 }
 
-.card-team-Halloween {
+.card-team-Ice {
   background-image: url("../img/Cards/card-halloween.png") !important; 
-}
-
-.card-team-Nuevoyear {
-  background-image: url("../img/Cards/card-lunar.png") !important; 
 }
 
 .card-remove-btn {
@@ -51,7 +47,7 @@
   color: white;
 }
 
-.halloween-btn {
+.ice-btn {
   font-family: "Retro";
   font-size: 27px;
   margin-top: 0.5rem;
@@ -63,33 +59,14 @@
   border-image-slice: 0 10 0 10 fill;
   transition: border-image-source 0.2s ease;
 }
-.halloween-btn:hover {
+.ice-btn:hover {
   border-image-source: url("../img/button/button-showcase-hover-halloween.png");
 }
-.halloween-btn:disabled {
+.ice-btn:disabled {
   border-image-source: url("../img/button/button-showcase-disabled-halloween.png");
 }
 
-.lny-btn {
-  font-family: "Retro";
-  font-size: 27px;
-  margin-top: 0.5rem;
-  margin-top: 0.5rem;
-  color: rgba(255, 255, 255, 0.815);
-  border-width: 0px 10px 0px 10px;
-  border-style: solid;
-  border-image-source: url("../img/button/button-showcase-lny.png");
-  border-image-slice: 0 10 0 10 fill;
-  transition: border-image-source 0.2s ease;
-}
-.lny-btn:hover {
-  border-image-source: url("../img/button/button-showcase-hover-lny.png");
-}
-.lny-btn:disabled {  
-  border-image-source: url("../img/button/button-showcase-disabled-lny.png");
-}
-
-.xmas-btn {
+.fire-btn {
   font-family: "Retro";
   font-size: 27px;
   margin-top: 0.5rem;
@@ -101,10 +78,10 @@
   border-image-slice: 0 10 0 10 fill;
   transition: border-image-source 0.2s ease;
 }
-.xmas-btn:hover {
+.fire-btn:hover {
   border-image-source: url("../img/button/button-showcase-hover-xmas.png");
 }
-.xmas-btn:disabled {
+.fire-btn:disabled {
   border-image-source: url("../img/button/button-showcase-disabled-xmas.png");
 }
 
