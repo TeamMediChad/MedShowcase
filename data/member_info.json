@@ -2890,7 +2890,8 @@
       "klink",
       "ferroseed",
       "diglett",
-      "lickitung"
+      "lickitung",
+      "lombre"
     ],
     "destacados": [
       {
@@ -3013,7 +3014,10 @@
       },
       {
         "name": "rattata",
-        "type": "secret"
+        "type": [
+          "secret",
+          "sold"
+        ]
       }
     ],
     "perdidos": [
