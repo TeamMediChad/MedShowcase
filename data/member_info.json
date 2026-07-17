@@ -698,16 +698,16 @@
     ],
     "destacados": [
       {
-        "name" : "spiritomb",
-        "type" : "egg"
+        "name": "spiritomb",
+        "type": "egg"
       },
       {
-        "name" : "slakoth",
-        "type" : "normal"
+        "name": "slakoth",
+        "type": "normal"
       },
       {
-        "name" : "poochyena",
-        "type" : "secret"
+        "name": "poochyena",
+        "type": "secret"
       }
     ],
     "perdidos": [],
@@ -3321,7 +3321,7 @@
         "name": "drowzee",
         "type": "normal"
       },
-     {
+      {
         "name": "drowzee",
         "type": "normal"
       },
@@ -3437,6 +3437,10 @@
       },
       {
         "name": "fearow",
+        "type": "secret"
+      },
+      {
+        "name": "carvanha",
         "type": "secret"
       }
     ],
