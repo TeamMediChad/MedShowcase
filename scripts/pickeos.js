@@ -16,23 +16,29 @@ function asignarInicial(card, liderUser, team) {
 
 
 const equiposContainer = document.getElementById("equipos-container");
-
 lideres.forEach(lider => {
   const col = document.createElement("div");
-  col.className = "p-4 bg-black bg-opacity-40 rounded-xl shadow-xl";
 
   col.innerHTML = `
-    <h3 class="font-bold text-center mb-2" style="font-family: 'Retro'; font-size: 32px">${lider.nombre}</h3>
-
     <div class="flex flex-col items-center">
-      <img src="../Members_sprites/${lider.user}.png"
-           onerror="this.src='../Members_sprites/Placeholder.png'">
 
-      <p class="mb-4 text-center" style="font-family: 'Retro'; font-size: 32px">${lider.user}</p>
+      <div class="leader-img">
+    <img class="leader-bg" src="../img/Shiny war/lider-${lider.button}.png" ${ lider.button == "fire" ? "style=\"top : -30px;\"" : ""}>
+        <img class="leader-avatar"
+             src="../Members_sprites/${lider.user}.png"
+             onerror="this.src='../Members_sprites/Placeholder.png'">
+      </div>
+
+      <p class="mb-4 text-center" style="font-family: 'Retro'; font-size: 32px">
+        ${lider.user}
+      </p>
 
       <ul id="lista-${lider.user}"
           class="mt-2 flex flex-wrap gap-2 justify-center w-full"></ul>
-      <button onclick="copiar${lider.button}()" class="text-white ${lider.button}-btn">Copiar Lista</button>
+
+      <button onclick="copiar${lider.button}()" class="text-white ${lider.button}-btn">
+        Copiar Lista
+      </button>
     </div>
   `;
 

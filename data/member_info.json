@@ -1253,7 +1253,8 @@
       "mawile",
       "throh",
       "misdreavus",
-      "oddish"
+      "oddish",
+      "loudred"
     ],
     "destacados": [
       {
@@ -1704,6 +1705,64 @@
       {
         "name": "staravia",
         "type": "secret"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
+  },
+  "Fernan": {
+    "name": "Fernan",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "politoed",
+      "medicham",
+      "pichu",
+      "hydreigon",
+      "flygon",
+      "braviary",
+      "poliwrath",
+      "teddiursa",
+      "beedrill",
+      "reuniclus",
+      "bellossom",
+      "raticate",
+      "rattata",
+      "accelgor",
+      "elgyem",
+      "lickilicky",
+      "ariados",
+      "camerupt",
+      "goldeen",
+      "basculin",
+      "reuniclus",
+      "krookodile",
+      "vanilluxe",
+      "quagsire",
+      "koffing",
+      "slowbro",
+      "golduck",
+      "pidgeot",
+      "sableye",
+      "nidoqueen",
+      "magnezone",
+      "primeape",
+      "pelipper",
+      "blitzle",
+      "dusclops",
+      "gligar",
+      "scolipede"
+    ],
+    "destacados": [
+      {
+        "name" : "serperior",
+        "type" : "secret"
+      },
+      {
+        "name" : "kecleon",
+        "type" : "normal"
       }
     ],
     "perdidos": [],
@@ -2235,6 +2294,81 @@
       {
         "name": "skarmory",
         "type": "normal"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
+  },
+  "Jean": {
+    "name": "Jean",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "beedrill",
+      "jumpluff",
+      "chandelure",
+      "weezing",
+      "ninetales",
+      "krookodile",
+      "lanturn",
+      "poliwrath",
+      "politoed",
+      "dusclops",
+      "mienshao",
+      "vanilluxe",
+      "pikachu",
+      "swoobat",
+      "walrein",
+      "smeargle",
+      "weavile",
+      "gyarados",
+      "leavanny",
+      "kingdra",
+      "donphan",
+      "mightyena",
+      "accelgor",
+      "weedle",
+      "chatot",
+      "cinccino",
+      "ferroseed",
+      "mandibuzz",
+      "jigglypuff",
+      "duskull",
+      "gengar",
+      "reuniclus",
+      "cubchoo",
+      "durant",
+      "diglett",
+      "kricketune",
+      "scolipede",
+      "kadabra"
+    ],
+    "destacados": [
+      {
+        "name" : "breloom",
+        "type" : "normal"
+      },
+      {
+        "name" : "carvanha",
+        "type" : "normal"
+      },
+      {
+        "name" : "squirtle",
+        "type" : "normal"
+      },
+      {
+        "name" : "porygon-z",
+        "type" : "normal"
+      },
+      {
+        "name" : "tropius",
+        "type" : "normal"
+      },
+      {
+        "name" : "sharpedo",
+        "type" : "normal"
       }
     ],
     "perdidos": [],
@@ -4967,14 +5101,12 @@
       "tyranitar",
       "spinda",
       "raticate",
-      "graveler",
       "gloom",
       "dodrio",
       "slowbro",
       "nidorina",
       "phanpy",
-      "gligar",
-      "exploud"
+      "gligar"
     ],
     "destacados": [
       {
@@ -5015,6 +5147,14 @@
       {
         "name": "gliscor",
         "type": "secret"
+      },
+      {
+        "name": "exploud",
+        "type": "normal"
+      },
+      {
+        "name": "graveler",
+        "type": "normal"
       }
     ]
   },
