@@ -1756,16 +1756,16 @@
     ],
     "destacados": [
       {
-        "name" : "serperior",
-        "type" : "secret"
+        "name": "serperior",
+        "type": "secret"
       },
       {
-        "name" : "kecleon",
-        "type" : "normal"
+        "name": "kecleon",
+        "type": "normal"
       },
       {
-        "name" : "koffing",
-        "type" : "safari"
+        "name": "koffing",
+        "type": "safari"
       }
     ],
     "perdidos": [],
@@ -2350,47 +2350,47 @@
     ],
     "destacados": [
       {
-        "name" : "breloom",
-        "type" : "normal"
+        "name": "breloom",
+        "type": "normal"
       },
       {
-        "name" : "carvanha",
-        "type" : "normal"
+        "name": "carvanha",
+        "type": "normal"
       },
       {
-        "name" : "squirtle",
-        "type" : "swarm"
+        "name": "squirtle",
+        "type": "swarm"
       },
       {
-        "name" : "porygon-z",
-        "type" : "swarm"
+        "name": "porygon-z",
+        "type": "swarm"
       },
       {
-        "name" : "tropius",
-        "type" : "normal"
+        "name": "tropius",
+        "type": "normal"
       },
       {
-        "name" : "sharpedo",
-        "type" : "normal"
+        "name": "sharpedo",
+        "type": "normal"
       }
     ],
     "perdidos": [],
     "vendidos": [
       {
-        "name" : "stunfisk",
-        "type" : "normal"
+        "name": "stunfisk",
+        "type": "normal"
       },
       {
-        "name" : "smeargle",
-        "type" : "normal"
+        "name": "smeargle",
+        "type": "normal"
       },
       {
-        "name" : "whismur",
-        "type" : "normal"
+        "name": "whismur",
+        "type": "normal"
       },
       {
-        "name" : "cacnea",
-        "type" : "normal"
+        "name": "cacnea",
+        "type": "normal"
       }
     ]
   },
