@@ -1741,7 +1741,6 @@
       "krookodile",
       "vanilluxe",
       "quagsire",
-      "koffing",
       "slowbro",
       "golduck",
       "pidgeot",
@@ -1763,6 +1762,10 @@
       {
         "name" : "kecleon",
         "type" : "normal"
+      },
+      {
+        "name" : "koffing",
+        "type" : "safari"
       }
     ],
     "perdidos": [],
@@ -2356,11 +2359,11 @@
       },
       {
         "name" : "squirtle",
-        "type" : "normal"
+        "type" : "swarm"
       },
       {
         "name" : "porygon-z",
-        "type" : "normal"
+        "type" : "swarm"
       },
       {
         "name" : "tropius",
@@ -2372,7 +2375,24 @@
       }
     ],
     "perdidos": [],
-    "vendidos": []
+    "vendidos": [
+      {
+        "name" : "stunfisk",
+        "type" : "normal"
+      },
+      {
+        "name" : "smeargle",
+        "type" : "normal"
+      },
+      {
+        "name" : "whismur",
+        "type" : "normal"
+      },
+      {
+        "name" : "cacnea",
+        "type" : "normal"
+      }
+    ]
   },
   "JosiasMccartney": {
     "name": "JosiasMccartney",
@@ -4858,8 +4878,7 @@
       "honchkrow",
       "krabby",
       "arbok",
-      "solrock",
-      "luvdisc"
+      "solrock"
     ],
     "destacados": [
       {
@@ -4901,6 +4920,10 @@
       {
         "name": "archen",
         "type": "egg"
+      },
+      {
+        "name": "luvdisc",
+        "type": "normal"
       }
     ],
     "perdidos": [],
