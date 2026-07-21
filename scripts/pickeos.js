@@ -23,7 +23,7 @@ lideres.forEach(lider => {
     <div class="flex flex-col items-center">
 
       <div class="leader-img">
-    <img class="leader-bg" src="../img/Shiny war/lider-${lider.button}.png" ${ lider.button == "fire" ? "style=\"top : -30px;\"" : ""}>
+    <img class="leader-bg" src="../img/Shiny war/lider-${lider.button}.png">
         <img class="leader-avatar"
              src="../Members_sprites/${lider.user}.png"
              onerror="this.src='../Members_sprites/Placeholder.png'">
@@ -70,26 +70,44 @@ let container3 = document.getElementById("tabla-supremacy-pick");
 participantesArray.forEach(p => {
     let card = document.createElement("div");
     if (p.participante !== 'nan') {
-        card.className = "participante-card";
+        card.className = "card-normal";
+
+        const card_inner = document.createElement('div');
+        card_inner.className = "card-inner";
+        card.appendChild(card_inner);
 
         const img_wrap = document.createElement('div');
-        img_wrap.className = "participante-img-wrapper";
-        card.appendChild(img_wrap);
+        img_wrap.className = "supremacy-img-wrapper";
+        img_wrap.id = `${p.participante}-wrap`
+        card_inner.appendChild(img_wrap);
 
         const img = document.createElement('img');
         img.src = `../Members_sprites/${p.participante}.png`;
         img.onerror = function () {
             this.src = `../Members_sprites/Placeholder.png`;
         };
-        img.className = 'participante-img';
+        img.className = 'supremacy-img';
         img_wrap.appendChild(img);
 
+        if (p.participante == "Pancho"){
+            const img2 = document.createElement('img');
+            img2.src = `../img/Shiny war/lider-ice2.png`;
+            img2.className = 'leader-bg';
+            img_wrap.appendChild(img2);
+        } else if (p.participante == "KnowJiYong"){
+            const img2 = document.createElement('img');
+            img2.src = `../img/Shiny war/lider-fire2.png`;
+            img2.className = 'leader-bg';
+            img_wrap.appendChild(img2);
+        }
+        
+
         const title = document.createElement('h2');
-        title.className = 'participante-title';
+        title.className = 'supremacy-title';
         title.id = `${p.participante}`;
-        title.textContent = p.n + ": " + p.participante;
+        title.textContent = p.participante;
         card.onclick = () => selection(card, p.participante);
-        card.appendChild(title);
+        card_inner.appendChild(title);
 
         const close = document.createElement('div');
         close.className = "card-remove-btn";
@@ -112,19 +130,23 @@ participantesArray.forEach(p => {
     } else {
         card.className = "none-card";
 
+        const card_inner = document.createElement('div');
+        card_inner.className = "card-inner";
+        card.appendChild(card_inner);
+
         const img_wrap = document.createElement('div');
-        img_wrap.className = "participante-img-wrapper";
-        card.appendChild(img_wrap);
+        img_wrap.className = "supremacy-img-wrapper";
+        card_inner.appendChild(img_wrap);
 
         const img = document.createElement('img');
-        img.className = 'participante-img';
+        img.className = 'supremacy-img';
         img_wrap.appendChild(img);
 
         const title = document.createElement('h2');
-        title.className = 'participante-title';
+        title.className = 'supremacy-title';
         title.id = `${p.n}`;
-        title.textContent = p.n + ": libre";
-        card.appendChild(title);
+        title.textContent = "libre";
+        card_inner.appendChild(title);
     }
     container3.appendChild(card);
 })
@@ -159,7 +181,6 @@ function handlelist(lider, team, action){
     if(action == 'add'){
         const miembroT = document.createElement('div');
         miembroT.className = 'miembro-holder';
-        miembroT.style = `border-image-source: url("../img/button/${team}-container.png");`
 
         const img = document.createElement('img');
         img.className = 'miembro-img';
@@ -167,6 +188,20 @@ function handlelist(lider, team, action){
         img.onerror = function () {
             this.src = `../Members_sprites/Placeholder.png`;
         };
+        const img_wrap = document.getElementById(`${participanteSeleccionado}-wrap`);
+        if (team == "Ice"){
+            const img2 = document.createElement('img');
+            img2.src = `../img/Shiny war/lider-ice2.png`;
+            img2.className = 'leader-bg';
+            img2.id = `${participanteSeleccionado}-bgimg`
+            img_wrap.appendChild(img2);
+        } else if (team == "Fire"){
+            const img2 = document.createElement('img');
+            img2.src = `../img/Shiny war/lider-fire2.png`;
+            img2.className = 'leader-bg';
+            img2.id = `${participanteSeleccionado}-bgimg`
+            img_wrap.appendChild(img2);
+        }
 
         const name = document.createElement('span');
         name.className = 'miembro-name';
@@ -206,7 +241,7 @@ function add(team){
 
 function remove(event, nombre) {
     event.stopPropagation();
-    const card = event.target.closest(".participante-card");
+    const card = event.target.closest(".card-normal");
     if (!card) return;
 
     if(card.classList[1] == "card-team-Fire"){
@@ -218,11 +253,13 @@ function remove(event, nombre) {
         const index = Ice_lista.indexOf(nombre);
         if (index !== -1) Ice_lista.splice(index, 1);
     }
+    const img2 = document.getElementById(`${nombre}-bgimg`);
+    img2.remove()
     card.classList.remove("card-team-Fire", "card-team-Ice");
     event.target.style.display = "none";
 }
 
-function copiarxmas() {
+function copiarfire() {
     if (!Fire_lista || Fire_lista.length === 0) return;
     let texto = "";
     Fire_lista.forEach((nombre, index) => {
@@ -235,7 +272,7 @@ function copiarxmas() {
     navigator.clipboard.writeText(texto)
 }
 
-function copiarIce() {
+function copiarice() {
     if (!Ice_lista || Ice_lista.length === 0) return;
     let texto = "";
     Ice_lista.forEach((nombre, index) => {

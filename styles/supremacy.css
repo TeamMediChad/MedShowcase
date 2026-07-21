@@ -1,62 +1,157 @@
 
 .fixed-background{
-    position: fixed;
-    inset: 0;
-    width: 100vw;
-    height: 100vh;
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
 
-    background-image:
-        linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
-        url("../img/Shiny\ war/background.png");
+  background-image:
+      linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+      url("../img/Shiny\ war/background.png");
 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
-    z-index: -1;
+  z-index: -1;
 }
 
 .leader-img{
-    position: relative;
-    width: 180px;
-    height: 180px;
+  position: relative;
+  width: 180px;
+  height: 180px;
 }
 
 .leader-bg{
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.leader-bg{
+  position: absolute;
+  inset: 0;
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+  opacity: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .leader-avatar{
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    z-index: 2;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 2;
 }
 
 .war-title{
   opacity: 85%;
 }
 
+.premio-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 20PX));
+  max-width: calc(250px * 5 + 20px * 4);
+  margin-left: auto;
+  margin-right: auto;
+  row-gap: 1rem;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+.supremacy-img {
+  z-index: 2;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.supremacy-img-wrapper {
+   margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.supremacy-title {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+
+.card-normal {
+  background: linear-gradient(160deg, #ffffff 0%, #d3d3d3 60%, #3b3b3b 100%);
+  box-shadow: 0 0 0 3px #ffffff, 0 12px 28px rgba(214, 216, 216, 0.45);
+  color: #f4f4f4;
+  width: auto;
+  border-radius: 18px;
+  padding: 5px;
+  text-align: left;
+  position: relative;
+  transition: box-shadow .4s ease, background .4s ease;
+}
+
+.card-normal:hover {
+  background: linear-gradient(160deg, #c3c8ff 0%, #9492c8 60%, #29273c 100%);
+  box-shadow: 0 0 0 3px #a8bffd, 0 12px 28px rgba(153, 166, 216, 0.45);
+  color: #f4f4f4;
+  width: auto;
+  border-radius: 18px;
+  padding: 5px;
+  text-align: left;
+  position: relative;
+  cursor: pointer;
+  transition: box-shadow .4s ease, background .4s ease;
+}
+
 .card-team-Fire {
-  background-image: url("../img/Cards/card-fire.png") !important; 
+  background: linear-gradient(160deg, #ff9e42 0%, #d62828 60%, #4a0e0e 100%) !important;
+  box-shadow: 0 0 0 3px #ffb703, 0 12px 28px rgba(214, 40, 40, 0.45) !important;
+  color: #ffb703;
 }
 
 .card-team-Ice {
-  background-image: url("../img/Cards/card-ice.png") !important; 
+  background: linear-gradient(160deg, #8ecae6 0%, #219ebc 60%, #03045e 100%) !important;
+  box-shadow: 0 0 0 3px #caf0f8, 0 12px 28px rgba(33, 158, 188, 0.45) !important;
+  color: #caf0f8;
+}
+
+.card-inner {
+  display: grid;
+  background: rgba(10, 8, 14, 0.65);
+  border-radius: 14px;
+  padding: 14px 24px 14px 12px;
+  align-items: center;
+  gap: 5px;
 }
 
 .card-team-Fire:hover {
-  background-image: url("../img/Cards/card-fire-hover.png") !important; 
+  background: linear-gradient(160deg, #ff9e42 0%, #d62828 60%, #4a0e0e 100%) !important;
+  box-shadow: 0 0 0 3px #ffb703, 0 12px 28px rgba(214, 40, 40, 0.45) !important;
+  color: #ffb703;
+  cursor: auto;
 }
 
 .card-team-Ice:hover {
-  background-image: url("../img/Cards/card-ice-hover.png") !important; 
+  background: linear-gradient(160deg, #8ecae6 0%, #219ebc 60%, #03045e 100%) !important;
+  box-shadow: 0 0 0 3px #caf0f8, 0 12px 28px rgba(33, 158, 188, 0.45) !important;
+  color: #caf0f8;
+  cursor: auto;
 }
 
 .card-remove-btn {
@@ -77,6 +172,10 @@
 .participante-card:hover {
   background-image: url("../img/Cards/card_hover.png");
 
+}
+
+.modal {
+  z-index: 10;
 }
 
 .modal-content {
@@ -108,15 +207,15 @@
   color: rgba(255, 255, 255, 0.815);
   border-width: 0px 10px 0px 10px;
   border-style: solid;
-  border-image-source: url("../img/button/button-showcase-halloween.png");
+  border-image-source: url("../img/button/button-showcase-ice.png");
   border-image-slice: 0 10 0 10 fill;
   transition: border-image-source 0.2s ease;
 }
 .ice-btn:hover {
-  border-image-source: url("../img/button/button-showcase-hover-halloween.png");
+  border-image-source: url("../img/button/button-showcase-hover-ice.png");
 }
 .ice-btn:disabled {
-  border-image-source: url("../img/button/button-showcase-disabled-halloween.png");
+  border-image-source: url("../img/button/button-showcase-disabled-ice.png");
 }
 
 .fire-btn {
@@ -127,15 +226,15 @@
   color: rgba(255, 255, 255, 0.815);
   border-width: 0px 10px 0px 10px;
   border-style: solid;
-  border-image-source: url("../img/button/button-showcase-xmas.png");
+  border-image-source: url("../img/button/button-showcase-fire.png");
   border-image-slice: 0 10 0 10 fill;
   transition: border-image-source 0.2s ease;
 }
 .fire-btn:hover {
-  border-image-source: url("../img/button/button-showcase-hover-xmas.png");
+  border-image-source: url("../img/button/button-showcase-hover-fire.png");
 }
 .fire-btn:disabled {
-  border-image-source: url("../img/button/button-showcase-disabled-xmas.png");
+  border-image-source: url("../img/button/button-showcase-disabled-fire.png");
 }
 
 .miembro-holder {

@@ -23,7 +23,7 @@ if (container2 != null) {
       card.className = "participante-card";
 
       const img_wrap = document.createElement('div');
-      img_wrap.className = "participante-img-wrapper";
+      img_wrap.className = "supremacy-img-wrapper";
       card.appendChild(img_wrap);
 
       const img = document.createElement('img');

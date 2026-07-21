@@ -1,8 +1,8 @@
 const participantes =
   `
 1.- KnowJiYong
-2.- Souen
-3.- Sicasteton
+2.- Pancho
+3.- Souen
 4.- Alicia
 5.- Azathotx
 6.- Drakulaura
@@ -10,7 +10,7 @@ const participantes =
 8.- Bwax
 9.- emirfeNoPremium
 10.- Mittoh
-11.- Pancho
+11.- Sicasteton
 12.- AdrixJK
 13.- Ruubbiii
 14.- Krampus
@@ -32,7 +32,7 @@ const participantes =
 30.- aeamanh
 31.- hironakamura
 32.- Dohrito
-33.- Paulinte
+33.- paulinte
 34.- Guabi
 35.- Reimy
 36.- Snip
@@ -46,4 +46,13 @@ const participantes =
 44.- HoraxPC
 45.- TheNiicolas
 46.- MasterFox
+47.- Maxii
+48.- IxGab
+49.- Balkesh
+50.- DPirlo
+51.- nyumichaelis
+52.- Yolash
+53.- Fernan
+54.- Jean
+55.- CXRLITUS
   `;

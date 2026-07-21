@@ -2306,7 +2306,13 @@
     "name": "Jean",
     "rol": "Chad",
     "medallas": [
-      "m_vacio"
+      "m_swarm",
+      "m_pescador",
+      "m_suertudo",
+      "m_racha",
+      "m_mundo",
+      "m_pecador",
+      "m_sequia"
     ],
     "shinys": [
       "beedrill",
@@ -4570,9 +4576,13 @@
     "name": "Seaba",
     "rol": "MegaChad",
     "medallas": [
+      "m_gomed",
       "m_safari",
       "m_dead",
       "m_swarm",
+      "m_rare",
+      "m_mundo",
+      "m_raza",
       "m_raceL",
       "m_suertudo",
       "m_racha",
@@ -4621,7 +4631,6 @@
       "mienfoo",
       "sawsbuck-spring",
       "shellos-east",
-      "jigglypuff",
       "quagsire",
       "shellos_east"
     ],
@@ -4653,6 +4662,10 @@
       {
         "name": "cherubi",
         "type": "normal"
+      },
+      {
+        "name": "jigglypuff",
+        "type": "safari"
       }
     ],
     "perdidos": [
