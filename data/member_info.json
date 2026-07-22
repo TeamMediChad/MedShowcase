@@ -424,6 +424,10 @@
       {
         "name": "larvesta",
         "type": "egg"
+      },
+      {
+        "name": "scizor",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -2035,6 +2039,10 @@
       {
         "name": "treecko",
         "type": "normal"
+      },
+      {
+        "name": "eevee",
+        "type": "egg"
       }
     ],
     "perdidos": [],
@@ -3448,7 +3456,7 @@
       },
       {
         "name": "milotic",
-        "type": "safari"
+        "type": "normal"
       },
       {
         "name": "rattata",
