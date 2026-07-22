@@ -1358,6 +1358,10 @@
       {
         "name": "poochyena",
         "type": "secret"
+      },
+      {
+        "name": "milotic",
+        "type": "swarm"
       }
     ],
     "perdidos": [
@@ -2102,7 +2106,7 @@
       "golett",
       "darumaka",
       "venipede",
-      "petilil",
+      "lilligant",
       "bronzong",
       "cottonee",
       "petilil",
@@ -4764,7 +4768,6 @@
       "timburr",
       "seismitoad",
       "pidove",
-      "miltank",
       "machoke",
       "sneasel"
     ],
@@ -4779,12 +4782,7 @@
       }
     ],
     "perdidos": [],
-    "vendidos": [
-      {
-        "name": "sandslash",
-        "type": "secret"
-      }
-    ]
+    "vendidos": []
   },
   "SorlanNorfleet": {
     "name": "SorlanNorfleet",
