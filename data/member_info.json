@@ -2641,7 +2641,12 @@
         "type": "secret"
       }
     ],
-    "perdidos": [],
+    "perdidos": [
+      {
+        "name": "sunkern",
+        "type": "dead"
+      }
+    ],
     "vendidos": [
       {
         "name": "loudred",
@@ -3435,7 +3440,8 @@
       "meowth",
       "pidgey",
       "koffing",
-      "poochyena"
+      "poochyena",
+      "machoke"
     ],
     "destacados": [
       {
@@ -3703,7 +3709,8 @@
       "dustox",
       "pidgey",
       "smeargle",
-      "nidoran-f"
+      "nidoran-f",
+      "ralts"
     ],
     "destacados": [
       {
