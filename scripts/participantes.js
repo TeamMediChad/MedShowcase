@@ -62,5 +62,7 @@ const participantes =
 60.- JosiasMccartney
 61.- Jabubuu
 62.- ToxicPlumber
-63.- YessiUchha 
+63.- YessiUchha
+64.- Maicol
+65.- KilluaZoldyck
   `;
