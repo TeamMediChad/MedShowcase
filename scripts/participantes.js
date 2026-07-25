@@ -1,6 +1,6 @@
 const participantes =
   `
-1.- KnowJiYong
+1.- KnowJiYong 
 2.- Pancho
 3.- Souen
 4.- Alicia
@@ -30,7 +30,7 @@ const participantes =
 28.- SamuDG
 29.- MUDKIIP
 30.- aeamanh
-31.- hironakamura
+31.- hironakamura 
 32.- Dohrito
 33.- paulinte
 34.- Guabi
@@ -55,4 +55,12 @@ const participantes =
 53.- Fernan
 54.- Jean
 55.- CXRLITUS
+56.- ElMiga
+57.- XlDarcklX
+58.- OniED 
+59.- zSoso
+60.- JosiasMccartney
+61.- Jabubuu
+62.- ToxicPlumber
+63.- YessiUchha 
   `;

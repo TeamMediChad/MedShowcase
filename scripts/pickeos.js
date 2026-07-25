@@ -112,7 +112,6 @@ participantesArray.forEach(p => {
         const close = document.createElement('div');
         close.className = "card-remove-btn";
         close.onclick = (event) => remove(event, p.participante);
-        close.textContent = "X"
         card.appendChild(close);
 
         card.id = `${p.participante}`;
@@ -180,7 +179,7 @@ function handlelist(lider, team, action){
     let miembroT = null;
     if(action == 'add'){
         const miembroT = document.createElement('div');
-        miembroT.className = 'miembro-holder';
+        miembroT.className = `miembro-holder ${team}`;
 
         const img = document.createElement('img');
         img.className = 'miembro-img';

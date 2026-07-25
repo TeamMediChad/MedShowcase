@@ -158,7 +158,7 @@
   position: absolute;
   top: 0px;
   right: 0px;
-  background: #ff0000;
+  background-image: url("../img/Shiny war/close.png");
   color: white;
   font-weight: bold;
   border-radius: 50%;
@@ -238,10 +238,10 @@
 }
 
 .miembro-holder {
-  color: rgba(255, 255, 255, 0.815);
+  border-radius: 5px;
+  padding: 5px;
   font-size: 1.875rem;
-  padding: 5px 3px 5px 0px;
-  border-width: 0px 5px 0px 5px;
+  color: #caf0f8;
   border-style: solid;
   font-family: 'Retro';
   height: 55px;
@@ -251,6 +251,18 @@
   gap: 6px;
   white-space: nowrap;
   transition: border-image-source 0.2s ease;
+}
+
+.Fire {
+  background: linear-gradient(160deg, #5f1f1f 0%, #d62828 60%, #260a0a 100%) !important;
+  box-shadow: 0 0 0 3px #ffb703, 0 12px 28px rgba(214, 40, 40, 0.45) !important;
+  color: #ffb703 !important;
+}
+
+.Ice {
+  background: linear-gradient(160deg, #406074 0%, #219ebc 60%, #0e1a4e 100%) !important;
+  box-shadow: 0 0 0 3px #caf0f8, 0 12px 28px rgba(33, 158, 188, 0.45) !important;
+  color: #caf0f8 !important;
 }
 
 .miembro-img {

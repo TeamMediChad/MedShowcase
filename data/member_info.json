@@ -1724,7 +1724,13 @@
     "name": "Fernan",
     "rol": "Chad",
     "medallas": [
-      "m_vacio"
+      "m_safari",
+      "m_secret",
+      "m_meditite",
+      "m_suertudo",
+      "m_racha",
+      "m_raza",
+      "m_mundo"
     ],
     "shinys": [
       "politoed",
