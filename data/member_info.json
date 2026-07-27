@@ -1187,13 +1187,6 @@
         "type": "normal"
       },
       {
-        "name": "bidoof",
-        "type": [
-          "secret",
-          "safari"
-        ]
-      },
-      {
         "name": "bayleef",
         "type": "egg"
       },
@@ -1208,6 +1201,13 @@
       {
         "name": "furret",
         "type": "normal"
+      },
+      {
+        "name": "bidoof",
+        "type": [
+          "secret",
+          "safari"
+        ]
       }
     ],
     "perdidos": [],
