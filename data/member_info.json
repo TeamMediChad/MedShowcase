@@ -1930,7 +1930,8 @@
       "koffing",
       "krokorok",
       "meditite",
-      "ditto"
+      "ditto",
+      "nidorino"
     ],
     "destacados": [
       {
@@ -4810,12 +4811,12 @@
     ],
     "destacados": [
       {
-        "name": "woobat",
-        "type": "secret"
-      },
-      {
         "name": "rotom",
         "type": "egg"
+      },
+      {
+        "name": "woobat",
+        "type": "sold"
       }
     ],
     "perdidos": [],
