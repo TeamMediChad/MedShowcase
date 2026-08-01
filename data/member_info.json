@@ -607,7 +607,8 @@
       "pelipper",
       "ludicolo",
       "ponyta",
-      "krabby"
+      "krabby",
+      "pidove"
     ],
     "destacados": [],
     "perdidos": [],
@@ -2316,7 +2317,12 @@
       "ditto",
       "poliwhirl"
     ],
-    "destacados": [],
+    "destacados": [
+      {
+        "name": "musharna",
+        "type": "normal"
+      }
+    ],
     "perdidos": [],
     "vendidos": []
   },
@@ -3280,7 +3286,8 @@
       "shelmet",
       "meditite",
       "golett",
-      "dugtrio"
+      "dugtrio",
+      "sandslash"
     ],
     "destacados": [],
     "perdidos": [],
@@ -5627,6 +5634,10 @@
       {
         "name": "whismur",
         "type": "secret"
+      },
+      {
+        "name": "heracross",
+        "type": "normal"
       }
     ],
     "perdidos": [],
