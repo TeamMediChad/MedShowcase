@@ -568,7 +568,9 @@
       "garchomp",
       "mienfoo",
       "chandelure",
-      "houndour"
+      "houndour",
+      "krabby",
+      "cottonee"
     ],
     "destacados": [
       {
@@ -604,7 +606,8 @@
       "meowth",
       "pelipper",
       "ludicolo",
-      "ponyta"
+      "ponyta",
+      "krabby"
     ],
     "destacados": [],
     "perdidos": [],
@@ -895,7 +898,8 @@
       "golbat",
       "wooper",
       "pelipper",
-      "purugly"
+      "purugly",
+      "petilil"
     ],
     "destacados": [
       {
@@ -1209,6 +1213,10 @@
           "secret",
           "safari"
         ]
+      },
+      {
+        "name": "nincada",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -1498,7 +1506,8 @@
       "raticate",
       "ditto",
       "taillow",
-      "poliwhirl"
+      "poliwhirl",
+      "surskit"
     ],
     "destacados": [
       {
@@ -3019,7 +3028,8 @@
       "psyduck",
       "magnemite",
       "roselia",
-      "baltoy"
+      "baltoy",
+      "numel"
     ],
     "destacados": [
       {
@@ -3972,7 +3982,8 @@
       "mandibuzz",
       "scolipede",
       "horsea",
-      "houndour"
+      "houndour",
+      "frillish_f"
     ],
     "destacados": [
       {
