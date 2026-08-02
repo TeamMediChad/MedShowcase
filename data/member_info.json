@@ -513,10 +513,6 @@
         "type": "swarm"
       },
       {
-        "name": "remoraid",
-        "type": "normal"
-      },
-      {
         "name": "burmy",
         "type": "normal"
       },
@@ -529,7 +525,16 @@
         "type": "egg"
       }
     ],
-    "perdidos": [],
+    "perdidos": [
+      {
+        "name": "remoraid",
+        "type": [
+          "secret",
+          "alpha",
+          "dead"
+        ]
+      }
+    ],
     "vendidos": []
   },
   "Bwax": {
@@ -961,7 +966,8 @@
       "exploud",
       "vulpix",
       "golbat",
-      "murkrow"
+      "murkrow",
+      "mantine"
     ],
     "perdidos": [
       {
@@ -2253,7 +2259,8 @@
       "gloom",
       "swadloon",
       "pidgeotto",
-      "raticate"
+      "raticate",
+      "growlithe"
     ],
     "destacados": [
       {
@@ -2316,7 +2323,8 @@
       "flaaffy",
       "karrablast",
       "ditto",
-      "poliwhirl"
+      "poliwhirl",
+      "cottonee"
     ],
     "destacados": [
       {
@@ -2595,7 +2603,8 @@
       "electrike",
       "mankey",
       "bibarel",
-      "bibarel"
+      "bibarel",
+      "cottonee"
     ],
     "destacados": [],
     "perdidos": [],
@@ -2666,7 +2675,8 @@
       "dugtrio",
       "zubat",
       "staraptor",
-      "banette"
+      "banette",
+      "foongus"
     ],
     "destacados": [
       {
