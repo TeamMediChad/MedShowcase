@@ -482,7 +482,8 @@
       "solrock",
       "zigzagoon",
       "venipede",
-      "miltank"
+      "miltank",
+      "magmar"
     ],
     "destacados": [
       {
@@ -3014,6 +3015,10 @@
       {
         "name": "beedrill",
         "type": "secret"
+      },
+      {
+        "name": "yanma",
+        "type": "normal"
       }
     ],
     "perdidos": [
@@ -3059,7 +3064,8 @@
       "magnemite",
       "roselia",
       "baltoy",
-      "numel"
+      "numel",
+      "spoink"
     ],
     "destacados": [
       {
@@ -3780,7 +3786,8 @@
       "pidgey",
       "smeargle",
       "nidoran-f",
-      "ralts"
+      "ralts",
+      "dragonair"
     ],
     "destacados": [
       {
@@ -4393,7 +4400,8 @@
       "raticate",
       "raticate",
       "sawk",
-      "cryogonal"
+      "cryogonal",
+      "seviper"
     ],
     "destacados": [],
     "perdidos": [],
