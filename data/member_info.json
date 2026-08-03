@@ -1166,7 +1166,8 @@
       "marill",
       "snubbull",
       "zubat",
-      "seviper"
+      "seviper",
+      "vulpix"
     ],
     "destacados": [
       {
@@ -1790,7 +1791,8 @@
       "dusclops",
       "gligar",
       "scolipede",
-      "starly"
+      "starly",
+      "magmar"
     ],
     "destacados": [
       {
@@ -1958,10 +1960,6 @@
         "type": "swarm"
       },
       {
-        "name": "charizard",
-        "type": "egg"
-      },
-      {
         "name": "rotom",
         "type": "egg"
       },
@@ -1974,7 +1972,15 @@
         "type": "egg"
       }
     ],
-    "perdidos": [],
+    "perdidos": [
+      {
+        "name": "charizard",
+        "type": [
+          "alpha",
+          "dead"
+        ]
+      }
+    ],
     "vendidos": []
   },
   "Illumibestii": {
@@ -2263,7 +2269,8 @@
       "swadloon",
       "pidgeotto",
       "raticate",
-      "growlithe"
+      "growlithe",
+      "magmar"
     ],
     "destacados": [
       {
@@ -2328,7 +2335,8 @@
       "ditto",
       "poliwhirl",
       "cottonee",
-      "chinchou"
+      "chinchou",
+      "duskull"
     ],
     "destacados": [
       {
@@ -2409,7 +2417,8 @@
       "diglett",
       "kricketune",
       "scolipede",
-      "kadabra"
+      "kadabra",
+      "fraxure"
     ],
     "destacados": [
       {
@@ -4974,7 +4983,8 @@
       "honchkrow",
       "krabby",
       "arbok",
-      "solrock"
+      "solrock",
+      "fraxure"
     ],
     "destacados": [
       {
