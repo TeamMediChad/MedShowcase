@@ -295,7 +295,8 @@
       "fearow",
       "duskull",
       "sawk",
-      "crustle"
+      "crustle",
+      "tangela"
     ],
     "destacados": [
       {
@@ -1706,7 +1707,8 @@
       "chatot",
       "kricketune",
       "geodude",
-      "mightyena"
+      "mightyena",
+      "tangela"
     ],
     "destacados": [
       {
@@ -2436,7 +2438,8 @@
       "kricketune",
       "scolipede",
       "kadabra",
-      "fraxure"
+      "fraxure",
+      "clefairy"
     ],
     "destacados": [
       {
@@ -3091,6 +3094,10 @@
       },
       {
         "name": "exeggutor",
+        "type": "normal"
+      },
+      {
+        "name": "happiny",
         "type": "normal"
       }
     ],
