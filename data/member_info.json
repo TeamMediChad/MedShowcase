@@ -1379,7 +1379,8 @@
       "raticate",
       "marill",
       "snubbull",
-      "boldore"
+      "boldore",
+      "venipede"
     ],
     "destacados": [
       {
@@ -1983,6 +1984,7 @@
       {
         "name": "charizard",
         "type": [
+          "secret",
           "alpha",
           "dead"
         ]
@@ -2165,7 +2167,8 @@
       "petilil",
       "whismur",
       "growlithe",
-      "volbeat"
+      "volbeat",
+      "darumaka"
     ],
     "destacados": [
       {
