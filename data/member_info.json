@@ -1572,7 +1572,8 @@
       "parasect",
       "meowth",
       "meowth",
-      "metapod"
+      "metapod",
+      "kadabra"
     ],
     "destacados": [],
     "perdidos": [],
@@ -2282,7 +2283,8 @@
       "pidgeotto",
       "raticate",
       "growlithe",
-      "magmar"
+      "magmar",
+      "darumaka"
     ],
     "destacados": [
       {
@@ -2300,6 +2302,10 @@
       {
         "name": "unown-w",
         "type": "normal"
+      },
+      {
+        "name": "shuckle",
+        "type": "egg"
       }
     ],
     "perdidos": [
