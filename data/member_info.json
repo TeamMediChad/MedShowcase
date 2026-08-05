@@ -972,7 +972,8 @@
       "vulpix",
       "golbat",
       "murkrow",
-      "mantine"
+      "mantine",
+      "darumaka"
     ],
     "perdidos": [
       {
@@ -3812,7 +3813,8 @@
       "smeargle",
       "nidoran-f",
       "ralts",
-      "dragonair"
+      "dragonair",
+      "darumaka"
     ],
     "destacados": [
       {
@@ -4398,7 +4400,8 @@
       "meowth",
       "sneasel",
       "seel",
-      "deino"
+      "deino",
+      "cottonee"
     ],
     "destacados": [
       {
@@ -4584,6 +4587,10 @@
       },
       {
         "name": "kecleon",
+        "type": "normal"
+      },
+      {
+        "name": "yanma",
         "type": "normal"
       }
     ],
