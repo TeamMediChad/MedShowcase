@@ -2093,6 +2093,10 @@
       {
         "name": "eevee",
         "type": "egg"
+      },
+      {
+        "name": "snivy",
+        "type": "egg"
       }
     ],
     "perdidos": [],
@@ -2806,7 +2810,8 @@
       "mankey",
       "rhydon",
       "sneasel",
-      "pidgeotto"
+      "pidgeotto",
+      "darumaka"
     ],
     "destacados": [
       {
@@ -4558,7 +4563,8 @@
       "lunatone",
       "ralts",
       "zebstrika",
-      "quagsire"
+      "quagsire",
+      "butterfree"
     ],
     "destacados": [
       {
