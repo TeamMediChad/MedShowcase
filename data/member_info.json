@@ -1984,6 +1984,10 @@
       {
         "name": "aerodactyl",
         "type": "egg"
+      },
+      {
+        "name": "beldum",
+        "type": "egg"
       }
     ],
     "perdidos": [
@@ -2369,6 +2373,10 @@
       {
         "name": "musharna",
         "type": "normal"
+      },
+      {
+        "name": "heracross",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -2447,7 +2455,8 @@
       "kadabra",
       "fraxure",
       "clefairy",
-      "jigglypuff"
+      "jigglypuff",
+      "darumaka"
     ],
     "destacados": [
       {
@@ -2816,7 +2825,8 @@
       "rhydon",
       "sneasel",
       "pidgeotto",
-      "darumaka"
+      "darumaka",
+      "seviper"
     ],
     "destacados": [
       {
@@ -5671,7 +5681,8 @@
       "piloswine",
       "pelipper",
       "slowbro",
-      "diglett"
+      "diglett",
+      "darumaka"
     ],
     "destacados": [
       {
