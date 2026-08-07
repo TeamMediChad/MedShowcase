@@ -63,7 +63,8 @@
       "golett",
       "zebstrika",
       "horsea",
-      "lunatone"
+      "lunatone",
+      "darumaka"
     ],
     "destacados": [
       {
@@ -1713,7 +1714,8 @@
       "kricketune",
       "geodude",
       "mightyena",
-      "tangela"
+      "tangela",
+      "surskit"
     ],
     "destacados": [
       {
@@ -1969,7 +1971,8 @@
       "ditto",
       "nidorino",
       "darumaka",
-      "frillish_m"
+      "frillish_m",
+      "seviper"
     ],
     "destacados": [
       {
@@ -2323,6 +2326,10 @@
       {
         "name": "shuckle",
         "type": "egg"
+      },
+      {
+        "name": "yanma",
+        "type": "normal"
       }
     ],
     "perdidos": [
@@ -2830,7 +2837,8 @@
       "sneasel",
       "pidgeotto",
       "darumaka",
-      "seviper"
+      "seviper",
+      "purugly"
     ],
     "destacados": [
       {
@@ -3464,7 +3472,8 @@
       "diglett",
       "lickitung",
       "lombre",
-      "kadabra"
+      "kadabra",
+      "zubat"
     ],
     "destacados": [
       {
@@ -4622,6 +4631,10 @@
       },
       {
         "name": "yanma",
+        "type": "normal"
+      },
+      {
+        "name": "heracross",
         "type": "normal"
       }
     ],
