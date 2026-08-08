@@ -238,6 +238,10 @@
       {
         "name": "gligar",
         "type": "secret"
+      },
+      {
+        "name": "forretress",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -316,6 +320,10 @@
       {
         "name": "porygon-z",
         "type": "egg"
+      },
+      {
+        "name": "forretress",
+        "type": "normal"
       }
     ],
     "perdidos": [
@@ -444,7 +452,12 @@
         "type": "egg"
       }
     ],
-    "perdidos": [],
+    "perdidos": [
+      {
+        "name": "nuzleaf",
+        "type": "dead"
+      }
+    ],
     "vendidos": []
   },
   "Azathotx": {
@@ -1815,7 +1828,8 @@
       "scolipede",
       "starly",
       "magmar",
-      "beedrill"
+      "beedrill",
+      "horsea"
     ],
     "destacados": [
       {
@@ -1829,6 +1843,10 @@
       {
         "name": "koffing",
         "type": "safari"
+      },
+      {
+        "name": "forretress",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -1867,7 +1885,8 @@
       "shelmet",
       "loudred",
       "raticate",
-      "raticate"
+      "raticate",
+      "nuzleaf"
     ],
     "destacados": [
       {
@@ -2761,6 +2780,10 @@
       {
         "name": "farfetchd",
         "type": "secret"
+      },
+      {
+        "name": "forretress",
+        "type": "normal"
       }
     ],
     "perdidos": [
