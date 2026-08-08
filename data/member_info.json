@@ -1419,6 +1419,10 @@
       {
         "name": "milotic",
         "type": "swarm"
+      },
+      {
+        "name": "sudowoodo",
+        "type": "normal"
       }
     ],
     "perdidos": [
@@ -2161,7 +2165,12 @@
       "cottonee",
       "mienfoo"
     ],
-    "destacados": [],
+    "destacados": [
+      {
+        "name": "sudowoodo",
+        "type": "normal"
+      }
+    ],
     "perdidos": [],
     "vendidos": [
       {
@@ -5389,6 +5398,10 @@
           "secret",
           "safari"
         ]
+      },
+      {
+        "name": "sudowoodo",
+        "type": "normal"
       }
     ],
     "perdidos": [
