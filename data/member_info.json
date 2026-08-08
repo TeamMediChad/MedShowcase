@@ -438,6 +438,10 @@
       {
         "name": "scizor",
         "type": "normal"
+      },
+      {
+        "name": "drilbur",
+        "type": "egg"
       }
     ],
     "perdidos": [],
@@ -489,7 +493,8 @@
       "zigzagoon",
       "venipede",
       "miltank",
-      "magmar"
+      "magmar",
+      "surskit"
     ],
     "destacados": [
       {
@@ -2670,7 +2675,12 @@
       "bibarel",
       "cottonee"
     ],
-    "destacados": [],
+    "destacados": [
+      {
+        "name": "heracross",
+        "type": "normal"
+      }
+    ],
     "perdidos": [],
     "vendidos": []
   },
@@ -3232,7 +3242,8 @@
       "amoonguss",
       "machop",
       "cubone",
-      "spinarak"
+      "spinarak",
+      "darumaka"
     ],
     "destacados": [
       {
