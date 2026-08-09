@@ -153,6 +153,10 @@
       {
         "name": "zorua",
         "type": "normal"
+      },
+      {
+        "name": "ambipom",
+        "type": "normal"
       }
     ],
     "perdidos": [
