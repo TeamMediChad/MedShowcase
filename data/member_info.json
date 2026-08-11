@@ -307,7 +307,8 @@
       "sawk",
       "crustle",
       "tangela",
-      "darumaka"
+      "darumaka",
+      "horsea"
     ],
     "destacados": [
       {
@@ -1004,7 +1005,8 @@
       "golbat",
       "murkrow",
       "mantine",
-      "darumaka"
+      "darumaka",
+      "minccino"
     ],
     "perdidos": [
       {
@@ -1415,7 +1417,8 @@
       "snubbull",
       "boldore",
       "venipede",
-      "luxio"
+      "luxio",
+      "minccino"
     ],
     "destacados": [
       {
@@ -1566,7 +1569,8 @@
       "darumaka",
       "ariados",
       "dratini",
-      "scrafty"
+      "scrafty",
+      "minccino"
     ],
     "destacados": [
       {
@@ -3654,7 +3658,8 @@
       "ditto",
       "darumaka",
       "drifblim",
-      "volbeat"
+      "volbeat",
+      "dragonair"
     ],
     "destacados": [
       {
@@ -3683,6 +3688,10 @@
           "secret",
           "sold"
         ]
+      },
+      {
+        "name": "pineco",
+        "type": "normal"
       }
     ],
     "perdidos": [
@@ -4710,6 +4719,10 @@
       {
         "name": "heracross",
         "type": "normal"
+      },
+      {
+        "name": "forretress",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -4923,6 +4936,10 @@
       {
         "name": "jigglypuff",
         "type": "safari"
+      },
+      {
+        "name": "forretress",
+        "type": "normal"
       }
     ],
     "perdidos": [
