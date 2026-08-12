@@ -1212,7 +1212,8 @@
       "vulpix",
       "ariados",
       "darumaka",
-      "horsea"
+      "horsea",
+      "scraggy"
     ],
     "destacados": [
       {
@@ -1876,6 +1877,10 @@
       },
       {
         "name": "forretress",
+        "type": "normal"
+      },
+      {
+        "name": "yanma",
         "type": "normal"
       }
     ],
