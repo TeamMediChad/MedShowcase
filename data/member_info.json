@@ -1860,7 +1860,8 @@
       "starly",
       "magmar",
       "beedrill",
-      "horsea"
+      "horsea",
+      "illumise"
     ],
     "destacados": [
       {
@@ -5231,7 +5232,12 @@
         "type": "egg"
       }
     ],
-    "perdidos": [],
+    "perdidos": [
+      {
+        "name": "lunatone",
+        "type": "dead"
+      }
+    ],
     "vendidos": []
   },
   "Suzuya": {
