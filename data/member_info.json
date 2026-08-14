@@ -614,7 +614,8 @@
       "chandelure",
       "houndour",
       "krabby",
-      "cottonee"
+      "cottonee",
+      "dratini"
     ],
     "destacados": [
       {
@@ -1813,6 +1814,17 @@
       {
         "name": "staravia",
         "type": "secret"
+      },
+      {
+        "name": "minun",
+        "type": "normal"
+      },
+      {
+        "name": "quilava",
+        "type": [
+          "secret",
+          "swarm"
+        ]
       }
     ],
     "perdidos": [],
@@ -1932,7 +1944,8 @@
       "loudred",
       "raticate",
       "raticate",
-      "nuzleaf"
+      "nuzleaf",
+      "ariados"
     ],
     "destacados": [
       {
@@ -3626,7 +3639,8 @@
       "nuzleaf",
       "ralts",
       "rattata",
-      "venipede"
+      "venipede",
+      "scraggy"
     ],
     "destacados": [
       {
@@ -3691,7 +3705,8 @@
       "darumaka",
       "drifblim",
       "volbeat",
-      "dragonair"
+      "dragonair",
+      "scraggy"
     ],
     "destacados": [
       {
@@ -4425,7 +4440,8 @@
       "jigglypuff",
       "flaaffy",
       "surskit",
-      "sigilyph"
+      "sigilyph",
+      "baltoy"
     ],
     "destacados": [
       {
