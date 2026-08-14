@@ -148,7 +148,8 @@
       "golett",
       "slugma",
       "ditto",
-      "mantine"
+      "mantine",
+      "scraggy"
     ],
     "destacados": [
       {
@@ -1443,6 +1444,10 @@
       {
         "name": "sudowoodo",
         "type": "normal"
+      },
+      {
+        "name": "minun",
+        "type": "normal"
       }
     ],
     "perdidos": [
@@ -1603,6 +1608,10 @@
       {
         "name": "zigzagoon",
         "type": "secret"
+      },
+      {
+        "name": "minun",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -3071,7 +3080,8 @@
       "hoppip",
       "gligar",
       "floatzel",
-      "floatzel"
+      "floatzel",
+      "shellos_west"
     ],
     "destacados": [
       {
