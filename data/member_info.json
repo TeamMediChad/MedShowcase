@@ -443,7 +443,8 @@
       "bronzong",
       "yamask",
       "gallade",
-      "horsea"
+      "horsea",
+      "volbeat"
     ],
     "destacados": [
       {
@@ -1905,6 +1906,10 @@
       {
         "name": "yanma",
         "type": "normal"
+      },
+      {
+        "name": "pansear",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -2588,6 +2593,10 @@
       },
       {
         "name": "sharpedo",
+        "type": "normal"
+      },
+      {
+        "name": "pansear",
         "type": "normal"
       }
     ],
@@ -4576,7 +4585,8 @@
       "sneasel",
       "seel",
       "deino",
-      "cottonee"
+      "cottonee",
+      "scraggy"
     ],
     "destacados": [
       {
