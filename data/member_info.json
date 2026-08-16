@@ -81,10 +81,6 @@
         "type": "secret"
       },
       {
-        "name": "quilava",
-        "type": "normal"
-      },
-      {
         "name": "marshtomp",
         "type": "normal"
       },
@@ -102,6 +98,10 @@
       },
       {
         "name": "corphish",
+        "type": "normal"
+      },
+      {
+        "name": "quilava",
         "type": "normal"
       }
     ],
@@ -948,7 +948,8 @@
       "wooper",
       "pelipper",
       "purugly",
-      "petilil"
+      "petilil",
+      "cryogonal"
     ],
     "destacados": [
       {
@@ -1218,7 +1219,9 @@
       "darumaka",
       "horsea",
       "scraggy",
-      "gurdurr"
+      "gurdurr",
+      "cubchoo",
+      "jynx"
     ],
     "destacados": [
       {
@@ -3366,7 +3369,8 @@
       "dratini",
       "scraggy",
       "beautifly",
-      "swinub"
+      "swinub",
+      "cryogonal"
     ],
     "destacados": [
       {
