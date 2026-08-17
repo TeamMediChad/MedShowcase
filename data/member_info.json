@@ -149,7 +149,8 @@
       "slugma",
       "ditto",
       "mantine",
-      "scraggy"
+      "scraggy",
+      "jynx"
     ],
     "destacados": [
       {
@@ -595,8 +596,7 @@
         "type": "egg"
       }
     ],
-    "perdidos": [
-    ],
+    "perdidos": [],
     "vendidos": []
   },
   "Bwax": {
@@ -1031,7 +1031,8 @@
       "darumaka",
       "minccino",
       "horsea",
-      "drifblim"
+      "drifblim",
+      "gurdurr"
     ],
     "perdidos": [
       {
@@ -1803,7 +1804,8 @@
       "beedrill",
       "horsea",
       "illumise",
-      "delibird"
+      "delibird",
+      "glalie"
     ],
     "destacados": [
       {
@@ -3342,7 +3344,8 @@
       "scraggy",
       "beautifly",
       "swinub",
-      "cryogonal"
+      "cryogonal",
+      "cubchoo"
     ],
     "destacados": [
       {
@@ -4143,6 +4146,10 @@
       {
         "name": "swampert",
         "type": "normal"
+      },
+      {
+        "name": "absol",
+        "type": "egg"
       }
     ],
     "perdidos": [],
@@ -4972,7 +4979,8 @@
       "seismitoad",
       "pidove",
       "machoke",
-      "sneasel"
+      "sneasel",
+      "cryogonal"
     ],
     "destacados": [
       {
@@ -5915,7 +5923,8 @@
       "diglett",
       "darumaka",
       "ariados",
-      "gurdurr"
+      "gurdurr",
+      "delibird"
     ],
     "destacados": [
       {
