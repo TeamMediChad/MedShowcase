@@ -375,6 +375,34 @@
       }
     ]
   },
+  "Amunin": {
+    "name": "Amunin",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "weezing",
+      "smeargle",
+      "scolipede",
+      "jellicent-f",
+      "krabby",
+      "graveler",
+      "ledyba",
+      "meowth",
+      "petilil",
+      "haunter",
+      "weavile"
+    ],
+    "destacados": [
+      {
+        "name": "shieldon",
+        "type": "normal"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
+  },
   "AnderHacks": {
     "name": "AnderHacks",
     "rol": "Chad",
@@ -568,14 +596,6 @@
       }
     ],
     "perdidos": [
-      {
-        "name": "remoraid",
-        "type": [
-          "secret",
-          "alpha",
-          "dead"
-        ]
-      }
     ],
     "vendidos": []
   },
@@ -637,6 +657,62 @@
     "perdidos": [],
     "vendidos": []
   },
+  "Cece": {
+    "name": "Cece",
+    "rol": "Chad",
+    "medallas": [
+      "m_lider",
+      "m_guardian",
+      "m_meditite",
+      "m_suertudo",
+      "m_elegido",
+      "m_raza",
+      "m_mundo"
+    ],
+    "shinys": [
+      "sableye",
+      "girafarig",
+      "hypno",
+      "purrloin",
+      "luxray",
+      "magmortar",
+      "hoppip",
+      "cubchoo",
+      "golett",
+      "deerling-spring",
+      "bronzong",
+      "cryogonal",
+      "vulpix",
+      "medicham",
+      "wingull",
+      "jynx",
+      "weavile",
+      "meditite",
+      "sneasel",
+      "cofagrigus",
+      "misdreavus",
+      "mawile",
+      "beedrill",
+      "jellicent",
+      "dragonair"
+    ],
+    "destacados": [
+      {
+        "name": "corphish",
+        "type": "normal"
+      },
+      {
+        "name": "qwilfish",
+        "type": "alpha"
+      },
+      {
+        "name": "zorua",
+        "type": "normal"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
+  },
   "CmZayd": {
     "name": "CmZayd",
     "rol": "Chad",
@@ -664,69 +740,6 @@
     "destacados": [],
     "perdidos": [],
     "vendidos": []
-  },
-  "Cypher": {
-    "name": "Cypher",
-    "rol": "MegaChad",
-    "medallas": [
-      "m_gomed",
-      "m_sequia",
-      "m_pecador",
-      "m_apostol",
-      "m_olimpiadas"
-    ],
-    "shinys": [
-      "spearow",
-      "golduck",
-      "tentacool",
-      "vanillish",
-      "gyarados",
-      "ludicolo",
-      "rapidash",
-      "conkeldurr",
-      "galvantula",
-      "mienshao",
-      "bellossom",
-      "durant",
-      "smeargle",
-      "sandile",
-      "pidgeotto",
-      "jumpluff",
-      "meowth",
-      "spinda",
-      "politoed",
-      "vanilluxe",
-      "cinccino",
-      "lanturn",
-      "rhydon",
-      "gligar",
-      "shelmet",
-      "koffing",
-      "litwick",
-      "cubchoo",
-      "starly",
-      "geodude",
-      "teddiursa",
-      "tranquill",
-      "poliwhirl"
-    ],
-    "destacados": [
-      {
-        "name": "furret",
-        "type": "normal"
-      }
-    ],
-    "perdidos": [],
-    "vendidos": [
-      {
-        "name": "tentacruel",
-        "type": "normal"
-      },
-      {
-        "name": "tentacruel",
-        "type": "normal"
-      }
-    ]
   },
   "DanieLeonR": {
     "name": "DanieLeonR",
@@ -1051,33 +1064,6 @@
       }
     ]
   },
-  "Distraaa": {
-    "name": "Distraaa",
-    "rol": "Chad",
-    "medallas": [
-      "m_suertudo",
-      "m_shinywar"
-    ],
-    "shinys": [
-      "crobat",
-      "litwick",
-      "altaria",
-      "ditto",
-      "ditto",
-      "raticate",
-      "tentacruel",
-      "druddigon",
-      "pelipper",
-      "zigzagoon",
-      "duskull",
-      "banette",
-      "golurk",
-      "smeargle"
-    ],
-    "destacados": [],
-    "perdidos": [],
-    "vendidos": []
-  },
   "Doce": {
     "name": "Doce",
     "rol": "MegaChad",
@@ -1295,121 +1281,44 @@
       }
     ]
   },
-  "Drakulaura": {
-    "name": "Drakulaura",
-    "rol": "MegaChad",
+  "Elka": {
+    "name": "Elka",
+    "rol": "Chad",
     "medallas": [
-      "m_gomed",
-      "m_guardian",
-      "m_shunter",
-      "m_safari",
-      "m_dead",
-      "m_pescador",
-      "m_huevo",
-      "m_suertudo",
-      "m_racha",
-      "m_raza",
-      "m_mundo",
-      "m_apostol",
-      "m_shinywar"
+      "m_vacio"
     ],
     "shinys": [
-      "lanturn",
-      "roserade",
+      "gliscor",
+      "gligar",
       "geodude",
-      "golem",
-      "donphan",
-      "braviary",
-      "pelipper",
-      "volbeat",
-      "sigilyph",
-      "minccino",
-      "cinccino",
-      "trubbish",
-      "gyarados",
-      "crobat",
-      "electrike",
-      "drifblim",
-      "shellos-east",
-      "nosepass",
-      "rhydon",
-      "drifloon",
-      "mawile",
-      "throh",
-      "misdreavus",
-      "oddish",
-      "loudred"
+      "mantine",
+      "darmanitan",
+      "dragonair",
+      "weavile",
+      "ditto",
+      "jellicent-f",
+      "tentacruel"
     ],
     "destacados": [
       {
-        "name": "nidoran-f",
-        "type": "safari"
+        "name": "umbreon",
+        "type": "secret"
       },
       {
-        "name": "ledyba",
-        "type": "safari"
-      },
-      {
-        "name": "octillery",
+        "name": "rotom",
         "type": "normal"
       },
       {
-        "name": "castform",
-        "type": "egg"
-      },
-      {
-        "name": "finneon",
+        "name": "serperior",
         "type": "normal"
       },
       {
-        "name": "alomomola",
-        "type": "egg"
+        "name": "excadrill",
+        "type": "normal"
       }
     ],
-    "perdidos": [
-      {
-        "name": "marill",
-        "type": "safari"
-      },
-      {
-        "name": "houndour",
-        "type": "safari"
-      },
-      {
-        "name": "starly",
-        "type": "safari"
-      }
-    ],
-    "vendidos": [
-      {
-        "name": "onix",
-        "type": "normal"
-      },
-      {
-        "name": "persian",
-        "type": "normal"
-      },
-      {
-        "name": "rapidash",
-        "type": "normal"
-      },
-      {
-        "name": "rapidash",
-        "type": "normal"
-      },
-      {
-        "name": "rapidash",
-        "type": "normal"
-      },
-      {
-        "name": "rapidash",
-        "type": "normal"
-      },
-      {
-        "name": "rapidash",
-        "type": "normal"
-      }
-    ]
+    "perdidos": [],
+    "vendidos": []
   },
   "ElMiga": {
     "name": "ElMiga",
@@ -1925,6 +1834,32 @@
     "perdidos": [],
     "vendidos": []
   },
+  "FranCRLZ": {
+    "name": "FranCRLZ",
+    "rol": "Chad",
+    "medallas": [
+      "m_suertudo",
+      "m_raceW"
+    ],
+    "shinys": [
+      "horsea",
+      "pikachu",
+      "graveler",
+      "venipede",
+      "oddish",
+      "kakuna",
+      "piloswine",
+      "krookodile"
+    ],
+    "destacados": [
+      {
+        "name": "simipour",
+        "type": "normal"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
+  },
   "Guabi": {
     "name": "Guabi",
     "rol": "MegaChad",
@@ -2071,7 +2006,7 @@
       "ditto",
       "nidorino",
       "darumaka",
-      "frillish_m",
+      "frillish",
       "seviper",
       "horsea"
     ],
@@ -2095,18 +2030,13 @@
       {
         "name": "beldum",
         "type": "egg"
-      }
-    ],
-    "perdidos": [
+      },
       {
         "name": "charizard",
-        "type": [
-          "secret",
-          "alpha",
-          "dead"
-        ]
+        "type": "egg"
       }
     ],
+    "perdidos": [],
     "vendidos": []
   },
   "Illumibestii": {
@@ -2348,6 +2278,7 @@
       "m_gomed",
       "m_safari",
       "m_dead",
+      "m_goldenbox",
       "m_secret",
       "m_shunter",
       "m_suertudo",
@@ -2806,6 +2737,7 @@
       "m_pescador",
       "m_suertudo",
       "m_raceL",
+      "m_dead",
       "m_sequia",
       "m_secret",
       "m_pecador",
@@ -3090,6 +3022,38 @@
       }
     ]
   },
+  "MapacheTaktiko": {
+    "name": "MapacheTaktiko",
+    "rol": "Chad",
+    "medallas": [
+      "m_racha"
+    ],
+    "shinys": [
+      "chandelure",
+      "woobat",
+      "smeargle",
+      "mienshao",
+      "politoed",
+      "haxorus",
+      "illumise",
+      "horsea",
+      "rapidash",
+      "heatmor",
+      "seviper"
+    ],
+    "destacados": [
+      {
+        "name": "yanma",
+        "type": "normal"
+      },
+      {
+        "name": "heracross",
+        "type": "normal"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
+  },
   "MarkosW": {
     "name": "MarkosW",
     "rol": "Chad",
@@ -3229,29 +3193,32 @@
     "shinys": [
       "aggron",
       "eelektross",
-      "golduck",
+      "psyduck",
       "alakazam",
       "weezing",
       "grimer",
       "magcargo",
       "krabby",
-      "loudred",
-      "pidgey",
+      "exploud",
+      "pidgeot",
+      "dusclops",
+      "duskull",
       "parasect",
-      "larvitar",
+      "tyranitar",
       "floatzel",
-      "lombre",
+      "ludicolo",
+      "ampharos",
       "stantler",
-      "nidorina",
+      "nidoqueen",
       "sandslash",
       "rhyperior",
-      "petilil",
+      "lilligant",
       "joltik",
-      "meditite",
-      "machoke",
+      "medicham",
+      "machamp",
       "psyduck",
-      "magnemite",
-      "roselia",
+      "magnezone",
+      "roserade",
       "baltoy",
       "numel",
       "spoink",
@@ -3272,7 +3239,7 @@
       },
       {
         "name": "scizor",
-        "type": "normal"
+        "type": "swarm"
       }
     ],
     "perdidos": [],
@@ -3411,68 +3378,6 @@
       },
       {
         "name": "ditto",
-        "type": "normal"
-      }
-    ]
-  },
-  "MonkeyCake": {
-    "name": "MonkeyCake",
-    "rol": "Chad",
-    "medallas": [
-      "m_gomed",
-      "m_swarm",
-      "m_dead",
-      "m_abuelo",
-      "m_raceL",
-      "m_suertudo",
-      "m_huevo",
-      "m_shunter",
-      "m_pecador",
-      "m_apostol"
-    ],
-    "shinys": [
-      "bibarel",
-      "bronzong",
-      "bronzong",
-      "bronzong",
-      "bronzong",
-      "chingling"
-    ],
-    "destacados": [
-      {
-        "name": "arbok",
-        "type": "swarm"
-      },
-      {
-        "name": "excadrill",
-        "type": "egg"
-      }
-    ],
-    "perdidos": [
-      {
-        "name": "fearow",
-        "type": "normal"
-      }
-    ],
-    "vendidos": [
-      {
-        "name": "ludicolo",
-        "type": "normal"
-      },
-      {
-        "name": "marill",
-        "type": "normal"
-      },
-      {
-        "name": "grimer",
-        "type": "normal"
-      },
-      {
-        "name": "psyduck",
-        "type": "normal"
-      },
-      {
-        "name": "floatzel",
         "type": "normal"
       }
     ]
@@ -3680,7 +3585,12 @@
       }
     ],
     "perdidos": [],
-    "vendidos": []
+    "vendidos": [
+      {
+        "name": "murkrow",
+        "type": "normal"
+      }
+    ]
   },
   "Mustam": {
     "name": "Mustam",
@@ -3829,43 +3739,6 @@
         "type": "normal"
       }
     ]
-  },
-  "Mxxarc": {
-    "name": "Mxxarc",
-    "rol": "Chad",
-    "medallas": [
-      "m_gomed",
-      "m_huevo",
-      "m_apostol",
-      "m_supremacy1",
-      "m_olimpiadas"
-    ],
-    "shinys": [
-      "mienshao",
-      "flygon",
-      "nidoran-f",
-      "chandelure",
-      "ninetales",
-      "muk",
-      "lanturn",
-      "altaria",
-      "seismitoad",
-      "smeargle",
-      "druddigon",
-      "kingdra",
-      "gyarados",
-      "joltik",
-      "donphan",
-      "krokorok"
-    ],
-    "destacados": [
-      {
-        "name": "typhlosion",
-        "type": "egg"
-      }
-    ],
-    "perdidos": [],
-    "vendidos": []
   },
   "nyumichaelis": {
     "name": "nyumichaelis",
@@ -4218,6 +4091,7 @@
       "m_mundo",
       "m_rare",
       "m_raza",
+      "m_huevo",
       "m_pecador",
       "m_apostol",
       "m_supremacy1",
@@ -4294,34 +4168,6 @@
         "type": "normal"
       }
     ]
-  },
-  "PierciLmL": {
-    "name": "PierciLmL",
-    "rol": "Chad",
-    "medallas": [
-      "m_apostol",
-      "m_olimpiadas",
-      "m_supremacy2"
-    ],
-    "shinys": [
-      "tentacruel",
-      "gliscor",
-      "linoone",
-      "wooper",
-      "rattata",
-      "chandelure",
-      "lanturn",
-      "smeargle",
-      "poliwrath"
-    ],
-    "destacados": [
-      {
-        "name": "metagross",
-        "type": "normal"
-      }
-    ],
-    "perdidos": [],
-    "vendidos": []
   },
   "RagnarokBs": {
     "name": "RagnarokBs",
@@ -5092,6 +4938,7 @@
       "m_suertudo",
       "m_abuelo",
       "m_raza",
+      "m_sequia",
       "m_apostol",
       "m_olimpiadas"
     ],
@@ -5173,6 +5020,7 @@
       "m_swarm",
       "m_fosil",
       "m_secret",
+      "m_dead",
       "m_pescador",
       "m_cardumen",
       "m_raceL",
@@ -5312,6 +5160,32 @@
         "type": "dead"
       }
     ],
+    "vendidos": []
+  },
+  "Suaresico": {
+    "name": "Suaresico",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "quagsire",
+      "scrafty",
+      "tentacruel",
+      "weezing",
+      "scolipede",
+      "zigzagoon",
+      "accelgor",
+      "gengar",
+      "dusclops",
+      "kingdra",
+      "dodrio",
+      "politoed",
+      "darumaka",
+      "seaking"
+    ],
+    "destacados": [],
+    "perdidos": [],
     "vendidos": []
   },
   "Suzuya": {
@@ -5570,6 +5444,119 @@
       }
     ]
   },
+  "Trukikong": {
+    "name": "Trukikong",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "haxorus",
+      "hydreigon",
+      "druddigon",
+      "flygon",
+      "altaria",
+      "horsea",
+      "kingdra",
+      "dratini",
+      "huntail",
+      "geodude",
+      "graveler",
+      "golem",
+      "magikarp",
+      "gyarados",
+      "snorunt",
+      "glalie",
+      "nidoking",
+      "sealeo",
+      "spinda",
+      "escavalier",
+      "cacturne",
+      "phanpy",
+      "primeape",
+      "beautifly",
+      "dustox",
+      "poochyena",
+      "mightyena",
+      "purrloin",
+      "onix",
+      "sneasel",
+      "venipede",
+      "whirlipede",
+      "scolipede",
+      "petilil",
+      "lilligant",
+      "lanturn",
+      "galvantula",
+      "rapidash",
+      "maractus",
+      "munna",
+      "froslass",
+      "dusclops",
+      "darumaka",
+      "jynx"
+    ],
+    "destacados": [
+      {
+        "name": "salamence",
+        "type": "secret"
+      },
+      {
+        "name": "slaking",
+        "type": "normal"
+      },
+      {
+        "name": "crawdaunt",
+        "type": "normal"
+      },
+      {
+        "name": "golbat",
+        "type": "secret"
+      },
+      {
+        "name": "zoroark",
+        "type": "normal"
+      },
+      {
+        "name": "ambipom",
+        "type": "normal"
+      },
+      {
+        "name": "milotic",
+        "type": "normal"
+      },
+      {
+        "name": "charmeleon",
+        "type": "normal"
+      },
+      {
+        "name": "bisharp",
+        "type": "normal"
+      },
+      {
+        "name": "pawniard",
+        "type": "normal"
+      },
+      {
+        "name": "shroomish",
+        "type": "normal"
+      },
+      {
+        "name": "breloom",
+        "type": "secret"
+      },
+      {
+        "name": "swampert",
+        "type": "normal"
+      },
+      {
+        "name": "kabutops",
+        "type": "normal"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
+  },
   "UltimoMorador": {
     "name": "UltimoMorador",
     "rol": "Chad",
@@ -5703,17 +5690,38 @@
     "name": "xSorC",
     "rol": "Chad",
     "medallas": [
+      "m_gomed",
+      "m_apostol"
+    ],
+    "shinys": [
+      "solosis",
+      "smeargle",
+      "bibarel",
+      "graveler",
+      "hydreigon",
+      "bronzong",
+      "swoobat"
+    ],
+    "destacados": [],
+    "perdidos": [],
+    "vendidos": []
+  },
+  "YessiUchha": {
+    "name": "YessiUchha",
+    "rol": "Chad",
+    "medallas": [
       "m_vacio"
     ],
     "shinys": [
-      "duosion",
-      "bronzor",
-      "bibarel",
-      "graveler",
-      "smeargle",
-      "deino",
-      "woobat",
-      "trapinch"
+      "spinda",
+      "meowth",
+      "geodude",
+      "rapidash",
+      "linoone",
+      "tentacruel",
+      "rhydon",
+      "psyduck",
+      "poliwhirl"
     ],
     "destacados": [],
     "perdidos": [],

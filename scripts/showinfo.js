@@ -272,16 +272,24 @@ export function showInfo(personKey) {
         let right = 2;
 
         types.forEach(type => {
-            const watermark = document.createElement('img');
-            watermark.className = "shiny-effect";
-            watermark.src = `../img/Icons/zz_${type}.png`;
+            let texto_type;
+            if (type == 'safaridead'){
+              texto_type = 'safari';
+            } else {
+              texto_type = type;
+            }
+            if (type != 'dead'){
+              const watermark = document.createElement('img');
+              watermark.className = "shiny-effect";
+              watermark.src = `../img/Icons/zz_${texto_type}.png`;
 
-            watermark.onload = () => {
-                watermark.style.right = `${right}px`;
-                right += watermark.naturalWidth;
-            };
+              watermark.onload = () => {
+                  watermark.style.right = `${right}px`;
+                  right += watermark.naturalWidth;
+              };
 
-            shinyWrap.appendChild(watermark);
+              shinyWrap.appendChild(watermark);
+            }
         });
     }
 
