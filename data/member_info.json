@@ -1,4 +1,37 @@
 {
+  "AdrixJK": {
+    "name": "AdrixJK",
+    "rol": "MegaChad",
+    "medallas": [
+      "m_pecador",
+      "m_swarm"
+    ],
+    "shinys": [
+      "smeargle",
+      "yanma",
+      "crustle",
+      "sawk",
+      "heracross",
+      "murkrow",
+      "ponyta",
+      "loudred",
+      "whismur",
+      "poliwag",
+      "metapod"
+    ],
+    "destacados": [],
+    "perdidos": [],
+    "vendidos": [
+      {
+        "name": "farfetchd",
+        "type": "normal"
+      },
+      {
+        "name": "pineco",
+        "type": "normal"
+      }
+    ]
+  },
   "aeamanh": {
     "name": "aeamanh",
     "rol": "MaxiChad",
@@ -270,6 +303,39 @@
         "type": "normal"
       }
     ]
+  },
+  "Alexis": {
+    "name": "Alexis",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "raticate",
+      "tentacruel",
+      "meowth",
+      "hoothoot",
+      "pikachu",
+      "chandelure",
+      "poliwhirl",
+      "luxray",
+      "wingull",
+      "hoppip",
+      "whismur",
+      "cinccino",
+      "smeargle",
+      "pachirisu",
+      "psyduck",
+      "beedrill"
+    ],
+    "destacados": [
+      {
+        "name": "eevee",
+        "type": "normal"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
   },
   "Alicia": {
     "name": "Alicia",
@@ -3031,7 +3097,9 @@
     "name": "MapacheTaktiko",
     "rol": "Chad",
     "medallas": [
-      "m_racha"
+      "m_racha",
+      "m_dead",
+      "m_suertudo"
     ],
     "shinys": [
       "chandelure",
@@ -4943,7 +5011,7 @@
   },
   "Snip": {
     "name": "Snip",
-    "rol": "Chad",
+    "rol": "MegaChad",
     "medallas": [
       "m_secret",
       "m_huevo",
@@ -5324,6 +5392,24 @@
         "type": "egg"
       }
     ],
+    "perdidos": [],
+    "vendidos": []
+  },
+  "TheNiicolas": {
+    "name": "TheNiicolas",
+    "rol": "Chad",
+    "medallas": [
+      "m_suertudo"
+    ],
+    "shinys": [
+      "staryu",
+      "weezing",
+      "minccino",
+      "amoonguss",
+      "politoed",
+      "growlithe"
+    ],
+    "destacados": [],
     "perdidos": [],
     "vendidos": []
   },
