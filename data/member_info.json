@@ -542,7 +542,8 @@
       "volbeat",
       "taillow",
       "gurdurr",
-      "zangoose"
+      "zangoose",
+      "delibird"
     ],
     "destacados": [
       {
@@ -3018,6 +3019,10 @@
       {
         "name": "emolga",
         "type": "egg"
+      },
+      {
+        "name": "aipom",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -3651,7 +3656,8 @@
       "ralts",
       "rattata",
       "venipede",
-      "scraggy"
+      "scraggy",
+      "glalie"
     ],
     "destacados": [
       {
@@ -5184,7 +5190,8 @@
       "hoothoot",
       "horsea",
       "jynx",
-      "cubchoo"
+      "cubchoo",
+      "cryogonal"
     ],
     "destacados": [
       {
