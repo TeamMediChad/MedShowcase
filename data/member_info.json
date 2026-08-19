@@ -1933,6 +1933,21 @@
     "perdidos": [],
     "vendidos": []
   },
+  "GARBONCIO": {
+    "name": "GARBONCIO",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "litwick",
+      "slugma",
+      "gyarados"
+    ],
+    "destacados": [],
+    "perdidos": [],
+    "vendidos": []
+  },
   "Guabi": {
     "name": "Guabi",
     "rol": "MegaChad",
@@ -2915,6 +2930,7 @@
       "m_pescador",
       "m_raceL",
       "m_suertudo",
+      "m_arbol",
       "m_huevo",
       "m_mundo",
       "m_raza",
@@ -3121,7 +3137,9 @@
       "horsea",
       "rapidash",
       "heatmor",
-      "seviper"
+      "seviper",
+      "golduck",
+      "seel"
     ],
     "destacados": [
       {
@@ -3130,6 +3148,10 @@
       },
       {
         "name": "heracross",
+        "type": "normal"
+      },
+      {
+        "name": "pansear",
         "type": "normal"
       }
     ],
@@ -4261,6 +4283,33 @@
       }
     ]
   },
+  "pimientadaza": { 
+    "name":"pimientadaza",
+    "rol": "Chad",
+    "medallas": [
+      "m_pescador",
+      "m_pecador",
+      "m_apostol"
+    ],
+    "shinys":[
+      "haxorus",
+      "muk",
+      "fearow"
+    ],
+    "destacados": [
+      {
+        "name": "wailord",
+        "type": "normal"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": [
+      {
+        "name": "seismitoad",
+        "type": "normal"
+      }
+    ]
+  },
   "RagnarokBs": {
     "name": "RagnarokBs",
     "rol": "Chad",
@@ -5329,6 +5378,7 @@
     "medallas": [
       "m_gomed",
       "m_suertudo",
+      "m_pescador",
       "m_sequia",
       "m_rare",
       "m_huevo",
