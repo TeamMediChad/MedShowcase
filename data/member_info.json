@@ -1342,6 +1342,10 @@
       {
         "name": "nincada",
         "type": "normal"
+      },
+      {
+        "name": "cherrim",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -1767,7 +1771,8 @@
       "dratini",
       "scrafty",
       "lunatone",
-      "swinub"
+      "swinub",
+      "cubchoo"
     ],
     "destacados": [
       {
@@ -3254,7 +3259,8 @@
       "ditto",
       "escavalier",
       "persian",
-      "marill"
+      "marill",
+      "poliwhirl"
     ],
     "destacados": [
       {
@@ -4283,15 +4289,15 @@
       }
     ]
   },
-  "pimientadaza": { 
-    "name":"pimientadaza",
+  "pimientadaza": {
+    "name": "pimientadaza",
     "rol": "Chad",
     "medallas": [
       "m_pescador",
       "m_pecador",
       "m_apostol"
     ],
-    "shinys":[
+    "shinys": [
       "haxorus",
       "muk",
       "fearow"
@@ -5775,7 +5781,8 @@
       "marowak",
       "zebstrika",
       "flaaffy",
-      "vullaby"
+      "vullaby",
+      "manectric"
     ],
     "destacados": [],
     "perdidos": [],
