@@ -543,7 +543,8 @@
       "taillow",
       "gurdurr",
       "zangoose",
-      "delibird"
+      "delibird",
+      "swinub"
     ],
     "destacados": [
       {
@@ -1033,7 +1034,8 @@
       "pelipper",
       "purugly",
       "petilil",
-      "cryogonal"
+      "cryogonal",
+      "mareep"
     ],
     "destacados": [
       {
@@ -2418,7 +2420,8 @@
       "magmar",
       "darumaka",
       "jynx",
-      "gurdurr"
+      "gurdurr",
+      "zangoose"
     ],
     "destacados": [
       {
@@ -2495,7 +2498,8 @@
       "duskull",
       "sableye",
       "scraggy",
-      "gastly"
+      "gastly",
+      "buneary"
     ],
     "destacados": [
       {
@@ -5400,6 +5404,10 @@
       {
         "name": "charizard",
         "type": "egg"
+      },
+      {
+        "name": "feebas",
+        "type": "normal"
       }
     ],
     "perdidos": [],
