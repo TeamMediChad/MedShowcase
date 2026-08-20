@@ -137,6 +137,10 @@
       {
         "name": "quilava",
         "type": "normal"
+      },
+      {
+        "name": "rotom",
+        "type": "egg"
       }
     ],
     "perdidos": [],
@@ -546,7 +550,8 @@
       "gurdurr",
       "zangoose",
       "delibird",
-      "swinub"
+      "swinub",
+      "jynx"
     ],
     "destacados": [
       {
@@ -623,7 +628,8 @@
       "magmar",
       "surskit",
       "darumaka",
-      "horsea"
+      "horsea",
+      "gurdurr"
     ],
     "destacados": [
       {
@@ -2104,7 +2110,8 @@
       "darumaka",
       "frillish",
       "seviper",
-      "horsea"
+      "horsea",
+      "cubchoo"
     ],
     "destacados": [
       {
@@ -2743,7 +2750,8 @@
       "gliscor",
       "kadabra",
       "zebstrika",
-      "gastly"
+      "gastly",
+      "nuzleaf"
     ],
     "destacados": [
       {
@@ -5309,6 +5317,10 @@
       {
         "name": "rotom",
         "type": "egg"
+      },
+      {
+        "name": "luvdisc",
+        "type": "normal"
       }
     ],
     "perdidos": [
@@ -5789,7 +5801,8 @@
       "zebstrika",
       "flaaffy",
       "vullaby",
-      "manectric"
+      "manectric",
+      "gurdurr"
     ],
     "destacados": [],
     "perdidos": [],
