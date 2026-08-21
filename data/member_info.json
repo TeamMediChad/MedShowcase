@@ -1957,6 +1957,10 @@
       {
         "name": "pansear",
         "type": "normal"
+      },
+      {
+        "name": "bisharp",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -4535,7 +4539,8 @@
       "smeargle",
       "politoed",
       "ariados",
-      "koffing"
+      "koffing",
+      "phanpy"
     ],
     "destacados": [
       {
