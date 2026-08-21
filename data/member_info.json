@@ -1054,6 +1054,47 @@
     "perdidos": [],
     "vendidos": []
   },
+  "DiegoAmsXx": {
+    "name": "DiegoAmsXx",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "wobbuffet",
+      "banette",
+      "dusknoir",
+      "weavile",
+      "cubchoo",
+      "golduck",
+      "gurdurr",
+      "gyarados",
+      "parasect",
+      "smeargle",
+      "chandelure",
+      "staraptor",
+      "spinda",
+      "cottonee",
+      "murkrow",
+      "snorunt",
+      "gallade",
+      "hydreigon",
+      "gliscor",
+      "haxorus"
+    ],
+    "destacados": [
+      {
+        "name": "breloom",
+        "type": "normal"
+      },
+      {
+        "name": "pawniard",
+        "type": "normal"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
+  },
   "DiGoMo": {
     "name": "DiGoMo",
     "rol": "MegaChad",
@@ -2671,6 +2712,148 @@
       }
     ]
   },
+  "jonulo": {
+    "name": "jonulo",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "whismur",
+      "exploud",
+      "seaking",
+      "bellossom",
+      "wailord",
+      "magikarp",
+      "weezing",
+      "clamperl",
+      "growlithe",
+      "linoone",
+      "buizel",
+      "floatzel",
+      "heracross",
+      "mightyena",
+      "ponyta",
+      "rapidash",
+      "rattata",
+      "bibarel",
+      "seedot",
+      "nuzleaf",
+      "shiftry",
+      "psyduck",
+      "lotad",
+      "camerupt",
+      "ninetales",
+      "jumpluff",
+      "watchog",
+      "altaria",
+      "dunsparce",
+      "druddigon",
+      "ferrothorn",
+      "persian",
+      "persian",
+      "beartic",
+      "flygon",
+      "golbat",
+      "klinklang",
+      "vanilluxe",
+      "herdier",
+      "jellicent-f",
+      "pidgey",
+      "pidgeotto",
+      "pidgeotto",
+      "pidgeot",
+      "fearow",
+      "noctowl",
+      "wingull",
+      "pelipper",
+      "hypno",
+      "venomoth",
+      "azumarill",
+      "magcargo",
+      "victreebel",
+      "gigalith",
+      "joltik",
+      "galvantula",
+      "voltorb",
+      "spheal",
+      "smeargle",
+      "electabuzz",
+      "hydreigon",
+      "accelgor",
+      "shuppet",
+      "ditto",
+      "solrock",
+      "zangoose",
+      "onix",
+      "ralts",
+      "eelektross",
+      "honchkrow",
+      "misdreavus",
+      "gliscor",
+      "petilil",
+      "stantler",
+      "surskit",
+      "cryogonal",
+      "sunkern"
+    ],
+    "destacados": [
+      {
+        "name": "ambipom",
+        "type": "normal"
+      },
+      {
+        "name": "sharpedo",
+        "type": "normal"
+      },
+      {
+        "name": "starmie",
+        "type": "normal"
+      },
+      {
+        "name": "breloom",
+        "type": "normal"
+      },
+      {
+        "name": "snorlax",
+        "type": "normal"
+      },
+      {
+        "name": "cradily",
+        "type": "normal"
+      },
+      {
+        "name": "scizor",
+        "type": "normal"
+      },
+      {
+        "name": "aerodactyl",
+        "type": "normal"
+      },
+      {
+        "name": "rampardos",
+        "type": "normal"
+      },
+      {
+        "name": "spiritomb",
+        "type": "normal"
+      },
+      {
+        "name": "zoroark",
+        "type": "normal"
+      },
+      {
+        "name": "feebas",
+        "type": "normal"
+      },
+      {
+        "name": "emboar",
+        "type": "normal"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
+  },
   "JosiasMccartney": {
     "name": "JosiasMccartney",
     "rol": "Chad",
@@ -2705,6 +2888,68 @@
       "axew"
     ],
     "destacados": [],
+    "perdidos": [],
+    "vendidos": []
+  },
+  "jpr": {
+    "name": "jpr",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "cubone",
+      "gastly",
+      "piloswine",
+      "roserade",
+      "crobat",
+      "noctowl",
+      "gigalith",
+      "bellsprout",
+      "mienfoo",
+      "poliwag",
+      "klink",
+      "gligar",
+      "electrike",
+      "druddigon",
+      "vullaby",
+      "golbat",
+      "petilil",
+      "aggron",
+      "dratini",
+      "tauros",
+      "mankey",
+      "chandelure",
+      "banette",
+      "scolipede",
+      "seedot",
+      "pikachu",
+      "accelgor",
+      "rattata",
+      "venipede",
+      "mightyena",
+      "shellos-east",
+      "zigzagoon",
+      "sneasel",
+      "swellow",
+      "solrock",
+      "lunatone",
+      "pelipper"
+    ],
+    "destacados": [
+      {
+        "name": "mudkip",
+        "type": "normal"
+      },
+      {
+        "name": "lapras",
+        "type": "normal"
+      },
+      {
+        "name": "linoone",
+        "type": "secret"
+      }
+    ],
     "perdidos": [],
     "vendidos": []
   },
@@ -3070,6 +3315,102 @@
         "type": "secret"
       }
     ]
+  },
+  "locamoraleya": {
+    "name": "locamoraleya",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "geodude",
+      "rapidash",
+      "meowth",
+      "caterpie",
+      "magikarp",
+      "reuniclus",
+      "nidorina",
+      "druddigon",
+      "bibarel",
+      "ralts",
+      "haxorus",
+      "scrafty",
+      "weezing",
+      "lilligant",
+      "graveler",
+      "onix",
+      "tyranitar",
+      "lanturn",
+      "kingdra",
+      "pelipper",
+      "zigzagoon",
+      "mienfoo",
+      "deino",
+      "sandshrew",
+      "poliwhirl",
+      "flygon",
+      "altaria",
+      "gabite",
+      "accelgor",
+      "mantine",
+      "machamp",
+      "chandelure",
+      "ursaring",
+      "misdreavus",
+      "zigzagoon",
+      "golduck",
+      "petilil",
+      "venipede",
+      "dugtrio",
+      "scolipede",
+      "cofagrigus",
+      "frillish-f",
+      "sawsbuck-spring",
+      "pikachu",
+      "cascoon",
+      "wurmple",
+      "beautifly",
+      "seviper",
+      "darumaka",
+      "horsea",
+      "illumise",
+      "scraggy",
+      "beautifly",
+      "cryogonal",
+      "deerling-winter",
+      "swinub",
+      "glalie",
+      "smeargle",
+      "duskull",
+      "banette",
+      "swoobat",
+      "sneasel",
+      "lopunny"
+    ],
+    "destacados": [
+      {
+        "name": "golem",
+        "type": "secret"
+      },
+      {
+        "name": "farfetchd",
+        "type": "normal"
+      },
+      {
+        "name": "charizard",
+        "type": "secret"
+      },
+      {
+        "name": "rotom",
+        "type": "normal"
+      },
+      {
+        "name": "aerodactyl",
+        "type": "normal"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
   },
   "Maicol": {
     "name": "Maicol",
@@ -3467,7 +3808,8 @@
       "beautifly",
       "swinub",
       "cryogonal",
-      "cubchoo"
+      "cubchoo",
+      "scraggy"
     ],
     "destacados": [
       {
@@ -3491,10 +3833,6 @@
     "vendidos": [
       {
         "name": "tentacruel",
-        "type": "normal"
-      },
-      {
-        "name": "loudred",
         "type": "normal"
       },
       {
@@ -4165,6 +4503,55 @@
         "type": "normal"
       }
     ]
+  },
+  "OTyphlosionOT": {
+    "name": "OTyphlosionOT",
+    "rol": "Chad",
+    "medallas": [
+      "m_suertudo",
+      "m_huevo"
+    ],
+    "shinys": [
+      "krookodile",
+      "slugma",
+      "gastly",
+      "rhyhorn",
+      "duskull",
+      "slowbro",
+      "nidoqueen",
+      "hydreigon",
+      "poliwrath",
+      "sableye",
+      "haxorus",
+      "accelgor",
+      "litwick",
+      "ponyta",
+      "girafarig",
+      "bellossom",
+      "ekans",
+      "gyarados",
+      "sandshrew",
+      "nidoking",
+      "smeargle",
+      "politoed",
+      "ariados"
+    ],
+    "destacados": [
+      {
+        "name": "beedrill",
+        "type": "secret"
+      },
+      {
+        "name": "rotom",
+        "type": "egg"
+      },
+      {
+        "name": "cyndaquil",
+        "type": "normal"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
   },
   "Palafo": {
     "name": "Palafo",
@@ -5645,7 +6032,15 @@
     "name": "Trukikong",
     "rol": "Chad",
     "medallas": [
-      "m_vacio"
+      "m_secret",
+      "m_fosil",
+      "m_suertudo",
+      "m_pescador",
+      "m_racha",
+      "m_huevo",
+      "m_abuelo",
+      "m_rare",
+      "m_raza"
     ],
     "shinys": [
       "haxorus",
