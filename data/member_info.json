@@ -1080,7 +1080,8 @@
       "gallade",
       "hydreigon",
       "gliscor",
-      "haxorus"
+      "haxorus",
+      "ditto"
     ],
     "destacados": [
       {
@@ -1090,6 +1091,10 @@
       {
         "name": "pawniard",
         "type": "normal"
+      },
+      {
+        "name": "gulpin",
+        "type": "swarm"
       }
     ],
     "perdidos": [],
@@ -1931,7 +1936,8 @@
       "horsea",
       "illumise",
       "delibird",
-      "glalie"
+      "glalie",
+      "cryogonal"
     ],
     "destacados": [
       {
@@ -3389,7 +3395,8 @@
       "banette",
       "swoobat",
       "sneasel",
-      "lopunny"
+      "lopunny",
+      "phanpy"
     ],
     "destacados": [
       {
@@ -5170,7 +5177,8 @@
       "zebstrika",
       "quagsire",
       "butterfree",
-      "volbeat"
+      "volbeat",
+      "swinub"
     ],
     "destacados": [
       {
