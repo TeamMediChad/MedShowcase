@@ -3162,7 +3162,8 @@
       "darumaka",
       "horsea",
       "swinub",
-      "cryogonal"
+      "cryogonal",
+      "throh"
     ],
     "destacados": [
       {
@@ -3509,7 +3510,8 @@
       "heatmor",
       "seviper",
       "golduck",
-      "seel"
+      "seel",
+      "sunkern"
     ],
     "destacados": [
       {
@@ -5178,7 +5180,8 @@
       "quagsire",
       "butterfree",
       "volbeat",
-      "swinub"
+      "swinub",
+      "palpitoad"
     ],
     "destacados": [
       {
@@ -5759,7 +5762,12 @@
       "darumaka",
       "seaking"
     ],
-    "destacados": [],
+    "destacados": [
+      {
+        "name": "kecleon",
+        "type": "normal"
+      }
+    ],
     "perdidos": [],
     "vendidos": []
   },
@@ -6341,7 +6349,9 @@
       "vanillish",
       "durant",
       "kingdra",
-      "weezing"
+      "weezing",
+      "linoone",
+      "linoone"
     ],
     "destacados": [],
     "perdidos": [],
