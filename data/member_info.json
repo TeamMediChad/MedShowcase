@@ -141,6 +141,10 @@
       {
         "name": "rotom",
         "type": "egg"
+      },
+      {
+        "name": "croagunk",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -1379,10 +1383,6 @@
         "type": "egg"
       },
       {
-        "name": "aipom",
-        "type": "normal"
-      },
-      {
         "name": "furret",
         "type": "normal"
       },
@@ -1399,6 +1399,10 @@
       },
       {
         "name": "cherrim",
+        "type": "normal"
+      },
+      {
+        "name": "aipom",
         "type": "normal"
       }
     ],
@@ -1474,7 +1478,8 @@
       "venipede",
       "luxio",
       "minccino",
-      "krabby"
+      "krabby",
+      "woobat"
     ],
     "destacados": [
       {
@@ -1832,7 +1837,8 @@
       "swinub",
       "cubchoo",
       "zangoose",
-      "palpitoad"
+      "palpitoad",
+      "woobat"
     ],
     "destacados": [
       {
@@ -3403,7 +3409,8 @@
       "swoobat",
       "sneasel",
       "lopunny",
-      "phanpy"
+      "phanpy",
+      "karrablast"
     ],
     "destacados": [
       {
