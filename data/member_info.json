@@ -1661,6 +1661,10 @@
       {
         "name": "minun",
         "type": "normal"
+      },
+      {
+        "name": "croagunk",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -1827,7 +1831,8 @@
       "lunatone",
       "swinub",
       "cubchoo",
-      "zangoose"
+      "zangoose",
+      "palpitoad"
     ],
     "destacados": [
       {
@@ -2670,7 +2675,8 @@
       "clefairy",
       "jigglypuff",
       "darumaka",
-      "altaria"
+      "altaria",
+      "sunkern"
     ],
     "destacados": [
       {
@@ -5222,6 +5228,10 @@
       },
       {
         "name": "forretress",
+        "type": "normal"
+      },
+      {
+        "name": "croagunk",
         "type": "normal"
       }
     ],
