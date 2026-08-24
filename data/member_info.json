@@ -409,6 +409,10 @@
       {
         "name": "forretress",
         "type": "normal"
+      },
+      {
+        "name": "croagunk",
+        "type": "normal"
       }
     ],
     "perdidos": [
@@ -2562,7 +2566,7 @@
         "type": "normal"
       },
       {
-        "name": "emolga",
+        "name": "ducklett",
         "type": "egg"
       }
     ],
