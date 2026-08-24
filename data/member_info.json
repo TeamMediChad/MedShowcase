@@ -2228,7 +2228,12 @@
       "woobat",
       "ekans"
     ],
-    "destacados": [],
+    "destacados": [
+      {
+        "name": "croagunk",
+        "type": "normal"
+      }
+    ],
     "perdidos": [],
     "vendidos": []
   },
@@ -2516,7 +2521,8 @@
       "jynx",
       "gurdurr",
       "zangoose",
-      "sunkern"
+      "sunkern",
+      "throh"
     ],
     "destacados": [
       {
@@ -6252,7 +6258,12 @@
       "manectric",
       "gurdurr"
     ],
-    "destacados": [],
+    "destacados": [
+      {
+        "name": "croagunk",
+        "type": "normal"
+      }
+    ],
     "perdidos": [],
     "vendidos": []
   },
