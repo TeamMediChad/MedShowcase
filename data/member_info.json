@@ -1340,7 +1340,8 @@
       "scraggy",
       "gurdurr",
       "cubchoo",
-      "jynx"
+      "jynx",
+      "karrablast"
     ],
     "destacados": [
       {
@@ -1501,6 +1502,10 @@
       },
       {
         "name": "minun",
+        "type": "normal"
+      },
+      {
+        "name": "croagunk",
         "type": "normal"
       }
     ],
@@ -1696,7 +1701,8 @@
       "meowth",
       "meowth",
       "metapod",
-      "kadabra"
+      "kadabra",
+      "palpitoad"
     ],
     "destacados": [],
     "perdidos": [],
@@ -2020,7 +2026,8 @@
     "shinys": [
       "litwick",
       "slugma",
-      "gyarados"
+      "gyarados",
+      "shuppet"
     ],
     "destacados": [],
     "perdidos": [],
@@ -2439,6 +2446,10 @@
       {
         "name": "oshawott",
         "type": "egg"
+      },
+      {
+        "name": "croagunk",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -2522,7 +2533,8 @@
       "gurdurr",
       "zangoose",
       "sunkern",
-      "throh"
+      "throh",
+      "karrablast"
     ],
     "destacados": [
       {
@@ -2548,6 +2560,10 @@
       {
         "name": "yanma",
         "type": "normal"
+      },
+      {
+        "name": "emolga",
+        "type": "egg"
       }
     ],
     "perdidos": [
@@ -3101,7 +3117,8 @@
       "bibarel",
       "bibarel",
       "cottonee",
-      "sableye"
+      "sableye",
+      "seedot"
     ],
     "destacados": [
       {
@@ -3185,7 +3202,8 @@
       "swinub",
       "cryogonal",
       "throh",
-      "karrablast"
+      "karrablast",
+      "sunkern"
     ],
     "destacados": [
       {
@@ -5571,7 +5589,9 @@
       "cryogonal",
       "cubchoo",
       "swinub",
-      "shelmet"
+      "shelmet",
+      "stunfisk",
+      "sunkern"
     ],
     "destacados": [
       {
@@ -6261,6 +6281,10 @@
     "destacados": [
       {
         "name": "croagunk",
+        "type": "normal"
+      },
+      {
+        "name": "sentret",
         "type": "normal"
       }
     ],
