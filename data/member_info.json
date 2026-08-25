@@ -821,7 +821,8 @@
       "pidove",
       "horsea",
       "illumise",
-      "cryogonal"
+      "cryogonal",
+      "sunkern"
     ],
     "destacados": [],
     "perdidos": [],
@@ -2712,7 +2713,8 @@
       "jigglypuff",
       "darumaka",
       "altaria",
-      "sunkern"
+      "sunkern",
+      "karrablast"
     ],
     "destacados": [
       {
@@ -5100,7 +5102,12 @@
       "cryogonal",
       "seviper"
     ],
-    "destacados": [],
+    "destacados": [
+      {
+        "name": "croagunk",
+        "type": "normal"
+      }
+    ],
     "perdidos": [],
     "vendidos": []
   },
