@@ -192,7 +192,8 @@
       "ditto",
       "mantine",
       "scraggy",
-      "jynx"
+      "jynx",
+      "stunfisk"
     ],
     "destacados": [
       {
@@ -3464,6 +3465,10 @@
       {
         "name": "aerodactyl",
         "type": "normal"
+      },
+      {
+        "name": "croagunk",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -6679,6 +6684,13 @@
       {
         "name": "heracross",
         "type": "normal"
+      },
+      {
+        "name": "cottonee",
+        "type": [
+          "alpha",
+          "swarm"
+        ]
       }
     ],
     "perdidos": [],
