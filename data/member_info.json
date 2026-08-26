@@ -143,6 +143,10 @@
         "type": "egg"
       },
       {
+        "name": "panpour",
+        "type": "normal"
+      },
+      {
         "name": "croagunk",
         "type": "normal"
       }
@@ -1683,6 +1687,10 @@
       {
         "name": "croagunk",
         "type": "normal"
+      },
+      {
+        "name": "panpour",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -2714,7 +2722,8 @@
       "darumaka",
       "altaria",
       "sunkern",
-      "karrablast"
+      "karrablast",
+      "flaaffy"
     ],
     "destacados": [
       {
@@ -3314,7 +3323,8 @@
       "darumaka",
       "seviper",
       "purugly",
-      "zangoose"
+      "zangoose",
+      "flaaffy"
     ],
     "destacados": [
       {
@@ -3445,7 +3455,8 @@
       "sneasel",
       "lopunny",
       "phanpy",
-      "karrablast"
+      "karrablast",
+      "sunkern"
     ],
     "destacados": [
       {
