@@ -207,6 +207,10 @@
       {
         "name": "ambipom",
         "type": "normal"
+      },
+      {
+        "name": "nincada",
+        "type": "normal"
       }
     ],
     "perdidos": [
@@ -2201,7 +2205,8 @@
       "frillish",
       "seviper",
       "horsea",
-      "cubchoo"
+      "cubchoo",
+      "shelmet"
     ],
     "destacados": [
       {
@@ -2468,6 +2473,10 @@
       },
       {
         "name": "croagunk",
+        "type": "normal"
+      },
+      {
+        "name": "nincada",
         "type": "normal"
       }
     ],
