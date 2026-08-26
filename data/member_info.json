@@ -1909,6 +1909,10 @@
           "secret",
           "swarm"
         ]
+      },
+      {
+        "name": "pinsir",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -2422,7 +2426,8 @@
       "growlithe",
       "volbeat",
       "darumaka",
-      "scraggy"
+      "scraggy",
+      "golett"
     ],
     "destacados": [
       {
@@ -4744,6 +4749,10 @@
       {
         "name": "absol",
         "type": "egg"
+      },
+      {
+        "name": "pinsir",
+        "type": "normal"
       }
     ],
     "perdidos": [],
