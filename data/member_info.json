@@ -482,7 +482,8 @@
       "meowth",
       "petilil",
       "haunter",
-      "weavile"
+      "weavile",
+      "sawk"
     ],
     "destacados": [
       {
@@ -1978,7 +1979,9 @@
       "illumise",
       "delibird",
       "glalie",
-      "cryogonal"
+      "cryogonal",
+      "karrablast",
+      "palpitoad"
     ],
     "destacados": [
       {
@@ -3339,7 +3342,8 @@
       "purugly",
       "zangoose",
       "flaaffy",
-      "karrablast"
+      "karrablast",
+      "ledian"
     ],
     "destacados": [
       {
@@ -5861,6 +5865,10 @@
     "destacados": [
       {
         "name": "kecleon",
+        "type": "normal"
+      },
+      {
+        "name": "croagunk",
         "type": "normal"
       }
     ],
