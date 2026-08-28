@@ -1069,6 +1069,10 @@
       {
         "name": "plusle",
         "type": "normal"
+      },
+      {
+        "name": "spiritomb",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -1866,7 +1870,8 @@
       "cubchoo",
       "zangoose",
       "palpitoad",
-      "woobat"
+      "woobat",
+      "ursaring"
     ],
     "destacados": [
       {
@@ -3344,7 +3349,8 @@
       "zangoose",
       "flaaffy",
       "karrablast",
-      "ledian"
+      "ledian",
+      "slowbro"
     ],
     "destacados": [
       {
@@ -4145,6 +4151,10 @@
       {
         "name": "relicanth",
         "type": "normal"
+      },
+      {
+        "name": "spiritomb",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -4634,7 +4644,8 @@
       "ariados",
       "koffing",
       "phanpy",
-      "spinda"
+      "spinda",
+      "seedot"
     ],
     "destacados": [
       {
@@ -5275,7 +5286,9 @@
       "butterfree",
       "volbeat",
       "swinub",
-      "palpitoad"
+      "palpitoad",
+      "golduck",
+      "ekans"
     ],
     "destacados": [
       {
