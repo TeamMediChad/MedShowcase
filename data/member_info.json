@@ -1987,7 +1987,8 @@
       "glalie",
       "cryogonal",
       "karrablast",
-      "palpitoad"
+      "palpitoad",
+      "ledian"
     ],
     "destacados": [
       {
@@ -6727,10 +6728,6 @@
         ]
       },
       {
-        "name": "bulbasaur",
-        "type": "egg"
-      },
-      {
         "name": "tropius",
         "type": "normal"
       },
@@ -6752,6 +6749,10 @@
           "alpha",
           "swarm"
         ]
+      },
+      {
+        "name": "bulbasaur",
+        "type": "egg"
       }
     ],
     "perdidos": [],
