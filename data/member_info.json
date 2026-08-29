@@ -2103,7 +2103,8 @@
       "nuzleaf",
       "ariados",
       "gurdurr",
-      "zangoose"
+      "zangoose",
+      "koffing"
     ],
     "destacados": [
       {
@@ -2113,6 +2114,10 @@
       {
         "name": "snivy",
         "type": "sold"
+      },
+      {
+        "name": "croagunk",
+        "type": "normal"
       }
     ],
     "perdidos": [
@@ -2243,6 +2248,10 @@
       {
         "name": "charizard",
         "type": "egg"
+      },
+      {
+        "name": "croagunk",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -3352,7 +3361,8 @@
       "flaaffy",
       "karrablast",
       "ledian",
-      "slowbro"
+      "slowbro",
+      "palpitoad"
     ],
     "destacados": [
       {
@@ -3602,7 +3612,8 @@
       "seviper",
       "golduck",
       "seel",
-      "sunkern"
+      "sunkern",
+      "purugly"
     ],
     "destacados": [
       {
@@ -5555,6 +5566,10 @@
       {
         "name": "forretress",
         "type": "normal"
+      },
+      {
+        "name": "croagunk",
+        "type": "normal"
       }
     ],
     "perdidos": [
@@ -6235,7 +6250,8 @@
       "dusclops",
       "darumaka",
       "jynx",
-      "cryogonal"
+      "cryogonal",
+      "seedot"
     ],
     "destacados": [
       {
@@ -6292,6 +6308,10 @@
       },
       {
         "name": "kabutops",
+        "type": "normal"
+      },
+      {
+        "name": "croagunk",
         "type": "normal"
       }
     ],
@@ -6504,6 +6524,7 @@
       "tentacruel",
       "rhydon",
       "psyduck",
+      "poliwhirl",
       "poliwhirl"
     ],
     "destacados": [],
@@ -6700,7 +6721,8 @@
       "ariados",
       "gurdurr",
       "delibird",
-      "sawk"
+      "sawk",
+      "bronzong"
     ],
     "destacados": [
       {
