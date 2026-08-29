@@ -278,7 +278,8 @@
       "cascoon",
       "scraggy",
       "litwick",
-      "xatu"
+      "xatu",
+      "cubchoo"
     ],
     "destacados": [
       {
@@ -1924,6 +1925,10 @@
       },
       {
         "name": "pinsir",
+        "type": "normal"
+      },
+      {
+        "name": "basculin_blue",
         "type": "normal"
       }
     ],
@@ -4158,7 +4163,8 @@
       "rattata",
       "venipede",
       "scraggy",
-      "glalie"
+      "glalie",
+      "krokorok"
     ],
     "destacados": [
       {
