@@ -139,16 +139,16 @@
         "type": "normal"
       },
       {
-        "name": "rotom",
-        "type": "egg"
-      },
-      {
         "name": "panpour",
         "type": "normal"
       },
       {
         "name": "croagunk",
         "type": "normal"
+      },
+      {
+        "name": "rotom",
+        "type": "egg"
       }
     ],
     "perdidos": [],
@@ -6264,7 +6264,8 @@
       "jynx",
       "cryogonal",
       "seedot",
-      "koffing"
+      "koffing",
+      "krokorok"
     ],
     "destacados": [
       {
