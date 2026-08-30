@@ -486,7 +486,8 @@
       "weavile",
       "sawk",
       "palpitoad",
-      "rapidash"
+      "rapidash",
+      "smeargle"
     ],
     "destacados": [
       {
@@ -4277,6 +4278,10 @@
       {
         "name": "pineco",
         "type": "normal"
+      },
+      {
+        "name": "swalot",
+        "type": "normal"
       }
     ],
     "perdidos": [
@@ -6258,7 +6263,8 @@
       "darumaka",
       "jynx",
       "cryogonal",
-      "seedot"
+      "seedot",
+      "koffing"
     ],
     "destacados": [
       {
@@ -6319,6 +6325,10 @@
       },
       {
         "name": "croagunk",
+        "type": "normal"
+      },
+      {
+        "name": "swalot",
         "type": "normal"
       }
     ],
