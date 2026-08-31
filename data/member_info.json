@@ -135,10 +135,6 @@
         "type": "normal"
       },
       {
-        "name": "quilava",
-        "type": "normal"
-      },
-      {
         "name": "panpour",
         "type": "normal"
       },
@@ -149,6 +145,10 @@
       {
         "name": "rotom",
         "type": "egg"
+      },
+      {
+        "name": "quilava",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -1185,7 +1185,8 @@
       "horsea",
       "drifblim",
       "gurdurr",
-      "karrablast"
+      "karrablast",
+      "mareep"
     ],
     "perdidos": [
       {
@@ -2675,11 +2676,11 @@
     ],
     "destacados": [
       {
-        "name": "musharna",
+        "name": "heracross",
         "type": "normal"
       },
       {
-        "name": "heracross",
+        "name": "musharna",
         "type": "normal"
       }
     ],
@@ -3753,12 +3754,12 @@
         "type": "secret"
       },
       {
-        "name": "beedrill",
-        "type": "secret"
-      },
-      {
         "name": "yanma",
         "type": "normal"
+      },
+      {
+        "name": "beedrill",
+        "type": "secret"
       }
     ],
     "perdidos": [
