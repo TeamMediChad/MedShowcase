@@ -4247,7 +4247,8 @@
       "shellos_west",
       "gurdurr",
       "zangoose",
-      "cryogonal"
+      "cryogonal",
+      "palpitoad"
     ],
     "destacados": [
       {
@@ -6790,15 +6791,15 @@
         "type": "normal"
       },
       {
+        "name": "bulbasaur",
+        "type": "egg"
+      },
+      {
         "name": "cottonee",
         "type": [
           "alpha",
           "swarm"
         ]
-      },
-      {
-        "name": "bulbasaur",
-        "type": "egg"
       }
     ],
     "perdidos": [],
