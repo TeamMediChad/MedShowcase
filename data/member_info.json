@@ -3178,7 +3178,8 @@
       "bibarel",
       "cottonee",
       "sableye",
-      "seedot"
+      "seedot",
+      "nuzleaf"
     ],
     "destacados": [
       {
@@ -5185,6 +5186,14 @@
       {
         "name": "croagunk",
         "type": "normal"
+      },
+      {
+        "name": "bisharp",
+        "type": "normal"
+      },
+      {
+        "name": "tropius",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -6405,6 +6414,10 @@
       },
       {
         "name": "sentret",
+        "type": "normal"
+      },
+      {
+        "name": "bisharp",
         "type": "normal"
       }
     ],
