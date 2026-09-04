@@ -6405,7 +6405,8 @@
       "flaaffy",
       "vullaby",
       "manectric",
-      "gurdurr"
+      "gurdurr",
+      "swadloon"
     ],
     "destacados": [
       {
@@ -6819,7 +6820,12 @@
         ]
       }
     ],
-    "perdidos": [],
+    "perdidos": [
+      {
+        "name": "mawile",
+        "type": "dead"
+      }
+    ],
     "vendidos": []
   }
 }
