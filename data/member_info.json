@@ -1938,6 +1938,10 @@
       {
         "name": "croagunk",
         "type": "normal"
+      },
+      {
+        "name": "chimchar",
+        "type": "egg"
       }
     ],
     "perdidos": [],
@@ -3677,7 +3681,8 @@
       "gligar",
       "floatzel",
       "floatzel",
-      "shellos_west"
+      "shellos_west",
+      "medicham"
     ],
     "destacados": [
       {
