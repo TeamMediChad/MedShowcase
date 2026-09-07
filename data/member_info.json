@@ -6558,7 +6558,12 @@
       "linoone",
       "linoone"
     ],
-    "destacados": [],
+    "destacados": [
+      {
+        "name": "croagunk",
+        "type": "normal"
+      }
+    ],
     "perdidos": [],
     "vendidos": []
   },
