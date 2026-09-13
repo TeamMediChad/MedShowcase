@@ -1708,6 +1708,10 @@
       {
         "name": "panpour",
         "type": "normal"
+      },
+      {
+        "name": "shroomish",
+        "type": "normal"
       }
     ],
     "perdidos": [],
