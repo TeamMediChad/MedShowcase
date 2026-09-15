@@ -872,7 +872,8 @@
       "swadloon",
       "venipede",
       "vanilluxe",
-      "ditto"
+      "ditto",
+      "golett"
     ],
     "destacados": [
       {
@@ -1068,11 +1069,16 @@
       "purugly",
       "petilil",
       "cryogonal",
-      "mareep"
+      "mareep",
+      "palpitoad"
     ],
     "destacados": [
       {
         "name": "plusle",
+        "type": "normal"
+      },
+      {
+        "name": "spiritomb",
         "type": "normal"
       },
       {
@@ -1885,7 +1891,8 @@
       "ursaring",
       "stunfisk",
       "mawile",
-      "claydol"
+      "claydol",
+      "meowth"
     ],
     "destacados": [
       {
