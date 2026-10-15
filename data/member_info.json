@@ -6175,7 +6175,6 @@
       "pelipper",
       "kecleon",
       "pelipper",
-      "clefairy",
       "pelipper",
       "stunky",
       "pelipper",
@@ -6234,6 +6233,10 @@
       {
         "name": "luvdisc",
         "type": "normal"
+      },
+      {
+        "name": "clefairy",
+        "type": "safari"
       },
       {
         "name": "shelgon",

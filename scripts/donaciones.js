@@ -17,7 +17,6 @@ let data = [
   {name: "ElMiga", dinero: 150000},
   {name: "Iucifer", dinero: 200000},
   {name: "DiGoMo", dinero: 1100000},
-  {name: "Lirio", dinero: 100000},
   {name: "nyumichaelis", dinero: 1200000},
   {name: "Ingrid", dinero: 300000},
   {name: "Liarfuneral", dinero: 100000},
