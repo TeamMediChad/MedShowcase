@@ -683,7 +683,8 @@
       "gurdurr",
       "solrock",
       "minccino",
-      "donphan"
+      "donphan",
+      "hoppip"
     ],
     "destacados": [
       {
@@ -5706,7 +5707,7 @@
     "vendidos": []
   },
   "Salva": {
-    "name":"Salva",
+    "name": "Salva",
     "rol": "MegaChad",
     "medallas": [
       "m_swarm",
@@ -5756,7 +5757,10 @@
       },
       {
         "name": "duskull",
-        "type": ["secret","swarm"]
+        "type": [
+          "secret",
+          "swarm"
+        ]
       }
     ],
     "perdidos": [],
