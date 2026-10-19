@@ -7,7 +7,6 @@ let screenWidth = screen.width;
 let screenHeight = screen.height;
 
 
-
 //const screenWidth = 1280;
 //const screenHeight = 1024;
 
@@ -114,12 +113,27 @@ export function showInfo(personKey) {
   const miembro = memberData[personKey] || [];
   if (!miembro) return;
 
-  const medallas = miembro.medallas || [];
+  const medallas = [...(miembro.medallas || [])].sort((a, b) => {
+    const idA = listaMedalla[a]?.id ?? Infinity;
+    const idB = listaMedalla[b]?.id ?? Infinity;
+
+    return idA - idB;
+  });
   const shinys = miembro.shinys || [];
   const destacados = miembro.destacados || [];
   const perdidos = miembro.perdidos || [];
   const vendidos = miembro.vendidos || [];
 
+  let puntos = medallas.reduce((total, medalla) => {
+    const infoMedalla = listaMedalla[medalla];
+
+    if (!infoMedalla) {
+        console.warn(`Medalla no encontrada: "${medalla}"`, personKey);
+        return total;
+    }
+
+    return total + (Number(infoMedalla.points) || 0);
+  }, 0);
   // medallas
   medallas.forEach(id => {
     const infoMedalla = listaMedalla[id];
@@ -142,6 +156,7 @@ export function showInfo(personKey) {
     medalla_container.appendChild(tooltipWrapper);
     
   });
+  console.log()
 
   // shinys
   shinys.forEach(id => {
@@ -372,12 +387,12 @@ export function showInfo(personKey) {
 
   const modal_name = document.getElementById('modal-name');
   if (personKey == toppoints.name){
-    modal_name.textContent = miembro.name;
+    modal_name.textContent = `${miembro.name} (${puntos})`;
     modal_name.style = "color : yellow;"
     document.getElementById('modal-title2').innerHTML = `Shinys: ${shinys.length + destacados.length} &emsp; puntaje: ${member_points[personKey]}`;
     document.getElementById('modal-title2').style = "color : yellow;"
   }else{
-    modal_name.textContent = miembro.name;
+    modal_name.textContent = `${miembro.name} (${puntos})`;
     modal_name.style = ""
     document.getElementById('modal-title2').innerHTML = `Shinys: ${shinys.length + destacados.length} &emsp; puntaje: ${member_points[personKey]}`;
     document.getElementById('modal-title2').style = ""

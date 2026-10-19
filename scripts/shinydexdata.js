@@ -352,6 +352,7 @@ const capturedBy = {
   porygon2: [ "Alicia","Alicia"],
   stantler: [ "Maxii","Moonlyze"],
   smeargle: [ "ToxicPlumber","ToxicPlumber"],
+  hitmontop: [ "DanieLeonR","DanieLeonR"],
   smoochum: [ "UltimoMorador","UltimoMorador"],
   elekid: ["KilluaZoldyck","KilluaZoldyck"],
   magby: [ "DiGoMo","DiGoMo"],

@@ -64,7 +64,16 @@
       "m_goldenbox",
       "m_raza",
       "m_abuelo",
-      "m_swarm"
+      "m_swarm",
+      "m_gomedplus",
+      "m_mickey",
+      "m_singles",
+      "m_inicial",
+      "m_elemental",
+      "m_muertazo",
+      "m_utilidad",
+      "m_cambiante",
+      "m_kanto"
     ],
     "shinys": [
       "donphan",
@@ -396,7 +405,10 @@
       "m_supremacy1",
       "m_olimpiadas",
       "m_supremacy2",
-      "m_rare"
+      "m_rare",
+      "m_mickey",
+      "m_inicial",
+      "m_gomedplus"
     ],
     "shinys": [
       "parasect",
@@ -645,7 +657,8 @@
       "m_huevo",
       "m_apostol",
       "m_olimpiadas",
-      "m_shinywar"
+      "m_shinywar",
+      "m_pandora"
     ],
     "shinys": [
       "lotad",
@@ -853,7 +866,11 @@
       "m_gomed",
       "m_suertudo",
       "m_dead",
-      "m_supremacy3"
+      "m_supremacy3",
+      "m_mickey",
+      "m_war",
+      "m_shinywar2",
+      "m_muertazo"
     ],
     "shinys": [
       "solrock",
@@ -1746,7 +1763,8 @@
       "m_misterio",
       "m_apostol",
       "m_elegido",
-      "m_raza"
+      "m_raza",
+      "m_inicial"
     ],
     "shinys": [
       "nidoking",
@@ -2122,7 +2140,21 @@
       "m_racha",
       "m_raza",
       "m_mundo",
-      "m_abuelo"
+      "m_abuelo",
+      "m_ritmo",
+      "m_inicial",
+      "m_diurno",
+      "m_nocturno",
+      "m_muertazo",
+      "m_utilidad",
+      "m_kanto",
+      "m_johto",
+      "m_hoenn",
+      "m_teselia",
+      "m_teselia_m",
+      "m_war",
+      "m_shinywar2",
+      "m_singles"
     ],
     "shinys": [
       "politoed",
@@ -2213,7 +2245,8 @@
     "medallas": [
       "m_suertudo",
       "m_raceW",
-      "m_apostol"
+      "m_apostol",
+      "m_mickey"
     ],
     "shinys": [
       "horsea",
@@ -2903,7 +2936,18 @@
       "m_mundo",
       "m_pecador",
       "m_sequia",
-      "m_raza"
+      "m_raza",
+      "m_inicial",
+      "m_kanto",
+      "m_kanto_m",
+      "m_utilidad",
+      "m_hoenn",
+      "m_teselia",
+      "m_raza",
+      "m_gordito",
+      "m_muertazo",
+      "m_mickey",
+      "m_ritmo"
     ],
     "shinys": [
       "beedrill",
@@ -3315,6 +3359,107 @@
     "perdidos": [],
     "vendidos": []
   },
+  "JuniorJMx": {
+    "name": "JuniorJMx",
+    "rol": "Chad",
+    "medallas": [
+      "m_gomed",
+      "m_singles",
+      "m_muertazo",
+      "m_utilidad",
+      "m_war",
+      "m_nocturno",
+      "m_mickey",
+      "m_kanto",
+      "m_sinnoh",
+      "m_teselia"
+    ],
+    "shinys": [
+      "tentacruel",
+      "tentacruel",
+      "watchog",
+      "kricketune",
+      "golduck",
+      "smeargle",
+      "banette",
+      "weezing",
+      "torkoal",
+      "pelipper",
+      "petilil",
+      "gothitelle",
+      "graveler",
+      "vanilluxe",
+      "chandelure",
+      "rhyperior",
+      "ponyta",
+      "meowth",
+      "venipede",
+      "accelgor",
+      "vulpix",
+      "bronzong",
+      "stantler",
+      "golbat",
+      "wingull",
+      "magikarp",
+      "spinda",
+      "whirlipede",
+      "lilligant",
+      "swellow",
+      "cryogonal",
+      "pidgey",
+      "piloswine",
+      "skuntank",
+      "golem",
+      "probopass",
+      "oddish",
+      "gloom",
+      "volbeat",
+      "trubbish",
+      "garbodor",
+      "trapinch",
+      "dratini",
+      "misdreavus",
+      "dusclops",
+      "tauros",
+      "cinccino",
+      "foongus",
+      "jynx",
+      "golurk",
+      "donphan",
+      "girafarig",
+      "lunatone",
+      "meditite",
+      "parasect",
+      "ditto",
+      "ditto",
+      "koffing",
+      "cacturne",
+      "pachirisu",
+      "staravia",
+      "vibraba",
+      "cryogonal",
+      "vanillish",
+      "bellsprout",
+      "noctowl",
+      "cottonee"
+    ],
+    "destacados": [
+      {
+        "name": "shellder",
+        "type": "normal"
+      },
+      {
+        "name": "carvanha",
+        "type": "normal"
+      },
+      {
+        "name": "luvdisc",
+        "type": "normal"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
+  },
   "KamiBone": {
     "name": "KamiBone",
     "rol": "MegaChad",
@@ -3500,7 +3645,11 @@
       "m_apostol",
       "m_suertudo",
       "m_abuelo",
-      "m_pecador"
+      "m_pecador",
+      "m_muertazo",
+      "m_gordito",
+      "m_cambiante",
+      "m_utilidad"
     ],
     "shinys": [
       "lunatone",
@@ -3679,109 +3828,6 @@
         "type": "secret"
       }
     ]
-  },
-  "locamoraleya": {
-    "name": "locamoraleya",
-    "rol": "Chad",
-    "medallas": [
-      "m_vacio"
-    ],
-    "shinys": [
-      "geodude",
-      "rapidash",
-      "meowth",
-      "caterpie",
-      "magikarp",
-      "reuniclus",
-      "nidorina",
-      "druddigon",
-      "bibarel",
-      "ralts",
-      "haxorus",
-      "scrafty",
-      "weezing",
-      "lilligant",
-      "graveler",
-      "onix",
-      "tyranitar",
-      "lanturn",
-      "kingdra",
-      "pelipper",
-      "zigzagoon",
-      "mienfoo",
-      "deino",
-      "sandshrew",
-      "poliwhirl",
-      "flygon",
-      "altaria",
-      "gabite",
-      "accelgor",
-      "mantine",
-      "machamp",
-      "chandelure",
-      "ursaring",
-      "misdreavus",
-      "zigzagoon",
-      "golduck",
-      "petilil",
-      "venipede",
-      "dugtrio",
-      "scolipede",
-      "cofagrigus",
-      "frillish-f",
-      "sawsbuck-spring",
-      "pikachu",
-      "cascoon",
-      "wurmple",
-      "beautifly",
-      "seviper",
-      "darumaka",
-      "horsea",
-      "illumise",
-      "scraggy",
-      "beautifly",
-      "cryogonal",
-      "deerling-winter",
-      "swinub",
-      "glalie",
-      "smeargle",
-      "duskull",
-      "banette",
-      "swoobat",
-      "sneasel",
-      "lopunny",
-      "phanpy",
-      "karrablast",
-      "sunkern"
-    ],
-    "destacados": [
-      {
-        "name": "golem",
-        "type": "secret"
-      },
-      {
-        "name": "farfetchd",
-        "type": "normal"
-      },
-      {
-        "name": "charizard",
-        "type": "secret"
-      },
-      {
-        "name": "rotom",
-        "type": "normal"
-      },
-      {
-        "name": "aerodactyl",
-        "type": "normal"
-      },
-      {
-        "name": "croagunk",
-        "type": "normal"
-      }
-    ],
-    "perdidos": [],
-    "vendidos": []
   },
   "Maicol": {
     "name": "Maicol",
@@ -5016,7 +5062,16 @@
       "m_supremacy1",
       "m_olimpiadas",
       "m_supremacy2",
-      "m_shinywar"
+      "m_shinywar",
+      "m_singles",
+      "m_inicial",
+      "m_diurno",
+      "m_nocturno",
+      "m_muertazo",
+      "m_cambiante",
+      "m_kanto",
+      "m_teselia",
+      "m_war"
     ],
     "shinys": [
       "nidoking",
@@ -5862,7 +5917,21 @@
       "m_huevo",
       "m_apostol",
       "m_supremacy3",
-      "m_arbol"
+      "m_arbol",
+      "m_safari_ex",
+      "m_mickey",
+      "m_dolor",
+      "m_cambiante",
+      "m_inicial",
+      "m_nocturno",
+      "m_elemental",
+      "m_gordito",
+      "m_utilidad",
+      "m_sinnoh",
+      "m_teselia",
+      "m_teselia_m",
+      "m_war",
+      "m_mvp"
     ],
     "shinys": [
       "gigalith",
@@ -6092,6 +6161,7 @@
     "rol": "Lider",
     "medallas": [
       "m_gomed",
+      "m_gomedplus",
       "m_lider",
       "m_guardian",
       "m_meditite",
@@ -6115,7 +6185,30 @@
       "m_apostol",
       "m_goldenbox",
       "m_olimpiadas",
-      "m_safari"
+      "m_safari",
+      "m_ritmo",
+      "m_mickey",
+      "m_termino",
+      "m_dolor",
+      "m_dejavu",
+      "m_cambiante",
+      "m_elemental",
+      "m_diurno",
+      "m_muertazo",
+      "m_gordito",
+      "m_estacional",
+      "m_utilidad",
+      "m_kanto",
+      "m_johto",
+      "m_hoenn",
+      "m_sinnoh",
+      "m_teselia",
+      "m_teselia_m",
+      "m_war",
+      "m_mvp",
+      "m_gym",
+      "m_gym_dragon",
+      "m_cambiante"
     ],
     "shinys": [
       "pidgeot",
@@ -6888,26 +6981,6 @@
         "type": "normal"
       }
     ],
-    "perdidos": [],
-    "vendidos": []
-  },
-  "xSorC": {
-    "name": "xSorC",
-    "rol": "Chad",
-    "medallas": [
-      "m_gomed",
-      "m_apostol"
-    ],
-    "shinys": [
-      "solosis",
-      "smeargle",
-      "bibarel",
-      "graveler",
-      "hydreigon",
-      "bronzong",
-      "swoobat"
-    ],
-    "destacados": [],
     "perdidos": [],
     "vendidos": []
   },
