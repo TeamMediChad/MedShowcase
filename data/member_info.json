@@ -998,6 +998,10 @@
       {
         "name": "shelgon",
         "type": "normal"
+      },
+      {
+        "name": "hitmontop",
+        "type": "normal"
       }
     ],
     "perdidos": [],
@@ -3299,7 +3303,8 @@
       "axew",
       "sableye",
       "petilil",
-      "swadloon"
+      "swadloon",
+      "mawile"
     ],
     "destacados": [
       {
