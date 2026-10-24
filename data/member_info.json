@@ -1680,6 +1680,10 @@
       {
         "name": "croagunk",
         "type": "normal"
+      },
+      {
+        "name": "teddiursa",
+        "type": "safari"
       }
     ],
     "perdidos": [
