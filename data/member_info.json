@@ -2733,7 +2733,16 @@
         "type": "normal"
       }
     ],
-    "perdidos": [],
+    "perdidos": [
+      {
+        "name": "golbat",
+        "type": [
+          "safari",
+          "secret",
+          "dead"
+        ]
+      }
+    ],
     "vendidos": []
   },
   "Jabubuu": {
