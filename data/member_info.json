@@ -3963,7 +3963,15 @@
         "type": "normal"
       }
     ],
-    "perdidos": [],
+    "perdidos": [
+      {
+        "name": "budew",
+        "type": [
+          "safari",
+          "safarifailed"
+        ]
+      }
+    ],
     "vendidos": []
   },
   "MarkosW": {
