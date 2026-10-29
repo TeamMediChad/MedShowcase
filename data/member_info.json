@@ -2731,6 +2731,10 @@
       {
         "name": "nincada",
         "type": "normal"
+      },
+      {
+        "name": "poliwag",
+        "type": "safari"
       }
     ],
     "perdidos": [
