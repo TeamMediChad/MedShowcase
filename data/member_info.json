@@ -4482,6 +4482,10 @@
       {
         "name": "heracross",
         "type": "normal"
+      },
+      {
+        "name": "yanma",
+        "type": "normal"
       }
     ],
     "perdidos": [],
