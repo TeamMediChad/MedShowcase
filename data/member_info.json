@@ -2290,7 +2290,12 @@
       "shuppet",
       "buizel"
     ],
-    "destacados": [],
+    "destacados": [
+      {
+        "name": "poliwag",
+        "type": "safari"
+      }
+    ],
     "perdidos": [],
     "vendidos": []
   },
@@ -3303,7 +3308,8 @@
       "lunatone",
       "pelipper",
       "heracross",
-      "golduck"
+      "golduck",
+      "poliwhirl"
     ],
     "destacados": [
       {
