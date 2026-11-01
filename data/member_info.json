@@ -632,6 +632,10 @@
       {
         "name": "drilbur",
         "type": "egg"
+      },
+      {
+        "name": "bulbasaur",
+        "type": "egg"
       }
     ],
     "perdidos": [
