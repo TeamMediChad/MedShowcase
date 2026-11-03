@@ -6415,6 +6415,10 @@
       {
         "name": "shelgon",
         "type": "normal"
+      },
+      {
+        "name": "drowzee",
+        "type": "swarm"
       }
     ],
     "perdidos": [
