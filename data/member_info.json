@@ -328,6 +328,10 @@
       {
         "name": "forretress",
         "type": "normal"
+      },
+      {
+        "name": "purrloin",
+        "type": "secret"
       }
     ],
     "perdidos": [],
@@ -745,6 +749,10 @@
       {
         "name": "aerodactyl",
         "type": "egg"
+      },
+      {
+        "name": "skorupi",
+        "type": "normal"
       }
     ],
     "perdidos": [],
