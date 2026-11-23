@@ -3698,6 +3698,38 @@
       }
     ]
   },
+  "Krishzx": {
+    "name": "Krishzx",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "smeargle",
+      "chandelure",
+      "politoed",
+      "poliwrath",
+      "donphan",
+      "golem",
+      "donphan",
+      "gengar",
+      "croagunk",
+      "magneton",
+      "girafarig",
+      "kingdra",
+      "delibird",
+      "scraggy",
+      "swadloon",
+      "darumaka",
+      "ursaring",
+      "donphan",
+      "meowth",
+      "nidorino"
+    ],
+    "destacados": [],
+    "perdidos": [],
+    "vendidos": []
+  },
   "kroski": {
     "name": "kroski",
     "rol": "Chad",
@@ -4003,6 +4035,70 @@
         ]
       }
     ],
+    "vendidos": []
+  },
+  "MariokampaR": {
+    "name": "MariokampaR",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "lairon",
+      "duskull",
+      "mienfoo",
+      "murkrow",
+      "woobat",
+      "lanturn",
+      "geodude",
+      "axew",
+      "chandelure",
+      "swinub",
+      "golbat",
+      "sableye",
+      "sandshrew",
+      "jumpluff",
+      "rhydon",
+      "magmar",
+      "golett",
+      "croagunk",
+      "marill",
+      "pikachu",
+      "heracross",
+      "smeargle",
+      "kakuna",
+      "sneasel",
+      "mareep",
+      "gyarados",
+      "torkoal",
+      "wobbuffet",
+      "growlithe",
+      "sealeo",
+      "seadra",
+      "tyranitar",
+      "golbat",
+      "kadabra",
+      "hypno",
+      "luxio",
+      "karrablast",
+      "boldore",
+      "nidorina",
+      "golbat",
+      "ninetales",
+      "altaria",
+      "weezing"
+    ],
+    "destacados": [
+      {
+        "name": "carvanha",
+        "type": "normal"
+      },
+      {
+        "name": "sceptile",
+        "type": "normal"
+      }
+    ],
+    "perdidos": [],
     "vendidos": []
   },
   "MarkosW": {
@@ -4729,6 +4825,44 @@
         "type": "normal"
       }
     ]
+  },
+  "nuxen": {
+    "name": "nuxen",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "rhyperior",
+      "magikarp",
+      "smeargle",
+      "nidoking",
+      "cofagrigus",
+      "altaria",
+      "golurk",
+      "vanilluxe",
+      "wingull",
+      "scolipede",
+      "hoothoot",
+      "duskull",
+      "heracross",
+      "growlithe",
+      "magmortar",
+      "spiritomb",
+      "cinccino",
+      "girafarig",
+      "delibird",
+      "gurdurr",
+      "cubchoo",
+      "zangoose",
+      "glalie",
+      "bronzong",
+      "slowbro",
+      "ariados"
+    ],
+    "destacados": [],
+    "perdidos": [],
+    "vendidos": []
   },
   "nyumichaelis": {
     "name": "nyumichaelis",
@@ -6645,6 +6779,35 @@
     "perdidos": [],
     "vendidos": []
   },
+  "ToniDeOz": {
+    "name": "ToniDeOz",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "marill",
+      "ponyta",
+      "galvantula",
+      "donphan",
+      "nidorina",
+      "growlithe",
+      "cottonee",
+      "fraxure",
+      "smeargle",
+      "duskull",
+      "altaria",
+      "gastly",
+      "shuppet",
+      "croagunk",
+      "shuppet",
+      "weezing",
+      "gastly"
+    ],
+    "destacados": [],
+    "perdidos": [],
+    "vendidos": []
+  },
   "ToxicPlumber": {
     "name": "ToxicPlumber",
     "rol": "GigaChad",
@@ -7077,6 +7240,31 @@
       {
         "name": "milotic",
         "type": "normal"
+      }
+    ],
+    "perdidos": [],
+    "vendidos": []
+  },
+  "xMetrika": {
+    "name": "xMetrika",
+    "rol": "Chad",
+    "medallas": [
+      "m_vacio"
+    ],
+    "shinys": [
+      "girafarig",
+      "minccino",
+      "gyarados",
+      "chandelure",
+      "smeargle",
+      "pachirisu",
+      "gyarados",
+      "solrock"
+    ],
+    "destacados": [
+      {
+        "name": "roserade",
+        "type": "alpha"
       }
     ],
     "perdidos": [],
